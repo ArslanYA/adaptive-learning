@@ -165,7 +165,6 @@ def explain_mistake(
     with client.messages.stream(
         model=_MODEL,
         max_tokens=512,
-        thinking={"type": "adaptive"},
         system=_system_block(),
         messages=messages,
     ) as stream:
@@ -201,7 +200,6 @@ def explain_mistake_stream(
     with client.messages.stream(
         model=_MODEL,
         max_tokens=512,
-        thinking={"type": "adaptive"},
         system=_system_block(),
         messages=messages,
     ) as stream:
@@ -332,8 +330,7 @@ class SocraticTutor:
         response = self.client.messages.create(
             model=_MODEL,
             max_tokens=512,
-            thinking={"type": "adaptive"},
-            system=_system_block(),
+                system=_system_block(),
             messages=self._messages_payload(),
         )
         return _extract_text(response.content)
@@ -342,8 +339,7 @@ class SocraticTutor:
         with self.client.messages.stream(
             model=_MODEL,
             max_tokens=512,
-            thinking={"type": "adaptive"},
-            system=_system_block(),
+                system=_system_block(),
             messages=self._messages_payload(),
         ) as stream:
             yield from stream.text_stream
@@ -372,7 +368,6 @@ async def explain_mistake_async(
     async with client.messages.stream(
         model=_MODEL,
         max_tokens=512,
-        thinking={"type": "adaptive"},
         system=_system_block(),
         messages=messages,
     ) as stream:
@@ -401,7 +396,6 @@ async def explain_mistake_stream_async(
     async with client.messages.stream(
         model=_MODEL,
         max_tokens=512,
-        thinking={"type": "adaptive"},
         system=_system_block(),
         messages=messages,
     ) as stream:
@@ -454,8 +448,7 @@ class AsyncSocraticTutor:
         async with self.client.messages.stream(
             model=_MODEL,
             max_tokens=512,
-            thinking={"type": "adaptive"},
-            system=_system_block(),
+                system=_system_block(),
             messages=self._messages_payload(),
         ) as stream:
             async for token in stream.text_stream:
@@ -496,8 +489,7 @@ class AsyncSocraticTutor:
         async with self.client.messages.stream(
             model=_MODEL,
             max_tokens=512,
-            thinking={"type": "adaptive"},
-            system=_system_block(),
+                system=_system_block(),
             messages=self._messages_payload(),
         ) as stream:
             msg = await stream.get_final_message()
