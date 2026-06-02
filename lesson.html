@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Урок — Adaptive Learning</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #1a1a2e; }
+    .container { max-width: 720px; margin: 0 auto; padding: 1.5rem 1rem; }
+
+    /* Progress bar */
+    .progress-bar { height: 6px; background: #e0e0e0; border-radius: 3px; margin-bottom: 1.5rem; }
+    .progress-fill { height: 100%; background: #6c63ff; border-radius: 3px; transition: width .4s; }
+    .progress-label { display: flex; justify-content: space-between; font-size: .8rem; color: #888; margin-bottom: .4rem; }
+
+    /* Card */
+    .card { background: #fff; border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin-bottom: 1.25rem; }
+    .lesson-title { font-size: .78rem; font-weight: 600; color: #6c63ff; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .6rem; }
+    .question-text { font-size: 1.1rem; line-height: 1.6; }
+
+    /* Options */
+    .options { display: flex; flex-direction: column; gap: .6rem; margin-top: 1.25rem; }
+    .option { padding: .85rem 1.1rem; border: 2px solid #e0e0e0; border-radius: 8px; cursor: pointer; font-size: .95rem; transition: all .15s; text-align: left; background: #fff; }
+    .option:hover:not(:disabled) { border-color: #6c63ff; background: #f5f3ff; }
+    .option.correct { border-color: #22c55e; background: #f0fdf4; color: #166534; }
+    .option.wrong   { border-color: #ef4444; background: #fef2f2; color: #991b1b; }
+    .option:disabled { cursor: default; }
+
+    /* Feedback */
+    .feedback { display: none; margin-top: 1rem; padding: .75rem 1rem; border-radius: 8px; font-weight: 600; font-size: .9rem; }
+    .feedback.correct { background: #f0fdf4; color: #166534; border: 1px solid #86efac; display: block; }
+    .feedback.wrong   { background: #fef2f2; color: #991b1b; border: 1px solid #fca5a5; display: block; }
+
+    /* Tutor section */
+    .tutor-section { display: none; margin-top: 1rem; }
+    .tutor-header { display: flex; align-items: center; gap: .5rem; font-weight: 700; font-size: .9rem; color: #6c63ff; margin-bottom: .75rem; }
+    .tutor-avatar { width: 32px; height: 32px; background: #6c63ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1rem; flex-shrink: 0; }
+    .tutor-text { background: #f5f3ff; border-radius: 8px; padding: .9rem 1rem; font-size: .92rem; line-height: 1.6; min-height: 2.5rem; white-space: pre-wrap; }
+    .tutor-input-row { display: flex; gap: .5rem; margin-top: .75rem; }
+    .tutor-input { flex: 1; padding: .65rem .9rem; border: 2px solid #e0e0e0; border-radius: 8px; font-size: .9rem; outline: none; }
+    .tutor-input:focus { border-color: #6c63ff; }
+    .tutor-send { padding: .65rem 1.1rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+    .tutor-send:disabled { opacity: .5; cursor: default; }
+    .tutor-history { display: flex; flex-direction: column; gap: .5rem; margin-bottom: .75rem; }
+    .msg-user { align-self: flex-end; background: #e0e7ff; border-radius: 8px; padding: .5rem .85rem; font-size: .88rem; max-width: 85%; }
+    .msg-tutor { align-self: flex-start; background: #f5f3ff; border-radius: 8px; padding: .5rem .85rem; font-size: .88rem; max-width: 85%; }
+
+    /* Tags */
+    .tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .75rem; }
+    .tag { font-size: .72rem; background: #f0eeff; color: #6c63ff; border-radius: 4px; padding: .2rem .5rem; font-weight: 600; }
+
+    /* Bottom nav */
+    .bottom { display: flex; gap: .75rem; margin-top: .5rem; }
+    .btn { padding: .8rem 1.4rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: .95rem; font-weight: 600; cursor: pointer; transition: background .2s; }
+    .btn:hover:not(:disabled) { background: #574fd6; }
+    .btn:disabled { opacity: .4; cursor: default; }
+    .btn-outline { background: #fff; color: #6c63ff; border: 2px solid #6c63ff; }
+    .btn-outline:hover { background: #f0eeff; }
+
+    /* Summary */
+    .summary { text-align: center; padding: 2.5rem 1rem; }
+    .summary h2 { font-size: 1.8rem; margin-bottom: .75rem; }
+    .score-circle { width: 120px; height: 120px; border-radius: 50%; background: #f0eeff; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 1rem auto; font-size: 2rem; font-weight: 700; color: #6c63ff; }
+    .score-circle small { font-size: .8rem; font-weight: 400; color: #888; }
+
+    .loading { text-align: center; padding: 4rem 1rem; color: #888; font-size: 1.1rem; }
+    .spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid #e0e0e0; border-top-color: #6c63ff; border-radius: 50%; animation: spin .7s linear infinite; vertical-align: middle; margin-right: .5rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+<div class="container" id="app">
+  <div class="loading"><span class="spinner"></span> Загружаем вопросы...</div>
+</div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const topicId = params.get('topic_id') || '';
+const nQ = params.get('n') || 10;
+const studentId = 1;
+
+let session = null;
+let questions = [];
+let current = 0;
+let score = 0;
+let tutorHistory = [];  // [{role, content}]
+let tutorTurn = 0;
+let answered = false;
+
+async function init() {
+  let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
+  if (topicId) url += `&topic_id=${topicId}`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    document.getElementById('app').innerHTML = `<div class="loading">Ошибка загрузки. <a href="/">Назад</a></div>`;
+    return;
+  }
+  const data = await res.json();
+  session = data.session_id;
+  questions = data.questions;
+  renderQuestion();
+}
+
+function renderQuestion() {
+  if (current >= questions.length) {
+    renderSummary();
+    return;
+  }
+  const q = questions[current];
+  answered = false;
+  tutorHistory = [];
+  tutorTurn = 0;
+
+  const pct = Math.round((current / questions.length) * 100);
+  document.getElementById('app').innerHTML = `
+    <div class="progress-label">
+      <span>Вопрос ${current + 1} из ${questions.length}</span>
+      <span>${score} правильных</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+
+    <div class="card">
+      <div class="lesson-title">${q.lesson_title}</div>
+      <div class="question-text">${q.text}</div>
+      <div class="tags">${(q.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      <div class="options" id="options">
+        ${q.options.map((opt, i) => `
+          <button class="option" onclick="answer('${q.id}', '${optLetter(i)}', this)">${opt}</button>
+        `).join('')}
+      </div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+
+    <div class="card tutor-section" id="tutorSection">
+      <div class="tutor-header">
+        <div class="tutor-avatar">🧠</div>
+        Сократ-наставник
+      </div>
+      <div class="tutor-history" id="tutorHistory"></div>
+      <div class="tutor-text" id="tutorText"></div>
+      <div class="tutor-input-row" id="tutorInputRow">
+        <input class="tutor-input" id="tutorInput" placeholder="Твой ответ..." onkeydown="if(event.key==='Enter') sendReply()">
+        <button class="tutor-send" id="tutorSend" onclick="sendReply()">Отправить</button>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <button class="btn" id="nextBtn" onclick="nextQuestion()" disabled>Следующий →</button>
+      <a class="btn btn-outline" href="/dashboard.html">Прогресс</a>
+    </div>
+  `;
+}
+
+function optLetter(i) { return ['A','B','C','D'][i]; }
+
+async function answer(qId, letter, btn) {
+  if (answered) return;
+  answered = true;
+
+  // Disable all options
+  document.querySelectorAll('.option').forEach(b => b.disabled = true);
+
+  const q = questions[current];
+  const res = await fetch('/api/attempt', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ student_id: studentId, question_id: qId, answer_given: letter, lesson_session_id: session })
+  });
+  const result = await res.json();
+
+  const fb = document.getElementById('feedback');
+  if (result.is_correct) {
+    btn.classList.add('correct');
+    fb.className = 'feedback correct';
+    fb.textContent = '✓ Правильно!';
+    score++;
+  } else {
+    btn.classList.add('wrong');
+    fb.className = 'feedback wrong';
+    fb.textContent = `✗ Неверно. Правильный ответ: ${result.correct_answer}`;
+    // Show tutor
+    document.getElementById('tutorSection').style.display = 'block';
+    startTutor(q, letter, result.correct_answer, result.explanation || '');
+  }
+
+  document.getElementById('nextBtn').disabled = false;
+}
+
+async function startTutor(q, userAnswer, correctAnswer, explanation) {
+  document.getElementById('tutorText').textContent = '...';
+  document.getElementById('tutorSend').disabled = true;
+
+  const body = {
+    question_text: q.text,
+    options: q.options,
+    correct_answer: correctAnswer,
+    user_answer: userAnswer,
+    explanation: explanation,
+    lesson_title: q.lesson_title,
+    tags: q.tags || []
+  };
+
+  const res = await fetch('/api/tutor/start', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body)
+  });
+
+  const firstMessage = await streamSSE(res, 'tutorText');
+  tutorHistory.push({ role: 'assistant', content: firstMessage });
+  tutorTurn = 1;
+  document.getElementById('tutorSend').disabled = false;
+  document.getElementById('tutorInput').focus();
+}
+
+async function sendReply() {
+  const input = document.getElementById('tutorInput');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  document.getElementById('tutorSend').disabled = true;
+
+  // Move current tutor text to history
+  const currentTutorText = document.getElementById('tutorText').textContent;
+  const histEl = document.getElementById('tutorHistory');
+  histEl.innerHTML += `<div class="msg-tutor">${currentTutorText}</div>`;
+  histEl.innerHTML += `<div class="msg-user">${text}</div>`;
+  document.getElementById('tutorText').textContent = '...';
+
+  const q = questions[current];
+  const correctAnswer = q.options.find(o => o.startsWith(q.correct_answer)) ? q.correct_answer : q.correct_answer;
+
+  const body = {
+    question_text: q.text,
+    options: q.options,
+    correct_answer: q.correct_answer,
+    user_answer: '',
+    explanation: q.explanation || '',
+    lesson_title: q.lesson_title,
+    tags: q.tags || [],
+    history: tutorHistory,
+    student_message: text,
+    turn: tutorTurn
+  };
+
+  const res = await fetch('/api/tutor/reply', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body)
+  });
+
+  const replyText = await streamSSE(res, 'tutorText');
+  tutorHistory.push({ role: 'user', content: text });
+  tutorHistory.push({ role: 'assistant', content: replyText });
+  tutorTurn++;
+
+  document.getElementById('tutorSend').disabled = false;
+  document.getElementById('tutorInput').focus();
+}
+
+async function streamSSE(response, targetId) {
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  const target = document.getElementById(targetId);
+  target.textContent = '';
+  let full = '';
+  let buffer = '';
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop(); // keep incomplete last line
+    for (const line of lines) {
+      if (!line.startsWith('data: ')) continue;
+      const raw = line.slice(6).trim();
+      if (raw === '[DONE]') break;
+      try {
+        const obj = JSON.parse(raw);
+        if (obj.token) { full += obj.token; target.textContent = full; }
+      } catch {}
+    }
+  }
+  return full;
+}
+
+function nextQuestion() {
+  current++;
+  renderQuestion();
+}
+
+function renderSummary() {
+  const pct = Math.round((score / questions.length) * 100);
+  const emoji = pct >= 80 ? '🏆' : pct >= 50 ? '👍' : '💪';
+  document.getElementById('app').innerHTML = `
+    <div class="card summary">
+      <div style="font-size:3rem">${emoji}</div>
+      <h2>Урок завершён!</h2>
+      <div class="score-circle">
+        ${score}/${questions.length}
+        <small>${pct}%</small>
+      </div>
+      <p style="color:#666;margin-bottom:1.5rem">
+        ${pct >= 80 ? 'Отличная работа!' : pct >= 50 ? 'Хороший результат!' : 'Продолжай тренироваться!'}
+      </p>
+      <div class="bottom" style="justify-content:center">
+        <a class="btn" href="/">Ещё урок</a>
+        <a class="btn btn-outline" href="/dashboard.html">Прогресс</a>
+      </div>
+    </div>
+  `;
+}
+
+init();
+</script>
+</body>
+</html>

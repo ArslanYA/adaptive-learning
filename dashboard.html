@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Прогресс — Adaptive Learning</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #1a1a2e; }
+    .container { max-width: 720px; margin: 0 auto; padding: 2rem 1rem; }
+    .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
+    h1 { font-size: 1.8rem; font-weight: 700; }
+    .btn { padding: .65rem 1.2rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: .9rem; font-weight: 600; cursor: pointer; text-decoration: none; }
+    .btn:hover { background: #574fd6; }
+    .topic-section { margin-bottom: 2rem; }
+    .topic-title { display: flex; align-items: center; gap: .5rem; font-size: 1.1rem; font-weight: 700; margin-bottom: .75rem; }
+    .topic-icon { font-size: 1.4rem; }
+    .tag-row { background: #fff; border-radius: 10px; padding: 1rem 1.2rem; margin-bottom: .5rem; box-shadow: 0 1px 6px rgba(0,0,0,.07); }
+    .tag-name { font-weight: 600; font-size: .9rem; margin-bottom: .4rem; }
+    .bar-wrap { background: #f0f0f0; border-radius: 4px; height: 8px; margin-bottom: .35rem; }
+    .bar-fill { height: 100%; border-radius: 4px; transition: width .5s; }
+    .tag-meta { font-size: .78rem; color: #888; }
+    .no-data { text-align: center; padding: 3rem 1rem; color: #888; }
+    .loading { text-align: center; padding: 4rem 1rem; color: #888; }
+    .spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid #e0e0e0; border-top-color: #6c63ff; border-radius: 50%; animation: spin .7s linear infinite; vertical-align: middle; margin-right:.5rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .mastery-legend { display: flex; gap: 1rem; font-size: .78rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: .35rem; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 2px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Мой прогресс</h1>
+    <a class="btn" href="/">← Урок</a>
+  </div>
+
+  <div class="mastery-legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> Нужна работа (&lt;40%)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> Развивается (40–70%)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Отлично (&gt;70%)</div>
+  </div>
+
+  <div id="content">
+    <div class="loading"><span class="spinner"></span> Загружаем статистику...</div>
+  </div>
+</div>
+
+<script>
+const studentId = 1;
+
+function barColor(mastery) {
+  if (mastery < 0.4) return '#ef4444';
+  if (mastery < 0.7) return '#f59e0b';
+  return '#22c55e';
+}
+
+async function init() {
+  const res = await fetch(`/api/mastery?student_id=${studentId}`);
+  if (!res.ok) {
+    document.getElementById('content').innerHTML = '<div class="no-data">Ошибка загрузки.</div>';
+    return;
+  }
+  const rows = await res.json();
+
+  if (!rows.length) {
+    document.getElementById('content').innerHTML = `
+      <div class="no-data">
+        <p style="font-size:2rem;margin-bottom:.75rem">📚</p>
+        <p>Ещё нет данных — пройди первый урок!</p>
+        <a class="btn" href="/" style="display:inline-block;margin-top:1rem">Начать</a>
+      </div>`;
+    return;
+  }
+
+  // Group by topic
+  const byTopic = {};
+  for (const row of rows) {
+    if (!byTopic[row.topic]) byTopic[row.topic] = [];
+    byTopic[row.topic].push(row);
+  }
+
+  const topicIcons = { 'Математика': '➗', 'Логика': '🧩', 'Английский': '🇬🇧' };
+
+  let html = '';
+  for (const [topic, tags] of Object.entries(byTopic)) {
+    html += `<div class="topic-section">
+      <div class="topic-title">
+        <span class="topic-icon">${topicIcons[topic] || '📖'}</span>
+        ${topic}
+      </div>`;
+    for (const tag of tags) {
+      const pct = Math.round(tag.mastery * 100);
+      const color = barColor(tag.mastery);
+      html += `
+        <div class="tag-row">
+          <div class="tag-name">${tag.tag}</div>
+          <div class="bar-wrap">
+            <div class="bar-fill" style="width:${pct}%;background:${color}"></div>
+          </div>
+          <div class="tag-meta">
+            ${pct}% мастерства &nbsp;·&nbsp;
+            ${tag.total_attempts} попыток &nbsp;·&nbsp;
+            ${tag.correct} правильных
+          </div>
+        </div>`;
+    }
+    html += '</div>';
+  }
+
+  document.getElementById('content').innerHTML = html;
+}
+
+init();
+</script>
+</body>
+</html>

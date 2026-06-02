@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lesson",
+  "description": "Один урок адаптивной системы обучения (7 класс, Казахстан)",
+  "type": "object",
+  "required": ["topic", "title", "difficulty", "tags", "intro_text", "questions"],
+  "properties": {
+    "topic": {
+      "type": "string",
+      "enum": ["Математика", "Логика", "Английский"],
+      "description": "Предмет"
+    },
+    "title": {
+      "type": "string",
+      "description": "Название урока"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Общая сложность урока (1=легко, 5=олимпиада)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Теги урока, которые попадут во все его вопросы по умолчанию"
+    },
+    "intro_text": {
+      "type": "string",
+      "description": "Краткая теория в формате Markdown. Показывается перед тестом."
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "options", "correct", "explanation", "tags", "difficulty"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Порядковый номер вопроса в уроке (1–20)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Текст вопроса"
+          },
+          "options": {
+            "type": "object",
+            "required": ["A", "B", "C", "D"],
+            "properties": {
+              "A": { "type": "string" },
+              "B": { "type": "string" },
+              "C": { "type": "string" },
+              "D": { "type": "string" }
+            },
+            "description": "Четыре варианта ответа"
+          },
+          "correct": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D"],
+            "description": "Буква правильного ответа"
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Объяснение ошибки — показывается только после неверного ответа"
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Теги конкретного вопроса (уточняют тему)"
+          },
+          "difficulty": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        }
+      }
+    }
+  }
+}
