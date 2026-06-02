@@ -52,9 +52,13 @@
   <p class="subtitle">Персонализированные уроки (Казахстан)</p>
 
   <div class="card">
-    <label for="nameInput">Твоё имя</label>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem">
+      <label for="nameInput" style="margin:0">Твоё имя</label>
+      <button onclick="switchStudent()" id="switchBtn" style="display:none;background:none;border:none;color:#6c63ff;font-size:.8rem;cursor:pointer;font-weight:600">Другой ученик ↩</button>
+    </div>
     <input type="text" id="nameInput" placeholder="Введи своё имя" maxlength="60" autocomplete="off"
-      onkeydown="if(event.key==='Enter') startLesson()">
+      onkeydown="if(event.key==='Enter') startLesson()"
+      oninput="onNameInput()">
     <div class="welcome" id="welcomeMsg"></div>
     <div class="error-msg" id="nameError">Пожалуйста, введи своё имя</div>
   </div>
@@ -110,9 +114,10 @@
   let gradeLocked = false;
 
   // Restore saved student
-  const saved = JSON.parse(localStorage.getItem('studentData') || 'null');
+  let saved = JSON.parse(localStorage.getItem('studentData') || 'null');
   if (saved) {
     document.getElementById('nameInput').value = saved.name;
+    document.getElementById('switchBtn').style.display = 'inline';
     applyGrade(saved.grade, true);
     showWelcome(saved.name, saved.grade, false);
   }
@@ -133,6 +138,26 @@
   function selectGrade(el, grade) {
     if (gradeLocked) return;
     applyGrade(grade, false);
+  }
+
+  // Unlock grade tabs when user types a different name
+  function onNameInput() {
+    const name = document.getElementById('nameInput').value.trim();
+    if (saved && name.toLowerCase() !== saved.name.toLowerCase()) {
+      applyGrade(selectedGrade, false);
+      document.getElementById('welcomeMsg').className = 'welcome';
+    }
+  }
+
+  // Clear current session and reset form
+  function switchStudent() {
+    localStorage.removeItem('studentData');
+    saved = null;
+    document.getElementById('nameInput').value = '';
+    document.getElementById('welcomeMsg').className = 'welcome';
+    document.getElementById('switchBtn').style.display = 'none';
+    applyGrade(7, false);
+    document.getElementById('nameInput').focus();
   }
 
   function selectTopic(el, id) {

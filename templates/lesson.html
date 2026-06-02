@@ -124,7 +124,17 @@ async function init() {
   if (topicId) url += `&topic_id=${topicId}`;
   const res = await fetch(url);
   if (!res.ok) {
-    document.getElementById('app').innerHTML = `<div class="loading">Ошибка загрузки. <a href="/">Назад</a></div>`;
+    const body = await res.json().catch(() => ({}));
+    const detail = body.detail || '';
+    const noContent = detail.toLowerCase().includes('no questions') || detail.toLowerCase().includes('not found');
+    const grade = (JSON.parse(localStorage.getItem('studentData') || '{}').grade) || '';
+    const msg = noContent
+      ? `📚 Для ${grade} класса уроки ещё не добавлены.<br>Попроси учителя добавить контент или выбери другой класс.`
+      : `Ошибка загрузки: ${detail || res.status}`;
+    document.getElementById('app').innerHTML = `
+      <div class="loading" style="line-height:1.8">${msg}<br><br>
+        <a href="/" style="color:#6c63ff">← На главную</a>
+      </div>`;
     return;
   }
   const data = await res.json();
