@@ -17,8 +17,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 from pydantic import BaseModel
+
+PUBLIC = Path(__file__).parent.parent / "public"
+
+def _html(name: str) -> HTMLResponse:
+    return HTMLResponse(content=(PUBLIC / name).read_text(encoding="utf-8"))
 
 from adaptive_engine import (
     get_connection,
@@ -79,6 +84,20 @@ class TutorReplyRequest(BaseModel):
 
 
 # ── Routes ────────────────────────────────────────────────────
+
+@app.get("/")
+def serve_index():
+    return _html("index.html")
+
+@app.get("/lesson.html")
+@app.get("/lesson")
+def serve_lesson():
+    return _html("lesson.html")
+
+@app.get("/dashboard.html")
+@app.get("/dashboard")
+def serve_dashboard():
+    return _html("dashboard.html")
 
 @app.get("/api/health")
 def health():
