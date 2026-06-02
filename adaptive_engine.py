@@ -112,7 +112,8 @@ def compute_tag_mastery(
     Returns:
         {tag_id: mastery_score}  — scores are in [0.0, 1.0]
     """
-    cutoff = (datetime.now() - timedelta(days=lookback_days)).isoformat()
+    # Pass as datetime so psycopg2 sends it typed; sqlite3 accepts datetime too
+    cutoff = datetime.now() - timedelta(days=lookback_days)
 
     rows = conn.execute(
         """
@@ -136,7 +137,9 @@ def compute_tag_mastery(
     for row in rows:
         tag_id = row["tag_id"]
         is_correct = bool(row["is_correct"])
-        attempted_at = datetime.fromisoformat(row["attempted_at"])
+        # psycopg2 returns TIMESTAMP as datetime; sqlite3 returns str
+        raw = row["attempted_at"]
+        attempted_at = raw if isinstance(raw, datetime) else datetime.fromisoformat(raw)
 
         days_ago = (now - attempted_at).total_seconds() / 86_400
         weight = math.exp(-days_ago / MASTERY_DECAY_DAYS)
@@ -174,7 +177,7 @@ def _update_mastery_cache(
                 mastery_score  = excluded.mastery_score,
                 last_updated   = excluded.last_updated
             """,
-            (student_id, tag_id, int(is_correct), round(score, 4), datetime.now().isoformat()),
+            (student_id, tag_id, int(is_correct), round(score, 4), datetime.now()),
         )
 
 
