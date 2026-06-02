@@ -211,10 +211,10 @@ def main():
                 try:
                     qs = generate_batch(subject, level, topic, tags, count=25)
                     level_questions.extend(qs)
-                    print(f"      ✓ {len(qs)} вопросов")
+                    print(f"      OK {len(qs)} voprosov")
                     time.sleep(0.5)
                 except Exception as e:
-                    print(f"      ✗ Ошибка: {e}")
+                    print(f"      ERR: {e}")
 
             if not level_questions:
                 print(f"  Уровень {level}: нет вопросов, пропускаю")

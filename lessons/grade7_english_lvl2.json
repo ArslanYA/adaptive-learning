@@ -1,0 +1,1939 @@
+{
+  "topic": "Английский",
+  "title": "Английский — Уровень 2",
+  "grade_level": 7,
+  "difficulty": 2,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Какую форму глагола нужно использовать в предложении: «Сейчас они ___ в парке»?",
+      "options": [
+        "A) play",
+        "B) are playing",
+        "C) plays",
+        "D) will play"
+      ],
+      "correct_answer": "B",
+      "explanation": "Present Continuous используется для действия, происходящего прямо сейчас. Форма: am/is/are + глагол с -ing.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Выберите предложение, в котором Present Continuous использован правильно:",
+      "options": [
+        "A) She go to school every day",
+        "B) They are watching a film right now",
+        "C) He is studies mathematics",
+        "D) I am works in the garden"
+      ],
+      "correct_answer": "B",
+      "explanation": "В предложении B правильная форма: are + глагол (watching). Остальные содержат грамматические ошибки в образовании Present Continuous или используют другие времена.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "form"
+      ]
+    },
+    {
+      "text": "Что означает предложение «We are planning a trip to Almaty next month»?",
+      "options": [
+        "A) Мы планируем поездку сейчас, в этот момент",
+        "B) Мы спланируем поездку в будущем",
+        "C) Мы запланировали поездку в ближайшее время и это уже решено",
+        "D) Мы всегда планируем поездки в Алматы"
+      ],
+      "correct_answer": "C",
+      "explanation": "Present Continuous используется не только для действий прямо сейчас, но и для запланированных действий в ближайшем будущем, которые уже решены.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "future-plans"
+      ]
+    },
+    {
+      "text": "Укажите предложение, где Present Continuous обозначает планы на будущее:",
+      "options": [
+        "A) The cat is sleeping on the sofa",
+        "B) She is meeting her friend tomorrow at 3 PM",
+        "C) The children are playing football",
+        "D) It is raining outside"
+      ],
+      "correct_answer": "B",
+      "explanation": "В предложении B указано время (tomorrow at 3 PM), что указывает на запланированное будущее действие. Остальные описывают действия, происходящие в настоящий момент.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "planned-future"
+      ]
+    },
+    {
+      "text": "Какое слово-сигнал часто сопровождает Present Continuous для обозначения действия прямо сейчас?",
+      "options": [
+        "A) every day",
+        "B) tomorrow",
+        "C) right now",
+        "D) usually"
+      ],
+      "correct_answer": "C",
+      "explanation": "Слово 'right now' (прямо сейчас) указывает на текущий момент. 'Every day', 'usually' используются с Simple Present, 'tomorrow' — с Future планов.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "signals"
+      ]
+    },
+    {
+      "text": "Как правильно образовать форму Present Continuous от глагола «run»?",
+      "options": [
+        "A) is run",
+        "B) is running",
+        "C) are run",
+        "D) is runnning"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильная форма: is + глагол + -ing (is running). При удвоении согласной в односложных глаголах: run → running.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "form-ing"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицательное предложение в Present Continuous:",
+      "options": [
+        "A) She is not working today",
+        "B) She not is working today",
+        "C) She is not work today",
+        "D) She does not is working today"
+      ],
+      "correct_answer": "A",
+      "explanation": "Отрицание в Present Continuous: am/is/are + not + глагол + -ing. Порядок слов важен.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "negative"
+      ]
+    },
+    {
+      "text": "Какую форму глагола нужно вставить в вопрос: «___ you doing your homework?»",
+      "options": [
+        "A) Are",
+        "B) Is",
+        "C) Do",
+        "D) Does"
+      ],
+      "correct_answer": "A",
+      "explanation": "В вопросе с 'you' используется 'are': Are you doing...? Глагол to be согласуется с подлежащим (you → are).",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "question-form"
+      ]
+    },
+    {
+      "text": "В каком предложении нельзя использовать Present Continuous?",
+      "options": [
+        "A) I am understanding this rule",
+        "B) He is writing a letter",
+        "C) They are building a house",
+        "D) She is drinking coffee"
+      ],
+      "correct_answer": "A",
+      "explanation": "Глагол 'understand' — состояния, который обычно не используется в Present Continuous. Его можно заменить на Simple Present: 'I understand this rule'.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "state-verbs"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где Present Continuous использован неправильно:",
+      "options": [
+        "A) We are having a meeting at 2 PM tomorrow",
+        "B) The boys are playing basketball right now",
+        "C) She is knowing the answer to the question",
+        "D) I am reading an interesting book"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Know' — глагол состояния, не используется в Present Continuous. Нужно: 'She knows the answer'. Остальные предложения грамматически верны.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "stative-verbs"
+      ]
+    },
+    {
+      "text": "Преобразуйте в Present Continuous: «Он сейчас работает в офисе».",
+      "options": [
+        "A) He is working in the office",
+        "B) He are working in the office",
+        "C) He works in the office",
+        "D) He is works in the office"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильная форма: He (he → is) is working. Simple Present 'works' обозначает обычное действие, Present Continuous показывает действие прямо сейчас.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "translation"
+      ]
+    },
+    {
+      "text": "Какое предложение означает запланированное действие на будущее?",
+      "options": [
+        "A) They play tennis every Saturday",
+        "B) They are playing tennis every Saturday",
+        "C) They are playing tennis on Saturday at 10 AM",
+        "D) They will play tennis next week"
+      ],
+      "correct_answer": "C",
+      "explanation": "Present Continuous с конкретным временем (on Saturday at 10 AM) обозначает запланированное действие. 'Every Saturday' указывает на повторение, 'will play' — на простое будущее.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "future-plans"
+      ]
+    },
+    {
+      "text": "Укажите, какой глагол можно заменить на Present Continuous в этом контексте:",
+      "options": [
+        "A) She has a new car",
+        "B) They like pizza",
+        "C) I am buying a ticket right now",
+        "D) He loves his family"
+      ],
+      "correct_answer": "C",
+      "explanation": "Глаголы 'have', 'like', 'love' — состояния, не используются в Present Continuous. 'Am buying' — это уже Present Continuous, описывающий действие прямо сейчас.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "stative-dynamic"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант для вопроса: «Что вы делаете сейчас?»",
+      "options": [
+        "A) What do you do now?",
+        "B) What are you doing now?",
+        "C) What you are doing now?",
+        "D) What are you do now?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильный порядок слов в вопросе Present Continuous: What + are + you + doing + now? Simple Present 'What do you do' используется для обычных действий.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "question-word-order"
+      ]
+    },
+    {
+      "text": "Какое предложение показывает временный процесс, а не постоянное действие?",
+      "options": [
+        "A) I live in Astana",
+        "B) I am living in Astana for three months",
+        "C) I work as a teacher",
+        "D) I am a student"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Am living for three months' показывает временное состояние. 'Live' — постоянное место жительства, 'work as' и 'am a student' — постоянные характеристики.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "temporary"
+      ]
+    },
+    {
+      "text": "Образуйте Present Continuous от фразы: «он покупает книги»",
+      "options": [
+        "A) He is buying books",
+        "B) He are buying books",
+        "C) He is buys books",
+        "D) He buying books"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильная форма: He (he → is) is buying books. Нужна форма to be (is) + глагол с -ing (buying).",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "formation"
+      ]
+    },
+    {
+      "text": "Выберите пример Present Continuous для запланированного события с датой:",
+      "options": [
+        "A) We are always going to the cinema",
+        "B) We are going to the cinema next Friday",
+        "C) We go to the cinema every week",
+        "D) We will go to the cinema soon"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Next Friday' — конкретная дата, которая указывает на запланированное действие с Present Continuous. 'Every week' — повторение (Simple Present), 'will go' — неопределённое будущее.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "scheduled"
+      ]
+    },
+    {
+      "text": "Какое слово необходимо добавить в Present Continuous в этом предложении: «She ___ ___ a cake»?",
+      "options": [
+        "A) is baking",
+        "B) are baking",
+        "C) is bake",
+        "D) am baking"
+      ],
+      "correct_answer": "A",
+      "explanation": "'She' требует формы 'is', глагол 'bake' становится 'baking'. Правильно: She is baking a cake.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "verb-form"
+      ]
+    },
+    {
+      "text": "Определите, в каком случае Present Continuous неправильно используется вместо Simple Present:",
+      "options": [
+        "A) I am studying right now",
+        "B) The Earth is moving around the Sun",
+        "C) She is attending the meeting tomorrow",
+        "D) They are playing football"
+      ],
+      "correct_answer": "B",
+      "explanation": "'The Earth is moving around the Sun' — это постоянный факт, который требует Simple Present ('moves'). Present Continuous используется для временных действий.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "permanent-facts"
+      ]
+    },
+    {
+      "text": "Укажите правильное использование Present Continuous для будущего плана:",
+      "options": [
+        "A) I am catching the 6 PM train tomorrow",
+        "B) I catch the 6 PM train tomorrow",
+        "C) I will catch the 6 PM train tomorrow",
+        "D) I am catch the 6 PM train tomorrow"
+      ],
+      "correct_answer": "A",
+      "explanation": "Present Continuous используется для запланированных действий с конкретным временем. 'Am catching' показывает готовый план, более естественно, чем 'will catch'.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "future-fixed-plans"
+      ]
+    },
+    {
+      "text": "В каком предложении Present Continuous обозначает раздражающее или повторяющееся действие?",
+      "options": [
+        "A) He is always complaining about everything",
+        "B) He complains about everything",
+        "C) He is complaining about everything right now",
+        "D) He will complain about everything"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Is always complaining' с наречием 'always' в Present Continuous показывает повторяющееся или раздражающее действие. Это специальное использование Present Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "annoying-habits"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно переводит: «Они сейчас не работают»?",
+      "options": [
+        "A) They are not working now",
+        "B) They not are working now",
+        "C) They are working not now",
+        "D) They don't are working now"
+      ],
+      "correct_answer": "A",
+      "explanation": "Отрицание в Present Continuous ставится между вспомогательным глаголом и основным: are + not + глагол + -ing.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "negation"
+      ]
+    },
+    {
+      "text": "Выберите вопрос в Present Continuous с правильным порядком слов:",
+      "options": [
+        "A) Is she reading a book?",
+        "B) She is reading a book?",
+        "C) Is reading she a book?",
+        "D) Does she is reading a book?"
+      ],
+      "correct_answer": "A",
+      "explanation": "В вопросе Present Continuous вспомогательный глагол (is) ставится на первое место: Is + she + reading + a book?",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "question-form"
+      ]
+    },
+    {
+      "text": "Какое предложение показывает развивающееся/меняющееся состояние?",
+      "options": [
+        "A) The weather is hot",
+        "B) The weather is getting warmer",
+        "C) The weather is always hot",
+        "D) The weather was hot"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Is getting warmer' в Present Continuous показывает процесс изменения. Остальные варианты показывают постоянное состояние или прошлое.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "ongoing-change"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно образует вопрос в Present Continuous?",
+      "options": [
+        "A) Are you studying?",
+        "B) Is he working?",
+        "C) Am I understanding?",
+        "D) You are studying?"
+      ],
+      "correct_answer": "D",
+      "explanation": "'You are studying?' — это не вопрос, а утверждение. В вопросе нужен инверсия: 'Are you studying?' с глаголом в начале.",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "question-inversion"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно заполняет пропуск? \"Yesterday I ____ to the cinema with my friends.\"",
+      "options": [
+        "A) go",
+        "B) went",
+        "C) goes",
+        "D) going"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Past Simple неправильный глагол 'go' меняется на 'went'. Остальные варианты относятся к другим временам или формам.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Выберите правильную форму глагола 'see' в Past Simple: \"Last week we ____ an interesting film.\"",
+      "options": [
+        "A) see",
+        "B) sees",
+        "C) saw",
+        "D) seen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'see' в Past Simple принимает форму 'saw'. Форма 'seen' используется в Present Perfect.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ошибку в употреблении Past Simple?",
+      "options": [
+        "A) She took her bag and left.",
+        "B) He goed to school yesterday.",
+        "C) They saw the accident last night.",
+        "D) I took the train at 8 AM."
+      ],
+      "correct_answer": "B",
+      "explanation": "Форма 'goed' неправильна. Правильная форма неправильного глагола 'go' в Past Simple — 'went', не 'goed'.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-errors"
+      ]
+    },
+    {
+      "text": "Вставьте правильную форму глагола 'take': \"He ____ the book from the shelf yesterday.\"",
+      "options": [
+        "A) takes",
+        "B) took",
+        "C) taking",
+        "D) take"
+      ],
+      "correct_answer": "B",
+      "explanation": "Неправильный глагол 'take' в Past Simple меняется на 'took'. Это форма прошедшего времени для единственного числа.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какой глагол стоит в правильной форме Past Simple? \"I ____ the answer to the question.\"",
+      "options": [
+        "A) know - knowed",
+        "B) understand - understanded",
+        "C) come - came",
+        "D) put - putted"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'come' в Past Simple становится 'came'. Остальные попытки использования правильных суффиксов (-ed) к неправильным глаголам — ошибки.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-recognition"
+      ]
+    },
+    {
+      "text": "Переведите в Past Simple: \"Мы купили новые кроссовки.\" Какой вариант правильный?",
+      "options": [
+        "A) We buyed new shoes.",
+        "B) We buy new shoes.",
+        "C) We bought new shoes.",
+        "D) We were buying new shoes."
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'buy' в Past Simple принимает форму 'bought'. Вариант 'buyed' — распространённая ошибка студентов.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-translation"
+      ]
+    },
+    {
+      "text": "Выберите предложение с правильной формой 'give' в Past Simple:",
+      "options": [
+        "A) She gived him a present yesterday.",
+        "B) She gave him a present yesterday.",
+        "C) She gives him a present yesterday.",
+        "D) She was giving him a present yesterday."
+      ],
+      "correct_answer": "B",
+      "explanation": "Глагол 'give' в Past Simple — 'gave'. Форма 'gived' неправильна; 'gives' — Present Simple; вариант D — Past Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какое утверждение о Past Simple неправильных глаголов верно?",
+      "options": [
+        "A) Все неправильные глаголы образуют Past Simple прибавлением -ed.",
+        "B) Неправильные глаголы имеют свои уникальные формы Past Simple, которые нужно запомнить.",
+        "C) Past Simple неправильных глаголов образуется как у правильных глаголов.",
+        "D) Неправильные глаголы не используются в Past Simple."
+      ],
+      "correct_answer": "B",
+      "explanation": "Неправильные глаголы не следуют стандартному правилу образования Past Simple; каждый имеет уникальную форму, которую необходимо запомнить.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-theory"
+      ]
+    },
+    {
+      "text": "Вставьте глагол 'write' в Past Simple: \"Yesterday I ____ a letter to my grandmother.\"",
+      "options": [
+        "A) write",
+        "B) writes",
+        "C) wrote",
+        "D) writing"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'write' в Past Simple меняется на 'wrote'. Остальные варианты — Present Simple или герундий.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какая форма глагола 'eat' используется в этом предложении? \"We ____ delicious pizza last Sunday.\"",
+      "options": [
+        "A) eat",
+        "B) eated",
+        "C) ate",
+        "D) eating"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'eat' в Past Simple — 'ate'. Форма 'eated' неправильна; это распространённая ошибка при применении правила правильных глаголов.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-common-errors"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение в Past Simple:",
+      "options": [
+        "A) He maked a cake for the party.",
+        "B) He make a cake for the party.",
+        "C) He made a cake for the party.",
+        "D) He making a cake for the party."
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'make' в Past Simple — 'made'. Форма 'maked' — ошибка; остальные варианты — Present Simple и Present Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какой глагол в следующем списке имеет неправильную форму Past Simple? \"I ____ the window when the bird ____.\"",
+      "options": [
+        "A) opened, flew",
+        "B) opened, fawed",
+        "C) opended, flew",
+        "D) open, flew"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Opened' — правильный глагол (open → opened), 'flew' — неправильный глагол (fly → flew). Оба здесь в корректной форме Past Simple.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-mixed"
+      ]
+    },
+    {
+      "text": "Вставьте 'break' в Past Simple: \"The vase ____ when it fell on the floor.\"",
+      "options": [
+        "A) break",
+        "B) breaked",
+        "C) broke",
+        "D) breaking"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'break' в Past Simple становится 'broke'. Форма 'breaked' неправильна и часто встречается как ошибка студентов.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какое утверждение неверно?",
+      "options": [
+        "A) Глагол 'go' в Past Simple — 'went'.",
+        "B) Глагол 'see' в Past Simple — 'saw'.",
+        "C) Глагол 'come' в Past Simple — 'comed'.",
+        "D) Глагол 'take' в Past Simple — 'took'."
+      ],
+      "correct_answer": "C",
+      "explanation": "Форма 'comed' неправильна. Правильная форма неправильного глагола 'come' в Past Simple — 'came'.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-errors"
+      ]
+    },
+    {
+      "text": "Переведите: \"Она нашла его ключи в парке.\" Какой вариант правильный?",
+      "options": [
+        "A) She finded his keys in the park.",
+        "B) She found his keys in the park.",
+        "C) She finds his keys in the park.",
+        "D) She was finding his keys in the park."
+      ],
+      "correct_answer": "B",
+      "explanation": "Неправильный глагол 'find' в Past Simple — 'found'. Вариант 'finded' — ошибка; остальные относятся к Present Simple и Past Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-translation"
+      ]
+    },
+    {
+      "text": "Выберите предложение без ошибок:",
+      "options": [
+        "A) They goed to the beach last summer.",
+        "B) They went to the beach last summer.",
+        "C) They go to the beach last summer.",
+        "D) They goes to the beach last summer."
+      ],
+      "correct_answer": "B",
+      "explanation": "Форма 'went' — правильная форма неправильного глагола 'go' в Past Simple. В варианте A используется несуществующая форма 'goed'.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-selection"
+      ]
+    },
+    {
+      "text": "Какая форма глагола 'stand' корректна в Past Simple? \"He ____ near the door and waited.\"",
+      "options": [
+        "A) stand",
+        "B) stands",
+        "C) stood",
+        "D) standing"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'stand' в Past Simple меняется на 'stood'. Остальные варианты — Present Simple или Present Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Вставьте 'leave' в Past Simple: \"I ____ my wallet at home this morning.\"",
+      "options": [
+        "A) leave",
+        "B) leaved",
+        "C) left",
+        "D) leaving"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'leave' в Past Simple — 'left'. Форма 'leaved' — ошибка при попытке применить правило правильных глаголов.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит неправильный глагол в неправильной форме?",
+      "options": [
+        "A) I ran very fast yesterday.",
+        "B) She sang a beautiful song.",
+        "C) He builded a house.",
+        "D) They spoke English fluently."
+      ],
+      "correct_answer": "C",
+      "explanation": "Форма 'builded' ошибочна. Правильная форма неправильного глагола 'build' в Past Simple — 'built', а не 'builded'.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-errors"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение в Past Simple:",
+      "options": [
+        "A) He drank coffee and readed a newspaper.",
+        "B) He drank coffee and read a newspaper.",
+        "C) He drunk coffee and read a newspaper.",
+        "D) He drinks coffee and reads a newspaper."
+      ],
+      "correct_answer": "B",
+      "explanation": "'Drank' (от drink) и 'read' (от read) — корректные формы Past Simple. В варианте A форма 'readed' неправильна; D — Present Simple.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-mixed"
+      ]
+    },
+    {
+      "text": "Какой глагол в Past Simple означает \"начал\"?",
+      "options": [
+        "A) begin → beginned",
+        "B) begin → began",
+        "C) begin → begins",
+        "D) begin → beginning"
+      ],
+      "correct_answer": "B",
+      "explanation": "Неправильный глагол 'begin' в Past Simple становится 'began'. Форма 'beginned' неправильна и часто встречается как ошибка.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-meaning"
+      ]
+    },
+    {
+      "text": "Вставьте 'spend' в Past Simple: \"Last summer we ____ two weeks in Spain.\"",
+      "options": [
+        "A) spend",
+        "B) spended",
+        "C) spent",
+        "D) spending"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'spend' в Past Simple меняется на 'spent'. Форма 'spended' неправильна; остальные — другие временные формы.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение не содержит ошибок?",
+      "options": [
+        "A) She teached us English last year.",
+        "B) She teach us English last year.",
+        "C) She taught us English last year.",
+        "D) She teaches us English last year."
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'teach' в Past Simple — 'taught'. Форма 'teached' — распространённая ошибка; D — Present Simple.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-selection"
+      ]
+    },
+    {
+      "text": "Переведите в Past Simple: \"Он понял вопрос.\" Какой вариант правильный?",
+      "options": [
+        "A) He understanded the question.",
+        "B) He understood the question.",
+        "C) He understands the question.",
+        "D) He understandeding the question."
+      ],
+      "correct_answer": "B",
+      "explanation": "Неправильный глагол 'understand' в Past Simple — 'understood'. Форма 'understanded' — ошибка; C — Present Simple.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-translation"
+      ]
+    },
+    {
+      "text": "Выберите правильную форму 'swim' в Past Simple: \"The children ____ in the pool yesterday.\"",
+      "options": [
+        "A) swim",
+        "B) swimmed",
+        "C) swam",
+        "D) swimming"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильный глагол 'swim' в Past Simple становится 'swam'. Форма 'swimmed' неправильна; остальные — Present Simple и Present Continuous.",
+      "difficulty": 2,
+      "tags": [
+        "irregular-verbs-past-simple"
+      ]
+    },
+    {
+      "text": "Какую форму глагола нужно использовать в предложении: 'I think it _____ rain tomorrow'?",
+      "options": [
+        "A) will rain",
+        "B) am going to rain",
+        "C) rains",
+        "D) rained"
+      ],
+      "correct_answer": "A",
+      "explanation": "После 'I think' для спонтанного предсказания используется 'will'. Формы 'am going to rain' и 'rained' неправильны по смыслу.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение о планах на завтра:",
+      "options": [
+        "A) We are going to visit our grandmother",
+        "B) We will visit our grandmother tomorrow without plans",
+        "C) We visit our grandmother tomorrow",
+        "D) We are visit our grandmother"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Going to' используется для запланированного действия. Вариант B подразумевает спонтанность, что противоречит фразе 'о планах'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to"
+      ]
+    },
+    {
+      "text": "Какое предложение выражает спонтанное решение?",
+      "options": [
+        "A) I am going to help you with homework",
+        "B) I will help you with homework",
+        "C) I help you with homework",
+        "D) I am helping you with homework"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Will' используется для спонтанного решения, принятого в момент речи. 'Going to' указывает на заранее намеченное решение.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "decisions"
+      ]
+    },
+    {
+      "text": "Дополните диалог: 'Look at those dark clouds!' - 'Yes, it _____ rain soon.'",
+      "options": [
+        "A) is going to",
+        "B) will",
+        "C) goes",
+        "D) is raining"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Going to' используется для предсказания, основанного на видимых признаках (облака). 'Will' здесь менее подходит, так как есть явное свидетельство.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "predictions"
+      ]
+    },
+    {
+      "text": "Какую форму выбрать: 'She _____ a new job next month. She already signed the contract.'?",
+      "options": [
+        "A) will start",
+        "B) is going to start",
+        "C) starts",
+        "D) will be starting"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Going to' подходит, так как уже подписан контракт — это запланированное действие с видимыми подтверждениями.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to",
+        "plans"
+      ]
+    },
+    {
+      "text": "Выберите предложение с правильной грамматикой о предсказании:",
+      "options": [
+        "A) He will be tired after the match",
+        "B) He is going to be tired after the match",
+        "C) He will tired after the match",
+        "D) He be tired after the match"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will be' — правильная форма для спонтанного предсказания. Вариант B также грамматически верен, но A — стандартное предсказание без видимых признаков.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение лучше всего выражает намерение, сделанное до момента речи?",
+      "options": [
+        "A) I will buy tickets for the concert",
+        "B) I am going to buy tickets for the concert",
+        "C) I buy tickets for the concert",
+        "D) I am buying tickets for the concert"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Going to' указывает на предварительное намерение. 'Will' может звучать как спонтанное решение, принятое только что.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to",
+        "intentions"
+      ]
+    },
+    {
+      "text": "Найдите ошибку в предложении: 'My parents will to travel to Turkey next summer.'",
+      "options": [
+        "A) 'will to' должно быть 'will'",
+        "B) 'travel' должно быть 'traveling'",
+        "C) 'next summer' неправильно",
+        "D) Ошибок нет"
+      ],
+      "correct_answer": "A",
+      "explanation": "После 'will' инфинитив используется без частицы 'to'. Правильно: 'will travel', а не 'will to travel'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "errors"
+      ]
+    },
+    {
+      "text": "Преобразуйте в Future Simple: 'Tom thinks he _____ good marks next term.'",
+      "options": [
+        "A) will get",
+        "B) is going to get",
+        "C) gets",
+        "D) will gets"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will get' — правильная форма Future Simple для предсказания. 'Will gets' грамматически неверна (третье лицо уже учтено в 'will').",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение выражает уверенное предсказание?",
+      "options": [
+        "A) I am going to win the lottery",
+        "B) I will win the lottery",
+        "C) I am winning the lottery",
+        "D) I win the lottery"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Will' часто используется для уверенного предсказания или заявления о будущем факте, хотя оба варианта A и B грамматически возможны.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "predictions"
+      ]
+    },
+    {
+      "text": "Дополните: 'It's 8:50 and the meeting starts at 9:00. We _____ late!'",
+      "options": [
+        "A) will be",
+        "B) are going to be",
+        "C) are being",
+        "D) will been"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will be' используется для спонтанного вывода/предсказания на основе текущей ситуации.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение с корректным использованием 'going to':",
+      "options": [
+        "A) We are going to leave tomorrow. We bought tickets yesterday.",
+        "B) We will leave tomorrow to decide it right now.",
+        "C) We are going to leaving tomorrow.",
+        "D) We going to leave tomorrow."
+      ],
+      "correct_answer": "A",
+      "explanation": "'Going to' с покупкой билетов вчера показывает запланированное действие. Варианты C и D грамматически неверны, B использует неправильный глагол.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to"
+      ]
+    },
+    {
+      "text": "Что верно: 'I think Sarah _____ the exam. She studied very hard.'?",
+      "options": [
+        "A) will pass",
+        "B) is going to pass",
+        "C) passes",
+        "D) will be passing"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will pass' — стандартная форма для предсказания (хотя B тоже возможна). A выражает вероятность на основе известных фактов.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Найдите предложение, где правильно используется отрицание с 'will':",
+      "options": [
+        "A) I won't go to the party tomorrow",
+        "B) I will not going to the party",
+        "C) I won't goes to the party",
+        "D) I won't to go to the party"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Won't' (will not) + инфинитив без 'to'. Вариант B неверен (двойное будущее), C и D грамматически неправильны.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "negation"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос в Future Simple:",
+      "options": [
+        "A) Will you help me tomorrow?",
+        "B) Will you helping me tomorrow?",
+        "C) You will help me tomorrow?",
+        "D) Will helping you me tomorrow?"
+      ],
+      "correct_answer": "A",
+      "explanation": "В вопросе с 'will' порядок слов: Will + подлежащее + инфинитив. Вариант B неверен (формы), C и D нарушают правила порядка слов.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "questions"
+      ]
+    },
+    {
+      "text": "Дополните диалог: 'I have an appointment with the doctor at 3 PM.' - 'Oh, you _____ see the doctor today then.'",
+      "options": [
+        "A) are going to",
+        "B) will",
+        "C) are seeing",
+        "D) see"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Going to' подходит, так как уже есть назначение. Также возможен 'will', но 'going to' лучше выражает предварительное намерение.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to"
+      ]
+    },
+    {
+      "text": "Какое предложение грамматически верно выражает будущее действие?",
+      "options": [
+        "A) Next week I will finish my project",
+        "B) Next week I finish my project",
+        "C) Next week I am finish my project",
+        "D) Next week I will finishing my project"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will + инфинитив' — правильная форма Future Simple. Вариант B (Present Simple) не подходит для будущего, C и D грамматически неверны.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Преобразуйте в вопрос: 'Your brother is going to arrive tomorrow.'",
+      "options": [
+        "A) Is your brother going to arrive tomorrow?",
+        "B) Will your brother arrive tomorrow?",
+        "C) Your brother is arriving tomorrow?",
+        "D) Does your brother going to arrive tomorrow?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для вопроса с 'going to' используется порядок: Is/Are + подлежащее + going to + глагол. Вариант B изменяет форму, D грамматически неверна.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to",
+        "questions"
+      ]
+    },
+    {
+      "text": "Какое предложение выражает внезапный шум за окном?",
+      "options": [
+        "A) I will check what that noise is",
+        "B) I am going to check what that noise is",
+        "C) I check what that noise is",
+        "D) I am checking what that noise is"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will' выражает спонтанное решение в ответ на неожиданное событие. 'Going to' указывает на запланированное действие.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение с ошибкой в отрицании 'going to':",
+      "options": [
+        "A) I am not going to the cinema",
+        "B) I'm not going to watch the film",
+        "C) He not going to come tomorrow",
+        "D) They aren't going to help us"
+      ],
+      "correct_answer": "C",
+      "explanation": "'He not going to' — неверно. Правильно: 'He is not going to' или 'He isn't going to'. Остальные варианты грамматически верны.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to",
+        "negation"
+      ]
+    },
+    {
+      "text": "Дополните: 'Look at her suitcase! She _____ for a trip.'",
+      "options": [
+        "A) will leave",
+        "B) is going to leave",
+        "C) leaves",
+        "D) will be leaving"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Going to' используется, когда есть видимые признаки плана (сумка). Предсказание основано на наблюдении, а не на спонтанности.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "going-to",
+        "predictions"
+      ]
+    },
+    {
+      "text": "Какая форма правильна: 'I promise I _____ you the truth'?",
+      "options": [
+        "A) will tell",
+        "B) am going to tell",
+        "C) tell",
+        "D) will telling"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will' используется в обещаниях и клятвах. 'Going to' менее естественна в этом контексте, хотя грамматически возможна.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "promises"
+      ]
+    },
+    {
+      "text": "Найдите предложение, где 'going to' и 'will' равноправны:",
+      "options": [
+        "A) The concert is at 8 PM. We are going to / will arrive at 7:30",
+        "B) 'Hand me that pen!' 'I will / am going to help you'",
+        "C) They bought tickets. They are going to / will travel to Spain",
+        "D) Watch out! You will / are going to fall"
+      ],
+      "correct_answer": "C",
+      "explanation": "Обе формы одинаково подходят для планов с видимыми подтверждениями (билеты куплены). В A и C обе возможны, но вариант C наиболее нейтрален.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "going-to"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение с Future Simple в утвердительной форме:",
+      "options": [
+        "A) She will become a doctor in five years",
+        "B) She will becomes a doctor in five years",
+        "C) She will to become a doctor in five years",
+        "D) She becomes a doctor in five years"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will + инфинитив без 'to'' — правильная форма. B неверна (согласование), C неверна (лишнее 'to'), D не выражает будущее.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple"
+      ]
+    },
+    {
+      "text": "Дополните вопрос: '_____ you _____ the project by next Friday?'",
+      "options": [
+        "A) Will you finish",
+        "B) Are you going to finish",
+        "C) Will you finishing",
+        "D) Do you finish"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Will you finish' — стандартная форма вопроса в Future Simple. B также грамматически верна, но A — наиболее типичная форма.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "future-simple",
+        "questions"
+      ]
+    },
+    {
+      "text": "Выбери правильный перевод: «Мое хобби — рисование». Как это звучит на английском?",
+      "options": [
+        "A) My hobby is drawing",
+        "B) My hobby is to draw",
+        "C) My hobby draws",
+        "D) I hobby drawing"
+      ],
+      "correct_answer": "A",
+      "explanation": "После глагола 'is' используется герундий (V+ing) для описания хобби. Вариант B возможен, но менее естественен.",
+      "difficulty": 2,
+      "tags": [
+        "hobby",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какой вид спорта описывается как «moving on ice with special shoes»?",
+      "options": [
+        "A) Skiing",
+        "B) Ice skating",
+        "C) Snowboarding",
+        "D) Hockey"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ice skating — катание на коньках на льду со специальной обувью. Skiing использует лыжи, snowboarding — доску.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Дополни предложение: «I love _____ because it helps me stay fit.» Какой вариант подходит?",
+      "options": [
+        "A) playing tennis",
+        "B) to play tennis",
+        "C) play tennis",
+        "D) played tennis"
+      ],
+      "correct_answer": "A",
+      "explanation": "После глагола 'love' используется герундий (V+ing), а не инфинитив. 'Playing tennis' — правильная форма.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Что означает фраза «go hiking»?",
+      "options": [
+        "A) ходить в поход пешком",
+        "B) ездить в горы на машине",
+        "C) прыгать через препятствия",
+        "D) бегать трусцой в парке"
+      ],
+      "correct_answer": "A",
+      "explanation": "Go hiking — это идти в пеший поход по природе. Go running — бегать, go cycling — ездить на велосипеде.",
+      "difficulty": 2,
+      "tags": [
+        "hiking",
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери синоним слова 'journey':",
+      "options": [
+        "A) trip",
+        "B) road",
+        "C) ticket",
+        "D) luggage"
+      ],
+      "correct_answer": "A",
+      "explanation": "Journey и trip — синонимы, означающие путешествие. Road — дорога, ticket — билет, luggage — багаж.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "vocabulary",
+        "synonyms"
+      ]
+    },
+    {
+      "text": "Какое слово описывает перелет на самолете в другую страну?",
+      "options": [
+        "A) flight",
+        "B) ride",
+        "C) walk",
+        "D) sail"
+      ],
+      "correct_answer": "A",
+      "explanation": "Flight — полет, перелет. Ride — поездка в машине, walk — прогулка, sail — парусный спорт/плавание.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Переведи на английский: «Мы часто путешествуем летом.» Какой вариант верный?",
+      "options": [
+        "A) We often travel in summer",
+        "B) We often go travel in summer",
+        "C) We often travels in summer",
+        "D) We in summer often travel"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильный порядок: подлежащее + глагол + наречие + время. 'We often travel' — корректно. 'Go travel' — ошибка.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Что означает слово 'wildlife'?",
+      "options": [
+        "A) дикая природа и животные",
+        "B) дикий образ жизни людей",
+        "C) парк с домашними животными",
+        "D) опасные спортсмены"
+      ],
+      "correct_answer": "A",
+      "explanation": "Wildlife — животный мир, дикая природа. Это существительное для обозначения естественных экосистем и живых организмов.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какой термин описывает 'a very tall natural elevation of land'?",
+      "options": [
+        "A) mountain",
+        "B) hill",
+        "C) valley",
+        "D) plain"
+      ],
+      "correct_answer": "A",
+      "explanation": "Mountain — гора (высокое возвышение). Hill — холм (ниже), valley — долина, plain — равнина. 'Very tall' указывает на гору.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Завершите фразу: «Camping is _____ because we sleep in a tent in nature.»",
+      "options": [
+        "A) fun",
+        "B) funny",
+        "C) enjoy",
+        "D) interested"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Fun' — прилагательное (забавно, весело). 'Funny' означает смешной, 'enjoy' — глагол, 'interested' не подходит по смыслу.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "vocabulary",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Как на английском сказать «альпинизм»?",
+      "options": [
+        "A) mountain climbing",
+        "B) hill walking",
+        "C) rope jumping",
+        "D) rock flying"
+      ],
+      "correct_answer": "A",
+      "explanation": "Mountain climbing — альпинизм (подъем на горы). Hill walking — пеший туризм, rope jumping и rock flying — не существуют.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильный глагол: «I _____ swimming twice a week.»",
+      "options": [
+        "A) go",
+        "B) make",
+        "C) do",
+        "D) play"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Go swimming' — правильная фраза. 'Do swimming' неправильна, 'play swimming' тоже, 'make' не подходит.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Что такое 'forest'?",
+      "options": [
+        "A) большая площадь, покрытая деревьями",
+        "B) тип дерева",
+        "C) место для кемпинга",
+        "D) парк в городе"
+      ],
+      "correct_answer": "A",
+      "explanation": "Forest — лес, обширная территория с деревьями и растительностью. Это природный ландшафт, а не тип дерева или парк.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Дополни: «I am interested _____ photography as a hobby.»",
+      "options": [
+        "A) in",
+        "B) at",
+        "C) on",
+        "D) about"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Be interested in' — фиксированная конструкция. Другие предлоги неправильны. 'In' используется для обозначения интересов.",
+      "difficulty": 2,
+      "tags": [
+        "hobby",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какой вид спорта называется 'ball sport played on grass court with rackets'?",
+      "options": [
+        "A) tennis",
+        "B) basketball",
+        "C) badminton",
+        "D) volleyball"
+      ],
+      "correct_answer": "A",
+      "explanation": "Tennis — теннис (травяной корт, ракетки). Basketball — баскетбол (мяч, но в зале), badminton — бадминтон (другой спорт), volleyball — волейбол.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Переведи фразу: «Во время путешествия мы посетили пляж.» Какой вариант правильный?",
+      "options": [
+        "A) During the trip we visited the beach",
+        "B) In the trip we visited the beach",
+        "C) During trip we visited beach",
+        "D) At the trip we visited beach"
+      ],
+      "correct_answer": "A",
+      "explanation": "'During' (во время) используется с артиклем 'the'. 'In the trip' неправильна, отсутствие артиклей делает предложение неправильным.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери антоним слова 'crowded':",
+      "options": [
+        "A) empty",
+        "B) busy",
+        "C) popular",
+        "D) noisy"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Crowded' (многолюдно) противоположно 'empty' (пусто). 'Busy' — занято, 'popular' — популярно, 'noisy' — шумно.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "vocabulary",
+        "antonyms"
+      ]
+    },
+    {
+      "text": "Какой термин описывает путешествие на поезде между городами?",
+      "options": [
+        "A) train journey",
+        "B) train ride",
+        "C) train trip",
+        "D) все варианты верны"
+      ],
+      "correct_answer": "D",
+      "explanation": "Все три варианта (journey, ride, trip) могут использоваться для описания поездки на поезде. Это синонимы в данном контексте.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "vocabulary",
+        "synonyms"
+      ]
+    },
+    {
+      "text": "Заверши предложение: «The nature reserve is a place where _____ are protected.»",
+      "options": [
+        "A) animals and plants",
+        "B) people",
+        "C) buildings",
+        "D) cars"
+      ],
+      "correct_answer": "A",
+      "explanation": "Nature reserve (заповедник) — место защиты животных и растений. Люди, здания и машины не являются целью заповедника.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Что означает выражение 'to pitch a tent'?",
+      "options": [
+        "A) установить палатку",
+        "B) купить палатку",
+        "C) развалить палатку",
+        "D) играть в палатке"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Pitch a tent' — установить, разбить палатку. Это фиксированная фраза для кемпинга. 'Buy' — покупать, 'collapse' — разваливать.",
+      "difficulty": 2,
+      "tags": [
+        "camping",
+        "vocabulary",
+        "phrasal verbs"
+      ]
+    },
+    {
+      "text": "Выбери правильное словосочетание для 'катание на лыжах':",
+      "options": [
+        "A) skiing",
+        "B) ski sport",
+        "C) to ski",
+        "D) ski travel"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Skiing' — герундий, стандартный термин для вида спорта. 'Ski sport' и 'ski travel' неправильны, 'to ski' — инфинитив глагола.",
+      "difficulty": 2,
+      "tags": [
+        "sports",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Дополни: «We enjoyed _____ in the mountains last summer.»",
+      "options": [
+        "A) hiking",
+        "B) to hike",
+        "C) hike",
+        "D) hiked"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Enjoy' требует герундия (V+ing). 'Hiking' — правильно. 'To hike' — инфинитив, 'hike' и 'hiked' не подходят после 'enjoy'.",
+      "difficulty": 2,
+      "tags": [
+        "nature",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое слово означает 'путь следования туриста по определённому маршруту'?",
+      "options": [
+        "A) route",
+        "B) road",
+        "C) trail",
+        "D) path"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Route' — маршрут, план пути. 'Road' — дорога (физическая), 'trail' — тропа, 'path' — пешеходная дорожка. Route подчеркивает план путешествия.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Переведи: «Я предпочитаю путешествовать летом.» Какой вариант грамматически правилен?",
+      "options": [
+        "A) I prefer traveling in summer",
+        "B) I prefer to travel in summer",
+        "C) I prefer to traveling in summer",
+        "D) A и B оба верны"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Prefer' может использоваться с герундием (traveling) или инфинитивом (to travel). Оба варианта грамматически правильны.",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выберите правильный предлог времени в предложении: «She goes to the gym ___ Monday.»",
+      "options": [
+        "A) in",
+        "B) on",
+        "C) at",
+        "D) by"
+      ],
+      "correct_answer": "B",
+      "explanation": "Дни недели используются с предлогом 'on'. 'In' используется для месяцев/сезонов, 'at' — для точного времени.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Какой предлог времени необходимо использовать: «We have breakfast ___ 8 o'clock.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) at",
+        "D) during"
+      ],
+      "correct_answer": "C",
+      "explanation": "'At' используется для конкретного времени (часов). 'On' — для дней, 'in' — для месяцев/сезонов.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Определите правильный предлог в предложении: «My birthday is ___ July.»",
+      "options": [
+        "A) at",
+        "B) on",
+        "C) in",
+        "D) during"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' используется для месяцев. 'On' применяется для дней недели и конкретных дат, 'at' — для точного времени суток.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Выберите подходящий предлог: «The meeting is ___ Friday morning.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) at",
+        "D) under"
+      ],
+      "correct_answer": "A",
+      "explanation": "'On' правильно используется с днями недели и частями дня при их упоминании вместе.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Какой предлог необходим здесь: «I will see you ___ 5 PM.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) at",
+        "D) for"
+      ],
+      "correct_answer": "C",
+      "explanation": "'At' используется с точным временем дня. 'In' — для периодов времени, 'on' — для дней.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Какой предлог правильно дополнит предложение: «She was born ___ 2010.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) at",
+        "D) by"
+      ],
+      "correct_answer": "B",
+      "explanation": "'In' используется для годов. 'On' применяется к дням и датам, 'at' — к конкретному времени.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Выберите предлог места: «The book is ___ the table.»",
+      "options": [
+        "A) at",
+        "B) on",
+        "C) in",
+        "D) under"
+      ],
+      "correct_answer": "B",
+      "explanation": "'On' используется, когда объект находится на поверхности. 'In' — внутри контейнера, 'under' — под чем-то.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Какой предлог места подходит: «My pencil is ___ the box.»",
+      "options": [
+        "A) on",
+        "B) under",
+        "C) in",
+        "D) next to"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' означает внутри контейнера. 'On' — на поверхности, 'under' — под чем-то.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Определите правильный предлог места: «The cat is ___ the sofa.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) under",
+        "D) next to"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Under' означает под чем-то. 'On' — на поверхности, 'in' — внутри, 'next to' — рядом с чем-то.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Выберите подходящий предлог: «The chair is ___ the desk.»",
+      "options": [
+        "A) in",
+        "B) under",
+        "C) at",
+        "D) next to"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Next to' значит рядом с чем-то. 'Under' — под чем-то, 'in' — внутри, 'at' — здесь не подходит для места.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Какой предлог места правильный: «We are ___ the classroom.»",
+      "options": [
+        "A) on",
+        "B) at",
+        "C) in",
+        "D) under"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' используется для закрытых пространств и помещений. 'On' — на поверхности, 'at' — для общего нахождения.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Выберите правильный предлог: «We have a test ___ Monday ___ 10 AM.»",
+      "options": [
+        "A) on / in",
+        "B) in / at",
+        "C) on / at",
+        "D) at / on"
+      ],
+      "correct_answer": "C",
+      "explanation": "Используются 'on' для дня недели и 'at' для точного времени суток.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Найдите ошибку: «I will meet you on 3 o'clock.» Какой должен быть предлог?",
+      "options": [
+        "A) in",
+        "B) at",
+        "C) during",
+        "D) for"
+      ],
+      "correct_answer": "B",
+      "explanation": "С точным временем используется 'at', а не 'on'. 'On' применяется к дням недели.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Какой предлог нужен: «She works ___ the hospital.» (работает в больнице)",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) under",
+        "D) next to"
+      ],
+      "correct_answer": "B",
+      "explanation": "'In' используется для мест работы и учреждений. 'On' — на поверхности, 'under' — под чем-то.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Выберите предлог: «The picture is ___ the wall.»",
+      "options": [
+        "A) under",
+        "B) in",
+        "C) on",
+        "D) next to"
+      ],
+      "correct_answer": "C",
+      "explanation": "'On' используется, когда что-то висит на поверхности (стена). 'Under' — под чем-то, 'in' — внутри.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Какой предлог времени подходит: «The shop is open ___ winter.»",
+      "options": [
+        "A) at",
+        "B) on",
+        "C) in",
+        "D) during"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' используется для сезонов года. 'At' — для точного времени, 'on' — для дней и дат.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Определите правильный вариант: «The phone is ___ my bag.»",
+      "options": [
+        "A) on",
+        "B) next to",
+        "C) in",
+        "D) at"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' означает внутри контейнера (сумка). 'On' — на поверхности, 'next to' — рядом с.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Выберите подходящий предлог: «I drink coffee ___ the morning.»",
+      "options": [
+        "A) at",
+        "B) on",
+        "C) in",
+        "D) during"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' используется для частей дня (утро, вечер). 'At' — для точного времени, 'on' — для дней.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Какой предлог места правильный: «The tree is ___ front of the house.»",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) under",
+        "D) next to"
+      ],
+      "correct_answer": "B",
+      "explanation": "'In front of' (в выражении) указывает на место впереди. 'In' здесь часть идиоматического выражения.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Найдите ошибку: «They arrive in Tuesday.» Какой должен быть предлог?",
+      "options": [
+        "A) at",
+        "B) on",
+        "C) during",
+        "D) for"
+      ],
+      "correct_answer": "B",
+      "explanation": "С днями недели используется 'on', а не 'in'. 'In' применяется для месяцев и сезонов.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «The keys are ___ the door.»",
+      "options": [
+        "A) in",
+        "B) on",
+        "C) under",
+        "D) next to"
+      ],
+      "correct_answer": "B",
+      "explanation": "'On' означает на поверхности/на дверь. 'In' — внутри, 'under' — под чем-то.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    },
+    {
+      "text": "Какой предлог времени необходим: «The game starts ___ 3 PM ___ Saturday.»",
+      "options": [
+        "A) at / on",
+        "B) on / at",
+        "C) in / on",
+        "D) at / in"
+      ],
+      "correct_answer": "A",
+      "explanation": "'At' используется для точного времени (3 PM), 'on' — для дня недели (Saturday).",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ]
+    },
+    {
+      "text": "Определите предлог места: «The lamp is ___ the corner of the room.»",
+      "options": [
+        "A) on",
+        "B) next to",
+        "C) in",
+        "D) under"
+      ],
+      "correct_answer": "C",
+      "explanation": "'In' используется для обозначения расположения в углу пространства. 'On' — на поверхности.",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-place"
+      ]
+    }
+  ]
+}

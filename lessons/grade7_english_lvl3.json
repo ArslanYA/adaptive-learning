@@ -1,0 +1,2018 @@
+{
+  "topic": "Английский",
+  "title": "Английский — Уровень 3",
+  "grade_level": 7,
+  "difficulty": 3,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Выбери предложение, в котором Present Perfect используется корректно для выражения действия, которое произошло только что:",
+      "options": [
+        "A) She has just finished her homework.",
+        "B) She just has finished her homework.",
+        "C) She has finished just her homework.",
+        "D) She just finished her homework."
+      ],
+      "correct_answer": "A",
+      "explanation": "В Present Perfect наречие 'just' ставится между вспомогательным глаголом 'has' и основным глаголом в форме V3 (has just finished).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-word-order"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно завершает диалог? A: 'Have you ever been to Astana?' B: '___'",
+      "options": [
+        "A) Yes, I have just been there last month.",
+        "B) Yes, I have been there last month.",
+        "C) Yes, I have been there.",
+        "D) Yes, I have ever been there."
+      ],
+      "correct_answer": "C",
+      "explanation": "С наречием 'ever' в Present Perfect не используются конкретные времена (last month). Ответ должен быть просто утвердительным без указания периода времени.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-ever"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'I have never tried sushi, but my friend has already eaten it many times.' Какое утверждение верно?",
+      "options": [
+        "A) Говорящий попробовал суши несколько раз",
+        "B) Друг говорящего никогда не ел суши",
+        "C) Говорящий никогда не пробовал суши, а его друг уже ел",
+        "D) Оба попробовали суши в прошлом году"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Never' означает 'никогда не', а 'already' указывает, что действие уже произошло. Текст ясно разделяет опыт говорящего (никогда) и друга (уже).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-never-already"
+      ]
+    },
+    {
+      "text": "Определи ошибку в предложении: 'Have they finished their project yet or they are still working?'",
+      "options": [
+        "A) Неверное использование 'yet' в вопросе",
+        "B) Вторая часть должна быть в Present Perfect: 'or have they still been working'",
+        "C) Должно быть 'has' вместо 'have'",
+        "D) Наречие 'still' не может использоваться с Present Perfect"
+      ],
+      "correct_answer": "B",
+      "explanation": "Для параллельной структуры и логичности вторая часть вопроса также должна быть в Present Perfect, чтобы контрастировать завершённое действие с продолжающимся.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-yet",
+        "parallel-structure"
+      ]
+    },
+    {
+      "text": "Какое предложение правильно использует Present Perfect с наречием 'already'?",
+      "options": [
+        "A) They have already gone to the cinema yesterday.",
+        "B) They already have gone to the cinema.",
+        "C) They have already been to the cinema.",
+        "D) They have went already to the cinema."
+      ],
+      "correct_answer": "C",
+      "explanation": "'Already' в Present Perfect ставится между вспомогательным и основным глаголом. Также с 'already' не используются конкретные прошлые времена (yesterday).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-already"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: A: 'Has Karim finished his test?' B: 'Yes, he has just completed it.' Почему используется Present Perfect?",
+      "options": [
+        "A) Потому что действие произошло давно в прошлом",
+        "B) Потому что действие произошло совсем недавно и актуально в настоящем",
+        "C) Потому что Карим всё ещё пишет тест",
+        "D) Потому что нужно говорить о привычках"
+      ],
+      "correct_answer": "B",
+      "explanation": "Present Perfect используется для действий, произошедших в неопределённом или недавнем прошлом и имеющих значение для настоящего. Слово 'just' подчёркивает недавность.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-just"
+      ]
+    },
+    {
+      "text": "Выбери предложение, которое логически соответствует контексту: 'I haven't finished reading the book yet, but I ___.'",
+      "options": [
+        "A) have already read three chapters.",
+        "B) am reading three chapters.",
+        "C) have read three chapters already.",
+        "D) read three chapters."
+      ],
+      "correct_answer": "C",
+      "explanation": "Нужно выразить завершённое действие в Present Perfect с 'already', чтобы контрастировать с незавершённым действием (haven't finished). Вариант A и C грамматически верны, но C лучше согласуется со словом 'yet' в первой части.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-already-yet"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно трансформирует предложение в вопрос? 'She has just bought a new dress.' → '___?'",
+      "options": [
+        "A) Has she just buy a new dress?",
+        "B) Has she just bought a new dress?",
+        "C) Did she just buy a new dress?",
+        "D) Does she just buy a new dress?"
+      ],
+      "correct_answer": "B",
+      "explanation": "В вопросе Present Perfect вспомогательный глагол 'has' ставится в начало, а основной глагол остаётся в форме V3 (bought), наречие 'just' остаётся на месте.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-questions"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'Have you ever visited a museum in Almaty? I have never been there, but my cousin has already seen the National Museum.' Сколько человек посетили музей в Алматы?",
+      "options": [
+        "A) Никто из них",
+        "B) Только автор текста",
+        "C) Только двоюродный брат автора",
+        "D) Оба автор и его двоюродный брат"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст ясно указывает: автор 'have never been' (никогда не был), а двоюродный брат 'has already seen' (уже видел). Следовательно, только двоюродный брат посетил музей.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-never-already",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение НЕ использует Present Perfect корректно:",
+      "options": [
+        "A) Have they ever eaten kazakh food?",
+        "B) I have just woken up.",
+        "C) She has never traveled by plane.",
+        "D) We have gone to the park yet."
+      ],
+      "correct_answer": "D",
+      "explanation": "'Yet' используется с отрицательными предложениями (haven't gone) или в вопросах (have you gone yet?), но не с утвердительными. Правильно: 'We have already gone' или 'Have we gone yet?'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-yet"
+      ]
+    },
+    {
+      "text": "Выбери предложение, в котором 'never' используется корректно:",
+      "options": [
+        "A) She has never not tried this food.",
+        "B) She has never tried this food.",
+        "C) She never has tried this food.",
+        "D) She has not never tried this food."
+      ],
+      "correct_answer": "B",
+      "explanation": "'Never' — это отрицательное наречие, которое ставится между вспомогательным и основным глаголом в Present Perfect (has never tried). Не нужно добавлять 'not'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-never"
+      ]
+    },
+    {
+      "text": "Что неправильно в предложении: 'I have already finished my work and I went home.'?",
+      "options": [
+        "A) Неверное использование 'already'",
+        "B) Нарушение параллельной структуры: 'went' должно быть 'have gone'",
+        "C) Предложение слишком длинное",
+        "D) 'Finished' должно быть в Present Simple"
+      ],
+      "correct_answer": "B",
+      "explanation": "При соединении двух действий, произошедших в одно время, нужно использовать одинаковые грамматические структуры. Правильно: 'I have already finished my work and (I have) gone home.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-parallel-structure"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: A: 'Have you ever seen the Baikonur Cosmodrome?' B: 'No, I have just visited the Space Museum last week.' Какова ошибка в ответе B?",
+      "options": [
+        "A) Должно быть 'I haven't visited' вместо 'I have just visited'",
+        "B) 'Just' не может использоваться с 'last week'",
+        "C) Нужно использовать Past Simple вместо Present Perfect",
+        "D) Отсутствует наречие 'yet' в конце"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Just' указывает на совсем недавнее действие (секунды-минуты назад), а 'last week' — на конкретное прошлое время. Они несовместимы. Должно быть: 'I visited' (Past Simple) или 'I have just visited' (без 'last week').",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-just"
+      ]
+    },
+    {
+      "text": "Какой вариант лучше завершит предложение: 'We have never ___'?",
+      "options": [
+        "A) go to Kazakhstan.",
+        "B) went to Kazakhstan.",
+        "C) been to Kazakhstan.",
+        "D) are going to Kazakhstan."
+      ],
+      "correct_answer": "C",
+      "explanation": "После 'have' в Present Perfect нужна форма V3 (been). Полная форма: 'have never been to Kazakhstan' (никогда там не были).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-v3"
+      ]
+    },
+    {
+      "text": "Прочитай два предложения: 1) 'I have already done the homework.' 2) 'I did the homework yesterday.' Какое из них показывает, что действие недавно завершено и актуально сейчас?",
+      "options": [
+        "A) Оба одинаково показывают недавность",
+        "B) Первое предложение (Present Perfect с 'already')",
+        "C) Второе предложение (Past Simple)",
+        "D) Ни одно не показывает актуальность"
+      ],
+      "correct_answer": "B",
+      "explanation": "Present Perfect с 'already' (первое предложение) подчёркивает, что действие завершено и актуально сейчас. Past Simple (второе) просто указывает на время в прошлом без связи с настоящим.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-vs-past-simple"
+      ]
+    },
+    {
+      "text": "Определи грамматическую ошибку: 'Have you finished the project yet or you still work on it?'",
+      "options": [
+        "A) 'Yet' должно быть в конце вопроса",
+        "B) Вторая часть должна быть в Present Continuous: 'are you still working'",
+        "C) Должно быть 'has' вместо 'have'",
+        "D) 'Still' не может использоваться в этом контексте"
+      ],
+      "correct_answer": "B",
+      "explanation": "Вторая часть вопроса описывает процесс, происходящий в настоящий момент, поэтому нужен Present Continuous (are you still working), а не Present Simple (you still work).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-vs-present-continuous"
+      ]
+    },
+    {
+      "text": "Какое из предложений правильно использует Present Perfect в контексте неопределённого времени?",
+      "options": [
+        "A) They have visited Paris in 2020.",
+        "B) They have visited Paris before.",
+        "C) They have visited Paris last summer.",
+        "D) They have visited Paris yesterday."
+      ],
+      "correct_answer": "B",
+      "explanation": "Present Perfect используется с неопределённым временем (before, ever, yet) и без конкретных дат. Варианты A, C, D содержат конкретные временные периоды, требующие Past Simple.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-time"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: 'I have just eaten lunch, but I'm still hungry.' Почему второе действие в Present Continuous, а не Present Perfect?",
+      "options": [
+        "A) Потому что Present Continuous выражает более продолжительное действие",
+        "B) Потому что это состояние (быть голодным), а не действие",
+        "C) Потому что Present Continuous используется после Present Perfect",
+        "D) Потому что нужно контрастировать с 'just'"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Быть голодным' (be hungry) — это состояние, которое описывается Present Continuous или Present Simple, а не завершённое действие, требующее Present Perfect.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-vs-present-continuous"
+      ]
+    },
+    {
+      "text": "Какое утверждение верно о разнице между 'already' и 'yet'?",
+      "options": [
+        "A) Оба используются только с утвердительными предложениями",
+        "B) 'Already' используется в утвердительных, 'yet' в вопросах и отрицательных",
+        "C) 'Yet' показывает завершённое действие, 'already' ожидаемое",
+        "D) 'Already' ставится в конце предложения, 'yet' в начале"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Already' используется в утвердительных предложениях (I have already gone), а 'yet' в вопросах (Have you gone yet?) и отрицательных (I haven't gone yet).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-already-yet"
+      ]
+    },
+    {
+      "text": "Выбери правильное продолжение: 'She has never ___' (правильная форма глагола 'to be')",
+      "options": [
+        "A) to be late for school.",
+        "B) been late for school.",
+        "C) was late for school.",
+        "D) be late for school."
+      ],
+      "correct_answer": "B",
+      "explanation": "После 'has/have' в Present Perfect используется форма V3. Для глагола 'be' это 'been'. Полная форма: 'has never been late for school.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-v3",
+        "irregular-verbs"
+      ]
+    },
+    {
+      "text": "Прочитай диалог и определи ошибку: A: 'Have you ever tried Kazakh food?' B: 'Yes, I have ever eaten plov and beshbarmak many times.'",
+      "options": [
+        "A) Нужно использовать 'already' вместо 'ever'",
+        "B) 'Ever' используется только в вопросах и отрицательных предложениях, а не в утвердительных",
+        "C) Должно быть 'have eaten', а не 'have ever eaten'",
+        "D) Нужно добавить 'just' перед 'eaten'"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Ever' (когда-либо) используется в вопросах и отрицательных предложениях. В утвердительных ответах нужно использовать 'already' или просто опустить наречие: 'Yes, I have eaten plov' или 'Yes, I have already eaten plov.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-ever"
+      ]
+    },
+    {
+      "text": "Какой вариант корректно использует Present Perfect для выражения опыта?",
+      "options": [
+        "A) I have worked in three different countries so far.",
+        "B) I have worked in three different countries last year.",
+        "C) I worked in three different countries before.",
+        "D) I have worked in three different countries yesterday."
+      ],
+      "correct_answer": "A",
+      "explanation": "'So far' (до сих пор) — идеальное наречие для Present Perfect, показывающее опыт от прошлого до настоящего. 'Last year' и 'yesterday' требуют Past Simple.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-experience"
+      ]
+    },
+    {
+      "text": "Прочитай два предложения: 1) 'They have just arrived at the airport.' 2) 'They have already arrived at the airport.' Какова разница?",
+      "options": [
+        "A) Нет разницы, оба означают одно и то же",
+        "B) 'Just' подчёркивает, что действие произошло совсем недавно, 'already' менее специфично о времени",
+        "C) 'Already' показывает, что действие произошло раньше, чем ожидалось",
+        "D) 'Just' означает действие в прошлом году, 'already' недавно"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Just' указывает на максимальную недавность (секунды-минуты назад), а 'already' просто показывает завершённость действия, но менее конкретно о времени.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-just-already"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение грамматически неправильно:",
+      "options": [
+        "A) Has anyone ever told you that before?",
+        "B) I have never heard of this movie.",
+        "C) They have just went to the cinema.",
+        "D) She hasn't finished her work yet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Форма V3 глагола 'go' — это 'gone', а не 'went'. Правильно: 'They have just gone to the cinema.' 'Went' — это прошедшая форма (Past Simple).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-v3",
+        "irregular-verbs"
+      ]
+    },
+    {
+      "text": "Какое предложение логично продолжает диалог? A: 'Has Almira finished her exam?' B: '___'",
+      "options": [
+        "A) Yes, she has just finished it few minutes ago.",
+        "B) Yes, she has just finished it.",
+        "C) Yes, she has finished it yesterday.",
+        "D) Yes, she did finish it."
+      ],
+      "correct_answer": "B",
+      "explanation": "'Just' автоматически подразумевает очень недавнее завершение, поэтому добавлять 'few minutes ago' или 'yesterday' неправильно. Present Perfect естественнее всего звучит с 'just' без дополнительных временных указателей.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-just"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: 'Have you done your homework yet?' Какой ответ грамматически корректен?",
+      "options": [
+        "A) No, I have not done it yet, but I will do it soon.",
+        "B) No, I haven't done it yet, but I'm doing it now.",
+        "C) No, I didn't do it yet, but I will do.",
+        "D) No, I haven't done yet it."
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильный отрицательный ответ на Present Perfect вопрос: 'No, I have not done it yet...' Добавление будущего времени ('will do') логично показывает намерение.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-perfect-yet",
+        "present-perfect-questions"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: «She can speak three languages, but she can't write in Chinese.» Какое утверждение ПРАВИЛЬНО отражает смысл?",
+      "options": [
+        "A) Она может говорить и писать на трёх языках",
+        "B) Она имеет способность говорить на трёх языках, но не может писать по-китайски",
+        "C) Она должна говорить на трёх языках и писать по-китайски",
+        "D) Она не может говорить ни на каких языках"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can выражает способность/возможность. She can speak (она может говорить) — позитивная способность, can't write (не может писать) — отсутствие способности. Это выражает физическую или умственную возможность, а не обязательство.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "ability"
+      ]
+    },
+    {
+      "text": "Какое предложение ЛУЧШЕ выражает обязательство и запрет одновременно?",
+      "options": [
+        "A) You can't smoke here, but you should try.",
+        "B) You must study hard, but you mustn't cheat on exams.",
+        "C) You can study here, but you can't work.",
+        "D) You should listen, but you can ignore advice."
+      ],
+      "correct_answer": "B",
+      "explanation": "Must/mustn't выражают сильное обязательство и абсолютный запрет. В предложении B чётко показано обязательство (must study) и запрет (mustn't cheat), что соответствует вопросу. Остальные варианты смешивают способность (can) и совет (should).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "obligation"
+      ]
+    },
+    {
+      "text": "Ученик получил D по тесту. Родитель говорит: «You should study more carefully next time.» Что здесь выражается?",
+      "options": [
+        "A) Обязательная необходимость повторить тест",
+        "B) Способность ребёнка учиться",
+        "C) Рекомендация и совет улучшить учебные привычки",
+        "D) Запрет на дальнейшие тесты"
+      ],
+      "correct_answer": "C",
+      "explanation": "Should/shouldn't выражают совет и рекомендацию, а не строгое обязательство. Фраза предлагает улучшить подход к учёбе, это мягкое руководство, а не приказ (который бы выражался must).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "advice"
+      ]
+    },
+    {
+      "text": "В школе висит объявление: «Students mustn't use mobile phones in the classroom.» Если ученик использует телефон, что произойдёт?",
+      "options": [
+        "A) Ничего, потому что это только рекомендация",
+        "B) Это нарушение правила с вероятными последствиями",
+        "C) Ученик может выбрать, слушать правило или нет",
+        "D) Это означает, что ученик не имеет способности использовать телефон"
+      ],
+      "correct_answer": "B",
+      "explanation": "Mustn't выражает абсолютный запрет и обязательное правило. Нарушение mustn't влечёт санкции, в отличие от should (совет) или can't (неспособность).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "prohibition"
+      ]
+    },
+    {
+      "text": "Сравни два предложения: (1) «He can play guitar.» (2) «He should play guitar.» Как они различаются по смыслу?",
+      "options": [
+        "A) Оба выражают одно и то же",
+        "B) (1) говорит о способности, (2) о совете или рекомендации",
+        "C) (1) выражает обязательство, (2) способность",
+        "D) (1) запрет, (2) разрешение"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can выражает наличие способности/умения, а should выражает совет или то, что было бы хорошо сделать. Первое — о возможности, второе — о рекомендации.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "distinction"
+      ]
+    },
+    {
+      "text": "Твой друг говорит: «I can't come to your party tomorrow.» Что это означает?",
+      "options": [
+        "A) Он не хочет приходить",
+        "B) Он имеет какое-то препятствие и не может физически или практически приехать",
+        "C) Ему запретили родители",
+        "D) Он должен остаться дома обязательно"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can't указывает на отсутствие способности или возможности из-за какого-то обстоятельства (занят, болеет, далеко и т.д.). Это не совет (should) и не запрет (mustn't), а невозможность.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "ability-negative"
+      ]
+    },
+    {
+      "text": "Учитель говорит классу: «You must submit your homework by Friday, but you can choose any topic.» Какие два аспекта выражены?",
+      "options": [
+        "A) Обязательство сдать и запрет на выбор",
+        "B) Обязательное сроки (must) и свобода выбора (can)",
+        "C) Совет сдать и способность писать",
+        "D) Запрет опоздать и обязательный формат"
+      ],
+      "correct_answer": "B",
+      "explanation": "Must показывает обязательство соблюдать срок (Friday), а can указывает на наличие выбора и свободы (any topic). Это комбинирует строгое правило и гибкость.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "combination"
+      ]
+    },
+    {
+      "text": "Почему в предложении «You shouldn't eat too much candy» используется shouldn't, а не can't?",
+      "options": [
+        "A) Потому что это физический запрет",
+        "B) Потому что это совет о здоровье, а не абсолютный запрет",
+        "C) Потому что человек не имеет способности есть конфеты",
+        "D) Потому что это обязательное правило"
+      ],
+      "correct_answer": "B",
+      "explanation": "Shouldn't выражает рекомендацию и совет о здоровом поведении, а не физический запрет или полную невозможность. Can't был бы неправильным, так как человек физически может есть конфеты, просто это вредно.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "advice-vs-prohibition"
+      ]
+    },
+    {
+      "text": "Проанализируй текст: «Athletes must train every day. They can improve their skills through practice. They shouldn't ignore professional advice.» Какой модальный глагол выражает НОРМУ/ПРАВИЛО?",
+      "options": [
+        "A) can (способность)",
+        "B) must (обязательство/норма)",
+        "C) shouldn't (совет)",
+        "D) Все одинаково"
+      ],
+      "correct_answer": "B",
+      "explanation": "Must выражает обязательную норму и правило для спортсменов. Can показывает возможность, shouldn't — совет. Только must создаёт жёсткое требование.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "norm-obligation"
+      ]
+    },
+    {
+      "text": "Если человек говорит «I can't sleep without my pillow», он выражает:",
+      "options": [
+        "A) Обязательство иметь подушку",
+        "B) Нежелание спать без подушки",
+        "C) Отсутствие способности заснуть без подушки (привычку как неспособность)",
+        "D) Запрет на использование других предметов"
+      ],
+      "correct_answer": "C",
+      "explanation": "Can't здесь выражает субъективное ощущение невозможности, которое сформировалось как привычка. Это не физическая неспособность, а психологическая зависимость, выраженная через модальный глагол способности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "subjective-ability"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где модальный глагол используется НЕПРАВИЛЬНО:",
+      "options": [
+        "A) You can try this recipe if you want to.",
+        "B) Students must not arrive late to class.",
+        "C) She should can speak French fluently.",
+        "D) You shouldn't waste time on social media."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка в грамматике: «should can speak» — два модальных глагола подряд неправильны. Should должен быть либо опущен, либо используется конструкция «should be able to». Остальные грамматически верны.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "grammar-error"
+      ]
+    },
+    {
+      "text": "Друг спрашивает: «Can you help me with my homework?» Какой ответ логически соответствует способности?",
+      "options": [
+        "A) I must help you.",
+        "B) Yes, I can. I'm good at maths.",
+        "C) No, you shouldn't ask me.",
+        "D) I shouldn't help you."
+      ],
+      "correct_answer": "B",
+      "explanation": "Вопрос с can спрашивает о способности. Ответ с can + объяснение способности (I'm good at maths) логически соответствует. Must/shouldn't были бы неуместны, так как они выражают обязательство/совет, а не способность.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "dialogue"
+      ]
+    },
+    {
+      "text": "В инструкции написано: «You must read the instructions carefully. You can ask questions if you don't understand. You shouldn't start before reading.» Как изменится смысл, если заменить first must на should?",
+      "options": [
+        "A) Смысл не изменится",
+        "B) Инструкция станет рекомендацией вместо обязательного требования",
+        "C) Инструкция будет более строгой",
+        "D) Can станет запретом"
+      ],
+      "correct_answer": "B",
+      "explanation": "Must выражает обязательное требование, которое необходимо выполнить. Если заменить на should, это станет советом, а не строгой необходимостью. Смысл ослабится — это перестанет быть приказом.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "instruction-analysis"
+      ]
+    },
+    {
+      "text": "Ребёнок говорит родителю: «I can't eat vegetables because I don't like them.» Что выражает can't в этом контексте?",
+      "options": [
+        "A) Полную физическую невозможность",
+        "B) Отсутствие желания, выраженное через модальный глагол способности",
+        "C) Обязательный запрет",
+        "D) Совет не есть овощи"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ребёнок физически может есть овощи, но использует can't как способ выразить нежелание. Это субъективное восприятие невозможности, основанное на личном предпочтении, а не реальной неспособности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "desire-vs-ability"
+      ]
+    },
+    {
+      "text": "Сравни: (1) «You must finish the project.» (2) «You should finish the project.» Что правильно о разнице?",
+      "options": [
+        "A) (1) обязательно, (2) рекомендуется, но необязательно",
+        "B) (1) рекомендация, (2) приказ",
+        "C) (1) совет, (2) запрет",
+        "D) Нет разницы"
+      ],
+      "correct_answer": "A",
+      "explanation": "Must выражает строгое обязательство, которое нужно выполнить. Should выражает рекомендацию или совет, который хорошо бы выполнить, но это менее обязательно. (1) имеет большую силу, чем (2).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "obligation-vs-advice"
+      ]
+    },
+    {
+      "text": "Врач говорит пациенту: «You must take medicine daily, but you can choose between tablets or injection.» Какова структура этого совета?",
+      "options": [
+        "A) Два одинаковых требования",
+        "B) Обязательное действие (must) с гибкостью в методе (can)",
+        "C) Два запрета",
+        "D) Две рекомендации"
+      ],
+      "correct_answer": "B",
+      "explanation": "Must создаёт строгое обязательство принимать лекарство. Can предоставляет выбор в форме доставки. Это комбинирует необходимость с гибкостью — обязательно лечиться, но способ выбирает сам пациент.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "medical-context"
+      ]
+    },
+    {
+      "text": "Почему в правилах дорожного движения используется mustn't, а не shouldn't: «Drivers mustn't exceed speed limits.»?",
+      "options": [
+        "A) Потому что это рекомендация",
+        "B) Потому что это абсолютный, обязательный запрет с юридическими последствиями",
+        "C) Потому что это совет",
+        "D) Потому что водители не способны ехать быстро"
+      ],
+      "correct_answer": "B",
+      "explanation": "Mustn't выражает юридически обязательный запрет, нарушение которого влечёт штрафы и санкции. Shouldn't был бы слишком мягким для закона. Must/mustn't используются для规定 (законов и правил), где запрет абсолютен.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "legal-context"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: A: «Can you swim?» B: «Yes, but I shouldn't swim alone.» Что B хочет сказать?",
+      "options": [
+        "A) B может плавать, но это запрещено",
+        "B) B имеет способность плавать, но это опасно, и лучше не плавать одному",
+        "C) B не может плавать",
+        "D) B обязан плавать с кем-то"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can говорит о способности, shouldn't выражает совет/предупреждение о безопасности. B подтверждает умение, но добавляет, что из соображений безопасности лучше не быть одному в воде.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "safety-advice"
+      ]
+    },
+    {
+      "text": "Какое предложение ЛУЧШЕ демонстрирует использование can для обозначения РАЗРЕШЕНИЯ?",
+      "options": [
+        "A) Students can speak English very well.",
+        "B) You can leave the classroom when you finish the test.",
+        "C) Athletes can run fast.",
+        "D) Birds can fly in the sky."
+      ],
+      "correct_answer": "B",
+      "explanation": "Can в контексте разрешения означает, что это допустимо делать. В предложении B это явное разрешение от учителя (you can leave). В A, C, D — can выражает способность/возможность, а не разрешение.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "permission"
+      ]
+    },
+    {
+      "text": "Анализируй ошибку в совете: «You should must study harder.» Почему это неправильно?",
+      "options": [
+        "A) Нельзя использовать два модальных глагола подряд в этой конфигурации",
+        "B) Should и must выражают одно и то же",
+        "C) Must должен стоять перед should",
+        "D) Нет ошибки"
+      ],
+      "correct_answer": "A",
+      "explanation": "В английском нельзя ставить два модальных глагола подряд: should + must неграмматично. Правильно: «You should study harder» или «You must study harder», но не оба сразу. Should требует инфинитива, который не может быть модальным глаголом.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "grammar-rule"
+      ]
+    },
+    {
+      "text": "Тренер говорит спортсмену: «You must train daily, you shouldn't skip sessions, but you can rest one day a week.» Какова иерархия требований?",
+      "options": [
+        "A) Все требования одинаковы",
+        "B) Must (обязательно) > shouldn't (не рекомендуется) > can (разрешено)",
+        "C) Can (самое важное) > must > shouldn't",
+        "D) Shouldn't (самое строгое) > must > can"
+      ],
+      "correct_answer": "B",
+      "explanation": "Must выражает абсолютное требование, shouldn't — совет не делать что-то (чуть мягче), can — разрешение/возможность (самое мягкое). Иерархия: must (самое строгое) > shouldn't > can (самое гибкое).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "hierarchy"
+      ]
+    },
+    {
+      "text": "Школьник говорит: «I can't understand this maths problem.» Друг отвечает: «You should ask the teacher.» Почему друг использует should, а не must?",
+      "options": [
+        "A) Потому что это обязательно",
+        "B) Потому что это совет, а не приказ; друг даёт рекомендацию, которая может помочь",
+        "C) Потому что это запрет",
+        "D) Потому что друг не может помочь"
+      ],
+      "correct_answer": "B",
+      "explanation": "Should используется для мягкого совета. Друг предлагает полезное решение, но это не приказ (must). Он говорит: это было бы хорошо сделать, но выбор остаётся за тобой.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "peer-advice"
+      ]
+    },
+    {
+      "text": "Почему в предложении «Children can't vote because it's against the law» используется can't, а не mustn't?",
+      "options": [
+        "A) Потому что это совет",
+        "B) Потому что это выражает физическую неспособность, запрещённую законом",
+        "C) Потому что mustn't был бы более мягким",
+        "D) Потому что это касается желания, а не способности"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can't выражает отсутствие способности или возможности, которая объясняется законом. Хотя дети физически могут голосовать, закон делает это невозможным для них. Mustn't был бы менее подходящим, так как он выражает запрет действия, а не отсутствие возможности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "legal-ability"
+      ]
+    },
+    {
+      "text": "В контрольной работе ученик выбрал ответ: «The firefighter can rescue people because he is trained.» Это выражение верно использует can?",
+      "options": [
+        "A) Нет, потому что rescue — это совет, а не способность",
+        "B) Да, can правильно выражает способность, основанную на подготовке и квалификации",
+        "C) Нет, потому что should используется для профессиональных обязанностей",
+        "D) Да, потому что это запрет"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can правильно выражает способность спасателя спасать людей, которая основана на его обучении и подготовке. Это логичное использование can для выражения приобретённого умения или профессиональной компетентности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "competence"
+      ]
+    },
+    {
+      "text": "Какое предложение лучше выражает ЗАПРЕТ в официальном контексте (знак в парке)?",
+      "options": [
+        "A) Dogs can't come here.",
+        "B) Dogs shouldn't come here.",
+        "C) Dogs mustn't enter this area.",
+        "D) Dogs might not come here."
+      ],
+      "correct_answer": "C",
+      "explanation": "Mustn't выражает официальный, обязательный запрет, который требует соблюдения. Это подходит для официальных знаков и правил. Can't был бы менее формальным, shouldn't — только совет, might not — неопределённость.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "official-prohibition"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение с First Conditional составлено НЕПРАВИЛЬНО:",
+      "options": [
+        "A) If you study hard, you will pass the exam.",
+        "B) If she will come tomorrow, we will go to the cinema.",
+        "C) If they have enough money, they will buy a new car.",
+        "D) If it rains, we will stay at home."
+      ],
+      "correct_answer": "B",
+      "explanation": "Во втором условном предложении (If-clause) используется Present Simple, а не Future (will). Правильно: «If she comes tomorrow, we will go to the cinema.»",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно завершает предложение? «If you don't finish your homework...»",
+      "options": [
+        "A) you won't go to the party.",
+        "B) you don't go to the party.",
+        "C) you will don't go to the party.",
+        "D) you are not going to the party."
+      ],
+      "correct_answer": "A",
+      "explanation": "В главном предложении (main clause) First Conditional используется will + глагол в инфинитиве. Вариант A правильно использует отрицательную форму: «won't go».",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "negative-form"
+      ]
+    },
+    {
+      "text": "Прочитай и выбери, какой глагол пропущен. «If we ___ to the beach, we will have fun.»",
+      "options": [
+        "A) will go",
+        "B) go",
+        "C) goes",
+        "D) going"
+      ],
+      "correct_answer": "B",
+      "explanation": "В условном предложении (If-clause) используется Present Simple — глагол в базовой форме 3-го лица единственного числа. Здесь подлежащее «we», поэтому — «go».",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "verb-forms"
+      ]
+    },
+    {
+      "text": "Какая пара предложений передаёт одинаковый смысл?",
+      "options": [
+        "A) 1) If you exercise regularly, you will feel better. 2) If you will exercise regularly, you feel better.",
+        "B) 1) If he doesn't call, I will be worried. 2) If he doesn't call, I will be worried.",
+        "C) 1) If it snows, we will make a snowman. 2) If it will snow, we will make a snowman.",
+        "D) 1) If they study, they will understand. 2) If they studied, they will understand."
+      ],
+      "correct_answer": "B",
+      "explanation": "Оба предложения в варианте B грамматически одинаковы и передают один смысл. Это примеры правильного First Conditional с отрицанием в условии.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "comparison"
+      ]
+    },
+    {
+      "text": "Проанализируй предложение: «If you eat too much candy, you will get sick.» Какое утверждение верно?",
+      "options": [
+        "A) Это предложение описывает прошлый факт.",
+        "B) Это предложение показывает вероятный результат будущего действия.",
+        "C) Это предложение — приказ.",
+        "D) Это предложение описывает регулярное действие в настоящем."
+      ],
+      "correct_answer": "B",
+      "explanation": "First Conditional описывает возможные будущие последствия, если произойдёт определённое условие. Это предложение показывает причинно-следственную связь в будущем.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "meaning"
+      ]
+    },
+    {
+      "text": "Как правильно трансформировать: «You don't practice. You won't improve your skills.»",
+      "options": [
+        "A) If you don't practice, you won't improve your skills.",
+        "B) If you practice, you won't improve your skills.",
+        "C) Unless you practice, you will improve your skills.",
+        "D) If you didn't practice, you won't improve your skills."
+      ],
+      "correct_answer": "A",
+      "explanation": "Два простых предложения объединяются в First Conditional с отрицательным условием. Логика: отсутствие практики → отсутствие улучшений.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "transformation"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где First Conditional использован ЛОГИЧЕСКИ НЕПРАВИЛЬНО:",
+      "options": [
+        "A) If the sun rises tomorrow, the plants will grow.",
+        "B) If you mix red and blue paint, you will get purple.",
+        "C) If water freezes, it will become ice.",
+        "D) If you are born in December, you will celebrate your birthday in winter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Вариант D описывает неизменный факт (дата рождения), а не условное действие. First Conditional используется для вероятных или возможных будущих результатов, но это предложение звучит странно логически.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "logic"
+      ]
+    },
+    {
+      "text": "Прочитай диалог. Какое продолжение НЕПРАВИЛЬНО? A: «Will you come if I invite you?» B:",
+      "options": [
+        "A) «Yes, I will come if I have time.»",
+        "B) «Yes, if I will have time, I come.»",
+        "C) «I will come if I'm not busy.»",
+        "D) «Yes, I'll come if I don't have other plans.»"
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B неправильный порядок: в условии использован Future (will have), а в главном предложении — Present Simple. Правильно: Present Simple в If-clause, will + V в main clause.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "dialogue"
+      ]
+    },
+    {
+      "text": "Какой вариант НЕПРАВИЛЬНО передаёт смысл: «Unless you pay the bill, your electricity will be cut off.»?",
+      "options": [
+        "A) If you don't pay the bill, your electricity will be cut off.",
+        "B) If you pay the bill, your electricity will not be cut off.",
+        "C) If you don't pay the bill, your electricity will be disconnected.",
+        "D) Unless you pay, power will stop."
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B меняет логику. «Unless» = «if not», поэтому правильно: отсутствие платежа приводит к отключению, а не наличие платежа предотвращает отключение.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "unless"
+      ]
+    },
+    {
+      "text": "Какое предложение требует инверсии главного и придаточного предложений?",
+      "options": [
+        "A) If you help me, I will finish on time.",
+        "B) I will finish on time, if you help me.",
+        "C) Both A and B are correct.",
+        "D) Neither A nor B is correct."
+      ],
+      "correct_answer": "C",
+      "explanation": "First Conditional допускает обе позиции. Если If-clause в начале, нужна запятая; если в конце — запятая не нужна. Оба варианта грамматически верны.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Выбери предложение с ПРАВИЛЬНЫМ использованием Present Simple в условии:",
+      "options": [
+        "A) If you takes the medicine, you will feel better.",
+        "B) If he don't finish work, he will stay late.",
+        "C) If they arrive early, they will have time to rest.",
+        "D) If she go to the store, she buys milk."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C правильно использует Present Simple 3-го лица множественного числа (they arrive). В A ошибка в согласовании (takes вместо take), в B — don't вместо doesn't, в D — неправильное время в главном предложении.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "subject-verb-agreement"
+      ]
+    },
+    {
+      "text": "Анализируя текст: «If you study this chapter, you will understand the concept. If you understand the concept, you will pass the test.» — какой логический вывод следует?",
+      "options": [
+        "A) If you study this chapter, you will pass the test.",
+        "B) If you study this chapter, you might not pass the test.",
+        "C) If you pass the test, you will study the chapter.",
+        "D) You will definitely study and pass the test."
+      ],
+      "correct_answer": "A",
+      "explanation": "Это цепь причинно-следственных связей: учёба → понимание → успех на тесте. Логический вывод: если учишься → пройдёшь тест.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "logical-chain"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно трансформирует: «You won't know the truth if you don't ask»?",
+      "options": [
+        "A) If you ask, you will know the truth.",
+        "B) Unless you ask, you won't know the truth.",
+        "C) If you don't ask, you will know the truth.",
+        "D) Both A and B are correct."
+      ],
+      "correct_answer": "D",
+      "explanation": "Оба варианта A и B логически эквивалентны исходному предложению. Unless = if not, поэтому обе трансформации грамматически и смыслово верны.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "transformation",
+        "unless"
+      ]
+    },
+    {
+      "text": "Прочитай: «If the weather is nice, we will go to the park tomorrow.» Почему используется Present Simple, а не Future?",
+      "options": [
+        "A) Потому что Present Simple более вежливо.",
+        "B) Потому что в If-clause используется Present Simple для описания условия, независимо от времени действия.",
+        "C) Потому что погода — настоящее время.",
+        "D) Потому что это ошибка, и должен быть Present Perfect."
+      ],
+      "correct_answer": "B",
+      "explanation": "First Conditional требует Present Simple в условном предложении (If-clause), даже если речь идёт о будущем. Это грамматическое правило, а не отражение времени события.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "explanation"
+      ]
+    },
+    {
+      "text": "Какой вариант НЕПРАВИЛЬНО использует вспомогательные глаголы?",
+      "options": [
+        "A) If you don't study, you will fail.",
+        "B) If she doesn't call, we will not wait.",
+        "C) If they does not arrive, we will leave.",
+        "D) If it doesn't rain, we will go out."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка: подлежащее «they» требует «do», а не «does». Правильно: «If they do not arrive» или «If they don't arrive».",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "auxiliary-verbs"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где First Conditional выражает РЕАЛЬНОЕ (вероятное) условие:",
+      "options": [
+        "A) If I were rich, I would travel the world.",
+        "B) If you eat this expired food, you will get sick.",
+        "C) If dinosaurs were alive, they would be dangerous.",
+        "D) If I were a superhero, I would save the city."
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B — единственный пример реального, вероятного условия (можно действительно съесть испорченную пищу). Остальные — невероятные или невозможные ситуации (Second Conditional).",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "real-condition"
+      ]
+    },
+    {
+      "text": "Анализируя: «If you mix these chemicals, you will create a dangerous reaction.» — какое утверждение ВЕРНО?",
+      "options": [
+        "A) Это просьба смешать химикаты.",
+        "B) Это описание прошедшего события.",
+        "C) Это предупреждение о потенциальном результате действия.",
+        "D) Это описание регулярно происходящего процесса."
+      ],
+      "correct_answer": "C",
+      "explanation": "First Conditional часто используется для предупреждений, советов и описания потенциальных результатов. В этом предложении выражается предупреждение о опасности смешивания химикатов.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "function"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ГРАММАТИЧЕСКУЮ ОШИБКУ в глагольной форме?",
+      "options": [
+        "A) If you arrive late, I will have already left.",
+        "B) If he doesn't understand, I will explain again.",
+        "C) If we will win tomorrow, we will celebrate.",
+        "D) If she finishes early, she will help us."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C содержит Future (will win) в условном предложении, что неправильно. Должно быть: «If we win tomorrow, we will celebrate» (Present Simple в If-clause).",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Как построить вопрос на основе: «If you help me, I will finish faster»?",
+      "options": [
+        "A) If you help me, will I finish faster?",
+        "B) Will I finish faster if you help me?",
+        "C) If will you help me, will I finish faster?",
+        "D) Both A and B are correct."
+      ],
+      "correct_answer": "D",
+      "explanation": "Оба варианта A и B грамматически верны. В вопросах First Conditional can переходит в начало главного предложения или остаётся в конце с if-clause в начале.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "questions"
+      ]
+    },
+    {
+      "text": "Прочитай: «If you don't practice, you won't improve.» Какой вариант ИДЕНТИЧЕН по смыслу?",
+      "options": [
+        "A) If you practice, you will improve.",
+        "B) Unless you practice, you will improve.",
+        "C) Unless you practice, you won't improve.",
+        "D) If you practice, you won't improve."
+      ],
+      "correct_answer": "C",
+      "explanation": "Unless = if not. Исходное предложение с двойным отрицанием эквивалентно: «Unless you practice (if you don't practice), you won't improve».",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "equivalence"
+      ]
+    },
+    {
+      "text": "Какой контекст НАИБОЛЕЕ ПОДХОДИТ для использования First Conditional?",
+      "options": [
+        "A) Описание прошлых событий.",
+        "B) Объяснение общепринятых истин и научных фактов.",
+        "C) Предложение условных действий с вероятным будущим результатом.",
+        "D) Описание невозможных или маловероятных ситуаций."
+      ],
+      "correct_answer": "C",
+      "explanation": "First Conditional используется для описания реальных, вероятных условий и их будущих результатов. Это основное применение структуры If + Present Simple, will + V.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "context"
+      ]
+    },
+    {
+      "text": "Выбери пример, где First Conditional используется для СОВЕТА или ИНСТРУКЦИИ:",
+      "options": [
+        "A) If you heat ice, it will melt.",
+        "B) If you follow these steps, you will build a strong foundation.",
+        "C) If it rains tomorrow, the match will be cancelled.",
+        "D) If you see a bear, you will run away."
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B — это совет или инструкция, где First Conditional показывает ожидаемый результат следования определённым действиям. Остальные описывают естественные события или предсказания.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "advice"
+      ]
+    },
+    {
+      "text": "Анализируя: «If you touch a hot stove, you will burn yourself.» Какой тип условия здесь?",
+      "options": [
+        "A) Гипотетическое условие (невероятное).",
+        "B) Реальное, общеизвестное условие (законы физики).",
+        "C) Условие из прошлого опыта.",
+        "D) Условие, зависящее от мнения говорящего."
+      ],
+      "correct_answer": "B",
+      "explanation": "Это реальное, базирующееся на физических законах условие. First Conditional используется как для вероятных ситуаций, так и для описания естественных, неизбежных причинно-следственных связей.",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "conditional-type"
+      ]
+    },
+    {
+      "text": "Какое из предложений НЕПРАВИЛЬНО применяет First Conditional для объяснения?",
+      "options": [
+        "A) If water temperature reaches 100°C, it will boil.",
+        "B) If you press this button, the device will turn on.",
+        "C) If you would study hard, you will understand the lesson.",
+        "D) If someone insults you, you will feel sad."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C ошибочен: используется Past Conditional (would) в условии вместо Present Simple. Правильно: «If you study hard, you will understand the lesson».",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "error-correction"
+      ]
+    },
+    {
+      "text": "Дополни диалог: A: «What will happen if I don't pay my rent?» B: «...»",
+      "options": [
+        "A) You will evicted from your apartment.",
+        "B) You will be evicted from your apartment.",
+        "C) You are evicted from your apartment.",
+        "D) You would be evicted from your apartment."
+      ],
+      "correct_answer": "B",
+      "explanation": "В First Conditional главное предложение использует will + be + причастие прошедшего времени для пассивного залога. Правильно: «You will be evicted» (пассивная форма Future Simple).",
+      "difficulty": 3,
+      "tags": [
+        "en-conditionals",
+        "passive-voice"
+      ]
+    },
+    {
+      "text": "Прочитай текст и определи, какая профессия описывается: «This person designs buildings and structures, creating blueprints and ensuring safety standards». О какой профессии идёт речь?",
+      "options": [
+        "A) Engineer",
+        "B) Architect",
+        "C) Constructor",
+        "D) Designer"
+      ],
+      "correct_answer": "B",
+      "explanation": "Архитектор (architect) проектирует здания и создаёт чертежи, что соответствует описанию. Engineer занимается инженерными системами, constructor — строитель, designer — общий дизайнер.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери профессию, которая НЕ связана с городской инфраструктурой: 'The city needs specialists to maintain roads, electricity, water systems, and public buildings'. Кто здесь НЕ должен быть упомянут?",
+      "options": [
+        "A) Electrician",
+        "B) Plumber",
+        "C) Archaeologist",
+        "D) Civil engineer"
+      ],
+      "correct_answer": "C",
+      "explanation": "Археолог (archaeologist) не связан с поддержкой городской инфраструктуры, в отличие от электрика, сантехника и инженера-строителя.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: 'A software developer must be skilled in coding, problem-solving, and working with modern technologies'. Какое утверждение ВЕРНО?",
+      "options": [
+        "A) Developer работает только с компьютерным железом",
+        "B) Developer должен уметь писать код и решать задачи",
+        "C) Developer не нуждается в знании технологий",
+        "D) Developer работает исключительно в офисе с бумагой"
+      ],
+      "correct_answer": "B",
+      "explanation": "Разработчик ПО должен обладать навыками кодирования (coding), решения проблем (problem-solving) и работать с современными технологиями — это явно указано в предложении.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какая пара профессий наиболее логично связана с городской инфраструктурой? 'The city infrastructure includes transportation systems, power grids, and water networks'.",
+      "options": [
+        "A) Teacher и Doctor",
+        "B) Architect и Electrician",
+        "C) Chef и Farmer",
+        "D) Singer и Actor"
+      ],
+      "correct_answer": "B",
+      "explanation": "Архитектор проектирует системы города, электрик обслуживает электросети — обе профессии напрямую связаны с инфраструктурой.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'Modern cities rely on digital technologies to manage traffic lights, monitor air quality, and provide public services through apps'. Какая технология НЕ упомянута?",
+      "options": [
+        "A) Traffic management systems",
+        "B) Air quality monitoring",
+        "C) Mobile applications",
+        "D) Underground mining equipment"
+      ],
+      "correct_answer": "D",
+      "explanation": "Подземное горнодобывающее оборудование (underground mining equipment) не является частью управления современным городом, в отличие от остальных технологий.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Какой вывод можно сделать из текста: 'A civil engineer oversees construction projects, while an architect designs the plans. Both must understand building codes and safety regulations'?",
+      "options": [
+        "A) Архитектор и инженер выполняют одинаковую работу",
+        "B) Архитектор проектирует, инженер реализует, оба знают стандарты",
+        "C) Инженер проектирует, архитектор строит",
+        "D) Они не работают вместе на одном проекте"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст ясно показывает разделение: архитектор дизайнит (designs), инженер надзирает (oversees), и оба должны понимать коды и стандарты.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Определи правильное утверждение о профессии на основе текста: 'A network administrator manages computer systems, ensures data security, and maintains server infrastructure in organizations'.",
+      "options": [
+        "A) Network administrator только устанавливает компьютеры",
+        "B) Network administrator управляет системами и защищает данные",
+        "C) Network administrator занимается только физическим ремонтом",
+        "D) Network administrator не использует современные технологии"
+      ],
+      "correct_answer": "B",
+      "explanation": "Администратор сети управляет компьютерными системами (manages systems), обеспечивает безопасность данных (ensures data security) и поддерживает инфраструктуру серверов.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какая профессия наиболее важна для разработки 'smart cities' — 'cities using technology to improve services and reduce resource consumption'?",
+      "options": [
+        "A) Gardener",
+        "B) Data scientist и IT specialist",
+        "C) Librarian",
+        "D) Tailor"
+      ],
+      "correct_answer": "B",
+      "explanation": "Учёный по данным и IT-специалист необходимы для разработки технологий умных городов, так как они работают с технологиями и данными.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "infrastructure",
+        "professions"
+      ]
+    },
+    {
+      "text": "Прочитай и выбери НЕПРАВИЛЬНОЕ утверждение: 'In modern cities, urban planners design layouts, architects create building designs, and construction workers build them. Technology helps coordinate all processes'.",
+      "options": [
+        "A) Urban planners проектируют планы города",
+        "B) Architects создают дизайн зданий",
+        "C) Construction workers строят здания",
+        "D) Technology не используется в координации процессов"
+      ],
+      "correct_answer": "D",
+      "explanation": "Текст явно говорит 'Technology helps coordinate' (технология помогает координировать), поэтому утверждение что технология не используется — неправильно.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какой из предложенных вариантов ЛУЧШЕ всего объясняет взаимосвязь: 'A city's transportation infrastructure depends on software engineers, civil engineers, and urban planners working together'?",
+      "options": [
+        "A) Только один специалист может разработать транспортную систему",
+        "B) Разные специалисты играют разные роли в создании транспортной инфраструктуры",
+        "C) Urban planners не важны для транспорта",
+        "D) Software engineers работают независимо от гражданских инженеров"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст подчёркивает, что все три типа специалистов работают вместе (working together), что указывает на их взаимозависимость и разные роли.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "На основе текста определи, какие технологии помогают современным городам: 'IoT sensors monitor pollution, AI systems optimize traffic flow, and cloud computing manages city services'. Что из этого НЕ упомянуто?",
+      "options": [
+        "A) IoT sensors",
+        "B) AI systems",
+        "C) Cloud computing",
+        "D) Blockchain technology"
+      ],
+      "correct_answer": "D",
+      "explanation": "В тексте упомянуты датчики IoT, AI и облачные вычисления, но блокчейн-технология явно не названа.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Какая профессия требует наиболее глубокого понимания технологий по текст: 'A cybersecurity expert protects networks from attacks, analyzes threats, and implements security protocols using advanced technology'?",
+      "options": [
+        "A) Receptionist",
+        "B) Gardener",
+        "C) Cybersecurity expert",
+        "D) Cleaner"
+      ],
+      "correct_answer": "C",
+      "explanation": "Специалист по кибербезопасности использует передовые технологии (advanced technology) для защиты систем, анализа угроз и внедрения протоколов безопасности.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Проанализируй два предложения и выбери ВЕРНОЕ заключение: 'The city needs both traditional infrastructure (roads, buildings) and digital infrastructure (networks, systems)'. Это означает:",
+      "options": [
+        "A) Города нуждаются только в традиционной инфраструктуре",
+        "B) Города нуждаются только в цифровой инфраструктуре",
+        "C) Современные города нуждаются в обоих типах инфраструктуры",
+        "D) Инфраструктура не важна для городов"
+      ],
+      "correct_answer": "C",
+      "explanation": "Слово 'both' (оба) ясно указывает, что города нуждаются как в традиционной, так и в цифровой инфраструктуре.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Выбери профессию, которая скорее всего сотрудничает с 'software developer' для создания городских приложений: 'City apps help residents pay utilities, book public transport, and access city information'. Это вероятно делает:",
+      "options": [
+        "A) Chef",
+        "B) UX/UI Designer",
+        "C) Farmer",
+        "D) Musician"
+      ],
+      "correct_answer": "B",
+      "explanation": "UX/UI дизайнер создаёт пользовательский интерфейс и опыт приложений, работая с разработчиком для создания удобных городских приложений.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какой вывод НЕПРАВИЛЬНЫЙ на основе текста: 'Modern cities use technologies like 5G networks, smart meters, and automated systems. These require technicians and engineers to maintain them'?",
+      "options": [
+        "A) 5G сети используются в современных городах",
+        "B) Smart meters — часть городской инфраструктуры",
+        "C) Технологии не требуют специалистов для обслуживания",
+        "D) Engineers и technicians необходимы для поддержки технологий"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст явно говорит 'These require technicians and engineers', поэтому утверждение что технологии не требуют специалистов — неправильно.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "infrastructure",
+        "professions"
+      ]
+    },
+    {
+      "text": "На основе анализа текста выбери ПРАВИЛЬНОЕ соответствие: 'A graphic designer creates visual content using Adobe software, while a web developer builds websites using HTML and CSS'. Это показывает:",
+      "options": [
+        "A) Обе профессии используют одни и те же инструменты",
+        "B) Обе профессии используют разные технологии для разных целей",
+        "C) Web developer может заменить graphic designer",
+        "D) Graphic designer занимается только печатью"
+      ],
+      "correct_answer": "B",
+      "explanation": "Дизайнер использует Adobe (визуальный контент), а разработчик — HTML и CSS (веб-сайты), что показывает разные технологии для разных целей.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какой вывод можно сделать из текста о городской инфраструктуре: 'Without power engineers, the city loses electricity. Without water engineers, residents lack water. Without IT specialists, digital systems fail'?",
+      "options": [
+        "A) Все профессии в городе одинаково важны",
+        "B) Некоторые профессии более критичны для города чем другие",
+        "C) IT specialists менее важны чем другие инженеры",
+        "D) Power engineers — единственные нужные специалисты"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст демонстрирует, что каждая из этих профессий критична — без них город теряет основные сервисы, что показывает их особую важность.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "professions"
+      ]
+    },
+    {
+      "text": "Определи логическую связь: 'A project manager coordinates architects, engineers, and construction workers. Without a project manager, communication breaks down and projects fail'. Это значит:",
+      "options": [
+        "A) Project manager не нужен для строительства",
+        "B) Architect главнее чем project manager",
+        "C) Project manager играет координирующую роль, необходимую для успеха проекта",
+        "D) Construction workers работают независимо от project manager"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст показывает, что project manager координирует всех специалистов, и без этого координирования проекты терпят неудачу, подчёркивая его критическую роль.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "На основе анализа выбери НЕВЕРНОЕ утверждение: 'A city with modern infrastructure has better quality of life. Technology improves services efficiency. Well-trained professionals maintain these systems'.",
+      "options": [
+        "A) Современная инфраструктура улучшает качество жизни",
+        "B) Технология повышает эффективность сервисов",
+        "C) Качество жизни не зависит от инфраструктуры",
+        "D) Обученные специалисты поддерживают системы"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст ясно связывает современную инфраструктуру с лучшим качеством жизни, поэтому утверждение что это не связано — неверно.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Какой профессионал БОЛЬШЕ всего пострадает от отсутствия интернета в городе: 'Data scientists analyze big data for city planning. Architects use CAD software. Construction workers use equipment. All use some technology'?",
+      "options": [
+        "A) Construction worker",
+        "B) Architect",
+        "C) Data scientist",
+        "D) Все в равной степени"
+      ],
+      "correct_answer": "C",
+      "explanation": "Data scientist анализирует большие данные (big data), что требует постоянного подключения к интернету для работы с облачными системами и хранилищами данных.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "technologies"
+      ]
+    },
+    {
+      "text": "Прочитай текст и выбери ПРАВИЛЬНЫЙ вывод: 'Some cities use AI to predict infrastructure problems before they occur. This allows maintenance teams to act proactively instead of reactively'.",
+      "options": [
+        "A) AI делает инженеров ненужными",
+        "B) AI помогает предотвратить проблемы, улучшая обслуживание",
+        "C) Проблемы невозможно предсказать",
+        "D) Reactive maintenance лучше чем proactive"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст показывает, что AI позволяет предвидеть проблемы и действовать заранее (proactively), что лучше чем реагировать на проблемы уже после их возникновения.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "Проанализируй текст о профессиях: 'Some jobs require only technical skills (programmer, electrician), while others need soft skills too (project manager, architect)'. Какое утверждение ВЕРНО?",
+      "options": [
+        "A) Технические профессии не требуют soft skills",
+        "B) Project manager не нуждается в технических знаниях",
+        "C) Разные профессии требуют разные комбинации навыков",
+        "D) Soft skills не важны в технических профессиях"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст явно различает профессии требующие разные наборы навыков — технические, мягкие, или комбинацию обоих.",
+      "difficulty": 3,
+      "tags": [
+        "professions",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какой фактор НЕ упомянут как важный для развития современного города: 'A growing city needs skilled professionals, modern technology, sufficient funding, and infrastructure planning'?",
+      "options": [
+        "A) Skilled professionals",
+        "B) Modern technology",
+        "C) Sufficient funding",
+        "D) Government censorship"
+      ],
+      "correct_answer": "D",
+      "explanation": "Цензура правительства (government censorship) вообще не упомянута как фактор развития города. Текст говорит о профессионалах, технологии, финансировании и планировании.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери ПРАВИЛЬНОЕ объяснение взаимосвязи: 'Environmental engineers design systems to reduce pollution. Urban planners create green spaces. Both professions address sustainability'. Это показывает:",
+      "options": [
+        "A) Только инженеры могут решить экологические проблемы",
+        "B) Urban planners не занимаются экологией",
+        "C) Разные профессионалы сотрудничают для достижения общей цели устойчивого развития",
+        "D) Green spaces не помогают в борьбе с загрязнением"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст показывает, что оба типа специалистов работают на одну цель (sustainability) разными способами, демонстрируя сотрудничество для общего результата.",
+      "difficulty": 3,
+      "tags": [
+        "infrastructure",
+        "professions"
+      ]
+    },
+    {
+      "text": "На основе текста определи НЕПРАВИЛЬНОЕ утверждение: 'Automation technology reduces manual work in factories, but creates demand for new jobs like robot technicians and AI trainers. Society must adapt with retraining programs'.",
+      "options": [
+        "A) Автоматизация снижает ручную работу",
+        "B) Создаются новые профессии вроде robot technician",
+        "C) Автоматизация уничтожает все рабочие места без возможности восстановления",
+        "D) Общество должно адаптироваться с помощью переподготовки"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст показывает, что хотя автоматизация снижает одни работы, она создаёт новые, и общество может адаптироваться, поэтому утверждение об уничтожении всех мест — неправильно.",
+      "difficulty": 3,
+      "tags": [
+        "technologies",
+        "professions"
+      ]
+    },
+    {
+      "text": "Прочитай предложение и определи, какой глагол описывает длительное действие в прошлом: 'While I was studying, my friend called me.'",
+      "options": [
+        "A) was studying",
+        "B) called",
+        "C) оба глагола одинаково",
+        "D) ни один не описывает длительное действие"
+      ],
+      "correct_answer": "A",
+      "explanation": "was studying — это Past Continuous (было + глагол с -ing), описывает длительное действие. called — Past Simple, обозначает завершённое действие, прерывившее длительное действие.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "past-continuous-vs-simple"
+      ]
+    },
+    {
+      "text": "Выбери правильное завершение: 'When the teacher entered the classroom, the students ___ their homework.'",
+      "options": [
+        "A) were doing",
+        "B) did",
+        "C) have done",
+        "D) do"
+      ],
+      "correct_answer": "A",
+      "explanation": "Нужен Past Continuous (were doing), потому что действие 'делают домашку' уже было в процессе, когда произошло другое действие 'учитель вошёл' (Past Simple). were doing показывает, что это был продолжающийся процесс.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "past-continuous"
+      ]
+    },
+    {
+      "text": "Какое предложение правильно передаёт смысл: 'Она завтракала, когда я пришёл домой'?",
+      "options": [
+        "A) She was having breakfast when I came home",
+        "B) She had breakfast when I came home",
+        "C) She has been having breakfast when I came home",
+        "D) She was had breakfast when I came home"
+      ],
+      "correct_answer": "A",
+      "explanation": "was having breakfast — Past Continuous, подходит для действия, которое было в процессе. came home — Past Simple, обозначает момент прерывания. Вариант B неверен, так как had breakfast предполагает завершённое действие.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "past-continuous-translation"
+      ]
+    },
+    {
+      "text": "Найди предложение, где Past Continuous и Past Simple используются неправильно:",
+      "options": [
+        "A) I was reading when the phone rang",
+        "B) She studied for two hours yesterday",
+        "C) They were playing football when it started to rain",
+        "D) While he was eating, he broke a tooth"
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B 'studied for two hours' — это Past Simple, но фраза 'for two hours' указывает на длительность действия, что требует Past Continuous (was studying for two hours). Остальные варианты грамматически верны.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "error-recognition"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'Yesterday at 5 PM, I was cooking dinner. My sister called and we talked for an hour.' Какой глагол показывает действие, которое уже было в процессе?",
+      "options": [
+        "A) called",
+        "B) talked",
+        "C) was cooking",
+        "D) were cooking"
+      ],
+      "correct_answer": "C",
+      "explanation": "was cooking — Past Continuous, показывает действие, которое уже происходило в конкретный момент времени (5 PM). called — это Past Simple, обозначает прерывающее действие.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "text-analysis"
+      ]
+    },
+    {
+      "text": "Выбери правильное предложение, используя were/was и -ing форму:",
+      "options": [
+        "A) They was waiting for the bus when it started raining",
+        "B) They were waiting for the bus when it started raining",
+        "C) They were waiting for the bus when it was rained",
+        "D) They was waiting for the bus when it was raining"
+      ],
+      "correct_answer": "B",
+      "explanation": "were waiting правильно использует были (множественное число 'they') + глагол с -ing. started raining — Past Simple, описывает момент прерывания. Вариант A ошибочен в согласовании (was с they), C неправилен в структуре (was rained).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "past-continuous-structure"
+      ]
+    },
+    {
+      "text": "Какое временное выражение обычно требует Past Continuous, а не Past Simple?",
+      "options": [
+        "A) yesterday, last week, last month",
+        "B) while, at that moment, during",
+        "C) two days ago, in 2020, suddenly",
+        "D) always, usually, often"
+      ],
+      "correct_answer": "B",
+      "explanation": "while (пока), at that moment (в тот момент), during (во время) указывают на длительный процесс в прошлом, требуют Past Continuous. Вариант A подходит для Past Simple; C и D — это markers для других времён.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "time-markers"
+      ]
+    },
+    {
+      "text": "Заполни пропуск: 'As I ___ the letter, I found a spelling mistake.'",
+      "options": [
+        "A) wrote",
+        "B) was writing",
+        "C) have written",
+        "D) write"
+      ],
+      "correct_answer": "B",
+      "explanation": "was writing — Past Continuous, потому что действие 'писал' было в процессе, когда произошло другое действие 'нашёл ошибку' (Past Simple). As обозначает одновременность действий, требуя Past Continuous для основного действия.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "past-continuous-with-as"
+      ]
+    },
+    {
+      "text": "Определи, в каком предложении Past Continuous используется некорректно:",
+      "options": [
+        "A) I was sleeping when you called",
+        "B) He was understanding the lesson when the bell rang",
+        "C) She was writing the essay all evening",
+        "D) They were discussing the problem for an hour"
+      ],
+      "correct_answer": "B",
+      "explanation": "understand — глагол состояния, не используется в Past Continuous. Правильно: 'He understood the lesson when the bell rang' или 'He was learning...' Остальные варианты верны: sleep, write, discuss — глаголы действия, допускают Past Continuous.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "stative-verbs"
+      ]
+    },
+    {
+      "text": "Переведи и выбери правильный перевод: 'Мы играли в теннис, когда начался дождь.'",
+      "options": [
+        "A) We played tennis when it rained",
+        "B) We were playing tennis when it was raining",
+        "C) We were playing tennis when it started to rain",
+        "D) We have been playing tennis when it rained"
+      ],
+      "correct_answer": "C",
+      "explanation": "were playing tennis — Past Continuous (длительное действие), started to rain — Past Simple (действие, прерывшее первое). Вариант B неправилен (обе части в Continuous), A использует оба в Simple, что теряет смысл одновременности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "translation-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение логически верно отражает последовательность событий?",
+      "options": [
+        "A) The phone rang while I was sleeping",
+        "B) The phone rang while I slept",
+        "C) The phone was ringing while I was sleeping",
+        "D) The phone rings while I was sleeping"
+      ],
+      "correct_answer": "A",
+      "explanation": "was sleeping — Past Continuous показывает, что сон уже происходил, когда раздался звонок (Past Simple 'rang'). Вариант B неверен (два Past Simple звучат как последовательные события), C придаёт звонку длительность, что невозможно, D смешивает времена.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "logic-sequence"
+      ]
+    },
+    {
+      "text": "Найди правильное объяснение разницы: 'She was reading a book' vs 'She read a book'",
+      "options": [
+        "A) Первое — законченное, второе — незаконченное действие",
+        "B) Первое показывает действие в процессе, второе — завершённое действие",
+        "C) Они полностью идентичны по значению",
+        "D) Первое используется только с 'was', второе — только с 'did'"
+      ],
+      "correct_answer": "B",
+      "explanation": "was reading (Past Continuous) — действие было в процессе, его результат неизвестен. read (Past Simple) — действие завершено, есть результат. Это ключевая разница между двумя временами в прошлом.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "semantic-difference"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где Past Continuous необходим для правильного смысла:",
+      "options": [
+        "A) I wrote three letters yesterday",
+        "B) When you arrived, I cooked dinner",
+        "C) She visited Paris last summer",
+        "D) They lived in this house for ten years"
+      ],
+      "correct_answer": "B",
+      "explanation": "В B нужно 'was cooking' (была в процессе готовки), потому что приход друга (arrived) произошёл во время готовки. A, C, D — это Past Simple действия, не требующие Continuous и не подразумевающие прерывание.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "context-usage"
+      ]
+    },
+    {
+      "text": "Какая форма будет правильной в предложении: 'At 8 AM, I ___ breakfast; I didn't hear the doorbell.'",
+      "options": [
+        "A) ate",
+        "B) was eating",
+        "C) have eaten",
+        "D) am eating"
+      ],
+      "correct_answer": "B",
+      "explanation": "was eating — Past Continuous, потому что говорящий был поглощён едой (был в процессе завтрака), поэтому не услышал звонок. Это объясняет причину, почему не слышал: действие was eating продолжалось, когда раздался звонок.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "reason-explanation"
+      ]
+    },
+    {
+      "text": "Определи, в каком контексте Past Continuous НЕ используется:",
+      "options": [
+        "A) Описание двух одновременных действий в прошлом",
+        "B) Описание прерванного действия в прошлом",
+        "C) Описание фоновой ситуации в рассказе",
+        "D) Описание серии завершённых действий"
+      ],
+      "correct_answer": "D",
+      "explanation": "Для серии завершённых действий используется Past Simple (He woke up, dressed, had breakfast and left). Past Continuous используется для длительных, прерванных или фоновых действий, а также для одновременных процессов.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "usage-contexts"
+      ]
+    },
+    {
+      "text": "Прочитай фрагмент и определи ошибку: 'Yesterday I was working when my boss came to my office. He was standing there and looked at my screen.'",
+      "options": [
+        "A) was working — неправильно, нужно worked",
+        "B) came — неправильно, нужно was coming",
+        "C) looked — неправильно, нужно was looking",
+        "D) standing — неправильно, нужно stood"
+      ],
+      "correct_answer": "C",
+      "explanation": "looked неправильно после 'was standing'. Логично: босс стоял (was standing) и смотрел (was looking) на экран одновременно — оба действия должны быть в Past Continuous, так как они происходили одновременно в прошлом.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "error-correction"
+      ]
+    },
+    {
+      "text": "Что выражает предложение 'I was living in Moscow for three years'? Какова проблема с этой фразой?",
+      "options": [
+        "A) Всё верно, это нормальное использование Past Continuous",
+        "B) Ошибка: нужен Past Simple (I lived), так как указана конкретная продолжительность",
+        "C) Нужен Present Perfect (I have been living), чтобы показать незаконченность",
+        "D) Нужен Past Perfect (I had been living), так как это случилось раньше"
+      ],
+      "correct_answer": "B",
+      "explanation": "Фраза 'for three years' (в течение трёх лет) требует Past Simple (I lived in Moscow for three years), а не Past Continuous. Past Continuous требует момента времени или other action, а не периода длительности.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "duration-markers"
+      ]
+    },
+    {
+      "text": "Выбери правильный порядок действий, используя Past Simple и Past Continuous: 'Сначала он рисовал, потом пришёл друг.'",
+      "options": [
+        "A) He drew when his friend came",
+        "B) He was drawing when his friend came",
+        "C) He had drawn when his friend came",
+        "D) He draws when his friend comes"
+      ],
+      "correct_answer": "B",
+      "explanation": "was drawing показывает, что рисование уже было в процессе до прихода друга. came — Past Simple, момент прирывания. Вариант A неверен, так как 'drew when came' предполагает их одновременность, а не первичность рисования.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "sequence-of-events"
+      ]
+    },
+    {
+      "text": "Какое предложение полностью корректно в грамматике и смысле?",
+      "options": [
+        "A) While they was playing, it was rained",
+        "B) While they were playing, it was raining",
+        "C) While they were playing, it rained",
+        "D) While they playing, it was raining"
+      ],
+      "correct_answer": "C",
+      "explanation": "were playing — Past Continuous (правильное согласование с 'they'). it rained — Past Simple можно использовать, когда дождь начался во время игры (момент начала дождя прерывает игру). Вариант B имеет две Continuous части (некорректно для моментального события).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "agreement-consistency"
+      ]
+    },
+    {
+      "text": "Анализируй два варианта и выбери более корректный: '1) I was cooking dinner when you called. 2) I cooked dinner when you called.'",
+      "options": [
+        "A) Оба одинаково верны",
+        "B) Первый верен, так как готовка была в процессе",
+        "C) Второй верен, так как готовка уже завершилась",
+        "D) Оба неверны, нужен Present Simple"
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант 1 (was cooking) правильный: готовка была в процессе, когда раздался звонок. Вариант 2 (cooked) меняет смысл: готовка завершилась, а потом позвонили, что логически неверно в этом контексте.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "comparative-analysis"
+      ]
+    },
+    {
+      "text": "Найди предложение, где Past Continuous обозначает фоновую ситуацию в рассказе:",
+      "options": [
+        "A) I was eating when the phone rang",
+        "B) The sun was shining and birds were singing while I walked in the park",
+        "C) She was writing her essay quickly",
+        "D) They were arguing about politics yesterday"
+      ],
+      "correct_answer": "B",
+      "explanation": "В B Past Continuous (was shining, were singing) создаёт фоновую атмосферу для действия 'I walked'. Это характерное использование для описания сцены. A — прерывание, C — просто длительное действие, D — просто завершённое действие в прошлом.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "narrative-background"
+      ]
+    },
+    {
+      "text": "Определи, какой глагол НЕ может использоваться в Past Continuous:",
+      "options": [
+        "A) believe",
+        "B) run",
+        "C) imagine",
+        "D) paint"
+      ],
+      "correct_answer": "C",
+      "explanation": "imagine — глагол состояния/умственного процесса, не используется в Continuous формах. believe (верить), run (бежать), paint (рисовать) — все это глаголы действия, которые могут стоять в Past Continuous (was imagining неправильно).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "stative-verbs-recognition"
+      ]
+    },
+    {
+      "text": "Выбери предложение, которое правильно передаёт значение: 'Я читал целый день вчера (и закончил)'.",
+      "options": [
+        "A) I was reading all day yesterday",
+        "B) I have been reading all day yesterday",
+        "C) I read all day yesterday",
+        "D) I was read all day yesterday"
+      ],
+      "correct_answer": "C",
+      "explanation": "read (Past Simple) — подходит, так как указывает на завершённое действие с результатом. was reading (Past Continuous) подчеркивает процесс без результата. Скобка 'и закончил' требует Past Simple, а не Continuous.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "result-completion"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно использует время в условной конструкции: 'If I ___ what would happen, I wouldn't have come.'",
+      "options": [
+        "A) had known",
+        "B) was knowing",
+        "C) knew",
+        "D) would have known"
+      ],
+      "correct_answer": "B",
+      "explanation": "was knowing — неправильно, так как условные предложения 3-го типа требуют Past Perfect (had known). Past Continuous не используется в условных предложениях третьего типа. Правильно: 'If I had known...' (если бы я знал).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "conditional-structures"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1557 @@
+{
+  "topic": "Английский",
+  "title": "Английский — Уровень 4",
+  "grade_level": 7,
+  "difficulty": 4,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Какая форма глагола требуется в главном предложении при использовании Second Conditional: «If I ___ you, I would help»?",
+      "options": [
+        "A) were",
+        "B) am",
+        "C) had been",
+        "D) would be"
+      ],
+      "correct_answer": "A",
+      "explanation": "В Second Conditional используется Past Simple в условии (if + V2/was-were). Здесь нужна форма 'were' как Past Simple от 'to be'.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Переведите и определите правильное второе условное: «Если бы я был президентом, я бы изменил образование»",
+      "options": [
+        "A) If I would be president, I would change education",
+        "B) If I were president, I would change education",
+        "C) If I am president, I will change education",
+        "D) If I had been president, I would change education"
+      ],
+      "correct_answer": "B",
+      "explanation": "Second Conditional требует 'were' (не 'would be') в условии и 'would + V' в главном предложении. Это нереальная гипотеза в настоящем.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "translation"
+      ]
+    },
+    {
+      "text": "Укажите ошибку в предложении: «If she studied more, she would gets better marks»",
+      "options": [
+        "A) неправильная форма 'studied'",
+        "B) неправильная форма 'would gets' (должно 'would get')",
+        "C) отсутствует запятая",
+        "D) неправильное время в условии"
+      ],
+      "correct_answer": "B",
+      "explanation": "После 'would' всегда следует инфинитив без 'to' (base form): 'would get', а не 'would gets'. Это частая ошибка при спряжении.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "errors"
+      ]
+    },
+    {
+      "text": "Какое предложение корректно выражает нереальное условие: «Если бы у меня было больше времени...»?",
+      "options": [
+        "A) If I have more time, I will travel",
+        "B) If I had more time, I would travel",
+        "C) If I would have more time, I would travel",
+        "D) If I had more time, I will travel"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильная структура Second Conditional: 'If + Past Simple' (had) + 'would + V' (would travel). Вариант A — First Conditional, C и D содержат смешанные времена.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "structure"
+      ]
+    },
+    {
+      "text": "Проанализируйте: «If you didn't waste time on social media, you would achieve your goals». Какое нарушение здесь?",
+      "options": [
+        "A) ошибки нет, это корректный Second Conditional",
+        "B) 'didn't' следует заменить на 'don't'",
+        "C) нужна форма 'would not achieve'",
+        "D) нужен Past Perfect 'had not wasted'"
+      ],
+      "correct_answer": "A",
+      "explanation": "Предложение полностью корректно: условие с отрицанием в Past Simple (didn't waste), главное предложение с would + V (would achieve).",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "negation"
+      ]
+    },
+    {
+      "text": "Заполните пропуск: «If he ___ harder, he wouldn't have failed the exam»",
+      "options": [
+        "A) would study",
+        "B) studied",
+        "C) had studied",
+        "D) studies"
+      ],
+      "correct_answer": "C",
+      "explanation": "Здесь требуется Third Conditional (Past Perfect), так как речь о событии в прошлом. Фраза 'wouldn't have failed' указывает на Past Perfect в условии (had studied).",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "mixed"
+      ]
+    },
+    {
+      "text": "Определите тип условного предложения: «If I were taller, I would play basketball»",
+      "options": [
+        "A) First Conditional",
+        "B) Second Conditional",
+        "C) Third Conditional",
+        "D) Zero Conditional"
+      ],
+      "correct_answer": "B",
+      "explanation": "Second Conditional используется для гипотезы в настоящем/будущем, которая невероятна. Форма 'were' в условии и 'would play' подтверждают это.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "classification"
+      ]
+    },
+    {
+      "text": "Какое предложение НЕ является Second Conditional?",
+      "options": [
+        "A) If I had a car, I would drive to work",
+        "B) If you were smarter, you wouldn't ask that",
+        "C) If she studies, she will pass the test",
+        "D) If they had money, they would buy a house"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C — это First Conditional (present condition, future result). Остальные содержат структуру Second Conditional (Past Simple + would + V).",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "classification"
+      ]
+    },
+    {
+      "text": "Переделайте в Second Conditional: «If you don't practice, you won't improve» (эквивалент нереального сценария)",
+      "options": [
+        "A) If you didn't practice, you wouldn't improve",
+        "B) If you wouldn't practice, you won't improve",
+        "C) If you hadn't practiced, you would improve",
+        "D) If you practice not, you wouldn't improve"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для преобразования First Conditional в Second нужно использовать Past Simple в обоих частях: didn't practice + wouldn't improve.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "transformation"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно передаёт смысл: «Будь я на его месте, я бы согласился»?",
+      "options": [
+        "A) If I would be in his place, I would agree",
+        "B) If I were in his place, I would agree",
+        "C) If I was in his place, I would agree",
+        "D) If I am in his place, I will agree"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Second Conditional для 'to be' всегда используется 'were' (даже с 'I'), а не 'was' или 'would be'. Форма 'were' — это сослагательное наклонение.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "subjunctive"
+      ]
+    },
+    {
+      "text": "Проанализируйте ошибку: «If I would know the answer, I would tell you»",
+      "options": [
+        "A) 'would know' следует заменить на 'knew'",
+        "B) нужна форма 'have known'",
+        "C) нужен Third Conditional",
+        "D) ошибки нет"
+      ],
+      "correct_answer": "A",
+      "explanation": "В условии Second Conditional нельзя использовать 'would'. Правильно: 'If I knew the answer, I would tell you'.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "errors",
+        "common-mistakes"
+      ]
+    },
+    {
+      "text": "Определите, какое предложение эквивалентно по значению: «If I were you, I would accept the job»",
+      "options": [
+        "A) I am not you, so I won't accept",
+        "B) I wish I had accepted the job",
+        "C) I'm not you, but if I were, I would accept",
+        "D) You should accept if I were you"
+      ],
+      "correct_answer": "C",
+      "explanation": "Это парафраза со вставкой 'but' для подчёркивания гипотетичности. Остальные варианты искажают смысл или используют другие структуры.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "paraphrase"
+      ]
+    },
+    {
+      "text": "Заполните оба пропуска: «If I ___ rich, I ___ travel around the world»",
+      "options": [
+        "A) am / will",
+        "B) were / would",
+        "C) had been / would",
+        "D) would be / would"
+      ],
+      "correct_answer": "B",
+      "explanation": "Second Conditional требует Past Simple (were) в условии и would + V (would travel) в главном предложении для выражения нереальной гипотезы.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "gap-filling"
+      ]
+    },
+    {
+      "text": "Какой вариант наиболее точно передаёт утверждение: «Без твоей помощи я бы провалился»?",
+      "options": [
+        "A) If you helped me, I would fail",
+        "B) If you don't help, I will fail",
+        "C) If you hadn't helped, I would have failed",
+        "D) If you weren't helping, I would fail"
+      ],
+      "correct_answer": "C",
+      "explanation": "Речь идёт о прошлом событии, которое уже произошло, поэтому нужен Third Conditional: Past Perfect (hadn't helped) + would have + V3.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "mixed",
+        "third-conditional"
+      ]
+    },
+    {
+      "text": "Укажите предложение, где Second Conditional использован ПРАВИЛЬНО с точки зрения грамматики и логики:",
+      "options": [
+        "A) If he would study, he would understand",
+        "B) If he studied, he would understand",
+        "C) If he studies, he would understand",
+        "D) If he had studied, he would understand"
+      ],
+      "correct_answer": "B",
+      "explanation": "Только вариант B имеет правильную структуру: Past Simple (studied) + would + V (would understand). Это описывает нереальную ситуацию в настоящем.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "grammar-check"
+      ]
+    },
+    {
+      "text": "Переведите смысл на английский: «Если бы я знал её номер телефона, я бы позвонил»",
+      "options": [
+        "A) If I know her phone number, I will call her",
+        "B) If I knew her phone number, I would call her",
+        "C) If I would know her phone number, I would call",
+        "D) If I had known her number, I would call"
+      ],
+      "correct_answer": "B",
+      "explanation": "Это гипотеза в настоящем (я не знаю номер), требует Second Conditional: knew (Past Simple) + would call.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "translation"
+      ]
+    },
+    {
+      "text": "Какой из примеров НЕ демонстрирует Second Conditional?",
+      "options": [
+        "A) If I weren't busy, I would come with you",
+        "B) If she had the money, she would buy it",
+        "C) If you had studied hard, you would pass",
+        "D) If they had more time, they would help us"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C содержит Past Perfect (had studied), это Third Conditional, а не Second. Остальные используют Past Simple в условии.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "classification"
+      ]
+    },
+    {
+      "text": "Определите подтип условного в «If I had the skills, I would become a programmer»:",
+      "options": [
+        "A) First Conditional",
+        "B) Second Conditional",
+        "C) Third Conditional",
+        "D) Mixed Conditional"
+      ],
+      "correct_answer": "B",
+      "explanation": "Это Second Conditional: Past Simple (had) в условии и would + V в главном предложении. Речь об нереальной гипотезе в настоящем.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "classification"
+      ]
+    },
+    {
+      "text": "Какое из утверждений верно относительно 'were' в Second Conditional?",
+      "options": [
+        "A) 'were' используется только с множественным числом",
+        "B) 'were' — форма Past Simple для всех лиц в сослагательном наклонении",
+        "C) 'were' можно заменить на 'was'",
+        "D) 'were' не обязательно использовать с 'to be'"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Second Conditional 'were' — это сослагательная форма Past Simple, используется для всех лиц (I were, you were, he/she/it were), даже если в обычном прошлом используется 'was'.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "subjunctive",
+        "grammar-theory"
+      ]
+    },
+    {
+      "text": "Замените подчёркнутую часть: «If you DIDN'T SPEND so much money, you WOULD HAVE more savings». Найдите логическую ошибку:",
+      "options": [
+        "A) это корректно, ошибки нет",
+        "B) нужен Third Conditional: 'If you hadn't spent, you would have had'",
+        "C) нужен First Conditional",
+        "D) 'would have' заменить на 'will have'"
+      ],
+      "correct_answer": "B",
+      "explanation": "Смешанный тип: условие о прошлом требует Past Perfect (hadn't spent), а следствие о настоящем — would have (сейчас иметь больше сбережений).",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "mixed"
+      ]
+    },
+    {
+      "text": "Проанализируйте: «If he weren't so stubborn, we would get along better». Какой это тип условного?",
+      "options": [
+        "A) First Conditional",
+        "B) Second Conditional",
+        "C) Third Conditional",
+        "D) Zero Conditional"
+      ],
+      "correct_answer": "B",
+      "explanation": "Second Conditional: 'weren't' (Past Simple от 'to be') в условии + 'would get' в главном. Это нереальная ситуация в настоящем (он действительно упрямый).",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "classification"
+      ]
+    },
+    {
+      "text": "Какой вариант корректно выражает непробуемую гипотезу: «Если бы мир был справедлив...»?",
+      "options": [
+        "A) If the world will be just, people would be happy",
+        "B) If the world is just, people are happy",
+        "C) If the world were just, people would be happy",
+        "D) If the world would be just, people would be happy"
+      ],
+      "correct_answer": "C",
+      "explanation": "Это явно нереальная гипотеза требует Second Conditional: 'were' (сослагательная форма) + 'would be'. Мир не справедлив, это контрфактическое условие.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "counterfactual"
+      ]
+    },
+    {
+      "text": "Укажите предложение, где нарушена согласованность времён в Second Conditional:",
+      "options": [
+        "A) If I won the lottery, I would travel",
+        "B) If she didn't have kids, she would work",
+        "C) If they were invited, they would come",
+        "D) If you had money, you will buy a car"
+      ],
+      "correct_answer": "D",
+      "explanation": "В варианте D смешаны времена: 'had' (Past Simple) в условии и 'will buy' (Future Simple) в главном. Должно быть 'would buy'.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "consistency"
+      ]
+    },
+    {
+      "text": "Какое предложение демонстрирует корректное использование инверсии в Second Conditional?",
+      "options": [
+        "A) Were I you, I would accept the offer",
+        "B) Would I you, I were accept",
+        "C) Had I money, I buy a car",
+        "D) Should I know, I tell you"
+      ],
+      "correct_answer": "A",
+      "explanation": "При инверсии 'were' выносится в начало: 'Were I' вместо 'If I were'. Остальные варианты содержат грамматические ошибки или используют неправильные структуры инверсии.",
+      "difficulty": 4,
+      "tags": [
+        "en-conditionals",
+        "inversion"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильное предложение в Present Simple Passive?",
+      "options": [
+        "A) The homework is doing by the students every day.",
+        "B) The homework is done by the students every day.",
+        "C) The homework does by the students every day.",
+        "D) The homework is be done by the students every day."
+      ],
+      "correct_answer": "B",
+      "explanation": "Present Simple Passive образуется по схеме: am/is/are + Past Participle. Вариант B соответствует правилу; в A неправильная форма глагола (doing вместо done).",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Переведи предложение в пассивный залог: 'They built this bridge in 1995.' Какой вариант верный?",
+      "options": [
+        "A) This bridge was built in 1995.",
+        "B) This bridge is built in 1995.",
+        "C) This bridge has been built in 1995.",
+        "D) This bridge were built in 1995."
+      ],
+      "correct_answer": "A",
+      "explanation": "Past Simple Passive образуется: was/were + Past Participle. Так как действие произошло в конкретном прошлом году, нужен Past Simple (was built), а не Present Simple или Present Perfect.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение отличается от остальных по правильности использования пассивного залога?",
+      "options": [
+        "A) The letter is written by John yesterday.",
+        "B) The letter was written by John yesterday.",
+        "C) The letter is written by John every week.",
+        "D) The letter is being written by John right now."
+      ],
+      "correct_answer": "A",
+      "explanation": "В варианте A неправильно использован Present Simple Passive (is written) с обстоятельством времени 'yesterday', которое требует Past Simple (was written). Остальные варианты грамматически верны.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "time-markers"
+      ]
+    },
+    {
+      "text": "Определи, в каком предложении допущена ошибка в согласовании подлежащего и сказуемого в пассивном залоге:",
+      "options": [
+        "A) These questions are asked by the teacher.",
+        "B) This question are asked by the teacher.",
+        "C) These questions were asked by the teacher.",
+        "D) The questions is asked by the teacher."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ошибка в варианте B: подлежащее 'This question' (единственное число) требует глагола 'is', но используется 'are' (множественное число). Вариант D также неправильный, но здесь ошибка очевидна.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "agreement"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно преобразует активное предложение 'Someone stole my bike' в пассивный залог?",
+      "options": [
+        "A) My bike was stolen.",
+        "B) My bike is stolen.",
+        "C) My bike has been stolen.",
+        "D) My bike was being stolen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Past Simple Passive (was stolen) подходит для завершённого действия в прошлом. Вариант C (Present Perfect) возможен, но без дополнительного контекста вариант A более естественен и соответствует временной форме оригинала.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "В каком предложении агент действия (действующее лицо) упомянут неправильно в пассивном залоге?",
+      "options": [
+        "A) The cake is made by my mother.",
+        "B) The letter is written from John.",
+        "C) The house was built by the workers.",
+        "D) The book is read by millions of people."
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B ошибка: предлог должен быть 'by' (написано Джоном), а не 'from'. Предлог 'from' используется для указания источника или происхождения, а не агента действия.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "prepositions"
+      ]
+    },
+    {
+      "text": "Какое утверждение о Present Simple Passive является верным?",
+      "options": [
+        "A) Используется только с глаголами действия.",
+        "B) Образуется с помощью am/is/are + Past Participle и показывает регулярные или постоянные действия.",
+        "C) Не может использоваться с обстоятельствами времени.",
+        "D) Является синонимом Present Continuous Passive."
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B точно описывает Present Simple Passive. Вариант A неверен (возможны и другие типы глаголов), C неверен (может использоваться с обстоятельствами), D неверен (это разные временные формы).",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "present-simple",
+        "theory"
+      ]
+    },
+    {
+      "text": "Укажи предложение, в котором пассивный залог образован с ошибкой в употреблении глагола 'to be':",
+      "options": [
+        "A) The window is broken by the wind.",
+        "B) The windows are broken by the wind.",
+        "C) The window are broken by the wind.",
+        "D) The windows is broken by the wind."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C подлежащее 'The window' (единственное число) требует 'is', но используется 'are'. Вариант D также ошибочен (множественное подлежащее требует 'are'), но C проще выявляется.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "verb-agreement"
+      ]
+    },
+    {
+      "text": "Какой из этих примеров содержит Past Simple Passive в правильной форме?",
+      "options": [
+        "A) The building is constructed last year.",
+        "B) The building was constructing last year.",
+        "C) The building was constructed last year.",
+        "D) The building has constructed last year."
+      ],
+      "correct_answer": "C",
+      "explanation": "Правильная форма Past Simple Passive: was/were + Past Participle (was constructed). Вариант A использует Present Simple (неправильно с 'last year'), B — неправильная форма (constructing вместо constructed).",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Трансформируй предложение 'The teacher explains the rules to the students' в пассивный залог. Какой вариант правильный?",
+      "options": [
+        "A) The rules are explained to the students by the teacher.",
+        "B) The students are explained the rules by the teacher.",
+        "C) The rules are being explained by the teacher to the students.",
+        "D) The rules were explained by the teacher."
+      ],
+      "correct_answer": "A",
+      "explanation": "При трансформации глаголов с косвенным дополнением в пассив, прямое дополнение (rules) становится подлежащим, а косвенное сохраняет предлог (to the students). Вариант A правильный.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "indirect-objects"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение содержит ошибку в образовании Past Simple Passive:",
+      "options": [
+        "A) The homework was done by all students.",
+        "B) The test were taken by the class yesterday.",
+        "C) The decision was made by the committee.",
+        "D) The project was completed on time."
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B: подлежащее 'The test' (единственное число) требует 'was', а не 'were'. Остальные варианты грамматически верны.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "past-simple",
+        "agreement"
+      ]
+    },
+    {
+      "text": "Какое из следующих предложений демонстрирует правильное использование Present Simple Passive с наречием частоты?",
+      "options": [
+        "A) The dishes are usually washed by my sister.",
+        "B) The dishes usually are washed by my sister.",
+        "C) Usually the dishes are washed by my sister.",
+        "D) The dishes are washed usually by my sister."
+      ],
+      "correct_answer": "A",
+      "explanation": "В пассивном залоге наречие частоты (usually) обычно располагается после вспомогательного глагола 'are'. Вариант A соответствует правилу порядка слов в английском языке.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "word-order",
+        "adverbs"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно отражает значение активного предложения 'The company produces cars'?",
+      "options": [
+        "A) Cars are produced by the company.",
+        "B) Cars are being produced by the company.",
+        "C) Cars is produced by the company.",
+        "D) Cars are produced."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C содержит ошибку согласования: подлежащее 'Cars' (множественное число) требует 'are', а не 'is'. Все остальные варианты грамматически допустимы.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "present-simple",
+        "agreement"
+      ]
+    },
+    {
+      "text": "Какой из этих примеров показывает неправильное использование Past Simple Passive в контексте?",
+      "options": [
+        "A) The novel was written in the 19th century.",
+        "B) The novel was written by Tolstoy.",
+        "C) The novel was written every year by the author.",
+        "D) The novel was written last year."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C неправилен: Past Simple Passive используется для единичного прошлого действия, а 'every year' указывает на повторяющееся действие, которое требует Present Simple Passive (is written every year).",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "past-simple",
+        "time-markers"
+      ]
+    },
+    {
+      "text": "Укажи, в какой паре оба предложения грамматически верны и синонимичны:",
+      "options": [
+        "A) The room is cleaned daily. / The room cleaned daily.",
+        "B) The report is submitted by the deadline. / The report was submitted by the deadline.",
+        "C) The task is completed by the workers. / The workers complete the task.",
+        "D) The window is broken. / The window breaks."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C активное (The workers complete the task) и пассивное (The task is completed by the workers) предложения синонимичны и оба грамматически верны. Остальные пары либо содержат ошибки, либо имеют разные значения.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "active-passive-equivalence"
+      ]
+    },
+    {
+      "text": "Какое предложение демонстрирует правильное образование Past Simple Passive с неправильным глаголом?",
+      "options": [
+        "A) The message was sended yesterday.",
+        "B) The message was sent yesterday.",
+        "C) The message was sending yesterday.",
+        "D) The message has sent yesterday."
+      ],
+      "correct_answer": "B",
+      "explanation": "Past Participle глагола 'send' — это 'sent' (неправильный глагол). Вариант B правильный; в A и C неправильные формы, в D неправильное время.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "irregular-verbs",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение содержит стилистическую ошибку при использовании пассивного залога:",
+      "options": [
+        "A) The book was read by many readers.",
+        "B) The book was read by John.",
+        "C) The book was read by the students in class.",
+        "D) The book was read by him."
+      ],
+      "correct_answer": "D",
+      "explanation": "Вариант D неудачен стилистически: пассивный залог обычно используется для выделения действия, а не для скрытия агента; использование личного местоимения ('by him') делает пассив неэффективным. Было бы лучше: 'He read the book.'",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "style"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно демонстрирует Present Simple Passive с наречием образа действия?",
+      "options": [
+        "A) The letters are carefully written by the secretary.",
+        "B) The letters are written carefully by the secretary.",
+        "C) The letters carefully are written by the secretary.",
+        "D) Carefully the letters are written by the secretary."
+      ],
+      "correct_answer": "A",
+      "explanation": "Наречия образа действия в пассивном залоге располагаются после вспомогательного глагола 'are' или перед Past Participle. Вариант A предпочтителен, так как более естественен порядок слов в английском языке.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "adverbs",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ошибку в образовании Present Simple Passive с модальным глаголом?",
+      "options": [
+        "A) The work can be done tomorrow.",
+        "B) The work must be doing by noon.",
+        "C) The work should be finished soon.",
+        "D) The work might be delayed."
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B ошибка: после модального глагола 'must' и 'be' должен следовать Past Participle (finished или done), а не герундий (doing). Правильно: 'must be done'.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "modal-verbs"
+      ]
+    },
+    {
+      "text": "Укажи предложение, в котором неправильно опущен агент действия в Past Simple Passive:",
+      "options": [
+        "A) The letter was lost.",
+        "B) The building was destroyed.",
+        "C) The exam was failed by students.",
+        "D) The cake was baked."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C неестественен: если агент очевиден из контекста (students fail exams), его лучше опустить ('The exam was failed'). Включение 'by students' в этом контексте кажется избыточным и стилистически неудачным.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "agent-omission"
+      ]
+    },
+    {
+      "text": "Какое из следующих предложений демонстрирует правильное использование Past Simple Passive в условном предложении?",
+      "options": [
+        "A) If the project was completed, we would celebrate.",
+        "B) If the project would be completed, we celebrated.",
+        "C) If the project had been completed, we would have celebrated.",
+        "D) If the project was being completed, we would celebrate."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C правильный для сослагательного наклонения (third conditional): Past Perfect Passive (had been completed) в условии с would have + Past Participle в главном предложении показывает нереальное прошлое действие.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "conditionals"
+      ]
+    },
+    {
+      "text": "Определи, какое предложение неправильно преобразует вопрос в пассивный залог. Активный: 'Who wrote this article?'",
+      "options": [
+        "A) Who was this article written by?",
+        "B) This article was written by whom?",
+        "C) By whom was this article written?",
+        "D) This article was written by who?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Вариант D неверен: 'who' в роли объекта предлога 'by' должно быть заменено на 'whom' ('by whom'). Варианты A и C грамматически верны; B менее формален, но допустим.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "questions"
+      ]
+    },
+    {
+      "text": "Какое утверждение о различии между Present Simple Passive и Past Simple Passive является ложным?",
+      "options": [
+        "A) Present Simple указывает на регулярное или постоянное действие, Past Simple — на единичное прошлое событие.",
+        "B) Present Simple Passive образуется am/is/are + V3, Past Simple Passive — was/were + V3.",
+        "C) Present Simple Passive и Past Simple Passive используют одинаковую форму вспомогательного глагола.",
+        "D) Past Simple Passive часто используется с обстоятельствами времени (yesterday, last year)."
+      ],
+      "correct_answer": "C",
+      "explanation": "Утверждение C ложно: Present Simple использует 'am/is/are', а Past Simple использует 'was/were'. Остальные утверждения верны и отражают ключевые различия между этими временами.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "tense-comparison"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно использует пассивный залог с фразовым глаголом?",
+      "options": [
+        "A) The plan was called off by the manager.",
+        "B) The report was looked up by the researcher.",
+        "C) The suspect was looked for by the police.",
+        "D) The house was broken into yesterday."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C неправилен: фразовый глагол 'look for' не может быть легко переведён в пассивный залог без перестройки структуры. Правильно: 'The police were looking for the suspect.' Остальные варианты демонстрируют корректное использование пассива с фразовыми глаголами.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "text": "Укажи предложение, которое семантически отличается от остальных при преобразовании в пассивный залог:",
+      "options": [
+        "A) The teacher gave the students homework. → The students were given homework by the teacher.",
+        "B) The teacher gave the students homework. → The homework was given to the students by the teacher.",
+        "C) The teacher gave the students homework. → The homework was given the students by the teacher.",
+        "D) The teacher gave the students homework. → The students were given the homework by the teacher."
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C грамматически неправильный: в английском пассиве с косвенным дополнением необходим предлог 'to' (given to the students), если прямое дополнение (homework) становится подлежащим. Варианты A, B, D правильны и синонимичны.",
+      "difficulty": 4,
+      "tags": [
+        "passive-voice",
+        "indirect-objects"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол лучше всего подходит для завершения предложения: «I need to ___ this word in the dictionary because I don't understand it»?",
+      "options": [
+        "A) look up",
+        "B) look after",
+        "C) look out",
+        "D) look for"
+      ],
+      "correct_answer": "A",
+      "explanation": "Look up означает искать информацию в справочнике или словаре. Остальные варианты имеют другие значения (присматривать, остерегаться, искать).",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Выберите правильный фразовый глагол: «My grandmother ___ my younger brother while my parents are at work».",
+      "options": [
+        "A) looks for",
+        "B) looks after",
+        "C) looks up",
+        "D) looks out"
+      ],
+      "correct_answer": "B",
+      "explanation": "Look after означает присматривать, ухаживать за кем-то. В контексте бабушка следит за младшим братом, пока родители на работе.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Какое из предложений использует фразовый глагол «look out» с правильным значением?",
+      "options": [
+        "A) Look out the information in the book",
+        "B) Look out! There's a car coming!",
+        "C) Look out for your keys tomorrow",
+        "D) Look out the window carefully"
+      ],
+      "correct_answer": "B",
+      "explanation": "Look out (без объекта) означает «берегись, осторожно!» как восклицание. Вариант B правильно передаёт это значение предупреждения.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Вставьте пропущенный фразовый глагол: «We have been ___ the lost cat for three days now».",
+      "options": [
+        "A) looking after",
+        "B) looking out",
+        "C) looking for",
+        "D) looking up"
+      ],
+      "correct_answer": "C",
+      "explanation": "Look for означает искать, разыскивать. В контексте поиска потерявшейся кошки это единственное подходящее значение.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол правильно завершает предложение: «She tried to ___ an excuse for being late to class»?",
+      "options": [
+        "A) make sure",
+        "B) make up",
+        "C) make out",
+        "D) make off"
+      ],
+      "correct_answer": "B",
+      "explanation": "Make up означает придумывать, изобретать (часто ложную историю или оправдание). В контексте придумывания оправдания это идеально подходит.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «Before the exam, the teacher said: 'Please ___ you understand all the instructions'».",
+      "options": [
+        "A) make up",
+        "B) make out",
+        "C) make sure",
+        "D) make of"
+      ],
+      "correct_answer": "C",
+      "explanation": "Make sure означает убедиться, проверить. Учитель просит студентов убедиться, что они поняли инструкции перед экзаменом.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Какое из предложений использует фразовый глагол «make out» с правильным значением?",
+      "options": [
+        "A) I can't make out what he is saying in this noisy room",
+        "B) She made out a new story about her weekend",
+        "C) They made out the documents before leaving",
+        "D) He made out to understand the problem"
+      ],
+      "correct_answer": "A",
+      "explanation": "Make out (в этом контексте) означает различать, разбирать, понимать с трудом. Вариант A правильно использует его для обозначения сложности слышания речи в шумной комнате.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Вставьте пропущенный фразовый глагол: «The accountant will ___ the invoice with all necessary details».",
+      "options": [
+        "A) make out",
+        "B) make up",
+        "C) make for",
+        "D) make sure"
+      ],
+      "correct_answer": "A",
+      "explanation": "Make out может означать заполнять документ, выписывать счёт. В контексте работы бухгалтера это наиболее подходящее значение.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол с 'get' лучше всего подходит: «The bus was full, so we couldn't ___ »?",
+      "options": [
+        "A) get on",
+        "B) get off",
+        "C) get up",
+        "D) get in"
+      ],
+      "correct_answer": "A",
+      "explanation": "Get on означает садиться в транспортное средство (автобус, поезд). Фраза описывает невозможность сесть в переполненный автобус.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «After arriving at the station, all passengers ___ the train».",
+      "options": [
+        "A) got on",
+        "B) got up",
+        "C) got off",
+        "D) got out"
+      ],
+      "correct_answer": "C",
+      "explanation": "Get off означает выходить из транспортного средства. Пассажиры выходят из поезда, прибыв на станцию.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Какое из предложений использует фразовый глагол «get up» с правильным значением?",
+      "options": [
+        "A) I got up on the stage to receive my award",
+        "B) She gets up at 6 o'clock every morning",
+        "C) They got up the stairs quickly",
+        "D) He got up his courage to speak"
+      ],
+      "correct_answer": "B",
+      "explanation": "Get up означает просыпаться и вставать с постели. Вариант B правильно использует его в контексте ежедневного пробуждения.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Вставьте пропущенный фразовый глагол: «My father ___ at 5 AM to go for a morning run».",
+      "options": [
+        "A) gets on",
+        "B) gets off",
+        "C) gets up",
+        "D) gets down"
+      ],
+      "correct_answer": "C",
+      "explanation": "Get up означает вставать с постели. В контексте раннего утра для утренней пробежки это единственное подходящее значение.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол завершает предложение: «The student ___ the bicycle and rode towards the park»?",
+      "options": [
+        "A) got up",
+        "B) got on",
+        "C) got in",
+        "D) got off"
+      ],
+      "correct_answer": "B",
+      "explanation": "Get on означает садиться на что-то (велосипед, мотоцикл). Студент сел на велосипед и поехал в парк.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где фразовый глагол 'look' использован НЕПРАВИЛЬНО в своём основном значении:",
+      "options": [
+        "A) I looked up the recipe on the internet",
+        "B) She looked up to the sky and saw stars",
+        "C) They looked after the children during the party",
+        "D) He looked out for dangerous situations"
+      ],
+      "correct_answer": "B",
+      "explanation": "«Looked up to» в значении «смотреть вверх» — это не фразовый глагол в нужном смысле. Это просто обычное предложение с предлогом. Look up (фразовый) имеет другие значения.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол 'make' лучше всего подходит для завершения предложения: «The detective tried to ___ the suspect's alibi»?",
+      "options": [
+        "A) make sure",
+        "B) make for",
+        "C) make out",
+        "D) make off"
+      ],
+      "correct_answer": "C",
+      "explanation": "Make out (в этом контексте) означает расшифровать, разобраться, понять. Детектив пытается разобраться в алиби подозреваемого.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Определите правильное использование фразовых глаголов в предложении: «She ___ the address on the envelope and ___ it was correct».",
+      "options": [
+        "A) made up / made sure",
+        "B) made out / made sure",
+        "C) made for / made up",
+        "D) made off / made out"
+      ],
+      "correct_answer": "B",
+      "explanation": "Made out (выписала адрес) и made sure (убедилась) — оба фразовых глагола используются правильно для описания действий с конвертом.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Какое из предложений с фразовыми глаголами 'get' грамматически и семантически правильно?",
+      "options": [
+        "A) He gets off the bed every morning at 7",
+        "B) We got on our shoes and went outside",
+        "C) They got up the car and drove away",
+        "D) She got in the bicycle reluctantly"
+      ],
+      "correct_answer": "A",
+      "explanation": "Get off с кровати означает вставать с постели утром. Вариант A правильно использует глагол и описывает естественное действие.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где фразовый глагол 'look' переводится как «искать»:",
+      "options": [
+        "A) The children looked out for the teacher coming",
+        "B) She looked after her sick grandmother",
+        "C) He is looking for his lost wallet",
+        "D) They looked up at the tall building"
+      ],
+      "correct_answer": "C",
+      "explanation": "Look for означает искать, разыскивать. Вариант C правильно передаёт это значение в контексте поиска потерянного кошелька.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-look"
+      ]
+    },
+    {
+      "text": "Какой фразовый глагол 'make' означает «начать отношения/близко общаться»?",
+      "options": [
+        "A) make sure",
+        "B) make out",
+        "C) make up",
+        "D) make for"
+      ],
+      "correct_answer": "B",
+      "explanation": "Make out (в разговорном английском) может означать целоваться, обниматься. Вариант B — правильный ответ на определение.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-make"
+      ]
+    },
+    {
+      "text": "Вставьте оба пропущенных фразовых глагола: «I ___ my friend at the bus stop and we ___ the evening bus together».",
+      "options": [
+        "A) looked for / got on",
+        "B) looked after / got off",
+        "C) looked up / got in",
+        "D) looked out / got up"
+      ],
+      "correct_answer": "A",
+      "explanation": "Looked for (искала) друга на остановке и got on (сели) на автобус — оба глагола используются правильно в контексте встречи и посадки в транспорт.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-multiple"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ОШИБКУ в использовании фразового глагола?",
+      "options": [
+        "A) Make sure you lock the door before leaving",
+        "B) She makes up stories for her children every night",
+        "C) They got on their coats and went outside",
+        "D) I looked up the word in my dictionary"
+      ],
+      "correct_answer": "C",
+      "explanation": "«Got on their coats» неправильно. Нужно «put on their coats». Get on используется для транспорта или для начала отношений, а не для надевания одежды.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-errors"
+      ]
+    },
+    {
+      "text": "Выберите вариант, где все три фразовых глагола используются ПРАВИЛЬНО:",
+      "options": [
+        "A) I looked for the keys, made sure I had them, and got on my bicycle",
+        "B) She looked after her brother, made out the document, and looked up for help",
+        "C) They got up early, looked out for danger, and made for the exit",
+        "D) He got off the bus, looked after his belongings, and made sure everything was fine"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вариант A содержит три правильных использования: looked for (искал), made sure (убедился), got on (сел). Остальные варианты содержат ошибки в сочетаниях.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-multiple"
+      ]
+    },
+    {
+      "text": "Какой из этих фразовых глаголов 'look' НЕ требует прямого объекта после себя?",
+      "options": [
+        "A) look for",
+        "B) look out",
+        "C) look after",
+        "D) look up"
+      ],
+      "correct_answer": "B",
+      "explanation": "Look out — это восклицание или глагол состояния, который не требует прямого объекта. Остальные требуют: look for something, look after someone, look up something.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-syntax"
+      ]
+    },
+    {
+      "text": "Вставьте два фразовых глагола: «My sister will ___ the new recipe and ___ it on a piece of paper».",
+      "options": [
+        "A) look for / make out",
+        "B) look up / make out",
+        "C) look out / make up",
+        "D) look after / make sure"
+      ],
+      "correct_answer": "B",
+      "explanation": "Look up (найти в источнике) новый рецепт и make out (выписать) его на бумагу — оба глагола используются логически и грамматически правильно.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-multiple"
+      ]
+    },
+    {
+      "text": "Определите, какой фразовый глагол 'get' может быть использован в значении «ладить, сосуществовать»:",
+      "options": [
+        "A) get on",
+        "B) get off",
+        "C) get up",
+        "D) get down"
+      ],
+      "correct_answer": "A",
+      "explanation": "Get on может означать не только садиться в транспорт, но и ладить, устанавливать хорошие отношения (get on with someone). Это расширенное значение фразового глагола.",
+      "difficulty": 4,
+      "tags": [
+        "phrasal-verbs-get-extended"
+      ]
+    },
+    {
+      "text": "Определи, какое время использовано в предложении: 'By next year, she will have studied English for five years.'",
+      "options": [
+        "A) Future Simple",
+        "B) Future Perfect",
+        "C) Future Continuous",
+        "D) Future Perfect Continuous"
+      ],
+      "correct_answer": "B",
+      "explanation": "Структура 'will have + Past Participle' указывает на Future Perfect, которое описывает действие, завершённое к определённому моменту в будущем.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку в предложении: 'If he would have known about the meeting, he would come on time.'",
+      "options": [
+        "A) 'would have known' должно быть 'had known'",
+        "B) 'would come' должно быть 'would have come'",
+        "C) обе части содержат ошибки",
+        "D) ошибок нет"
+      ],
+      "correct_answer": "C",
+      "explanation": "В условных предложениях третьего типа обе части должны быть: 'If he had known... he would have come'. Нельзя использовать 'would have' в условии и неправильно употреблён Simple в главной части.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-conditionals"
+      ]
+    },
+    {
+      "text": "Выбери правильную форму: 'She has been working on this project _____ three months ago.'",
+      "options": [
+        "A) since",
+        "B) for",
+        "C) during",
+        "D) while"
+      ],
+      "correct_answer": "A",
+      "explanation": "С выражением 'three months ago' в Present Perfect Continuous используется 'since', который указывает на точку отсчёта. 'For' используется с длительностью периода без упоминания конкретного момента.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "en-prepositions"
+      ]
+    },
+    {
+      "text": "Определи время в предложении: 'When I arrived, they had been discussing the problem for an hour.'",
+      "options": [
+        "A) Past Simple и Past Perfect",
+        "B) Past Simple и Past Perfect Continuous",
+        "C) Past Continuous и Past Perfect",
+        "D) Past Perfect и Past Perfect Continuous"
+      ],
+      "correct_answer": "B",
+      "explanation": "'arrived' — Past Simple, 'had been discussing' — Past Perfect Continuous, показывающее процесс, который длился до момента в прошлом.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Исправь ошибку: 'He doesn't like coffee, but he drinks it every morning.'",
+      "options": [
+        "A) 'doesn't like' → 'didn't like'",
+        "B) нет логической ошибки, но есть стилистическая",
+        "C) 'drinks' → 'is drinking'",
+        "D) ошибки нет"
+      ],
+      "correct_answer": "B",
+      "explanation": "Грамматически предложение верно, но логически противоречиво. На олимпиадном уровне это рассматривается как стилистическая ошибка: если не нравится, почему регулярно пьёт?",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-consistency"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'I wish I _____ harder when I was a student.'",
+      "options": [
+        "A) studied",
+        "B) had studied",
+        "C) would study",
+        "D) have studied"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Wish' + прошлый нереальный контекст требует Past Perfect 'had studied', так как речь о том, что не произошло в прошлом.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-conditionals"
+      ]
+    },
+    {
+      "text": "Определи время: 'She will be working when you call her tomorrow.'",
+      "options": [
+        "A) Future Simple",
+        "B) Future Continuous",
+        "C) Future Perfect",
+        "D) Future Perfect Continuous"
+      ],
+      "correct_answer": "B",
+      "explanation": "Структура 'will be + -ing' — Future Continuous, которое описывает действие в процессе в определённый момент будущего.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'Neither the teacher nor the students was interested in the topic.'",
+      "options": [
+        "A) 'was' должно быть 'were'",
+        "B) 'the teacher' должно быть 'the teachers'",
+        "C) нет ошибки",
+        "D) 'interested' должно быть 'interesting'"
+      ],
+      "correct_answer": "A",
+      "explanation": "После 'neither...nor' глагол согласуется с ближайшим существительным. Здесь 'students' (множественное число), поэтому нужно 'were'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-agreement"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'If I were you, I _____ that decision.'",
+      "options": [
+        "A) wouldn't make",
+        "B) won't make",
+        "C) didn't make",
+        "D) haven't made"
+      ],
+      "correct_answer": "A",
+      "explanation": "Во втором условном предложении (present unreal) после 'if I were' используется 'would + инфинитив': 'wouldn't make'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-conditionals"
+      ]
+    },
+    {
+      "text": "Определи время: 'They have lived in this city for ten years now, and they don't plan to move.'",
+      "options": [
+        "A) Present Simple и Present Continuous",
+        "B) Present Perfect и Present Simple",
+        "C) Present Perfect Continuous и Present Simple",
+        "D) Past Perfect и Present Simple"
+      ],
+      "correct_answer": "B",
+      "explanation": "'have lived' — Present Perfect (результат к настоящему), 'don't plan' — Present Simple (habitual/states).",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'The committee have made their decision yesterday.'",
+      "options": [
+        "A) 'have' должно быть 'has'",
+        "B) 'made' должно быть 'make'",
+        "C) 'yesterday' несовместимо с Present Perfect",
+        "D) ошибок несколько"
+      ],
+      "correct_answer": "C",
+      "explanation": "Present Perfect используется без конкретных указателей прошлого времени. С 'yesterday' нужен Past Simple: 'made their decision'. (В британском английском 'committee' — как единое целое — требует 'has', но основная ошибка в времени).",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери правильную форму: 'Unless you _____ your homework, you won't be allowed to play.'",
+      "options": [
+        "A) finish",
+        "B) will finish",
+        "C) finished",
+        "D) have finished"
+      ],
+      "correct_answer": "A",
+      "explanation": "В условных предложениях после 'unless' (как и после 'if') в условии используется Present Simple, а не Future: 'Unless you finish...'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-conditionals"
+      ]
+    },
+    {
+      "text": "Определи время: 'By the time you arrive, I will have finished cooking.'",
+      "options": [
+        "A) Future Simple и Future Perfect",
+        "B) Future Perfect и Future Perfect Continuous",
+        "C) Future Continuous и Future Perfect",
+        "D) Present Simple и Future Perfect"
+      ],
+      "correct_answer": "A",
+      "explanation": "'arrive' — Present Simple в придаточном предложении времени (вместо Future), 'will have finished' — Future Perfect, действие, завершённое к моменту в будущем.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'She told me that she is going to the party tomorrow.'",
+      "options": [
+        "A) 'is going' должно быть 'would go'",
+        "B) нет ошибки",
+        "C) 'tomorrow' должно быть 'the next day'",
+        "D) 'told' должно быть 'tells'"
+      ],
+      "correct_answer": "C",
+      "explanation": "При косвенной речи в прошедшем времени 'tomorrow' становится 'the next day' (согласование времён). Глагол также должен быть в прошедшем: 'was going'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-reported-speech"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'I haven't seen him _____ we left school.'",
+      "options": [
+        "A) since",
+        "B) for",
+        "C) during",
+        "D) when"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Since' указывает на точку отсчёта в прошлом ('we left school'), с которой начинается период, включающий настоящее. 'For' используется для длительности периода.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "en-prepositions"
+      ]
+    },
+    {
+      "text": "Определи время: 'She had already left the office when her boss called.'",
+      "options": [
+        "A) Past Simple и Past Simple",
+        "B) Past Perfect и Past Simple",
+        "C) Past Continuous и Past Simple",
+        "D) Past Perfect Continuous и Past Simple"
+      ],
+      "correct_answer": "B",
+      "explanation": "'had left' — Past Perfect (первое действие в прошлом), 'called' — Past Simple (второе действие), показывает последовательность событий.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'If he had more time, he would studied English more seriously.'",
+      "options": [
+        "A) 'had' должно быть 'has'",
+        "B) 'studied' должно быть 'study'",
+        "C) 'would' должно быть 'will'",
+        "D) ошибок нет"
+      ],
+      "correct_answer": "B",
+      "explanation": "Во втором условном предложении главная часть: 'would + инфинитив без 'to'', поэтому 'would study', а не 'would studied'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-conditionals"
+      ]
+    },
+    {
+      "text": "Выбери правильную форму: 'I prefer working in the morning _____ in the evening.'",
+      "options": [
+        "A) than",
+        "B) rather than",
+        "C) to",
+        "D) instead of"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Prefer + -ing form + to + -ing form' — стандартная конструкция. 'Than' используется в сравнениях с прилагательными, 'rather than' и 'instead of' другие структуры.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-preferences"
+      ]
+    },
+    {
+      "text": "Определи время: 'They have been waiting for two hours, and they are getting impatient.'",
+      "options": [
+        "A) Present Perfect и Present Continuous",
+        "B) Present Perfect Continuous и Present Continuous",
+        "C) Present Continuous и Present Continuous",
+        "D) Present Perfect и Present Perfect"
+      ],
+      "correct_answer": "B",
+      "explanation": "'have been waiting' — Present Perfect Continuous (длящееся действие), 'are getting' — Present Continuous (происходящее в данный момент).",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'The news are not good, and everyone are worried about it.'",
+      "options": [
+        "A) 'are not' должно быть 'is not' (только первое)",
+        "B) оба 'are' должны быть 'is'",
+        "C) 'worried' должно быть 'worry'",
+        "D) ошибок нет"
+      ],
+      "correct_answer": "B",
+      "explanation": "'News' и 'everyone' — singular (несмотря на окончание 's' у news и семантический множественный смысл у everyone). Оба требуют 'is'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-agreement"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'She would rather _____ to the cinema than sit at home.'",
+      "options": [
+        "A) go",
+        "B) to go",
+        "C) going",
+        "D) goes"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Would rather + инфинитив без 'to'' — правило. После 'than' также инфинитив без 'to': 'go... than sit'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-structures"
+      ]
+    },
+    {
+      "text": "Определи время: 'Once you submit the form, it will be processed immediately.'",
+      "options": [
+        "A) Present Simple и Future Simple",
+        "B) Present Simple и Future Passive",
+        "C) Future Simple и Future Passive",
+        "D) Present Continuous и Future Perfect"
+      ],
+      "correct_answer": "B",
+      "explanation": "'submit' — Present Simple в придаточном времени (вместо Future), 'will be processed' — Future Simple Passive (пассивный залог, формируется с 'will be + Past Participle').",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "en-passive-voice"
+      ]
+    },
+    {
+      "text": "Найди ошибку: 'Despite of the rain, they decided to go for a walk.'",
+      "options": [
+        "A) 'Despite of' должно быть 'Despite' или 'In spite of'",
+        "B) 'decided' должно быть 'have decided'",
+        "C) 'rain' должно быть 'raining'",
+        "D) ошибок нет"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Despite' (предлог) не требует 'of', используется: 'Despite the rain' или 'In spite of the rain', но не 'Despite of'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-prepositions"
+      ]
+    },
+    {
+      "text": "Выбери правильную форму: 'The teacher insists that the student _____ his work on time.'",
+      "options": [
+        "A) submits",
+        "B) submit",
+        "C) will submit",
+        "D) submitting"
+      ],
+      "correct_answer": "B",
+      "explanation": "После глаголов типа 'insist' (требовать) в английском используется сослагательное наклонение (Subjunctive): инфинитив без 'to' ('submit'), независимо от подлежащего.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-subjunctive"
+      ]
+    },
+    {
+      "text": "Определи время: 'He is said to have been working there for five years when he retired.'",
+      "options": [
+        "A) Present Simple Passive и Past Perfect",
+        "B) Present Continuous Passive и Past Perfect Continuous",
+        "C) Present Simple Passive и Past Perfect Continuous",
+        "D) Past Continuous Passive и Past Perfect"
+      ],
+      "correct_answer": "C",
+      "explanation": "'is said to have been working' — конструкция 'to have been + -ing' указывает на Past Perfect Continuous в придаточном. 'is said' — Present Simple Passive (главное действие).",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "en-passive-voice"
+      ]
+    }
+  ]
+}

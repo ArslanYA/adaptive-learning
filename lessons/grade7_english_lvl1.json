@@ -1,0 +1,1960 @@
+{
+  "topic": "Английский",
+  "title": "Английский — Уровень 1",
+  "grade_level": 7,
+  "difficulty": 1,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Выберите правильное утвердительное предложение в Present Simple.",
+      "options": [
+        "A) He go to school every day",
+        "B) He goes to school every day",
+        "C) He going to school every day",
+        "D) He does go to school every day"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Present Simple с подлежащим третьего лица единственного числа (he) добавляется окончание -s к глаголу: goes.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative"
+      ]
+    },
+    {
+      "text": "Какое предложение является правильным отрицанием?",
+      "options": [
+        "A) She don't like apples",
+        "B) She doesn't like apples",
+        "C) She not likes apples",
+        "D) She doesn't likes apples"
+      ],
+      "correct_answer": "B",
+      "explanation": "С подлежащим третьего лица единственного числа используется doesn't (does not), а основной глагол остаётся в форме инфинитива без -s.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос в Present Simple.",
+      "options": [
+        "A) Do he like pizza?",
+        "B) Does he like pizza?",
+        "C) Does he likes pizza?",
+        "D) He does like pizza?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Для вопроса с подлежащим третьего лица единственного числа используется Does в начале, затем подлежащее и глагол в форме инфинитива.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question"
+      ]
+    },
+    {
+      "text": "Укажите правильное утвердительное предложение с местоимением I.",
+      "options": [
+        "A) I goes to the gym",
+        "B) I go to the gym",
+        "C) I am go to the gym",
+        "D) I does go to the gym"
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением I используется глагол в форме инфинитива без изменений: go, не goes.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "first-person"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение верное?",
+      "options": [
+        "A) I don't goes to school",
+        "B) I doesn't go to school",
+        "C) I don't go to school",
+        "D) I am not going to school"
+      ],
+      "correct_answer": "C",
+      "explanation": "С местоимением I используется don't (do not), а глагол остаётся в инфинитиве: don't go.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "first-person"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос с местоимением you.",
+      "options": [
+        "A) Does you like music?",
+        "B) Do you likes music?",
+        "C) Do you like music?",
+        "D) Does you like music?"
+      ],
+      "correct_answer": "C",
+      "explanation": "С местоимением you используется Do (не Does), и глагол остаётся в инфинитиве: Do you like...?",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Укажите правильное утвердительное предложение с they.",
+      "options": [
+        "A) They goes to the park",
+        "B) They go to the park",
+        "C) They does go to the park",
+        "D) They are go to the park"
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением they (множественное число) глагол не получает окончание -s: go, не goes.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение составлено правильно?",
+      "options": [
+        "A) We doesn't eat meat",
+        "B) We don't eat meat",
+        "C) We don't eats meat",
+        "D) We doesn't eats meat"
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением we используется don't, и глагол остаётся в инфинитиве: don't eat.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос для подлежащего she.",
+      "options": [
+        "A) Does she reads books?",
+        "B) Do she reads books?",
+        "C) Does she read books?",
+        "D) Do she read books?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Для третьего лица единственного числа (she) используется Does, глагол в инфинитиве: Does she read...?",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое предложение является правильным утверждением?",
+      "options": [
+        "A) The cat sleeps in the sun",
+        "B) The cat sleep in the sun",
+        "C) The cat sleeping in the sun",
+        "D) The cat does sleep in the sun"
+      ],
+      "correct_answer": "A",
+      "explanation": "С подлежащим третьего лица единственного числа (the cat) добавляется -s: sleeps.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative"
+      ]
+    },
+    {
+      "text": "Укажите правильное отрицание для it.",
+      "options": [
+        "A) It don't work",
+        "B) It doesn't work",
+        "C) It not works",
+        "D) It doesn't works"
+      ],
+      "correct_answer": "B",
+      "explanation": "Местоимение it третьего лица единственного числа требует doesn't (не don't) и инфинитива глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое предложение является правильным вопросом?",
+      "options": [
+        "A) Does Tom plays football?",
+        "B) Tom does plays football?",
+        "C) Does Tom play football?",
+        "D) Do Tom plays football?"
+      ],
+      "correct_answer": "C",
+      "explanation": "С собственным именем (Tom, третье лицо единственного числа) используется Does и инфинитив: Does Tom play...?",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "proper-noun"
+      ]
+    },
+    {
+      "text": "Выберите правильное утвердительное предложение.",
+      "options": [
+        "A) My sister don't watch TV",
+        "B) My sister watches TV",
+        "C) My sister watch TV",
+        "D) My sister does watch TV"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее my sister — третье лицо единственного числа, требует окончание -s: watches.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение верное?",
+      "options": [
+        "A) The students doesn't like homework",
+        "B) The students don't like homework",
+        "C) The students doesn't likes homework",
+        "D) The students not like homework"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее во множественном числе требует don't (не doesn't) и инфинитива глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Укажите правильный вопрос.",
+      "options": [
+        "A) Does your friend speaks English?",
+        "B) Do your friend speak English?",
+        "C) Does your friend speak English?",
+        "D) Do your friend speaks English?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее your friend — третье лицо единственного числа, требует Does и инфинитива глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое утвердительное предложение составлено правильно?",
+      "options": [
+        "A) We plays basketball every weekend",
+        "B) We play basketball every weekend",
+        "C) We plays basketball every weekend",
+        "D) We do play basketball every weekend"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее we — множественное число, глагол остаётся в инфинитиве без -s: play.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание.",
+      "options": [
+        "A) They doesn't go to the cinema",
+        "B) They don't goes to the cinema",
+        "C) They don't go to the cinema",
+        "D) They not go to the cinema"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее they — множественное число, требует don't (не doesn't) и инфинитива: don't go.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Какой вопрос составлен правильно?",
+      "options": [
+        "A) Do they likes pizza?",
+        "B) Does they like pizza?",
+        "C) Do they like pizza?",
+        "D) Does they likes pizza?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее they — множественное число, требует Do (не Does) и инфинитива глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "plural"
+      ]
+    },
+    {
+      "text": "Укажите правильное утвердительное предложение с he.",
+      "options": [
+        "A) He study English",
+        "B) He studies English",
+        "C) He is study English",
+        "D) He do study English"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее he — третье лицо единственного числа, требует добавления -s к глаголу: studies.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение верное?",
+      "options": [
+        "A) Mary don't like coffee",
+        "B) Mary doesn't like coffee",
+        "C) Mary not likes coffee",
+        "D) Mary doesn't likes coffee"
+      ],
+      "correct_answer": "B",
+      "explanation": "Имя Mary — третье лицо единственного числа, требует doesn't и инфинитива глагола: doesn't like.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос.",
+      "options": [
+        "A) Does you understand me?",
+        "B) Do you understands me?",
+        "C) Do you understand me?",
+        "D) Does you understands me?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение you требует Do (не Does), и глагол остаётся в инфинитиве: Do you understand...?",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Укажите правильное утвердительное предложение.",
+      "options": [
+        "A) The dog runs in the park",
+        "B) The dog run in the park",
+        "C) The dog are running in the park",
+        "D) The dog does run in the park"
+      ],
+      "correct_answer": "A",
+      "explanation": "Подлежащее the dog — третье лицо единственного числа, требует окончание -s: runs.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "third-person-singular"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение составлено правильно?",
+      "options": [
+        "A) You doesn't want tea",
+        "B) You don't wants tea",
+        "C) You don't want tea",
+        "D) You not want tea"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение you требует don't (не doesn't) и инфинитива глагола: don't want.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "negative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос для множественного числа.",
+      "options": [
+        "A) Does the children play outside?",
+        "B) Do the children plays outside?",
+        "C) Do the children play outside?",
+        "D) Does the children plays outside?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее the children — множественное число, требует Do (не Does) и инфинитива: Do the children play...?",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "question",
+        "plural"
+      ]
+    },
+    {
+      "text": "Какое утвердительное предложение верное?",
+      "options": [
+        "A) Birds flies in the sky",
+        "B) Birds fly in the sky",
+        "C) Birds does fly in the sky",
+        "D) Birds are flying in the sky"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее birds — множественное число, глагол остаётся в инфинитиве: fly, не flies.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple",
+        "affirmative",
+        "plural"
+      ]
+    },
+    {
+      "text": "Выбери правильную форму глагола: «Вчера я (play) в футбол»",
+      "options": [
+        "A) play",
+        "B) played",
+        "C) plays",
+        "D) playing"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Past Simple правильные глаголы образуют прошедшее время добавлением окончания -ed. Play → played.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильно образованный Past Simple? «She (walk) to school yesterday»",
+      "options": [
+        "A) She walk to school yesterday",
+        "B) She walked to school yesterday",
+        "C) She walks to school yesterday",
+        "D) She was walk to school yesterday"
+      ],
+      "correct_answer": "B",
+      "explanation": "Walk → walked. В Past Simple добавляется -ed, и вспомогательный глагол не требуется в утвердительном предложении.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Преобразуй в Past Simple: «They (watch) a film last night»",
+      "options": [
+        "A) watched",
+        "B) watch",
+        "C) watches",
+        "D) are watching"
+      ],
+      "correct_answer": "A",
+      "explanation": "Watch → watched. Правильный глагол в Past Simple образуется путём добавления -ed к основе глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери предложение с правильной формой Past Simple: «Я закончил домашнюю работу»",
+      "options": [
+        "A) I finish my homework",
+        "B) I finished my homework",
+        "C) I finishes my homework",
+        "D) I am finishing my homework"
+      ],
+      "correct_answer": "B",
+      "explanation": "Finish → finished. -ed добавляется к глаголу для образования Past Simple в прошедшем времени.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какой глагол в Past Simple здесь использован неправильно? «He (help) his friend yesterday»",
+      "options": [
+        "A) helped - правильно",
+        "B) help - неправильно",
+        "C) helps - неправильно",
+        "D) helping - неправильно"
+      ],
+      "correct_answer": "A",
+      "explanation": "Help → helped. Только вариант A содержит правильную форму Past Simple с окончанием -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Заполни пропуск: «The children (play) in the park all afternoon»",
+      "options": [
+        "A) played",
+        "B) play",
+        "C) are playing",
+        "D) plays"
+      ],
+      "correct_answer": "A",
+      "explanation": "Play → played. Указание времени all afternoon подсказывает Past Simple, где добавляется -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери предложение в Past Simple: «Она купила новую сумку в воскресенье»",
+      "options": [
+        "A) She buys a new bag on Sunday",
+        "B) She bought a new bag on Sunday",
+        "C) She buying a new bag on Sunday",
+        "D) She buyed a new bag on Sunday"
+      ],
+      "correct_answer": "B",
+      "explanation": "Buy → bought (неправильный глагол), но вариант B содержит правильное построение, хотя buy - неправильный. Проверка: в задании спрашивается Past Simple, и только B имеет нужную структуру. Примечание: buy - неправильный глагол, но это лучший ответ из предложенных.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ошибку в образовании Past Simple? «I walked home»",
+      "options": [
+        "A) I walked home - правильно",
+        "B) I walk home - это Present Simple",
+        "C) I am walking home - это Present Continuous",
+        "D) Нет ошибки в A"
+      ],
+      "correct_answer": "D",
+      "explanation": "Walk → walked - правильно образованный Past Simple. Вариант A не содержит ошибок.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Преобразуй в Past Simple: «They (listen) to music»",
+      "options": [
+        "A) listen",
+        "B) listens",
+        "C) listened",
+        "D) are listening"
+      ],
+      "correct_answer": "C",
+      "explanation": "Listen → listened. Правильный глагол образует Past Simple добавлением -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери правильно образованный Past Simple: «We (decide) to visit grandparents»",
+      "options": [
+        "A) decide",
+        "B) decides",
+        "C) decided",
+        "D) are deciding"
+      ],
+      "correct_answer": "C",
+      "explanation": "Decide → decided. После согласной + гласная + согласная удваивается последний согласный, затем -ed: decide → decided.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно передаёт смысл Past Simple? «He worked in the garden»",
+      "options": [
+        "A) He worked in the garden - Past Simple",
+        "B) He works in the garden - Present Simple",
+        "C) He is working in the garden - Present Continuous",
+        "D) He works in the garden точнее передаёт действие"
+      ],
+      "correct_answer": "D",
+      "explanation": "Вариант B (He works) - это Present Simple и не передаёт идею завершённого действия в прошлом, как это делает Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери предложение в Past Simple: «Учитель объяснил новую тему»",
+      "options": [
+        "A) The teacher explains a new topic",
+        "B) The teacher explained a new topic",
+        "C) The teacher is explaining a new topic",
+        "D) The teacher will explain a new topic"
+      ],
+      "correct_answer": "B",
+      "explanation": "Explain → explained. Слово explained указывает на завершённое действие в прошлом, что соответствует Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Образуй Past Simple: «I (want) to go to the cinema»",
+      "options": [
+        "A) want",
+        "B) wanted",
+        "C) wants",
+        "D) wanting"
+      ],
+      "correct_answer": "B",
+      "explanation": "Want → wanted. Добавляется -ed для образования Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Заполни пропуск: «The family (travel) to the mountains last summer»",
+      "options": [
+        "A) travel",
+        "B) travels",
+        "C) traveled",
+        "D) are traveling"
+      ],
+      "correct_answer": "C",
+      "explanation": "Travel → traveled. Выражение last summer указывает на Past Simple, где правильный глагол получает окончание -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола соответствует Past Simple: «My sister (study) English yesterday»",
+      "options": [
+        "A) study",
+        "B) studies",
+        "C) studied",
+        "D) is studying"
+      ],
+      "correct_answer": "C",
+      "explanation": "Study → studied (y меняется на i, затем добавляется -ed). Yesterday ясно указывает на необходимость Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери правильное предложение в Past Simple: «Они танцевали на вечеринке»",
+      "options": [
+        "A) They dance at the party",
+        "B) They danced at the party",
+        "C) They are dancing at the party",
+        "D) They dancing at the party"
+      ],
+      "correct_answer": "B",
+      "explanation": "Dance → danced. Это завершённое действие в прошлом, выраженное Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Образуй Past Simple от глагола 'like': «She (like) the movie»",
+      "options": [
+        "A) like",
+        "B) likes",
+        "C) liked",
+        "D) liking"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like → liked. Простое добавление -ed для образования Past Simple правильного глагола.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит правильный Past Simple: «Мальчики собирали яблоки»",
+      "options": [
+        "A) The boys collect apples",
+        "B) The boys collects apples",
+        "C) The boys collected apples",
+        "D) The boys are collecting apples"
+      ],
+      "correct_answer": "C",
+      "explanation": "Collect → collected. Past Simple используется для действия, которое произошло и завершилось в прошлом.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Преобразуй в Past Simple: «We (arrive) at school at 8 o'clock»",
+      "options": [
+        "A) arrive",
+        "B) arrives",
+        "C) arrived",
+        "D) are arriving"
+      ],
+      "correct_answer": "C",
+      "explanation": "Arrive → arrived. Конкретное время в прошлом (8 o'clock) требует использования Past Simple.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери правильно сформированный Past Simple: «The dog (bark) at the stranger»",
+      "options": [
+        "A) barked",
+        "B) barks",
+        "C) barking",
+        "D) is barking"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bark → barked. В Past Simple к правильным глаголам добавляется -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола пропущена: «They (bake) cookies for the party»",
+      "options": [
+        "A) bake",
+        "B) bakes",
+        "C) baked",
+        "D) are baking"
+      ],
+      "correct_answer": "C",
+      "explanation": "Bake → baked. Это завершённое действие в прошлом, требует Past Simple с окончанием -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Образуй Past Simple: «My parents (visit) their friends»",
+      "options": [
+        "A) visit",
+        "B) visits",
+        "C) visited",
+        "D) visiting"
+      ],
+      "correct_answer": "C",
+      "explanation": "Visit → visited. Правильный глагол в Past Simple образуется добавлением -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где Past Simple образован неправильно:",
+      "options": [
+        "A) I opened the door",
+        "B) She cleaned her room",
+        "C) He goes to the shop",
+        "D) We painted the wall"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C (goes) - это Present Simple, а не Past Simple. Остальные варианты содержат правильное образование Past Simple с -ed.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит Past Simple: «Дети прыгали через скакалку»",
+      "options": [
+        "A) The children jump over the rope",
+        "B) The children are jumping over the rope",
+        "C) The children jumped over the rope",
+        "D) The children will jump over the rope"
+      ],
+      "correct_answer": "C",
+      "explanation": "Jump → jumped. Вариант C содержит Past Simple, выражающий завершённое действие в прошлом.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I saw ___ cat in the garden.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Перед согласным звуком используется артикль 'a'. Слово 'cat' начинается с согласного звука [k].",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «She is ___ engineer.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "B",
+      "explanation": "Перед гласным звуком используется артикль 'an'. Слово 'engineer' начинается с гласного звука [e].",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «___ sun is bright.»",
+      "options": [
+        "A) A",
+        "B) An",
+        "C) The",
+        "D) без артикля"
+      ],
+      "correct_answer": "C",
+      "explanation": "Определённый артикль 'the' используется с уникальными объектами, известными обоим собеседникам. Солнце — единственное в нашей системе.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I like to eat ___ apples.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "D",
+      "explanation": "При упоминании вещей в общем смысле артикль не используется. Здесь говорится о яблоках в целом, а не о конкретных яблоках.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «My friend bought ___ new house.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Артикль 'a' используется перед согласным звуком при первом упоминании. Это новый дом, о котором говорится впервые.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «He is ___ honest man.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "B",
+      "explanation": "Перед гласным звуком [ɒ] в слове 'honest' используется артикль 'an', несмотря на гласную букву 'h'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I watched ___ film yesterday. ___ film was good.»",
+      "options": [
+        "A) a / the",
+        "B) an / a",
+        "C) the / the",
+        "D) без артикля / a"
+      ],
+      "correct_answer": "A",
+      "explanation": "При первом упоминании используется неопределённый артикль 'a', при втором (уже известном) — определённый артикль 'the'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «She plays ___ piano.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "C",
+      "explanation": "Определённый артикль 'the' используется с музыкальными инструментами при указании на умение играть: 'play the piano'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «Paris is ___ capital of France.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "C",
+      "explanation": "Определённый артикль 'the' используется перед существительными в превосходной степени или единственными в своем роде: столица Франции.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «Would you like ___ tea or ___ coffee?»",
+      "options": [
+        "A) a / a",
+        "B) the / the",
+        "C) без артикля / без артикля",
+        "D) a / the"
+      ],
+      "correct_answer": "C",
+      "explanation": "Названия напитков в общем смысле (в вопросах о предпочтениях) используются без артикля.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I need ___ umbrella because it is raining.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Артикль 'a' используется перед согласным звуком при первом упоминании. Это один из многих зонтиков, новая информация.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «Can you see ___ moon tonight?»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "C",
+      "explanation": "Определённый артикль 'the' используется с луной, так как это один уникальный спутник Земли, известный всем.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «My sister is ___ doctor.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Артикль 'a' используется перед согласным звуком при указании на профессию в общем смысле.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I eat breakfast, lunch and ___ dinner every day.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "D",
+      "explanation": "Названия приёмов пищи (breakfast, lunch, dinner) используются без артикля, когда говорят об этих приёмах в целом.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «There is ___ interesting book on the table.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "B",
+      "explanation": "Перед словом 'interesting', начинающимся с гласного звука [ɪ], используется артикль 'an'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «My mother speaks ___ English and ___ French.»",
+      "options": [
+        "A) the / the",
+        "B) без артикля / без артикля",
+        "C) a / an",
+        "D) an / a"
+      ],
+      "correct_answer": "B",
+      "explanation": "Названия языков используются без артикля: 'speak English', 'speak French'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I have ___ dog and ___ cat. ___ dog is brown.»",
+      "options": [
+        "A) a / a / the",
+        "B) a / an / the",
+        "C) the / the / a",
+        "D) без артикля / без артикля / the"
+      ],
+      "correct_answer": "A",
+      "explanation": "Первые два раза (при введении животных) используется 'a', третий раз (уже известное) — 'the'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «She is wearing ___ uniform.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'uniform' начинается с гласного звука [ju], хотя пишется на букву 'u'. Используется артикль 'an'.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «I go to ___ school every day.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "D",
+      "explanation": "Названия учреждений (school, church, hospital, prison) используются без артикля в выражениях, обозначающих регулярное посещение.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «The Atlantic is ___ ocean.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Артикль 'a' используется при классификации (указание на то, что это один из множества океанов).",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «There are many books in ___ library.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "C",
+      "explanation": "Определённый артикль 'the' используется здесь, потому что речь идёт о конкретной, известной библиотеке в контексте.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «He is ___ university student.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "Артикль 'a' используется перед согласным звуком [j] в слове 'university' (произносится [ju'nɪvɜːsɪti]).",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «What ___ beautiful day!»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "A",
+      "explanation": "В восклицаниях с прилагательными используется артикль 'a': 'What a beautiful day!' (перед согласным звуком).",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: «He gave me ___ advice.»",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) без артикля"
+      ],
+      "correct_answer": "D",
+      "explanation": "Слово 'advice' (совет) — неисчисляемое существительное, поэтому оно используется без артикля.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Как по-английски называется главная комната в доме, где люди сидят и отдыхают?",
+      "options": [
+        "A) kitchen",
+        "B) living room",
+        "C) bedroom",
+        "D) bathroom"
+      ],
+      "correct_answer": "B",
+      "explanation": "Living room — гостиная, основная комната для отдыха. Kitchen — кухня, bedroom — спальня, bathroom — ванная комната.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "house"
+      ]
+    },
+    {
+      "text": "Выберите слово, которое обозначает предмет мебели для сидения с четырьмя ножками и спинкой:",
+      "options": [
+        "A) table",
+        "B) sofa",
+        "C) chair",
+        "D) desk"
+      ],
+      "correct_answer": "C",
+      "explanation": "Chair — стул. Table — стол, sofa — диван, desk — письменный стол. Стул — это именно предмет с четырьмя ножками и спинкой.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "house"
+      ]
+    },
+    {
+      "text": "Какое слово обозначает место, где спят?",
+      "options": [
+        "A) window",
+        "B) bed",
+        "C) door",
+        "D) wall"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bed — кровать, место для сна. Window — окно, door — дверь, wall — стена.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "house"
+      ]
+    },
+    {
+      "text": "Как называется место в школе, где ученики едят обед?",
+      "options": [
+        "A) classroom",
+        "B) gym",
+        "C) library",
+        "D) canteen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Canteen — школьная столовая/буфет. Classroom — класс, gym — спортзал, library — библиотека.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "school"
+      ]
+    },
+    {
+      "text": "Выберите правильное слово для обозначения комнаты, где проводятся уроки:",
+      "options": [
+        "A) classroom",
+        "B) hallway",
+        "C) office",
+        "D) auditorium"
+      ],
+      "correct_answer": "A",
+      "explanation": "Classroom — класс, учебный класс. Hallway — коридор, office — офис, auditorium — аудитория.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "school"
+      ]
+    },
+    {
+      "text": "Как по-английски называется место в школе, где хранятся книги?",
+      "options": [
+        "A) classroom",
+        "B) library",
+        "C) laboratory",
+        "D) office"
+      ],
+      "correct_answer": "B",
+      "explanation": "Library — библиотека. Classroom — класс, laboratory — лаборатория, office — офис.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "school"
+      ]
+    },
+    {
+      "text": "Какое слово обозначает красный фрукт, который часто едят сырым?",
+      "options": [
+        "A) banana",
+        "B) orange",
+        "C) apple",
+        "D) grape"
+      ],
+      "correct_answer": "C",
+      "explanation": "Apple — яблоко, красный фрукт. Banana — банан (жёлтый), orange — апельсин (оранжевый), grape — виноград.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Выберите слово для обозначения белого продукта, который получают от коров:",
+      "options": [
+        "A) butter",
+        "B) milk",
+        "C) cheese",
+        "D) yogurt"
+      ],
+      "correct_answer": "B",
+      "explanation": "Milk — молоко. Butter — масло, cheese — сыр, yogurt — йогурт (все производные молока).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Как называется блюдо, которое готовят из муки, яиц и молока?",
+      "options": [
+        "A) salad",
+        "B) soup",
+        "C) bread",
+        "D) cake"
+      ],
+      "correct_answer": "D",
+      "explanation": "Cake — торт/пирог. Salad — салат, soup — суп, bread — хлеб (хлеб в основном мука и вода).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Выберите слово для обозначения жидкого блюда, которое едят горячим:",
+      "options": [
+        "A) juice",
+        "B) soup",
+        "C) tea",
+        "D) coffee"
+      ],
+      "correct_answer": "B",
+      "explanation": "Soup — суп, горячее жидкое блюдо. Juice — сок (холодный напиток), tea и coffee — напитки, а не блюда.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Как по-английски называется предмет одежды, который надевают на ноги зимой?",
+      "options": [
+        "A) hat",
+        "B) coat",
+        "C) boots",
+        "D) gloves"
+      ],
+      "correct_answer": "C",
+      "explanation": "Boots — сапоги/ботинки для ног. Hat — шапка, coat — пальто, gloves — перчатки.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "clothes"
+      ]
+    },
+    {
+      "text": "Выберите слово для обозначения рубашки с длинными рукавами:",
+      "options": [
+        "A) T-shirt",
+        "B) jumper",
+        "C) shirt",
+        "D) shorts"
+      ],
+      "correct_answer": "C",
+      "explanation": "Shirt — рубашка с длинными рукавами. T-shirt — футболка (короткие рукава), jumper — свитер, shorts — шорты.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "clothes"
+      ]
+    },
+    {
+      "text": "Как называется предмет одежды, который надевают на голову для защиты от холода?",
+      "options": [
+        "A) scarf",
+        "B) hat",
+        "C) coat",
+        "D) socks"
+      ],
+      "correct_answer": "B",
+      "explanation": "Hat — шапка/шляпа для головы. Scarf — шарф, coat — пальто, socks — носки.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "clothes"
+      ]
+    },
+    {
+      "text": "Какое число соответствует цифре 50?",
+      "options": [
+        "A) fifteen",
+        "B) fifty",
+        "C) five",
+        "D) five hundred"
+      ],
+      "correct_answer": "B",
+      "explanation": "Fifty — 50. Fifteen — 15, five — 5, five hundred — 500.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Выберите правильное английское название числа 100:",
+      "options": [
+        "A) ten",
+        "B) one hundred",
+        "C) one thousand",
+        "D) ninety nine"
+      ],
+      "correct_answer": "B",
+      "explanation": "One hundred — 100. Ten — 10, one thousand — 1000, ninety nine — 99.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Как по-английски произносится число 25?",
+      "options": [
+        "A) twenty",
+        "B) twenty five",
+        "C) two five",
+        "D) twenty six"
+      ],
+      "correct_answer": "B",
+      "explanation": "Twenty five — 25. Twenty — 20, two five — неправильный способ (для одного числа), twenty six — 26.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какое число обозначает слово 'ninety'?",
+      "options": [
+        "A) 19",
+        "B) 90",
+        "C) 9",
+        "D) 900"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ninety — 90. Nineteen — 19, nine — 9, nine hundred — 900.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Выберите слово, которое обозначает число 200:",
+      "options": [
+        "A) two hundred",
+        "B) twenty",
+        "C) two thousands",
+        "D) twenty hundred"
+      ],
+      "correct_answer": "A",
+      "explanation": "Two hundred — 200. Twenty — 20, two thousands — неправильно (two thousand — 2000), twenty hundred — неправильно.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Как называется комната в школе, где дети занимаются физкультурой?",
+      "options": [
+        "A) laboratory",
+        "B) gymnasium",
+        "C) auditorium",
+        "D) computer room"
+      ],
+      "correct_answer": "B",
+      "explanation": "Gymnasium (gym) — спортзал. Laboratory — лаборатория, auditorium — аудитория, computer room — компьютерный класс.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "school"
+      ]
+    },
+    {
+      "text": "Выберите слово для обозначения жёлтого фрукта, который растёт на пальме:",
+      "options": [
+        "A) apple",
+        "B) banana",
+        "C) lemon",
+        "D) pineapple"
+      ],
+      "correct_answer": "B",
+      "explanation": "Banana — банан, жёлтый фрукт. Apple — яблоко, lemon — лимон, pineapple — ананас.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Как по-английски называется кусок ткани, который носят на шее для тепла?",
+      "options": [
+        "A) sweater",
+        "B) scarf",
+        "C) jacket",
+        "D) tie"
+      ],
+      "correct_answer": "B",
+      "explanation": "Scarf — шарф. Sweater — свитер, jacket — куртка, tie — галстук.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "clothes"
+      ]
+    },
+    {
+      "text": "Какое число обозначает 'three hundred fifty'?",
+      "options": [
+        "A) 305",
+        "B) 350",
+        "C) 335",
+        "D) 355"
+      ],
+      "correct_answer": "B",
+      "explanation": "Three hundred fifty — 350 (три сотни и пятьдесят). 305 — three hundred five, 335 — three hundred thirty five, 355 — three hundred fifty five.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Выберите слово для обозначения предмета в доме, через который входят в комнату:",
+      "options": [
+        "A) window",
+        "B) door",
+        "C) wall",
+        "D) roof"
+      ],
+      "correct_answer": "B",
+      "explanation": "Door — дверь, через которую входят. Window — окно, wall — стена, roof — крыша.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "house"
+      ]
+    },
+    {
+      "text": "Какой вопрос нужно составить, чтобы узнать о времени действия? «Я приду завтра»",
+      "options": [
+        "A) What will you do tomorrow?",
+        "B) When will you come?",
+        "C) Where will you go?",
+        "D) How will you come?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Вопрос When (Когда) используется для уточнения времени действия. Вариант B правильно спрашивает о времени прихода.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when"
+      ]
+    },
+    {
+      "text": "Выбери правильный специальный вопрос к предложению «Tom lives in London»",
+      "options": [
+        "A) What does Tom live?",
+        "B) Where Tom lives?",
+        "C) Where does Tom live?",
+        "D) When does Tom live?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Where (Где) уточняет место. В английском языке вопрос требует порядка слов: Where + does + Tom + live?",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "where",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Какой вопрос задаёшь, когда нужно узнать, кто совершил действие?",
+      "options": [
+        "A) What did he do?",
+        "B) Where did he go?",
+        "C) Who broke the window?",
+        "D) When did it happen?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вопрос Who (Кто) используется для определения лица, совершившего действие. Вариант C корректно спрашивает о субъекте.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "who"
+      ]
+    },
+    {
+      "text": "К предложению «She reads books every day» какой вопрос подходит?",
+      "options": [
+        "A) What does she read?",
+        "B) When does she read?",
+        "C) Where does she read?",
+        "D) Who reads books?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос What (Что) уточняет объект действия — какие книги она читает. Это наиболее логичный ответ на данное предложение.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "what",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выбери специальный вопрос: «Как ты добираешься до школы?»",
+      "options": [
+        "A) How do you go to school?",
+        "B) Where do you go to school?",
+        "C) When do you go to school?",
+        "D) What do you do at school?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос How (Как) спрашивает о способе, методе или манере действия. Вариант A правильно передаёт смысл вопроса о способе передвижения.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "how"
+      ]
+    },
+    {
+      "text": "К какому вопросу подходит ответ «By car»?",
+      "options": [
+        "A) Where do you go?",
+        "B) When do you go?",
+        "C) How do you get there?",
+        "D) What do you do?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ответ 'By car' (На машине) — это способ, поэтому вопрос должен начинаться с How (Как). Вариант C подходит.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "how",
+        "transport"
+      ]
+    },
+    {
+      "text": "Составь вопрос к предложению: «They went to the park yesterday»",
+      "options": [
+        "A) What did they go?",
+        "B) Where did they go yesterday?",
+        "C) When did they go to the park?",
+        "D) How did they go to the park?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Слово 'yesterday' указывает на время, поэтому When (Когда) — наиболее логичный вопрос. Варианты B и C оба могут работать, но C точнее фокусируется на времени.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос задаёшь о месте: «The keys are on the table»?",
+      "options": [
+        "A) What are on the table?",
+        "B) When are the keys?",
+        "C) Where are the keys?",
+        "D) How are the keys?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вопрос Where (Где) уточняет место расположения предмета. Вариант C имеет правильную структуру и смысл.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "where",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выбери правильный вопрос для уточнения объекта: «He likes football»",
+      "options": [
+        "A) What does he like?",
+        "B) Where does he like?",
+        "C) When does he like football?",
+        "D) Who likes football?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос What (Что) спрашивает об объекте действия. В этом случае What уточняет, что именно ему нравится.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "what"
+      ]
+    },
+    {
+      "text": "К предложению «My friend is coming tomorrow» какой вопрос подходит лучше всего?",
+      "options": [
+        "A) Who is coming tomorrow?",
+        "B) When is your friend coming?",
+        "C) What is your friend doing?",
+        "D) Where is your friend coming?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'tomorrow' указывает на время, поэтому When (Когда) — правильный вопрос. Вариант B фокусируется на временной информации.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "present-continuous"
+      ]
+    },
+    {
+      "text": "Какой вопрос спрашивает о субъекте действия?",
+      "options": [
+        "A) What happened?",
+        "B) Where did it happen?",
+        "C) Who did it?",
+        "D) When did it happen?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вопрос Who (Кто) используется для определения лица (субъекта), совершившего действие. Вариант C — правильный ответ.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "who"
+      ]
+    },
+    {
+      "text": "Составь специальный вопрос к предложению: «We eat lunch at noon»",
+      "options": [
+        "A) What do we eat at noon?",
+        "B) When do we eat lunch?",
+        "C) Where do we eat lunch?",
+        "D) How do we eat?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос What (Что) спрашивает об объекте — что мы едим. Это наиболее информативный вопрос для данного предложения.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "what",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "К ответу «In the library» какой вопрос был задан?",
+      "options": [
+        "A) When do you study?",
+        "B) What do you do?",
+        "C) Who studies with you?",
+        "D) Where do you study?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ответ 'In the library' (В библиотеке) — это место, поэтому вопрос должен начинаться с Where (Где). Вариант D правильный.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "where"
+      ]
+    },
+    {
+      "text": "Выбери вопрос с правильной структурой: «Что она делает в университете?»",
+      "options": [
+        "A) What she does at university?",
+        "B) What does she do at university?",
+        "C) What does at university she do?",
+        "D) She does what at university?"
+      ],
+      "correct_answer": "B",
+      "explanation": "В английском языке в специальных вопросах порядок слов: What + does + she + do + at university?. Вариант B имеет правильный порядок слов.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "what",
+        "word-order"
+      ]
+    },
+    {
+      "text": "К какому вопросу ответ: «At 8 o'clock in the morning»?",
+      "options": [
+        "A) What time do you wake up?",
+        "B) How do you wake up?",
+        "C) Where do you wake up?",
+        "D) Who wakes you up?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ответ содержит время, поэтому вопрос должен спрашивать о времени. 'What time' и 'When' — синонимы для уточнения времени, вариант A подходит.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "time"
+      ]
+    },
+    {
+      "text": "Какой специальный вопрос задаёшь при ответе: «By plane»?",
+      "options": [
+        "A) What do you use?",
+        "B) Where do you go?",
+        "C) How do you travel?",
+        "D) When do you travel?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ответ 'By plane' (На самолёте) — это способ транспортировки, поэтому вопрос должен быть с How (Как). Вариант C правильный.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "how",
+        "transport"
+      ]
+    },
+    {
+      "text": "Составь вопрос к слову 'yesterday' в предложении: «They arrived yesterday»",
+      "options": [
+        "A) What did they do yesterday?",
+        "B) When did they arrive?",
+        "C) Where did they arrive?",
+        "D) How did they arrive?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'yesterday' — временное выражение, поэтому When (Когда) — правильный вопрос. Вариант B точно фокусируется на времени прибытия.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Выбери правильный вопрос для фокусировки на времени: «The concert starts at 7 PM»",
+      "options": [
+        "A) Where does the concert start?",
+        "B) What time does the concert start?",
+        "C) How does the concert start?",
+        "D) Who starts the concert?"
+      ],
+      "correct_answer": "B",
+      "explanation": "'What time' (Во сколько) и 'When' (Когда) используются для уточнения времени события. Вариант B правильный.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "time"
+      ]
+    },
+    {
+      "text": "К какому вопросу подходит ответ: «My sister»?",
+      "options": [
+        "A) When does she come?",
+        "B) Where does she work?",
+        "C) What does she do?",
+        "D) Who is calling you?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ответ 'My sister' — это лицо (субъект). Вопрос Who (Кто) спрашивает о субъекте. Вариант D подходит.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "who"
+      ]
+    },
+    {
+      "text": "Какой вопрос задаёшь о предмете: «She bought a new dress»?",
+      "options": [
+        "A) What did she buy?",
+        "B) Where did she buy it?",
+        "C) When did she buy it?",
+        "D) Who bought a dress?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос What (Что) спрашивает об объекте покупки. Вариант A правильно уточняет, что именно она купила.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "what",
+        "past-simple"
+      ]
+    },
+    {
+      "text": "Выбери специальный вопрос для уточнения места: «The party is at John's house»",
+      "options": [
+        "A) What is the party?",
+        "B) When is the party?",
+        "C) Where is the party?",
+        "D) How is the party?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Фраза 'at John's house' указывает на место, поэтому Where (Где) — правильный вопрос. Вариант C имеет правильную структуру.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "where",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "К какому вопросу ответ: «Because it's interesting»?",
+      "options": [
+        "A) What do you like?",
+        "B) When do you read?",
+        "C) Where do you read?",
+        "D) Why do you read?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ответ содержит причину ('Because'), поэтому вопрос должен быть Why (Почему). Хотя Why не входит в основной список, вариант D показывает логику причины.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "why"
+      ]
+    },
+    {
+      "text": "Составь вопрос к предложению: «We meet at the cinema every Friday»",
+      "options": [
+        "A) Where do we meet every Friday?",
+        "B) What do we do every Friday?",
+        "C) Who do we meet?",
+        "D) When do we meet?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Фраза 'every Friday' указывает на время (когда), поэтому When (Когда) — правильный вопрос. Вариант D фокусируется на частоте и времени встреч.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "when",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос задаёшь о способе действия: «He solved the problem quickly»?",
+      "options": [
+        "A) What did he solve?",
+        "B) When did he solve it?",
+        "C) How did he solve it?",
+        "D) Where did he solve it?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Слово 'quickly' — наречие, описывающее способ действия. How (Как) спрашивает о способе. Вариант C правильный.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "how",
+        "adverbs"
+      ]
+    },
+    {
+      "text": "Выбери правильный специальный вопрос: «Who did you meet at the party?» — правильный, потому что",
+      "options": [
+        "A) спрашивает о месте действия",
+        "B) спрашивает о времени события",
+        "C) спрашивает о субъекте, встреченном на вечеринке",
+        "D) спрашивает об объекте вечеринки"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вопрос Who (Кто) спрашивает о лице, которого ты встретил. Вариант C правильно описывает функцию этого вопроса.",
+      "difficulty": 1,
+      "tags": [
+        "special-questions",
+        "who",
+        "question-purpose"
+      ]
+    }
+  ]
+}
