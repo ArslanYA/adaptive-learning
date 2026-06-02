@@ -148,11 +148,13 @@ def login(data: LoginRequest):
 def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
     conn = get_connection()
     try:
-        # Look up the student's grade to filter lessons
+        # Look up the student — 401 if not found (stale localStorage)
         s = conn.execute(
             "SELECT grade FROM students WHERE id = ?", (student_id,)
         ).fetchone()
-        grade_level = s["grade"] if s else None
+        if s is None:
+            raise HTTPException(status_code=401, detail="session_expired")
+        grade_level = s["grade"]
 
         plan = get_next_lesson(student_id, topic_id, n, grade_level=grade_level, conn=conn)
     except ValueError as e:
