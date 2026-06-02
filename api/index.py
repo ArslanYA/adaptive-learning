@@ -168,11 +168,15 @@ def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
             {
                 "id": q.id,
                 "text": q.text,
+                "text_kz": q.text_kz,
                 "options": q.options,
+                "options_kz": q.options_kz,
                 "question_type": q.question_type,
                 "lesson_title": q.lesson_title,
+                "lesson_title_kz": q.lesson_title_kz,
                 "intro_content": q.intro_content,
                 "explanation": q.explanation,
+                "explanation_kz": q.explanation_kz,
                 "difficulty": q.difficulty,
                 "tags": q.tags,
             }

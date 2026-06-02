@@ -22,23 +22,28 @@ CREATE TABLE IF NOT EXISTS tags (
 );
 
 CREATE TABLE IF NOT EXISTS lessons (
-    id            SERIAL PRIMARY KEY,
-    topic_id      INTEGER NOT NULL REFERENCES topics(id) ON DELETE CASCADE,
-    title         TEXT    NOT NULL,
-    intro_content TEXT    NOT NULL DEFAULT '',
-    difficulty    INTEGER NOT NULL DEFAULT 1 CHECK (difficulty BETWEEN 1 AND 5),
-    grade_level   INTEGER NOT NULL DEFAULT 7,
-    created_at    TIMESTAMP NOT NULL DEFAULT NOW()
+    id                SERIAL PRIMARY KEY,
+    topic_id          INTEGER NOT NULL REFERENCES topics(id) ON DELETE CASCADE,
+    title             TEXT    NOT NULL,
+    title_kz          TEXT    NOT NULL DEFAULT '',
+    intro_content     TEXT    NOT NULL DEFAULT '',
+    intro_content_kz  TEXT    NOT NULL DEFAULT '',
+    difficulty        INTEGER NOT NULL DEFAULT 1 CHECK (difficulty BETWEEN 1 AND 5),
+    grade_level       INTEGER NOT NULL DEFAULT 7,
+    created_at        TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS questions (
     id              SERIAL PRIMARY KEY,
     lesson_id       INTEGER NOT NULL REFERENCES lessons(id) ON DELETE CASCADE,
     text            TEXT    NOT NULL,
+    text_kz         TEXT    NOT NULL DEFAULT '',
     question_type   TEXT    NOT NULL DEFAULT 'multiple_choice',
     options         TEXT,
+    options_kz      TEXT,
     correct_answer  TEXT    NOT NULL,
     explanation     TEXT,
+    explanation_kz  TEXT    NOT NULL DEFAULT '',
     difficulty      INTEGER NOT NULL DEFAULT 1 CHECK (difficulty BETWEEN 1 AND 5)
 );
 

@@ -33,6 +33,9 @@ EXPLORATION_BONUS = 1.4
 # Minimum weight floor so every question has a non-zero chance
 MIN_WEIGHT = 0.05
 
+# Min mastery required to start seeing questions of each difficulty tier
+_DIFFICULTY_UNLOCK = {1: 0.0, 2: 0.35, 3: 0.60, 4: 0.75, 5: 0.85}
+
 
 # ── Data classes ──────────────────────────────────────────────
 
@@ -41,12 +44,16 @@ class Question:
     id: int
     lesson_id: int
     lesson_title: str
+    lesson_title_kz: str
     intro_content: str
     text: str
+    text_kz: str
     question_type: str
     options: list[str]
+    options_kz: list[str]
     correct_answer: str
     explanation: str
+    explanation_kz: str
     difficulty: int
     tags: list[str] = field(default_factory=list)
 
@@ -191,7 +198,7 @@ def _compute_question_weights(
     mastery: dict[int, float],
 ) -> list[tuple[int, float]]:
     query = """
-        SELECT DISTINCT q.id
+        SELECT DISTINCT q.id, q.difficulty
         FROM   questions q
         JOIN   lessons   l ON l.id = q.lesson_id
         WHERE  1=1
@@ -204,9 +211,12 @@ def _compute_question_weights(
         query += " AND l.grade_level = ?"
         params.append(grade_level)
 
-    question_ids: list[int] = [r["id"] for r in conn.execute(query, params).fetchall()]
-    if not question_ids:
+    rows = conn.execute(query, params).fetchall()
+    question_data: list[tuple[int, int]] = [(r["id"], r["difficulty"]) for r in rows]
+    if not question_data:
         return []
+
+    question_ids = [qid for qid, _ in question_data]
 
     # Bulk-fetch tags for all questions in one query
     placeholders = ",".join("?" * len(question_ids))
@@ -220,20 +230,23 @@ def _compute_question_weights(
         q_tags[row["question_id"]].append(row["tag_id"])
 
     weights: list[tuple[int, float]] = []
-    for q_id in question_ids:
+    for q_id, q_diff in question_data:
         tags = q_tags.get(q_id, [])
 
         if not tags:
-            weight = 1.0  # untagged → neutral
+            weakness = 1.0
         else:
             weaknesses = [1.0 - mastery.get(t, UNKNOWN_TAG_PRIOR) for t in tags]
-            weight = sum(weaknesses) / len(weaknesses)
-
-            # Exploration bonus for completely unseen topics
+            weakness = sum(weaknesses) / len(weaknesses)
             if not any(t in mastery for t in tags):
-                weight *= EXPLORATION_BONUS
+                weakness *= EXPLORATION_BONUS
 
-        weights.append((q_id, max(weight, MIN_WEIGHT)))
+        # Progressive difficulty: harder questions unlock gradually as mastery grows
+        avg_mastery = sum(mastery.get(t, UNKNOWN_TAG_PRIOR) for t in tags) / len(tags) if tags else UNKNOWN_TAG_PRIOR
+        threshold = _DIFFICULTY_UNLOCK.get(q_diff, 0.0)
+        diff_factor = 1.0 if avg_mastery >= threshold else max(0.05, avg_mastery / max(threshold, 0.01))
+
+        weights.append((q_id, max(weakness * diff_factor, MIN_WEIGHT)))
 
     return weights
 
@@ -290,13 +303,23 @@ def get_next_lesson(
 
         selected_ids = _weighted_sample_no_replace(weights, n_questions)
 
-        # Fetch full question data
+        # Fetch full question data including kz fields
         placeholders = ",".join("?" * len(selected_ids))
         rows = conn.execute(
             f"""
-            SELECT q.id, q.lesson_id, l.title AS lesson_title,
-                   l.intro_content, q.text, q.question_type,
-                   q.options, q.correct_answer, q.explanation, q.difficulty
+            SELECT q.id, q.lesson_id,
+                   l.title AS lesson_title,
+                   COALESCE(l.title_kz, '') AS lesson_title_kz,
+                   l.intro_content,
+                   q.text,
+                   COALESCE(q.text_kz, '') AS text_kz,
+                   q.question_type,
+                   q.options,
+                   q.options_kz,
+                   q.correct_answer,
+                   q.explanation,
+                   COALESCE(q.explanation_kz, '') AS explanation_kz,
+                   q.difficulty
             FROM   questions q
             JOIN   lessons   l ON l.id = q.lesson_id
             WHERE  q.id IN ({placeholders})
@@ -323,12 +346,16 @@ def get_next_lesson(
                 id=r["id"],
                 lesson_id=r["lesson_id"],
                 lesson_title=r["lesson_title"],
+                lesson_title_kz=r["lesson_title_kz"],
                 intro_content=r["intro_content"],
                 text=r["text"],
+                text_kz=r["text_kz"],
                 question_type=r["question_type"],
                 options=json.loads(r["options"] or "[]"),
+                options_kz=json.loads(r["options_kz"] or "[]"),
                 correct_answer=r["correct_answer"],
                 explanation=r["explanation"] or "",
+                explanation_kz=r["explanation_kz"],
                 difficulty=r["difficulty"],
                 tags=q_tag_names.get(r["id"], []),
             )

@@ -43,10 +43,16 @@ def run_schema(conn):
         if stmt:
             conn.execute(stmt)
     conn.commit()
-    # Migration: add grade_level if column doesn't exist yet
-    conn.execute(
-        "ALTER TABLE lessons ADD COLUMN IF NOT EXISTS grade_level INTEGER NOT NULL DEFAULT 7"
-    )
+    # Migrations: add columns that may not exist in older DB
+    for stmt in [
+        "ALTER TABLE lessons ADD COLUMN IF NOT EXISTS grade_level INTEGER NOT NULL DEFAULT 7",
+        "ALTER TABLE lessons ADD COLUMN IF NOT EXISTS title_kz TEXT NOT NULL DEFAULT ''",
+        "ALTER TABLE lessons ADD COLUMN IF NOT EXISTS intro_content_kz TEXT NOT NULL DEFAULT ''",
+        "ALTER TABLE questions ADD COLUMN IF NOT EXISTS text_kz TEXT NOT NULL DEFAULT ''",
+        "ALTER TABLE questions ADD COLUMN IF NOT EXISTS options_kz TEXT",
+        "ALTER TABLE questions ADD COLUMN IF NOT EXISTS explanation_kz TEXT NOT NULL DEFAULT ''",
+    ]:
+        conn.execute(stmt)
     conn.commit()
     print("Schema applied.")
 
@@ -113,17 +119,19 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
         print(f"  Unknown topic '{topic_name}', skipping {path.name}")
         return
 
-    # Support both intro_content and intro_text field names
     intro = data.get("intro_content") or data.get("intro_text", "")
+    intro_kz = data.get("intro_content_kz") or data.get("intro_text_kz", "")
+    title_kz = data.get("title_kz", "")
+    grade_level = data.get("grade_level", 7)
 
     row = conn.execute(
         """
-        INSERT INTO lessons (topic_id, title, intro_content, difficulty)
-        VALUES (?, ?, ?, ?)
+        INSERT INTO lessons (topic_id, title, title_kz, intro_content, intro_content_kz, difficulty, grade_level)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT DO NOTHING
         RETURNING id
         """,
-        (topic_id, data["title"], intro, data.get("difficulty", 1)),
+        (topic_id, data["title"], title_kz, intro, intro_kz, data.get("difficulty", 1), grade_level),
     ).fetchone()
     if row is None:
         print(f"  Lesson '{data['title']}' already exists, skipping.")
@@ -143,20 +151,33 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
         # Support both correct_answer and correct field names
         correct = q.get("correct_answer") or q.get("correct", "")
 
+        # Build KZ options list
+        raw_opts_kz = q.get("options_kz", {})
+        if isinstance(raw_opts_kz, dict):
+            options_kz = [f"{k}) {v}" for k, v in raw_opts_kz.items()]
+        elif isinstance(raw_opts_kz, list):
+            options_kz = raw_opts_kz
+        else:
+            options_kz = []
+
         q_row = conn.execute(
             """
             INSERT INTO questions
-                (lesson_id, text, question_type, options, correct_answer, explanation, difficulty)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+                (lesson_id, text, text_kz, question_type, options, options_kz,
+                 correct_answer, explanation, explanation_kz, difficulty)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             RETURNING id
             """,
             (
                 lesson_id,
                 q["text"],
+                q.get("text_kz", ""),
                 q.get("question_type", "multiple_choice"),
                 json.dumps(options, ensure_ascii=False),
+                json.dumps(options_kz, ensure_ascii=False) if options_kz else None,
                 correct,
                 q.get("explanation", ""),
+                q.get("explanation_kz", ""),
                 q.get("difficulty", 1),
             ),
         ).fetchone()

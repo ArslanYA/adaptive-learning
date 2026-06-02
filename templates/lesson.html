@@ -9,6 +9,14 @@
     body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #1a1a2e; }
     .container { max-width: 720px; margin: 0 auto; padding: 1.5rem 1rem; }
 
+    /* Language toggle */
+    .lang-bar { display: flex; justify-content: flex-end; margin-bottom: .75rem; gap: .35rem; }
+    .lang-btn { padding: .3rem .8rem; border: 2px solid #e0e0e0; border-radius: 6px; background: #fff; font-size: .8rem; font-weight: 700; cursor: pointer; transition: all .15s; }
+    .lang-btn.active { border-color: #6c63ff; background: #6c63ff; color: #fff; }
+    .lang-kz { display: none; }
+    body.lang-kz .lang-kz { display: inline; }
+    body.lang-kz .lang-ru { display: none; }
+
     /* Progress bar */
     .progress-bar { height: 6px; background: #e0e0e0; border-radius: 3px; margin-bottom: 1.5rem; }
     .progress-fill { height: 100%; background: #6c63ff; border-radius: 3px; transition: width .4s; }
@@ -83,6 +91,24 @@ const studentData = JSON.parse(localStorage.getItem('studentData') || 'null');
 if (!studentData) { window.location.href = '/'; }
 const studentId = studentData ? studentData.student_id : 1;
 
+let currentLang = localStorage.getItem('lang') || 'ru';
+
+function setLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('lang', lang);
+  document.body.className = lang === 'kz' ? 'lang-kz' : '';
+  // Update active button
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.textContent.trim() === (lang === 'ru' ? 'РУС' : 'ҚАЗ'));
+  });
+  // Update placeholder
+  const inp = document.getElementById('tutorInput');
+  if (inp) inp.placeholder = lang === 'kz' ? 'Жауабыңыз...' : 'Твой ответ...';
+}
+
+// Apply saved language on load
+if (currentLang === 'kz') document.body.className = 'lang-kz';
+
 let session = null;
 let questions = [];
 let current = 0;
@@ -120,7 +146,24 @@ function renderQuestion() {
   correctAnswer = '';
 
   const pct = Math.round((current / questions.length) * 100);
+
+  // Build bilingual option buttons
+  const optButtons = q.options.map((opt, i) => {
+    const optKz = (q.options_kz && q.options_kz[i]) ? q.options_kz[i] : opt;
+    const sameText = opt === optKz;
+    return `<button class="option" onclick="answer('${q.id}', '${optLetter(i)}', this)">
+      <span class="lang-ru">${opt}</span>${!sameText ? `<span class="lang-kz">${optKz}</span>` : ''}
+    </button>`;
+  }).join('');
+
+  const titleKz = q.lesson_title_kz || q.lesson_title;
+  const textKz = q.text_kz || q.text;
+
   document.getElementById('app').innerHTML = `
+    <div class="lang-bar">
+      <button class="lang-btn ${currentLang==='ru'?'active':''}" onclick="setLang('ru')">РУС</button>
+      <button class="lang-btn ${currentLang==='kz'?'active':''}" onclick="setLang('kz')">ҚАЗ</button>
+    </div>
     <div class="progress-label">
       <span>Вопрос ${current + 1} из ${questions.length}</span>
       <span>${score} правильных</span>
@@ -128,32 +171,43 @@ function renderQuestion() {
     <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
 
     <div class="card">
-      <div class="lesson-title">${q.lesson_title}</div>
-      <div class="question-text">${q.text}</div>
-      <div class="tags">${(q.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
-      <div class="options" id="options">
-        ${q.options.map((opt, i) => `
-          <button class="option" onclick="answer('${q.id}', '${optLetter(i)}', this)">${opt}</button>
-        `).join('')}
+      <div class="lesson-title">
+        <span class="lang-ru">${q.lesson_title}</span>
+        <span class="lang-kz">${titleKz}</span>
       </div>
+      <div class="question-text">
+        <span class="lang-ru">${q.text}</span>
+        <span class="lang-kz">${textKz}</span>
+      </div>
+      <div class="tags">${(q.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      <div class="options" id="options">${optButtons}</div>
       <div class="feedback" id="feedback"></div>
     </div>
 
     <div class="card tutor-section" id="tutorSection">
       <div class="tutor-header">
         <div class="tutor-avatar">🧠</div>
-        Сократ-наставник
+        <span class="lang-ru">Сократ-наставник</span>
+        <span class="lang-kz">Сократ-ұстаз</span>
       </div>
       <div class="tutor-history" id="tutorHistory"></div>
       <div class="tutor-text" id="tutorText"></div>
       <div class="tutor-input-row" id="tutorInputRow">
-        <input class="tutor-input" id="tutorInput" placeholder="Твой ответ..." onkeydown="if(event.key==='Enter') sendReply()">
-        <button class="tutor-send" id="tutorSend" onclick="sendReply()">Отправить</button>
+        <input class="tutor-input" id="tutorInput"
+          placeholder="${currentLang==='kz' ? 'Жауабыңыз...' : 'Твой ответ...'}"
+          onkeydown="if(event.key==='Enter') sendReply()">
+        <button class="tutor-send" id="tutorSend" onclick="sendReply()">
+          <span class="lang-ru">Отправить</span>
+          <span class="lang-kz">Жіберу</span>
+        </button>
       </div>
     </div>
 
     <div class="bottom">
-      <button class="btn" id="nextBtn" onclick="nextQuestion()" disabled>Следующий →</button>
+      <button class="btn" id="nextBtn" onclick="nextQuestion()" disabled>
+        <span class="lang-ru">Следующий →</span>
+        <span class="lang-kz">Келесі →</span>
+      </button>
       <a class="btn btn-outline" href="/dashboard.html">Прогресс</a>
     </div>
   `;
@@ -186,11 +240,12 @@ async function answer(qId, letter, btn) {
     btn.classList.add('wrong');
     fb.className = 'feedback wrong';
     fb.textContent = `✗ Неверно. Правильный ответ: ${result.correct_answer}`;
-    // Show tutor
+    // Show tutor — pass text in current language so Socrates responds in same language
     wrongAnswer = letter;
     correctAnswer = result.correct_answer;
     document.getElementById('tutorSection').style.display = 'block';
-    startTutor(q, letter, result.correct_answer, result.explanation || '');
+    const expl = currentLang === 'kz' && q.explanation_kz ? q.explanation_kz : (result.explanation || '');
+    startTutor(q, letter, result.correct_answer, expl);
   }
 
   document.getElementById('nextBtn').disabled = false;
@@ -200,13 +255,15 @@ async function startTutor(q, userAnswer, correctAnswer, explanation) {
   document.getElementById('tutorText').textContent = '...';
   document.getElementById('tutorSend').disabled = true;
 
+  const qText = currentLang === 'kz' && q.text_kz ? q.text_kz : q.text;
+  const qOpts = currentLang === 'kz' && q.options_kz?.length ? q.options_kz : q.options;
   const body = {
-    question_text: q.text,
-    options: q.options,
+    question_text: qText,
+    options: qOpts,
     correct_answer: correctAnswer,
     user_answer: userAnswer,
     explanation: explanation,
-    lesson_title: q.lesson_title,
+    lesson_title: currentLang === 'kz' && q.lesson_title_kz ? q.lesson_title_kz : q.lesson_title,
     tags: q.tags || []
   };
 
