@@ -55,7 +55,7 @@ app.add_middleware(
 
 class LoginRequest(BaseModel):
     name: str
-    grade: int  # 4, 5, 6, 7, ...
+    grade: int = 7
 
 
 class AttemptRequest(BaseModel):

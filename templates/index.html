@@ -7,43 +7,28 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #1a1a2e; min-height: 100vh; }
-    .container { max-width: 560px; margin: 0 auto; padding: 2.5rem 1rem; }
+    .container { max-width: 520px; margin: 0 auto; padding: 2.5rem 1rem; }
     h1 { font-size: 2rem; font-weight: 700; margin-bottom: .25rem; }
-    .subtitle { color: #666; margin-bottom: 2.5rem; font-size: .95rem; }
-    .card { background: #fff; border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin-bottom: 1.25rem; }
+    .subtitle { color: #666; margin-bottom: 2rem; font-size: .95rem; }
+    .card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin-bottom: 1rem; }
     label { display: block; font-weight: 600; margin-bottom: .5rem; font-size: .9rem; }
     input[type=text] { width: 100%; padding: .75rem 1rem; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; outline: none; transition: border .2s; }
     input[type=text]:focus { border-color: #6c63ff; }
-
-    .grade-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem; }
-    .locked-badge { font-size: .75rem; background: #f0eeff; color: #6c63ff; border-radius: 20px; padding: .2rem .7rem; font-weight: 600; display: none; }
-    .grade-tabs { display: flex; gap: .5rem; }
-    .grade-tab { flex: 1; padding: .65rem .5rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: .95rem; font-weight: 700; cursor: pointer; text-align: center; transition: all .15s; color: #555; }
-    .grade-tab:hover:not(.locked) { border-color: #6c63ff; color: #6c63ff; }
-    .grade-tab.selected { border-color: #6c63ff; background: #6c63ff; color: #fff; }
-    .grade-tab.locked { cursor: default; }
-    .grade-tab.no-content { opacity: .45; border-style: dashed; }
-    .grade-tab.no-content.selected { background: #f59e0b; border-color: #f59e0b; opacity: 1; }
-
-    .welcome { display: none; background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: .7rem 1rem; margin-top: .75rem; font-size: .88rem; color: #166534; }
+    .welcome { display: none; background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: .6rem 1rem; margin-top: .6rem; font-size: .88rem; color: #166534; }
     .welcome.show { display: block; }
-
-    .topics { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem; }
-    .topic { background: #fafafa; border-radius: 10px; padding: 1rem .5rem; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all .15s; }
+    .topics { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+    .topic { background: #fafafa; border-radius: 10px; padding: .9rem .4rem; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all .15s; }
     .topic:hover, .topic.selected { border-color: #6c63ff; background: #f0eeff; }
-    .topic .icon { font-size: 1.6rem; display: block; margin-bottom: .3rem; }
+    .topic .icon { font-size: 1.5rem; display: block; margin-bottom: .25rem; }
     .topic .name { font-size: .75rem; font-weight: 600; }
-
-    .n-row { display: flex; gap: .5rem; margin-top: .75rem; }
+    .n-row { display: flex; gap: .5rem; margin-top: .6rem; }
     .n-btn { flex: 1; padding: .55rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: .9rem; font-weight: 600; cursor: pointer; text-align: center; transition: all .15s; }
     .n-btn.selected { border-color: #6c63ff; background: #f0eeff; color: #6c63ff; }
-
-    .btn { display: block; width: 100%; padding: .85rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background .2s; margin-top: .25rem; text-align: center; text-decoration: none; }
+    .btn { display: block; width: 100%; padding: .85rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background .2s; text-align: center; text-decoration: none; }
     .btn:hover:not(:disabled) { background: #574fd6; }
     .btn:disabled { opacity: .45; cursor: default; }
     .btn-outline { background: transparent; color: #6c63ff; border: 2px solid #6c63ff; margin-top: .75rem; }
     .btn-outline:hover { background: #f0eeff; }
-    .hint { font-size: .78rem; color: #999; margin-top: .4rem; }
     .error-msg { color: #dc2626; font-size: .83rem; margin-top: .4rem; display: none; }
     .error-msg.show { display: block; }
   </style>
@@ -51,7 +36,7 @@
 <body>
 <div class="container">
   <h1>Adaptive Learning</h1>
-  <p class="subtitle">Персонализированные уроки (Казахстан)</p>
+  <p class="subtitle">Персонализированные уроки — 7 класс</p>
 
   <div class="card">
     <label for="nameInput">Твоё имя</label>
@@ -64,21 +49,6 @@
       style="display:none;margin-top:.75rem;width:100%;padding:.6rem;background:#fff;border:2px solid #e0e0e0;border-radius:8px;font-size:.85rem;font-weight:600;color:#666;cursor:pointer;">
       Другой ученик →
     </button>
-  </div>
-
-  <div class="card">
-    <div class="grade-row">
-      <label style="margin:0">Класс</label>
-      <span class="locked-badge" id="lockedBadge">🔒 Зафиксирован</span>
-    </div>
-    <div class="grade-tabs" id="gradeTabs">
-      <div class="grade-tab" data-grade="4" onclick="selectGrade(this,4)">4</div>
-      <div class="grade-tab" data-grade="5" onclick="selectGrade(this,5)">5</div>
-      <div class="grade-tab no-content" data-grade="6" onclick="selectGrade(this,6)" title="Уроки ещё не добавлены">6</div>
-      <div class="grade-tab selected" data-grade="7" onclick="selectGrade(this,7)">7</div>
-      <div class="grade-tab no-content" data-grade="8" onclick="selectGrade(this,8)" title="Уроки ещё не добавлены">8</div>
-    </div>
-    <p class="hint" id="gradeHint">После первого урока класс будет зафиксирован. <span style="color:#f59e0b">⚠ 6 и 8 классы — уроки ещё не добавлены</span></p>
   </div>
 
   <div class="card">
@@ -97,8 +67,7 @@
         <span class="icon">🇬🇧</span><span class="name">Англ.</span>
       </div>
     </div>
-
-    <label style="margin-top:1.1rem">Количество вопросов</label>
+    <label style="margin-top:1rem">Количество вопросов</label>
     <div class="n-row">
       <div class="n-btn" onclick="selectN(this,5)">5</div>
       <div class="n-btn selected" onclick="selectN(this,10)">10</div>
@@ -111,55 +80,28 @@
 </div>
 
 <script>
-  let selectedGrade = 7;
   let selectedTopic = '';
   let selectedN = 10;
-  let gradeLocked = false;
 
-  // Restore saved student
-  let saved = JSON.parse(localStorage.getItem('studentData') || 'null');
+  const saved = JSON.parse(localStorage.getItem('studentData') || 'null');
   if (saved) {
     document.getElementById('nameInput').value = saved.name;
-    document.getElementById('switchBtn').style.display = 'inline';
-    applyGrade(saved.grade, true);
-    showWelcome(saved.name, saved.grade, false);
+    document.getElementById('switchBtn').style.display = 'block';
+    showWelcome(saved.name);
   }
 
-  function applyGrade(grade, locked) {
-    selectedGrade = grade;
-    gradeLocked = locked;
-    document.querySelectorAll('.grade-tab').forEach(t => {
-      const g = parseInt(t.dataset.grade);
-      t.classList.toggle('selected', g === grade);
-      if (locked) t.classList.add('locked');
-      else t.classList.remove('locked');
-    });
-    document.getElementById('lockedBadge').style.display = locked ? 'inline' : 'none';
-    document.getElementById('gradeHint').style.display = locked ? 'none' : 'block';
-  }
-
-  function selectGrade(el, grade) {
-    if (gradeLocked) return;
-    applyGrade(grade, false);
-  }
-
-  // Unlock grade tabs when user types a different name
   function onNameInput() {
     const name = document.getElementById('nameInput').value.trim();
     if (saved && name.toLowerCase() !== saved.name.toLowerCase()) {
-      applyGrade(selectedGrade, false);
       document.getElementById('welcomeMsg').className = 'welcome';
     }
   }
 
-  // Clear current session and reset form
   function switchStudent() {
     localStorage.removeItem('studentData');
-    saved = null;
     document.getElementById('nameInput').value = '';
     document.getElementById('welcomeMsg').className = 'welcome';
     document.getElementById('switchBtn').style.display = 'none';
-    applyGrade(7, false);
     document.getElementById('nameInput').focus();
   }
 
@@ -175,11 +117,9 @@
     selectedN = n;
   }
 
-  function showWelcome(name, grade, isNew) {
+  function showWelcome(name) {
     const el = document.getElementById('welcomeMsg');
-    el.textContent = isNew
-      ? `Привет, ${name}! Добро пожаловать. Твой класс: ${grade}`
-      : `С возвращением, ${name}! Твой класс: ${grade} 🎯`;
+    el.textContent = `С возвращением, ${name}!`;
     el.className = 'welcome show';
   }
 
@@ -197,7 +137,7 @@
       const res = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, grade: selectedGrade })
+        body: JSON.stringify({ name, grade: 7 })
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || 'Ошибка входа');
@@ -205,20 +145,11 @@
       localStorage.setItem('studentData', JSON.stringify({
         student_id: data.student_id,
         name: data.name,
-        grade: data.grade,
+        grade: 7,
       }));
 
-      // If returning student has a different grade than selected — show it and wait
-      if (!data.is_new && data.grade !== selectedGrade) {
-        applyGrade(data.grade, true);
-        showWelcome(data.name, data.grade, false);
-        btn.disabled = false;
-        btn.textContent = 'Начать урок →';
-        return;
-      }
-
-      applyGrade(data.grade, true);
-      showWelcome(data.name, data.grade, data.is_new);
+      showWelcome(data.name);
+      document.getElementById('switchBtn').style.display = 'block';
 
       const params = new URLSearchParams({ n: selectedN });
       if (selectedTopic) params.set('topic_id', selectedTopic);
