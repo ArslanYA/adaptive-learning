@@ -20,10 +20,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, StreamingResponse
 from pydantic import BaseModel
 
-PUBLIC = Path(__file__).parent.parent / "public"
+TEMPLATES = Path(__file__).parent.parent / "templates"
 
 def _html(name: str) -> HTMLResponse:
-    return HTMLResponse(content=(PUBLIC / name).read_text(encoding="utf-8"))
+    return HTMLResponse(content=(TEMPLATES / name).read_text(encoding="utf-8"))
 
 from adaptive_engine import (
     get_connection,
