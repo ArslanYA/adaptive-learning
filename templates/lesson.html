@@ -127,6 +127,7 @@ let correctAnswer = ''; // stored when attempt returns result
 async function init() {
   let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
   if (topicId) url += `&topic_id=${topicId}`;
+  const res = await fetch(url);
   if (res.status === 401) {
     // Student no longer in DB (e.g. after DB reset) — clear cache and go home
     localStorage.removeItem('studentData');
