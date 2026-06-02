@@ -88,6 +88,7 @@ let tutorHistory = [];  // [{role, content}]
 let tutorTurn = 0;
 let answered = false;
 let wrongAnswer = '';   // letter the student chose incorrectly
+let correctAnswer = ''; // stored when attempt returns result
 
 async function init() {
   let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
@@ -112,6 +113,8 @@ function renderQuestion() {
   answered = false;
   tutorHistory = [];
   tutorTurn = 0;
+  wrongAnswer = '';
+  correctAnswer = '';
 
   const pct = Math.round((current / questions.length) * 100);
   document.getElementById('app').innerHTML = `
@@ -182,6 +185,7 @@ async function answer(qId, letter, btn) {
     fb.textContent = `✗ Неверно. Правильный ответ: ${result.correct_answer}`;
     // Show tutor
     wrongAnswer = letter;
+    correctAnswer = result.correct_answer;
     document.getElementById('tutorSection').style.display = 'block';
     startTutor(q, letter, result.correct_answer, result.explanation || '');
   }
@@ -235,7 +239,7 @@ async function sendReply() {
   const body = {
     question_text: q.text,
     options: q.options,
-    correct_answer: q.correct_answer,
+    correct_answer: correctAnswer,
     user_answer: wrongAnswer,
     explanation: q.explanation || '',
     lesson_title: q.lesson_title,
