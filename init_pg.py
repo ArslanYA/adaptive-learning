@@ -38,11 +38,15 @@ TAGS = [
 
 def run_schema(conn):
     sql = SCHEMA.read_text(encoding="utf-8")
-    # Execute each statement separately (psycopg2 doesn't have executescript)
     for stmt in sql.split(";"):
         stmt = stmt.strip()
         if stmt:
             conn.execute(stmt)
+    conn.commit()
+    # Migration: add grade_level if column doesn't exist yet
+    conn.execute(
+        "ALTER TABLE lessons ADD COLUMN IF NOT EXISTS grade_level INTEGER NOT NULL DEFAULT 7"
+    )
     conn.commit()
     print("Schema applied.")
 

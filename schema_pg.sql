@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS lessons (
     title         TEXT    NOT NULL,
     intro_content TEXT    NOT NULL DEFAULT '',
     difficulty    INTEGER NOT NULL DEFAULT 1 CHECK (difficulty BETWEEN 1 AND 5),
+    grade_level   INTEGER NOT NULL DEFAULT 7,
     created_at    TIMESTAMP NOT NULL DEFAULT NOW()
 );
 

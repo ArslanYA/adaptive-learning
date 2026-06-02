@@ -53,6 +53,11 @@ app.add_middleware(
 
 # ── Request models ─────────────────────────────────────────────
 
+class LoginRequest(BaseModel):
+    name: str
+    grade: int  # 4, 5, 6, 7, ...
+
+
 class AttemptRequest(BaseModel):
     student_id: int = 1
     question_id: int
@@ -104,11 +109,52 @@ def health():
     return {"status": "ok"}
 
 
+@app.post("/api/login")
+def login(data: LoginRequest):
+    """Find or create a student. Grade is locked once set."""
+    name = data.name.strip()
+    if not name:
+        raise HTTPException(status_code=400, detail="Name is required")
+    conn = get_connection()
+    try:
+        row = conn.execute(
+            "SELECT id, name, grade FROM students WHERE LOWER(name) = LOWER(?)",
+            (name,),
+        ).fetchone()
+        if row:
+            return {
+                "student_id": row["id"],
+                "name": row["name"],
+                "grade": row["grade"],
+                "is_new": False,
+            }
+        # New student — create with chosen grade
+        new_row = conn.execute(
+            "INSERT INTO students (name, grade) VALUES (?, ?) RETURNING id",
+            (name, data.grade),
+        ).fetchone()
+        conn.commit()
+        return {
+            "student_id": new_row["id"],
+            "name": name,
+            "grade": data.grade,
+            "is_new": True,
+        }
+    finally:
+        conn.close()
+
+
 @app.get("/api/lesson")
 def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
     conn = get_connection()
     try:
-        plan = get_next_lesson(student_id, topic_id, n, conn=conn)
+        # Look up the student's grade to filter lessons
+        s = conn.execute(
+            "SELECT grade FROM students WHERE id = ?", (student_id,)
+        ).fetchone()
+        grade_level = s["grade"] if s else None
+
+        plan = get_next_lesson(student_id, topic_id, n, grade_level=grade_level, conn=conn)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     finally:

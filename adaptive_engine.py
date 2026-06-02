@@ -184,23 +184,12 @@ def _update_mastery_cache(
 # ── Question weighting ────────────────────────────────────────
 
 def _compute_question_weights(
-    conn: sqlite3.Connection,
+    conn,
     student_id: int,
     topic_id: Optional[int],
+    grade_level: Optional[int],
     mastery: dict[int, float],
 ) -> list[tuple[int, float]]:
-    """
-    Assign a sampling weight to every available question.
-
-    Weight formula (per question):
-        weakness_per_tag = 1 − mastery(tag)   # 0 = perfect, 1 = never right
-        avg_weakness     = mean(weakness across question's tags)
-
-    Unknown tags (no history) use UNKNOWN_TAG_PRIOR → mild boost.
-    Questions with ALL tags unseen get an EXPLORATION_BONUS.
-
-    Final weight is clamped to MIN_WEIGHT so nothing is completely excluded.
-    """
     query = """
         SELECT DISTINCT q.id
         FROM   questions q
@@ -211,6 +200,9 @@ def _compute_question_weights(
     if topic_id is not None:
         query += " AND l.topic_id = ?"
         params.append(topic_id)
+    if grade_level is not None:
+        query += " AND l.grade_level = ?"
+        params.append(grade_level)
 
     question_ids: list[int] = [r["id"] for r in conn.execute(query, params).fetchall()]
     if not question_ids:
@@ -279,6 +271,7 @@ def get_next_lesson(
     student_id: int,
     topic_id: Optional[int] = None,
     n_questions: int = 20,
+    grade_level: Optional[int] = None,
     db_path: Path = DB_PATH,
     conn=None,
 ) -> LessonPlan:
@@ -288,7 +281,7 @@ def get_next_lesson(
         conn = get_connection(db_path)
     try:
         mastery = compute_tag_mastery(conn, student_id)
-        weights = _compute_question_weights(conn, student_id, topic_id, mastery)
+        weights = _compute_question_weights(conn, student_id, topic_id, grade_level, mastery)
 
         if not weights:
             raise ValueError(

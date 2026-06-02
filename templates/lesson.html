@@ -78,7 +78,10 @@
 const params = new URLSearchParams(location.search);
 const topicId = params.get('topic_id') || '';
 const nQ = params.get('n') || 10;
-const studentId = 1;
+
+const studentData = JSON.parse(localStorage.getItem('studentData') || 'null');
+if (!studentData) { window.location.href = '/'; }
+const studentId = studentData ? studentData.student_id : 1;
 
 let session = null;
 let questions = [];

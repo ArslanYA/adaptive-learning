@@ -7,75 +7,133 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #1a1a2e; min-height: 100vh; }
-    .container { max-width: 640px; margin: 0 auto; padding: 2rem 1rem; }
+    .container { max-width: 560px; margin: 0 auto; padding: 2.5rem 1rem; }
     h1 { font-size: 2rem; font-weight: 700; margin-bottom: .25rem; }
-    .subtitle { color: #666; margin-bottom: 2.5rem; }
-    .card { background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin-bottom: 1.5rem; }
+    .subtitle { color: #666; margin-bottom: 2.5rem; font-size: .95rem; }
+    .card { background: #fff; border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 12px rgba(0,0,0,.08); margin-bottom: 1.25rem; }
     label { display: block; font-weight: 600; margin-bottom: .5rem; font-size: .9rem; }
     input[type=text] { width: 100%; padding: .75rem 1rem; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; outline: none; transition: border .2s; }
     input[type=text]:focus { border-color: #6c63ff; }
-    .btn { display: block; width: 100%; padding: .85rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background .2s; margin-top: 1rem; text-align: center; text-decoration: none; }
-    .btn:hover { background: #574fd6; }
+
+    .grade-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem; }
+    .locked-badge { font-size: .75rem; background: #f0eeff; color: #6c63ff; border-radius: 20px; padding: .2rem .7rem; font-weight: 600; display: none; }
+    .grade-tabs { display: flex; gap: .5rem; }
+    .grade-tab { flex: 1; padding: .65rem .5rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: .95rem; font-weight: 700; cursor: pointer; text-align: center; transition: all .15s; color: #555; }
+    .grade-tab:hover:not(.locked) { border-color: #6c63ff; color: #6c63ff; }
+    .grade-tab.selected { border-color: #6c63ff; background: #6c63ff; color: #fff; }
+    .grade-tab.locked { cursor: default; }
+
+    .welcome { display: none; background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: .7rem 1rem; margin-top: .75rem; font-size: .88rem; color: #166534; }
+    .welcome.show { display: block; }
+
+    .topics { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem; }
+    .topic { background: #fafafa; border-radius: 10px; padding: 1rem .5rem; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all .15s; }
+    .topic:hover, .topic.selected { border-color: #6c63ff; background: #f0eeff; }
+    .topic .icon { font-size: 1.6rem; display: block; margin-bottom: .3rem; }
+    .topic .name { font-size: .75rem; font-weight: 600; }
+
+    .n-row { display: flex; gap: .5rem; margin-top: .75rem; }
+    .n-btn { flex: 1; padding: .55rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: .9rem; font-weight: 600; cursor: pointer; text-align: center; transition: all .15s; }
+    .n-btn.selected { border-color: #6c63ff; background: #f0eeff; color: #6c63ff; }
+
+    .btn { display: block; width: 100%; padding: .85rem; background: #6c63ff; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background .2s; margin-top: .25rem; text-align: center; text-decoration: none; }
+    .btn:hover:not(:disabled) { background: #574fd6; }
+    .btn:disabled { opacity: .45; cursor: default; }
     .btn-outline { background: transparent; color: #6c63ff; border: 2px solid #6c63ff; margin-top: .75rem; }
     .btn-outline:hover { background: #f0eeff; }
-    .topics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
-    .topic { background: #fff; border-radius: 10px; padding: 1.25rem 1rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,.07); cursor: pointer; border: 2px solid transparent; transition: all .2s; }
-    .topic:hover, .topic.selected { border-color: #6c63ff; background: #f0eeff; }
-    .topic .icon { font-size: 2rem; display: block; margin-bottom: .4rem; }
-    .topic .name { font-size: .85rem; font-weight: 600; }
-    .n-questions { display: flex; gap: .75rem; margin-top: .75rem; }
-    .n-btn { flex: 1; padding: .6rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: .9rem; font-weight: 600; cursor: pointer; text-align: center; transition: all .2s; }
-    .n-btn.selected { border-color: #6c63ff; background: #f0eeff; color: #6c63ff; }
-    .hint { font-size: .8rem; color: #999; margin-top: .5rem; }
+    .hint { font-size: .78rem; color: #999; margin-top: .4rem; }
+    .error-msg { color: #dc2626; font-size: .83rem; margin-top: .4rem; display: none; }
+    .error-msg.show { display: block; }
   </style>
 </head>
 <body>
 <div class="container">
   <h1>Adaptive Learning</h1>
-  <p class="subtitle">Персонализированные уроки для 7 класса (Казахстан)</p>
+  <p class="subtitle">Персонализированные уроки (Казахстан)</p>
 
   <div class="card">
-    <label for="name">Твоё имя</label>
-    <input type="text" id="name" placeholder="Алибек" maxlength="60">
-    <p class="hint" style="margin-top:.5rem">Используется для сохранения прогресса</p>
+    <label for="nameInput">Твоё имя</label>
+    <input type="text" id="nameInput" placeholder="Введи своё имя" maxlength="60" autocomplete="off"
+      onkeydown="if(event.key==='Enter') startLesson()">
+    <div class="welcome" id="welcomeMsg"></div>
+    <div class="error-msg" id="nameError">Пожалуйста, введи своё имя</div>
+  </div>
+
+  <div class="card">
+    <div class="grade-row">
+      <label style="margin:0">Класс</label>
+      <span class="locked-badge" id="lockedBadge">🔒 Зафиксирован</span>
+    </div>
+    <div class="grade-tabs" id="gradeTabs">
+      <div class="grade-tab" data-grade="4" onclick="selectGrade(this,4)">4</div>
+      <div class="grade-tab" data-grade="5" onclick="selectGrade(this,5)">5</div>
+      <div class="grade-tab" data-grade="6" onclick="selectGrade(this,6)">6</div>
+      <div class="grade-tab selected" data-grade="7" onclick="selectGrade(this,7)">7</div>
+      <div class="grade-tab" data-grade="8" onclick="selectGrade(this,8)">8</div>
+    </div>
+    <p class="hint" id="gradeHint">После первого урока класс будет зафиксирован</p>
   </div>
 
   <div class="card">
     <label>Предмет <span style="font-weight:400;color:#999">(необязательно)</span></label>
-    <div class="topics" id="topics">
-      <div class="topic" data-id="" onclick="selectTopic(this, '')">
+    <div class="topics">
+      <div class="topic selected" onclick="selectTopic(this,'')">
         <span class="icon">🎯</span><span class="name">Все</span>
       </div>
-      <div class="topic" data-id="1" onclick="selectTopic(this, '1')">
-        <span class="icon">➗</span><span class="name">Математика</span>
+      <div class="topic" onclick="selectTopic(this,'1')">
+        <span class="icon">➗</span><span class="name">Матем.</span>
       </div>
-      <div class="topic" data-id="2" onclick="selectTopic(this, '2')">
+      <div class="topic" onclick="selectTopic(this,'2')">
         <span class="icon">🧩</span><span class="name">Логика</span>
       </div>
-      <div class="topic" data-id="3" onclick="selectTopic(this, '3')">
-        <span class="icon">🇬🇧</span><span class="name">Английский</span>
+      <div class="topic" onclick="selectTopic(this,'3')">
+        <span class="icon">🇬🇧</span><span class="name">Англ.</span>
       </div>
     </div>
 
-    <label>Количество вопросов</label>
-    <div class="n-questions" id="nQuestions">
-      <div class="n-btn" data-n="5"  onclick="selectN(this, 5)">5</div>
-      <div class="n-btn selected" data-n="10" onclick="selectN(this, 10)">10</div>
-      <div class="n-btn" data-n="20" onclick="selectN(this, 20)">20</div>
+    <label style="margin-top:1.1rem">Количество вопросов</label>
+    <div class="n-row">
+      <div class="n-btn" onclick="selectN(this,5)">5</div>
+      <div class="n-btn selected" onclick="selectN(this,10)">10</div>
+      <div class="n-btn" onclick="selectN(this,20)">20</div>
     </div>
   </div>
 
-  <button class="btn" onclick="startLesson()">Начать урок →</button>
+  <button class="btn" id="startBtn" onclick="startLesson()">Начать урок →</button>
   <a class="btn btn-outline" href="/dashboard.html">Мой прогресс</a>
 </div>
 
 <script>
+  let selectedGrade = 7;
   let selectedTopic = '';
   let selectedN = 10;
+  let gradeLocked = false;
 
-  // Restore name from localStorage
-  const savedName = localStorage.getItem('studentName');
-  if (savedName) document.getElementById('name').value = savedName;
+  // Restore saved student
+  const saved = JSON.parse(localStorage.getItem('studentData') || 'null');
+  if (saved) {
+    document.getElementById('nameInput').value = saved.name;
+    applyGrade(saved.grade, true);
+    showWelcome(saved.name, saved.grade, false);
+  }
+
+  function applyGrade(grade, locked) {
+    selectedGrade = grade;
+    gradeLocked = locked;
+    document.querySelectorAll('.grade-tab').forEach(t => {
+      const g = parseInt(t.dataset.grade);
+      t.classList.toggle('selected', g === grade);
+      if (locked) t.classList.add('locked');
+      else t.classList.remove('locked');
+    });
+    document.getElementById('lockedBadge').style.display = locked ? 'inline' : 'none';
+    document.getElementById('gradeHint').style.display = locked ? 'none' : 'block';
+  }
+
+  function selectGrade(el, grade) {
+    if (gradeLocked) return;
+    applyGrade(grade, false);
+  }
 
   function selectTopic(el, id) {
     document.querySelectorAll('.topic').forEach(t => t.classList.remove('selected'));
@@ -89,13 +147,60 @@
     selectedN = n;
   }
 
-  function startLesson() {
-    const name = document.getElementById('name').value.trim() || 'Студент';
-    localStorage.setItem('studentName', name);
-    // For demo: student_id is always 1. In production, you'd look up by name.
-    const params = new URLSearchParams({ n: selectedN });
-    if (selectedTopic) params.set('topic_id', selectedTopic);
-    window.location.href = `/lesson.html?${params}`;
+  function showWelcome(name, grade, isNew) {
+    const el = document.getElementById('welcomeMsg');
+    el.textContent = isNew
+      ? `Привет, ${name}! Добро пожаловать. Твой класс: ${grade}`
+      : `С возвращением, ${name}! Твой класс: ${grade} 🎯`;
+    el.className = 'welcome show';
+  }
+
+  async function startLesson() {
+    const name = document.getElementById('nameInput').value.trim();
+    const errEl = document.getElementById('nameError');
+    if (!name) { errEl.classList.add('show'); return; }
+    errEl.classList.remove('show');
+
+    const btn = document.getElementById('startBtn');
+    btn.disabled = true;
+    btn.textContent = 'Загрузка...';
+
+    try {
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, grade: selectedGrade })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.detail || 'Ошибка входа');
+
+      localStorage.setItem('studentData', JSON.stringify({
+        student_id: data.student_id,
+        name: data.name,
+        grade: data.grade,
+      }));
+
+      // If returning student has a different grade than selected — show it and wait
+      if (!data.is_new && data.grade !== selectedGrade) {
+        applyGrade(data.grade, true);
+        showWelcome(data.name, data.grade, false);
+        btn.disabled = false;
+        btn.textContent = 'Начать урок →';
+        return;
+      }
+
+      applyGrade(data.grade, true);
+      showWelcome(data.name, data.grade, data.is_new);
+
+      const params = new URLSearchParams({ n: selectedN });
+      if (selectedTopic) params.set('topic_id', selectedTopic);
+      window.location.href = `/lesson.html?${params}`;
+
+    } catch (e) {
+      btn.disabled = false;
+      btn.textContent = 'Начать урок →';
+      alert('Ошибка: ' + e.message);
+    }
   }
 </script>
 </body>
