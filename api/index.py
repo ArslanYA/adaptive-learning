@@ -166,6 +166,7 @@ def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
         "session_id": plan.session_id,
         "weak_tags": plan.weak_tags,
         "mastery_summary": plan.mastery_summary,
+        "current_level": plan.current_level,
         "questions": [
             {
                 "id": q.id,

@@ -107,6 +107,7 @@ async function init() {
     session = data.session_id;
     questions = data.questions || [];
     if (!questions.length) { showErr('Нет вопросов для этого урока.'); return; }
+    window._currentLevel = data.current_level || 1;
     renderQuestion();
   } catch (e) {
     showErr(`Ошибка: ${e.message}`);
@@ -128,6 +129,9 @@ function renderQuestion() {
   document.getElementById('app').innerHTML = `
     <div class="top-nav">
       <a class="home-btn" href="/">🏠 Главная</a>
+      <span style="font-size:.8rem;font-weight:600;color:#6c63ff;background:#f0eeff;padding:.25rem .65rem;border-radius:20px">
+        Уровень ${window._currentLevel || 1} / 4
+      </span>
     </div>
     <div class="progress-label">
       <span>Вопрос ${current + 1} из ${questions.length}</span>

@@ -33,8 +33,10 @@ EXPLORATION_BONUS = 1.4
 # Minimum weight floor so every question has a non-zero chance
 MIN_WEIGHT = 0.05
 
-# Min mastery required to start seeing questions of each difficulty tier
-_DIFFICULTY_UNLOCK = {1: 0.0, 2: 0.35, 3: 0.60, 4: 0.75, 5: 0.85}
+# 4 difficulty levels; level N+1 unlocks when mastery on level N >= this threshold
+_UNLOCK_THRESHOLD = 0.9
+# Minimum attempts on a level before it can unlock the next
+_MIN_ATTEMPTS_TO_UNLOCK = 10
 
 
 # ── Data classes ──────────────────────────────────────────────
@@ -62,8 +64,9 @@ class Question:
 class LessonPlan:
     session_id: str
     questions: list[Question]
-    weak_tags: list[str]          # top-3 tags being targeted
-    mastery_summary: dict[str, float]   # tag_name → score (0–1)
+    weak_tags: list[str]
+    mastery_summary: dict[str, float]
+    current_level: int = 1        # highest unlocked difficulty (1–4)
 
 
 @dataclass
@@ -188,6 +191,71 @@ def _update_mastery_cache(
         )
 
 
+# ── Per-level mastery ─────────────────────────────────────────
+
+def compute_level_mastery(
+    conn,
+    student_id: int,
+    lookback_days: int = MASTERY_DECAY_DAYS * 6,
+) -> dict[int, tuple[float, int]]:
+    """
+    Return time-weighted mastery and attempt count per difficulty level.
+    Result: {1: (mastery, attempts), 2: ..., 3: ..., 4: ...}
+    mastery is None when the student has never attempted that level.
+    """
+    cutoff = datetime.now() - timedelta(days=lookback_days)
+    rows = conn.execute(
+        """
+        SELECT q.difficulty, sa.is_correct, sa.attempted_at
+        FROM   student_attempts sa
+        JOIN   questions q ON q.id = sa.question_id
+        WHERE  sa.student_id = ?
+          AND  sa.attempted_at >= ?
+        """,
+        (student_id, cutoff),
+    ).fetchall()
+
+    now = datetime.now()
+    w_correct: dict[int, float] = defaultdict(float)
+    w_total:   dict[int, float] = defaultdict(float)
+    counts:    dict[int, int]   = defaultdict(int)
+
+    for row in rows:
+        diff = min(max(int(row["difficulty"]), 1), 4)
+        raw = row["attempted_at"]
+        attempted_at = raw if isinstance(raw, datetime) else datetime.fromisoformat(raw)
+        days_ago = (now - attempted_at).total_seconds() / 86_400
+        w = math.exp(-days_ago / MASTERY_DECAY_DAYS)
+        w_total[diff] += w
+        counts[diff] += 1
+        if row["is_correct"]:
+            w_correct[diff] += w
+
+    result: dict[int, tuple] = {}
+    for diff in range(1, 5):
+        if w_total[diff] > 0:
+            result[diff] = (w_correct[diff] / w_total[diff], counts[diff])
+        else:
+            result[diff] = (None, 0)
+    return result
+
+
+def get_max_unlocked_level(level_mastery: dict) -> int:
+    """
+    Return the highest difficulty level the student can access.
+    Level N+1 unlocks when level N mastery >= 90% with >= 10 attempts.
+    Always at least level 1.
+    """
+    max_level = 1
+    for level in range(1, 4):
+        mastery, attempts = level_mastery.get(level, (None, 0))
+        if mastery is not None and mastery >= _UNLOCK_THRESHOLD and attempts >= _MIN_ATTEMPTS_TO_UNLOCK:
+            max_level = level + 1
+        else:
+            break
+    return max_level
+
+
 # ── Question weighting ────────────────────────────────────────
 
 def _compute_question_weights(
@@ -196,14 +264,15 @@ def _compute_question_weights(
     topic_id: Optional[int],
     grade_level: Optional[int],
     mastery: dict[int, float],
+    max_unlocked_level: int = 4,
 ) -> list[tuple[int, float]]:
     query = """
         SELECT DISTINCT q.id, q.difficulty
         FROM   questions q
         JOIN   lessons   l ON l.id = q.lesson_id
-        WHERE  1=1
+        WHERE  q.difficulty <= ?
     """
-    params: list[Any] = []
+    params: list[Any] = [max_unlocked_level]
     if topic_id is not None:
         query += " AND l.topic_id = ?"
         params.append(topic_id)
@@ -241,10 +310,8 @@ def _compute_question_weights(
             if not any(t in mastery for t in tags):
                 weakness *= EXPLORATION_BONUS
 
-        # Progressive difficulty: harder questions unlock gradually as mastery grows
-        avg_mastery = sum(mastery.get(t, UNKNOWN_TAG_PRIOR) for t in tags) / len(tags) if tags else UNKNOWN_TAG_PRIOR
-        threshold = _DIFFICULTY_UNLOCK.get(q_diff, 0.0)
-        diff_factor = 1.0 if avg_mastery >= threshold else max(0.05, avg_mastery / max(threshold, 0.01))
+        # Boost newly-unlocked level questions to give student exposure to them
+        diff_factor = 1.2 if q_diff == max_unlocked_level else 1.0
 
         weights.append((q_id, max(weakness * diff_factor, MIN_WEIGHT)))
 
@@ -294,7 +361,9 @@ def get_next_lesson(
         conn = get_connection(db_path)
     try:
         mastery = compute_tag_mastery(conn, student_id)
-        weights = _compute_question_weights(conn, student_id, topic_id, grade_level, mastery)
+        level_mastery = compute_level_mastery(conn, student_id)
+        max_level = get_max_unlocked_level(level_mastery)
+        weights = _compute_question_weights(conn, student_id, topic_id, grade_level, mastery, max_level)
 
         if not weights:
             raise ValueError(
@@ -386,6 +455,7 @@ def get_next_lesson(
             questions=questions,
             weak_tags=weak_tags,
             mastery_summary=mastery_summary,
+            current_level=max_level,
         )
 
     finally:
