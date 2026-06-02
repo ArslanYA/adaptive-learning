@@ -22,6 +22,8 @@
     .grade-tab:hover:not(.locked) { border-color: #6c63ff; color: #6c63ff; }
     .grade-tab.selected { border-color: #6c63ff; background: #6c63ff; color: #fff; }
     .grade-tab.locked { cursor: default; }
+    .grade-tab.no-content { opacity: .45; border-style: dashed; }
+    .grade-tab.no-content.selected { background: #f59e0b; border-color: #f59e0b; opacity: 1; }
 
     .welcome { display: none; background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: .7rem 1rem; margin-top: .75rem; font-size: .88rem; color: #166534; }
     .welcome.show { display: block; }
@@ -71,11 +73,11 @@
     <div class="grade-tabs" id="gradeTabs">
       <div class="grade-tab" data-grade="4" onclick="selectGrade(this,4)">4</div>
       <div class="grade-tab" data-grade="5" onclick="selectGrade(this,5)">5</div>
-      <div class="grade-tab" data-grade="6" onclick="selectGrade(this,6)">6</div>
+      <div class="grade-tab no-content" data-grade="6" onclick="selectGrade(this,6)" title="Уроки ещё не добавлены">6</div>
       <div class="grade-tab selected" data-grade="7" onclick="selectGrade(this,7)">7</div>
-      <div class="grade-tab" data-grade="8" onclick="selectGrade(this,8)">8</div>
+      <div class="grade-tab no-content" data-grade="8" onclick="selectGrade(this,8)" title="Уроки ещё не добавлены">8</div>
     </div>
-    <p class="hint" id="gradeHint">После первого урока класс будет зафиксирован</p>
+    <p class="hint" id="gradeHint">После первого урока класс будет зафиксирован. <span style="color:#f59e0b">⚠ 6 и 8 классы — уроки ещё не добавлены</span></p>
   </div>
 
   <div class="card">

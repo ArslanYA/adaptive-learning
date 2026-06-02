@@ -17,6 +17,11 @@
     body.lang-kz .lang-kz { display: inline; }
     body.lang-kz .lang-ru { display: none; }
 
+    /* Top nav */
+    .top-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: .75rem; }
+    .home-btn { padding: .3rem .8rem; background: #fff; border: 2px solid #e0e0e0; border-radius: 6px; font-size: .8rem; font-weight: 600; color: #555; cursor: pointer; text-decoration: none; transition: all .15s; }
+    .home-btn:hover { border-color: #6c63ff; color: #6c63ff; }
+
     /* Progress bar */
     .progress-bar { height: 6px; background: #e0e0e0; border-radius: 3px; margin-bottom: 1.5rem; }
     .progress-fill { height: 100%; background: #6c63ff; border-radius: 3px; transition: width .4s; }
@@ -170,9 +175,12 @@ function renderQuestion() {
   const textKz = q.text_kz || q.text;
 
   document.getElementById('app').innerHTML = `
-    <div class="lang-bar">
-      <button class="lang-btn ${currentLang==='ru'?'active':''}" onclick="setLang('ru')">РУС</button>
-      <button class="lang-btn ${currentLang==='kz'?'active':''}" onclick="setLang('kz')">ҚАЗ</button>
+    <div class="top-nav">
+      <a class="home-btn" href="/">🏠 Главная</a>
+      <div class="lang-bar" style="margin:0">
+        <button class="lang-btn ${currentLang==='ru'?'active':''}" onclick="setLang('ru')">РУС</button>
+        <button class="lang-btn ${currentLang==='kz'?'active':''}" onclick="setLang('kz')">ҚАЗ</button>
+      </div>
     </div>
     <div class="progress-label">
       <span>Вопрос ${current + 1} из ${questions.length}</span>
