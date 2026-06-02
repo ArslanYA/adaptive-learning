@@ -92,9 +92,15 @@ const params = new URLSearchParams(location.search);
 const topicId = params.get('topic_id') || '';
 const nQ = params.get('n') || 10;
 
-const studentData = JSON.parse(localStorage.getItem('studentData') || 'null');
-if (!studentData) { window.location.href = '/'; throw new Error('no session'); }
-const studentId = studentData.student_id;
+let studentData, studentId;
+try {
+  studentData = JSON.parse(localStorage.getItem('studentData') || 'null');
+} catch(e) { studentData = null; }
+if (!studentData) {
+  document.getElementById('app').innerHTML =
+    '<div class="loading">Сессия устарела.<br><br><a href="/" style="color:#6c63ff">🏠 Войти снова</a></div>';
+}
+studentId = studentData ? studentData.student_id : null;
 
 let currentLang = localStorage.getItem('lang') || 'ru';
 
@@ -124,12 +130,18 @@ let answered = false;
 let wrongAnswer = '';   // letter the student chose incorrectly
 let correctAnswer = ''; // stored when attempt returns result
 
+window.onerror = (msg, src, line) => {
+  document.getElementById('app').innerHTML =
+    `<div class="loading" style="color:#991b1b">JS ошибка: ${msg} (${src}:${line})<br><a href="/" style="color:#6c63ff">🏠 На главную</a></div>`;
+};
+
 function showErr(msg) {
   document.getElementById('app').innerHTML =
     `<div class="loading" style="line-height:1.8;color:#991b1b">${msg}<br><br><a href="/" style="color:#6c63ff">🏠 На главную</a></div>`;
 }
 
 async function init() {
+  if (!studentId) return;
   try {
     let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
     if (topicId) url += `&topic_id=${topicId}`;
