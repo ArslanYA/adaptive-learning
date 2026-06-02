@@ -86,7 +86,6 @@
 <div class="container" id="app">
   <div class="loading"><span class="spinner"></span> Загружаем вопросы...</div>
 </div>
-<!-- build:v5 -->
 
 <script>
 const params = new URLSearchParams(location.search);
@@ -194,9 +193,11 @@ function renderQuestion() {
   const optButtons = q.options.map((opt, i) => {
     const optKz = (q.options_kz && q.options_kz[i]) ? q.options_kz[i] : opt;
     const sameText = opt === optKz;
-    return `<button class="option" onclick="answer('${q.id}', '${optLetter(i)}', this)">
-      <span class="lang-ru">${opt}</span>${!sameText ? `<span class="lang-kz">${optKz}</span>` : ''}
-    </button>`;
+    // If no KZ translation, render plain text (no lang class) so it's always visible
+    const inner = sameText
+      ? opt
+      : `<span class="lang-ru">${opt}</span><span class="lang-kz">${optKz}</span>`;
+    return `<button class="option" onclick="answer('${q.id}', '${optLetter(i)}', this)">${inner}</button>`;
   }).join('');
 
   const titleKz = q.lesson_title_kz || q.lesson_title;

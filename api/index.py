@@ -106,7 +106,7 @@ def serve_dashboard():
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "v": 5}
+    return {"status": "ok"}
 
 
 @app.post("/api/login")
