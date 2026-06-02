@@ -87,6 +87,7 @@ let score = 0;
 let tutorHistory = [];  // [{role, content}]
 let tutorTurn = 0;
 let answered = false;
+let wrongAnswer = '';   // letter the student chose incorrectly
 
 async function init() {
   let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
@@ -180,6 +181,7 @@ async function answer(qId, letter, btn) {
     fb.className = 'feedback wrong';
     fb.textContent = `✗ Неверно. Правильный ответ: ${result.correct_answer}`;
     // Show tutor
+    wrongAnswer = letter;
     document.getElementById('tutorSection').style.display = 'block';
     startTutor(q, letter, result.correct_answer, result.explanation || '');
   }
@@ -229,13 +231,12 @@ async function sendReply() {
   document.getElementById('tutorText').textContent = '...';
 
   const q = questions[current];
-  const correctAnswer = q.options.find(o => o.startsWith(q.correct_answer)) ? q.correct_answer : q.correct_answer;
 
   const body = {
     question_text: q.text,
     options: q.options,
     correct_answer: q.correct_answer,
-    user_answer: '',
+    user_answer: wrongAnswer,
     explanation: q.explanation || '',
     lesson_title: q.lesson_title,
     tags: q.tags || [],
@@ -260,27 +261,36 @@ async function sendReply() {
 }
 
 async function streamSSE(response, targetId) {
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder();
   const target = document.getElementById(targetId);
   target.textContent = '';
+
+  if (!response.ok) {
+    const err = await response.text();
+    target.textContent = `[HTTP ${response.status}: ${err.slice(0, 300)}]`;
+    console.error('SSE error', response.status, err);
+    return '';
+  }
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
   let full = '';
   let buffer = '';
+  let done = false;
 
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    buffer += decoder.decode(value, { stream: true });
+  while (!done) {
+    const { done: streamDone, value } = await reader.read();
+    done = streamDone;
+    if (value) buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
-    buffer = lines.pop(); // keep incomplete last line
+    buffer = lines.pop();
     for (const line of lines) {
       if (!line.startsWith('data: ')) continue;
       const raw = line.slice(6).trim();
-      if (raw === '[DONE]') break;
+      if (raw === '[DONE]') { done = true; break; }
       try {
         const obj = JSON.parse(raw);
         if (obj.token) { full += obj.token; target.textContent = full; }
-      } catch {}
+      } catch (e) { console.warn('SSE parse error', line, e); }
     }
   }
   return full;
