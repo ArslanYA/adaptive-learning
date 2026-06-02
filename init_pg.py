@@ -109,6 +109,9 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
         print(f"  Unknown topic '{topic_name}', skipping {path.name}")
         return
 
+    # Support both intro_content and intro_text field names
+    intro = data.get("intro_content") or data.get("intro_text", "")
+
     row = conn.execute(
         """
         INSERT INTO lessons (topic_id, title, intro_content, difficulty)
@@ -116,7 +119,7 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
         ON CONFLICT DO NOTHING
         RETURNING id
         """,
-        (topic_id, data["title"], data.get("intro_content", ""), data.get("difficulty", 1)),
+        (topic_id, data["title"], intro, data.get("difficulty", 1)),
     ).fetchone()
     if row is None:
         print(f"  Lesson '{data['title']}' already exists, skipping.")
@@ -124,6 +127,18 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
     lesson_id = row["id"]
 
     for q in data.get("questions", []):
+        # Support both options formats:
+        # dict: {"A": "text", "B": "text"} → list: ["A) text", "B) text"]
+        # list: ["A) text", "B) text"]      → used as-is
+        raw_opts = q.get("options", [])
+        if isinstance(raw_opts, dict):
+            options = [f"{k}) {v}" for k, v in raw_opts.items()]
+        else:
+            options = raw_opts
+
+        # Support both correct_answer and correct field names
+        correct = q.get("correct_answer") or q.get("correct", "")
+
         q_row = conn.execute(
             """
             INSERT INTO questions
@@ -135,8 +150,8 @@ def load_lesson_json(conn, path: Path, topic_ids, tag_ids):
                 lesson_id,
                 q["text"],
                 q.get("question_type", "multiple_choice"),
-                json.dumps(q.get("options", []), ensure_ascii=False),
-                q["correct_answer"],
+                json.dumps(options, ensure_ascii=False),
+                correct,
                 q.get("explanation", ""),
                 q.get("difficulty", 1),
             ),
