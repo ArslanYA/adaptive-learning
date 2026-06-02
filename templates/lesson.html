@@ -93,8 +93,8 @@ const topicId = params.get('topic_id') || '';
 const nQ = params.get('n') || 10;
 
 const studentData = JSON.parse(localStorage.getItem('studentData') || 'null');
-if (!studentData) { window.location.href = '/'; }
-const studentId = studentData ? studentData.student_id : 1;
+if (!studentData) { window.location.href = '/'; throw new Error('no session'); }
+const studentId = studentData.student_id;
 
 let currentLang = localStorage.getItem('lang') || 'ru';
 
@@ -124,41 +124,42 @@ let answered = false;
 let wrongAnswer = '';   // letter the student chose incorrectly
 let correctAnswer = ''; // stored when attempt returns result
 
+function showErr(msg) {
+  document.getElementById('app').innerHTML =
+    `<div class="loading" style="line-height:1.8;color:#991b1b">${msg}<br><br><a href="/" style="color:#6c63ff">🏠 На главную</a></div>`;
+}
+
 async function init() {
-  let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
-  if (topicId) url += `&topic_id=${topicId}`;
-  const res = await fetch(url);
-  if (res.status === 401) {
-    // Student no longer in DB (e.g. after DB reset) — clear cache and go home
-    localStorage.removeItem('studentData');
-    window.location.href = '/';
-    return;
-  }
-  if (!res.ok) {
-    const body = await res.json().catch(() => ({}));
-    const detail = body.detail || '';
-    const noContent = detail.toLowerCase().includes('no questions') || detail.toLowerCase().includes('not found');
-    const grade = (JSON.parse(localStorage.getItem('studentData') || '{}').grade) || '';
-    const msg = noContent
-      ? `📚 Для ${grade} класса уроки ещё не добавлены.<br>Выбери другой класс на главной странице.`
-      : `Ошибка загрузки (${res.status}): ${detail}`;
-    document.getElementById('app').innerHTML = `
-      <div class="loading" style="line-height:1.8">${msg}<br><br>
-        <a href="/" style="color:#6c63ff">🏠 На главную</a>
-      </div>`;
-    return;
-  }
-  const data = await res.json();
-  session = data.session_id;
-  questions = data.questions || [];
-  if (!questions.length) {
-    document.getElementById('app').innerHTML = `<div class="loading">Нет вопросов для этого урока.<br><a href="/" style="color:#6c63ff">🏠 На главную</a></div>`;
-    return;
-  }
   try {
+    let url = `/api/lesson?student_id=${studentId}&n=${nQ}`;
+    if (topicId) url += `&topic_id=${topicId}`;
+    const res = await fetch(url);
+    if (res.status === 401) {
+      localStorage.removeItem('studentData');
+      window.location.href = '/';
+      return;
+    }
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      const detail = body.detail || '';
+      const noContent = detail.toLowerCase().includes('no questions') || detail.toLowerCase().includes('not found');
+      const grade = (JSON.parse(localStorage.getItem('studentData') || '{}').grade) || '';
+      const msg = noContent
+        ? `📚 Для ${grade} класса уроки ещё не добавлены.<br>Выбери другой класс на главной странице.`
+        : `Ошибка загрузки (${res.status}): ${detail}`;
+      showErr(msg);
+      return;
+    }
+    const data = await res.json();
+    session = data.session_id;
+    questions = data.questions || [];
+    if (!questions.length) {
+      showErr('Нет вопросов для этого урока.');
+      return;
+    }
     renderQuestion();
   } catch (e) {
-    document.getElementById('app').innerHTML = `<div class="loading">Ошибка отображения: ${e.message}<br><a href="/" style="color:#6c63ff">🏠 На главную</a></div>`;
+    showErr(`Ошибка: ${e.message}`);
   }
 }
 
