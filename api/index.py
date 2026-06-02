@@ -180,8 +180,11 @@ async def tutor_start(data: TutorStartRequest):
     )
 
     async def generate():
-        async for token in explain_mistake_stream_async(ctx):
-            yield f"data: {json.dumps({'token': token})}\n\n"
+        try:
+            async for token in explain_mistake_stream_async(ctx):
+                yield f"data: {json.dumps({'token': token})}\n\n"
+        except Exception as e:
+            yield f"data: {json.dumps({'token': f'[Ошибка: {e}]'})}\n\n"
         yield "data: [DONE]\n\n"
 
     return StreamingResponse(generate(), media_type="text/event-stream")
@@ -230,15 +233,18 @@ async def tutor_reply(data: TutorReplyRequest):
             messages.append({"role": msg["role"], "content": msg["content"]})
         messages.append({"role": "user", "content": data.student_message})
 
-        client = anthropic.AsyncAnthropic()
-        async with client.messages.stream(
-            model=_MODEL,
-            max_tokens=512,
-            system=_system_block(),
-            messages=messages,
-        ) as stream:
-            async for token in stream.text_stream:
-                yield f"data: {json.dumps({'token': token})}\n\n"
+        try:
+            client = anthropic.AsyncAnthropic()
+            async with client.messages.stream(
+                model=_MODEL,
+                max_tokens=512,
+                system=_system_block(),
+                messages=messages,
+            ) as stream:
+                async for token in stream.text_stream:
+                    yield f"data: {json.dumps({'token': token})}\n\n"
+        except Exception as e:
+            yield f"data: {json.dumps({'token': f'[Ошибка: {e}]'})}\n\n"
 
         yield "data: [DONE]\n\n"
 
