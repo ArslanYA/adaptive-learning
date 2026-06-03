@@ -28,6 +28,10 @@ from typing import AsyncIterator, Iterator
 
 import anthropic
 
+_raw_key = os.environ.get("ANTHROPIC_API_KEY", "")
+if _raw_key and ord(_raw_key[0]) == 0xFEFF:
+    os.environ["ANTHROPIC_API_KEY"] = _raw_key.lstrip(_raw_key[0])
+
 # ── Model ─────────────────────────────────────────────────────────────────────
 
 _MODEL = "claude-opus-4-8"
