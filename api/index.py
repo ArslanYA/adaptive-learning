@@ -150,11 +150,11 @@ def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
     try:
         # Look up the student — 401 if not found (stale localStorage)
         s = conn.execute(
-            "SELECT grade FROM students WHERE id = ?", (student_id,)
+            "SELECT id FROM students WHERE id = ?", (student_id,)
         ).fetchone()
         if s is None:
             raise HTTPException(status_code=401, detail="session_expired")
-        grade_level = s["grade"]
+        grade_level = 7
 
         plan = get_next_lesson(student_id, topic_id, n, grade_level=grade_level, conn=conn)
     except ValueError as e:
