@@ -16,6 +16,13 @@
     input[type=text]:focus { border-color: #6c63ff; }
     .welcome { display: none; background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: .6rem 1rem; margin-top: .6rem; font-size: .88rem; color: #166534; }
     .welcome.show { display: block; }
+
+    .grade-tabs { display: flex; gap: .5rem; margin-bottom: .1rem; }
+    .grade-tab { flex: 1; padding: .7rem; border: 2px solid #e0e0e0; border-radius: 8px; background: #fff; font-size: 1rem; font-weight: 700; cursor: pointer; text-align: center; transition: all .15s; color: #555; }
+    .grade-tab:hover { border-color: #6c63ff; color: #6c63ff; }
+    .grade-tab.selected { border-color: #6c63ff; background: #6c63ff; color: #fff; }
+    .grade-hint { font-size: .78rem; color: #999; margin-top: .4rem; }
+
     .topics { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
     .topic { background: #fafafa; border-radius: 10px; padding: .9rem .4rem; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all .15s; }
     .topic:hover, .topic.selected { border-color: #6c63ff; background: #f0eeff; }
@@ -36,7 +43,7 @@
 <body>
 <div class="container">
   <h1>Adaptive Learning</h1>
-  <p class="subtitle">Персонализированные уроки — 7 класс</p>
+  <p class="subtitle">Персонализированные уроки</p>
 
   <div class="card">
     <label for="nameInput">Твоё имя</label>
@@ -49,6 +56,15 @@
       style="display:none;margin-top:.75rem;width:100%;padding:.6rem;background:#fff;border:2px solid #e0e0e0;border-radius:8px;font-size:.85rem;font-weight:600;color:#666;cursor:pointer;">
       Другой ученик →
     </button>
+  </div>
+
+  <div class="card">
+    <label>Класс</label>
+    <div class="grade-tabs">
+      <div class="grade-tab selected" data-grade="4" onclick="selectGrade(this,4)">4 класс</div>
+      <div class="grade-tab" data-grade="7" onclick="selectGrade(this,7)">7 класс</div>
+    </div>
+    <p class="grade-hint" id="gradeHint">Имя + класс = отдельный аккаунт. Можно быть в обоих классах.</p>
   </div>
 
   <div class="card">
@@ -80,6 +96,7 @@
 </div>
 
 <script>
+  let selectedGrade = 4;
   let selectedTopic = '';
   let selectedN = 10;
 
@@ -87,12 +104,30 @@
   if (saved) {
     document.getElementById('nameInput').value = saved.name;
     document.getElementById('switchBtn').style.display = 'block';
-    showWelcome(saved.name);
+    applyGrade(saved.grade);
+    showWelcome(saved.name, saved.grade);
+  }
+
+  function applyGrade(grade) {
+    selectedGrade = grade;
+    document.querySelectorAll('.grade-tab').forEach(t => {
+      t.classList.toggle('selected', parseInt(t.dataset.grade) === grade);
+    });
+  }
+
+  function selectGrade(el, grade) {
+    applyGrade(grade);
+    // Clear welcome if grade differs from saved
+    if (saved && grade !== saved.grade) {
+      document.getElementById('welcomeMsg').className = 'welcome';
+    } else if (saved && grade === saved.grade) {
+      showWelcome(saved.name, saved.grade);
+    }
   }
 
   function onNameInput() {
     const name = document.getElementById('nameInput').value.trim();
-    if (saved && name.toLowerCase() !== saved.name.toLowerCase()) {
+    if (!saved || name.toLowerCase() !== saved.name.toLowerCase() || selectedGrade !== saved.grade) {
       document.getElementById('welcomeMsg').className = 'welcome';
     }
   }
@@ -117,9 +152,9 @@
     selectedN = n;
   }
 
-  function showWelcome(name) {
+  function showWelcome(name, grade) {
     const el = document.getElementById('welcomeMsg');
-    el.textContent = `С возвращением, ${name}!`;
+    el.textContent = `С возвращением, ${name}! (${grade} класс)`;
     el.className = 'welcome show';
   }
 
@@ -137,7 +172,7 @@
       const res = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, grade: 7 })
+        body: JSON.stringify({ name, grade: selectedGrade })
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || 'Ошибка входа');
@@ -145,10 +180,10 @@
       localStorage.setItem('studentData', JSON.stringify({
         student_id: data.student_id,
         name: data.name,
-        grade: 7,
+        grade: data.grade,
       }));
 
-      showWelcome(data.name);
+      showWelcome(data.name, data.grade);
       document.getElementById('switchBtn').style.display = 'block';
 
       const params = new URLSearchParams({ n: selectedN });

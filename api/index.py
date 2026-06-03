@@ -111,35 +111,24 @@ def health():
 
 @app.post("/api/login")
 def login(data: LoginRequest):
-    """Find or create a student. Grade is locked once set."""
+    """Find or create a student by (name, grade) pair — Variant B."""
     name = data.name.strip()
     if not name:
         raise HTTPException(status_code=400, detail="Name is required")
     conn = get_connection()
     try:
         row = conn.execute(
-            "SELECT id, name, grade FROM students WHERE LOWER(name) = LOWER(?)",
-            (name,),
+            "SELECT id, name, grade FROM students WHERE LOWER(name) = LOWER(?) AND grade = ?",
+            (name, data.grade),
         ).fetchone()
         if row:
-            return {
-                "student_id": row["id"],
-                "name": row["name"],
-                "grade": row["grade"],
-                "is_new": False,
-            }
-        # New student — create with chosen grade
+            return {"student_id": row["id"], "name": row["name"], "grade": row["grade"], "is_new": False}
         new_row = conn.execute(
             "INSERT INTO students (name, grade) VALUES (?, ?) RETURNING id",
             (name, data.grade),
         ).fetchone()
         conn.commit()
-        return {
-            "student_id": new_row["id"],
-            "name": name,
-            "grade": data.grade,
-            "is_new": True,
-        }
+        return {"student_id": new_row["id"], "name": name, "grade": data.grade, "is_new": True}
     finally:
         conn.close()
 
@@ -150,11 +139,11 @@ def lesson(student_id: int = 1, topic_id: Optional[int] = None, n: int = 10):
     try:
         # Look up the student — 401 if not found (stale localStorage)
         s = conn.execute(
-            "SELECT id FROM students WHERE id = ?", (student_id,)
+            "SELECT grade FROM students WHERE id = ?", (student_id,)
         ).fetchone()
         if s is None:
             raise HTTPException(status_code=401, detail="session_expired")
-        grade_level = 7
+        grade_level = s["grade"]
 
         plan = get_next_lesson(student_id, topic_id, n, grade_level=grade_level, conn=conn)
     except ValueError as e:

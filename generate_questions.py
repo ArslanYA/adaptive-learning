@@ -110,8 +110,103 @@ FILENAME_MAP = {
     ("Английский", 4): "grade7_english_lvl4.json",
 }
 
+# ── Grade 4 plan ──────────────────────────────────────────────
 
-def make_prompt(subject: str, level: int, topic: str, tags: list, count: int = 25) -> str:
+PLAN_GRADE4 = {
+    "Математика": [
+        (1, "таблица умножения (2–9): прямые и обратные вопросы", ["натуральные-числа"]),
+        (1, "деление как обратное умножение, деление без остатка", ["натуральные-числа"]),
+        (1, "сложение и вычитание чисел в пределах 100", ["натуральные-числа"]),
+        (1, "порядок действий: скобки, умножение/деление раньше сложения/вычитания", ["натуральные-числа"]),
+        (1, "сравнение и упорядочивание чисел до 1000", ["натуральные-числа"]),
+        (2, "умножение и деление на 10, 100, 1000", ["натуральные-числа"]),
+        (2, "сложение и вычитание трёхзначных чисел с переходом", ["натуральные-числа"]),
+        (2, "деление с остатком: нахождение частного и остатка", ["натуральные-числа"]),
+        (2, "простые дроби: половина, четверть, треть от числа", ["дроби"]),
+        (2, "единицы длины (мм, см, дм, м, км) и перевод между ними", ["натуральные-числа"]),
+        (3, "умножение трёхзначного числа на однозначное (письменно)", ["натуральные-числа"]),
+        (3, "деление трёхзначного числа на однозначное (письменно)", ["натуральные-числа"]),
+        (3, "периметр прямоугольника, квадрата, треугольника", ["геометрия-периметр"]),
+        (3, "единицы массы (г, кг, т) и времени (мин, ч, сут): перевод и задачи", ["натуральные-числа"]),
+        (3, "текстовые задачи в 1–2 действия на умножение и деление", ["натуральные-числа"]),
+        (4, "площадь прямоугольника и квадрата: вычисление и сравнение", ["геометрия-площадь"]),
+        (4, "составные задачи в 3 действия с разными операциями", ["натуральные-числа"]),
+        (4, "нахождение неизвестного в уравнении вида x × a = b и x + a = b", ["уравнения"]),
+        (4, "задачи на нахождение доли числа и числа по его доле", ["дроби"]),
+        (4, "олимпиадные задачи для 4 класса: нестандартные методы", ["натуральные-числа"]),
+    ],
+    "Логика": [
+        (1, "простые числовые последовательности: прибавление/вычитание одного числа", ["логика-последовательности"]),
+        (1, "найди лишнее в ряду: числа, фигуры, животные, предметы", ["логика-аналогии"]),
+        (1, "простые аналогии: A относится к B так же как C к ?", ["логика-аналогии"]),
+        (1, "сравни и упорядочи: больше/меньше/равно, раньше/позже", ["логика-аналогии"]),
+        (1, "числовые паттерны: пропущенное число в ряду", ["логика-последовательности"]),
+        (2, "числовые последовательности с умножением и делением", ["логика-последовательности"]),
+        (2, "классификация предметов: по форме, цвету, размеру, назначению", ["логика-аналогии"]),
+        (2, "простые задачи на истину и ложь (верно/неверно)", ["логика-истина-ложь"]),
+        (2, "задачи на упорядочивание: кто выше/тяжелее/быстрее из 3–4 объектов", ["логика-аналогии"]),
+        (2, "двухшаговые числовые паттерны (+a, +b, чередование)", ["логика-последовательности"]),
+        (3, "сложные аналогии: числа, слова, геометрические фигуры", ["логика-аналогии"]),
+        (3, "простые задачи на дедукцию: 2–3 условия, один вывод", ["логика-истина-ложь"]),
+        (3, "пересечение и объединение групп (диаграммы Венна, простые)", ["логика-множества"]),
+        (3, "числовые квадраты и магические таблицы (сумма строк/столбцов)", ["логика-последовательности"]),
+        (3, "задачи на закономерности в таблицах: найди правило и заполни пропуск", ["логика-последовательности"]),
+        (4, "простая комбинаторика: сколькими способами можно выбрать/расставить", ["логика-комбинаторика"]),
+        (4, "задачи на дедукцию с 3–4 условиями (типа логических загадок)", ["логика-истина-ложь"]),
+        (4, "нестандартные задачи с весами, монетами, переливаниями", ["логика-комбинаторика"]),
+        (4, "числовые ребусы и шифры: найди цифру", ["логика-последовательности"]),
+        (4, "олимпиадные задачи по логике для 4 класса", ["логика-комбинаторика"]),
+    ],
+    "Английский": [
+        (1, "базовая лексика: цвета, числа 1–20, дни недели, месяцы", ["en-vocabulary"]),
+        (1, "школьные принадлежности, животные, части тела: назвать по-английски", ["en-vocabulary"]),
+        (1, "алфавит и произношение: буква → звук, заглавные/строчные", ["en-vocabulary"]),
+        (1, "знакомство: Hello, My name is..., How old are you?, I am ... years old", ["en-vocabulary"]),
+        (1, "глагол to be: am/is/are в утвердительных предложениях", ["en-grammar-tenses"]),
+        (2, "глагол to be: отрицания (am not / isn't / aren't) и вопросы (Is she...?)", ["en-grammar-tenses"]),
+        (2, "This is / That is / These are / Those are: указательные местоимения", ["en-grammar-tenses"]),
+        (2, "притяжательные местоимения: my, your, his, her, our, their", ["en-grammar-articles"]),
+        (2, "лексика: дом и комнаты, мебель, продукты питания", ["en-vocabulary"]),
+        (2, "числа 20–100: чтение и написание цифрами и словами", ["en-vocabulary"]),
+        (3, "Present Simple: I/You/We/They + V; He/She/It + V+s", ["en-grammar-tenses"]),
+        (3, "глагол can/can't: умение делать что-то (I can swim)", ["en-grammar-modals"]),
+        (3, "конструкция There is / There are: есть/нет в комнате", ["en-grammar-tenses"]),
+        (3, "лексика: профессии, транспорт, времена года, погода", ["en-vocabulary"]),
+        (3, "артикли a / an: когда ставить перед существительным", ["en-grammar-articles"]),
+        (4, "Present Simple: отрицания (don't/doesn't) и вопросы (Do/Does)", ["en-grammar-tenses"]),
+        (4, "предлоги места: in, on, under, behind, in front of, next to", ["en-grammar-articles"]),
+        (4, "лексика: семья (мама, папа, брат и т.д.), описание внешности", ["en-vocabulary"]),
+        (4, "повелительное наклонение: Open your book! Don't run!", ["en-grammar-tenses"]),
+        (4, "простой диалог: понимание короткого текста про школу/семью/день", ["en-reading"]),
+    ],
+}
+
+TOPIC_TITLES_GRADE4 = {
+    "Математика": {1: "Математика 4кл — Уровень 1", 2: "Математика 4кл — Уровень 2",
+                   3: "Математика 4кл — Уровень 3", 4: "Математика 4кл — Уровень 4"},
+    "Логика":     {1: "Логика 4кл — Уровень 1", 2: "Логика 4кл — Уровень 2",
+                   3: "Логика 4кл — Уровень 3", 4: "Логика 4кл — Уровень 4"},
+    "Английский": {1: "Английский 4кл — Уровень 1", 2: "Английский 4кл — Уровень 2",
+                   3: "Английский 4кл — Уровень 3", 4: "Английский 4кл — Уровень 4"},
+}
+
+FILENAME_MAP_GRADE4 = {
+    ("Математика", 1): "grade4_math_lvl1.json",
+    ("Математика", 2): "grade4_math_lvl2.json",
+    ("Математика", 3): "grade4_math_lvl3.json",
+    ("Математика", 4): "grade4_math_lvl4.json",
+    ("Логика",     1): "grade4_logic_lvl1.json",
+    ("Логика",     2): "grade4_logic_lvl2.json",
+    ("Логика",     3): "grade4_logic_lvl3.json",
+    ("Логика",     4): "grade4_logic_lvl4.json",
+    ("Английский", 1): "grade4_english_lvl1.json",
+    ("Английский", 2): "grade4_english_lvl2.json",
+    ("Английский", 3): "grade4_english_lvl3.json",
+    ("Английский", 4): "grade4_english_lvl4.json",
+}
+
+
+def make_prompt(subject: str, grade: int, level: int, topic: str, tags: list, count: int = 25) -> str:
     level_desc = {
         1: "БАЗОВЫЙ (уровень 1/4) — простые одношаговые задачи, прямое применение правила",
         2: "СРЕДНИЙ (уровень 2/4) — 2–3 шага, требует понимания темы",
@@ -124,7 +219,7 @@ def make_prompt(subject: str, level: int, topic: str, tags: list, count: int = 2
     )
     return f"""Создай ровно {count} вопросов с множественным выбором.
 
-Предмет: {subject} | Класс: 7 | Страна: Казахстан
+Предмет: {subject} | Класс: {grade} | Страна: Казахстан
 Тема: {topic}
 Уровень сложности: {level_desc[level]}{english_note}
 
@@ -148,8 +243,8 @@ def make_prompt(subject: str, level: int, topic: str, tags: list, count: int = 2
 ]"""
 
 
-def generate_batch(subject: str, level: int, topic: str, tags: list, count: int = 25, retries: int = 3) -> list:
-    prompt = make_prompt(subject, level, topic, tags, count)
+def generate_batch(subject: str, grade: int, level: int, topic: str, tags: list, count: int = 25, retries: int = 3) -> list:
+    prompt = make_prompt(subject, grade, level, topic, tags, count)
     last_err = None
     for attempt in range(retries):
         try:
@@ -181,24 +276,21 @@ def generate_batch(subject: str, level: int, topic: str, tags: list, count: int 
     raise RuntimeError(f"Не удалось сгенерировать после {retries} попыток: {last_err}")
 
 
-def main():
-    total_generated = 0
-
-    for subject, topic_groups in PLAN.items():
+def generate_grade(grade: int, plan: dict, titles: dict, filemap: dict) -> int:
+    total = 0
+    for subject, topic_groups in plan.items():
         print(f"\n{'='*60}")
-        print(f"  {subject}")
+        print(f"  {subject} ({grade} класс)")
         print(f"{'='*60}")
 
-        # Group by level
         by_level: dict[int, list] = {1: [], 2: [], 3: [], 4: []}
         for level, topic, tags in topic_groups:
             by_level[level].append((topic, tags))
 
         for level in range(1, 5):
             level_questions = []
-            out_file = LESSONS_DIR / FILENAME_MAP[(subject, level)]
+            out_file = LESSONS_DIR / filemap[(subject, level)]
 
-            # Skip if file already has questions
             if out_file.exists():
                 existing = json.loads(out_file.read_text(encoding="utf-8"))
                 if len(existing.get("questions", [])) >= 100:
@@ -209,7 +301,7 @@ def main():
             for topic, tags in by_level[level]:
                 print(f"    Тема: {topic[:55]}...")
                 try:
-                    qs = generate_batch(subject, level, topic, tags, count=25)
+                    qs = generate_batch(subject, grade, level, topic, tags, count=25)
                     level_questions.extend(qs)
                     print(f"      OK {len(qs)} voprosov")
                     time.sleep(0.5)
@@ -217,20 +309,34 @@ def main():
                     print(f"      ERR: {e}")
 
             if not level_questions:
-                print(f"  Уровень {level}: нет вопросов, пропускаю")
                 continue
 
             lesson_data = {
                 "topic": subject,
-                "title": TOPIC_TITLES[subject][level],
-                "grade_level": 7,
+                "title": titles[subject][level],
+                "grade_level": grade,
                 "difficulty": level,
                 "intro_content": "",
                 "questions": level_questions,
             }
             out_file.write_text(json.dumps(lesson_data, ensure_ascii=False, indent=2), encoding="utf-8")
-            total_generated += len(level_questions)
+            total += len(level_questions)
             print(f"  Уровень {level}: сохранено {len(level_questions)} вопросов → {out_file.name}")
+    return total
+
+
+def main():
+    import sys
+    grades = [int(g) for g in sys.argv[1:]] if len(sys.argv) > 1 else [4]
+
+    total_generated = 0
+    for grade in grades:
+        if grade == 7:
+            total_generated += generate_grade(7, PLAN, TOPIC_TITLES, FILENAME_MAP)
+        elif grade == 4:
+            total_generated += generate_grade(4, PLAN_GRADE4, TOPIC_TITLES_GRADE4, FILENAME_MAP_GRADE4)
+        else:
+            print(f"Unknown grade: {grade}")
 
     print(f"\n{'='*60}")
     print(f"Итого сгенерировано: {total_generated} вопросов")
