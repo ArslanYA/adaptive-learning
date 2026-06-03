@@ -1,0 +1,1962 @@
+{
+  "topic": "Английский",
+  "title": "Английский 4кл — Уровень 3",
+  "grade_level": 4,
+  "difficulty": 3,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Выберите правильную форму глагола для третьего лица единственного числа: 'She _____ to school every day.'",
+      "options": [
+        "A) go",
+        "B) goes",
+        "C) going",
+        "D) gone"
+      ],
+      "correct_answer": "B",
+      "explanation": "В Present Simple для подлежащего 'She' (третье лицо, единственное число) глагол требует окончания -s: goes.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильный перевод предложения 'Они едят фрукты каждый день'?",
+      "options": [
+        "A) They eats fruits every day.",
+        "B) They eat fruits every day.",
+        "C) They eating fruits every day.",
+        "D) They are eat fruits every day."
+      ],
+      "correct_answer": "B",
+      "explanation": "Для множественного числа (They) в Present Simple используется базовая форма глагола без окончания: eat, а не eats.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, в котором правильно образована форма глагола для 'He':",
+      "options": [
+        "A) He watch the TV every evening.",
+        "B) He watches the TV every evening.",
+        "C) He watchs the TV every evening.",
+        "D) He does watch the TV every evening."
+      ],
+      "correct_answer": "B",
+      "explanation": "Для третьего лица единственного числа добавляется -es к глаголам, оканчивающимся на согласный + ch: watches.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "В каком предложении допущена ошибка в использовании Present Simple?",
+      "options": [
+        "A) I play football with my friends.",
+        "B) You plays video games on weekends.",
+        "C) We enjoy reading books.",
+        "D) They swim in the pool."
+      ],
+      "correct_answer": "B",
+      "explanation": "'You' — местоимение второго лица, используется с базовой формой глагола (plays), а не с -s. Правильно: 'You play'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно дополняет предложение: 'My sister _____ homework after school'?",
+      "options": [
+        "A) do",
+        "B) does",
+        "C) doing",
+        "D) done"
+      ],
+      "correct_answer": "B",
+      "explanation": "'My sister' — третье лицо единственное число, поэтому глагол 'do' принимает форму 'does'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Найдите предложение с правильной формой глагола 'have' в Present Simple:",
+      "options": [
+        "A) He have two cats at home.",
+        "B) She have a bike.",
+        "C) It has a long tail.",
+        "D) They has dogs."
+      ],
+      "correct_answer": "C",
+      "explanation": "Глагол 'have' в третьем лице единственном числе меняется на 'has': 'It has a long tail.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какая форма глагола используется в предложении: 'You _____ in a big house'?",
+      "options": [
+        "A) lives",
+        "B) live",
+        "C) living",
+        "D) lived"
+      ],
+      "correct_answer": "B",
+      "explanation": "Местоимение 'You' в Present Simple требует базовой формы глагола без окончания: live.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, в котором правильно использован Present Simple для 'We':",
+      "options": [
+        "A) We goes to the park on Sundays.",
+        "B) We go to the park on Sundays.",
+        "C) We are go to the park on Sundays.",
+        "D) We does go to the park on Sundays."
+      ],
+      "correct_answer": "B",
+      "explanation": "Для местоимения 'We' (первое лицо множественное число) глагол остаётся в базовой форме: go.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите, какое предложение содержит ошибку в образовании Present Simple:",
+      "options": [
+        "A) My brother drinks milk every morning.",
+        "B) The dog run in the garden.",
+        "C) They study English on Mondays.",
+        "D) I like ice cream."
+      ],
+      "correct_answer": "B",
+      "explanation": "'The dog' — третье лицо единственное число, поэтому глагол должен быть 'runs', а не 'run'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: 'She _____ English and French fluently.'",
+      "options": [
+        "A) speak",
+        "B) speaks",
+        "C) speaking",
+        "D) spoke"
+      ],
+      "correct_answer": "B",
+      "explanation": "Для подлежащего 'She' в Present Simple требуется форма с -s: speaks.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение грамматически правильно?",
+      "options": [
+        "A) He teach math at school.",
+        "B) He teaches math at school.",
+        "C) He teaching math at school.",
+        "D) He is teach math at school."
+      ],
+      "correct_answer": "B",
+      "explanation": "Глагол 'teach' в третьем лице единственном числе требует окончания -es: teaches.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "В каком варианте правильно преобразовано предложение в Present Simple: 'Они помогают маме'?",
+      "options": [
+        "A) They helps mom.",
+        "B) They help mom.",
+        "C) They are helping mom.",
+        "D) They helping mom."
+      ],
+      "correct_answer": "B",
+      "explanation": "Для множественного числа (They) используется базовая форма глагола: help, без окончания -s.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где правильно использован Present Simple для 'It':",
+      "options": [
+        "A) It like sunny weather.",
+        "B) It likes sunny weather.",
+        "C) It liking sunny weather.",
+        "D) It are like sunny weather."
+      ],
+      "correct_answer": "B",
+      "explanation": "'It' — третье лицо единственное число, поэтому глагол получает окончание -s: likes.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильную форму глагола 'go' в Present Simple для третьего лица?",
+      "options": [
+        "A) He go to work.",
+        "B) He goes to work.",
+        "C) He going to work.",
+        "D) He does goes to work."
+      ],
+      "correct_answer": "B",
+      "explanation": "Глагол 'go' в третьем лице единственном числе имеет исключительную форму 'goes'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Найдите ошибку: 'I reads books, you reads books, we read books.'",
+      "options": [
+        "A) 'I reads' неправильно",
+        "B) 'you reads' неправильно",
+        "C) 'we read' неправильно",
+        "D) Нет ошибок"
+      ],
+      "correct_answer": "B",
+      "explanation": "Для 'you' (второе лицо) используется базовая форма 'read', а не 'reads'. Правильно: 'you read books'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение в Present Simple, которое грамматически верно:",
+      "options": [
+        "A) They watches a film on Friday.",
+        "B) They watch a film on Friday.",
+        "C) They watching a film on Friday.",
+        "D) They does watch a film on Friday."
+      ],
+      "correct_answer": "B",
+      "explanation": "Множественное число (They) требует базовой формы глагола без окончания: watch.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "В каком предложении правильно согласован подлежащее с глаголом в Present Simple?",
+      "options": [
+        "A) The cat sleep on the sofa.",
+        "B) The cat sleeps on the sofa.",
+        "C) The cat sleeping on the sofa.",
+        "D) The cat are sleep on the sofa."
+      ],
+      "correct_answer": "B",
+      "explanation": "'The cat' — третье лицо единственное число, поэтому глагол принимает форму 'sleeps'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант корректно передаёт смысл 'Они не едят мясо' в Present Simple?",
+      "options": [
+        "A) They does not eat meat.",
+        "B) They do not eat meat.",
+        "C) They not eat meat.",
+        "D) They not eats meat."
+      ],
+      "correct_answer": "B",
+      "explanation": "Для множественного числа используется 'do not' (не 'does not'): 'They do not eat meat.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение с ошибкой в Present Simple:",
+      "options": [
+        "A) I dance every day.",
+        "B) You dance every day.",
+        "C) He dance every day.",
+        "D) They dance every day."
+      ],
+      "correct_answer": "C",
+      "explanation": "'He' — третье лицо единственное число, требует окончания -s. Правильно: 'He dances every day.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите правильное отрицание в Present Simple: 'She _____ like spicy food.'",
+      "options": [
+        "A) does not",
+        "B) do not",
+        "C) is not",
+        "D) does"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для третьего лица единственного числа в отрицании используется 'does not': 'She does not like spicy food.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение с глаголом 'have' в Present Simple:",
+      "options": [
+        "A) We have a dog and a cat.",
+        "B) We has a dog and a cat.",
+        "C) We having a dog and a cat.",
+        "D) We does have a dog and a cat."
+      ],
+      "correct_answer": "A",
+      "explanation": "'We' — множественное число, поэтому используется базовая форма 'have', а не 'has'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильный вопрос в Present Simple?",
+      "options": [
+        "A) Do he like pizza?",
+        "B) Does he like pizza?",
+        "C) Is he like pizza?",
+        "D) He does like pizza?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Для вопроса в Present Simple с третьим лицом единственным числом используется 'Does': 'Does he like pizza?'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Найдите предложение, в котором неправильно образована форма Present Simple:",
+      "options": [
+        "A) You go to the cinema.",
+        "B) He goes to the cinema.",
+        "C) It go to the cinema.",
+        "D) They go to the cinema."
+      ],
+      "correct_answer": "C",
+      "explanation": "'It' — третье лицо единственное число, требует формы с -s. Правильно: 'It goes to the cinema.'",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-tenses",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: «My sister can play the piano, but she can't play the guitar.» Какое утверждение ПРАВИЛЬНО описывает способности сестры?",
+      "options": [
+        "A) Она может играть и на пианино, и на гитаре",
+        "B) Она может играть на пианино, но не может играть на гитаре",
+        "C) Она не может играть ни на пианино, ни на гитаре",
+        "D) Она может играть на гитаре лучше, чем на пианино"
+      ],
+      "correct_answer": "B",
+      "explanation": "В предложении явно сказано 'can play the piano' (может играть на пианино) и 'can't play the guitar' (не может играть на гитаре). Это прямо указывает на вариант B.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Определи, какая форма глагола can/can't используется НЕПРАВИЛЬНО в контексте третьего лица единственного числа (he/she/it):",
+      "options": [
+        "A) He can swim very fast",
+        "B) She cans cook delicious food",
+        "C) It can jump high",
+        "D) He can't understand the question"
+      ],
+      "correct_answer": "B",
+      "explanation": "Глагол 'can' не изменяется по лицам и числам, поэтому правильно 'She can cook', а не 'She cans cook'. Вариант B содержит ошибку.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "morphology"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: A: «Can you dance?» B: «Yes, I can. But I can't dance very well.» Что это показывает?",
+      "options": [
+        "A) B полностью не умеет танцевать",
+        "B) B может танцевать, но его способности ограничены",
+        "C) B не слышит вопрос",
+        "D) B может танцевать лучше всех"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ответ 'Yes, I can' подтверждает способность танцевать, но добавление 'But I can't dance very well' показывает, что умение развито не на высоком уровне.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "dialogue-comprehension"
+      ]
+    },
+    {
+      "text": "Анализируй предложения и определи, в каком из них can/can't используется для выражения НЕВОЗМОЖНОСТИ по физическим или логическим причинам:",
+      "options": [
+        "A) I can go to the cinema tomorrow",
+        "B) Fish can't walk on land",
+        "C) You can help me if you want",
+        "D) She can speak English"
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B выражает физическую невозможность: рыбы по природе не могут ходить по суше. Остальные варианты говорят о способностях или возможностях.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "semantic-analysis"
+      ]
+    },
+    {
+      "text": "Какое утверждение НЕПРАВИЛЬНО применяет правило образования отрицания с can't?",
+      "options": [
+        "A) I can't sing",
+        "B) He no can play football",
+        "C) They can't swim",
+        "D) She can't ride a bicycle"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильная форма отрицания — 'can't', а не 'no can'. Вариант B нарушает грамматическое правило построения отрицания.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "negation"
+      ]
+    },
+    {
+      "text": "Прочитай: «Tom can ride a horse, but he can't ride a motorbike.» На основании этого текста, какой вывод ВЕРНЫЙ?",
+      "options": [
+        "A) Том не имеет никаких навыков верховой езды",
+        "B) Том может ездить на мотоцикле лучше, чем на лошади",
+        "C) Том владеет навыком езды на лошади, но не на мотоцикле",
+        "D) Том боится ездить на любых животных"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст чётко разделяет умения: 'can ride a horse' (может ездить на лошади) и 'can't ride a motorbike' (не может ездить на мотоцикле). Вариант C точно отражает эту информацию.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "inference"
+      ]
+    },
+    {
+      "text": "Сравни две формы: 1) «I can't do it» и 2) «I don't can do it». Какая из них грамматически ПРАВИЛЬНАЯ?",
+      "options": [
+        "A) Обе формы одинаково правильные",
+        "B) Только первая форма правильная",
+        "C) Только вторая форма правильная",
+        "D) Обе формы неправильные"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильное отрицание модального глагола can — 'can't' (cannot), а не 'do not can'. Форма 'I don't can do it' является грамматической ошибкой.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "comparison"
+      ]
+    },
+    {
+      "text": "Текст: «My family: Dad can build houses. Mom can cook. Brother can play football. Sister can paint pictures. I can...?» Какое предложение продолжает паттерн ПРАВИЛЬНО?",
+      "options": [
+        "A) I can't do anything",
+        "B) I can write stories",
+        "C) I don't can sing",
+        "D) I can't but run"
+      ],
+      "correct_answer": "B",
+      "explanation": "Паттерн описывает способности членов семьи в форме 'can + глагол'. Вариант B соответствует этому паттерну с правильной грамматикой, в отличие от других вариантов.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "pattern-recognition"
+      ]
+    },
+    {
+      "text": "Определи, какое из предложений НЕКОРРЕКТНО использует can/can't в контексте о возможностях животного:",
+      "options": [
+        "A) A bird can fly",
+        "B) A snake can't has legs",
+        "C) A fish can swim",
+        "D) A dog can bark"
+      ],
+      "correct_answer": "B",
+      "explanation": "После модального глагола can/can't используется инфинитив БЕЗ частицы 'to'. Вариант B неправильный: 'can't has' должно быть 'can't have'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "verb-form"
+      ]
+    },
+    {
+      "text": "Анализируй диалог: A: «Can your dog jump?» B: «My dog can jump, but he can't jump very high.» О чём говорит ответ B?",
+      "options": [
+        "A) Собака вообще не может прыгать",
+        "B) Собака может прыгать, но не очень высоко",
+        "C) Собака может прыгать очень высоко",
+        "D) Собака забыла, как прыгать"
+      ],
+      "correct_answer": "B",
+      "explanation": "Структура ответа 'can jump, but can't jump very high' показывает наличие способности с ограничениями в её уровне исполнения.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "dialogue-analysis"
+      ]
+    },
+    {
+      "text": "Выбери предложение, в котором can НЕПРАВИЛЬНО согласуется с подлежащим:",
+      "options": [
+        "A) You can speak Spanish",
+        "B) We can dance together",
+        "C) They cans sing in the choir",
+        "D) I can understand this"
+      ],
+      "correct_answer": "C",
+      "explanation": "Глагол can не спрягается и не добавляет окончание -s для третьего лица множественного числа. Вариант C содержит ошибку: 'cans' должно быть 'can'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "agreement"
+      ]
+    },
+    {
+      "text": "Прочитай историю: «Emma is a swimmer. She can swim 100 metres. She can't swim 200 metres yet.» Какой навык находится в развитии?",
+      "options": [
+        "A) Emma совсем не может плавать",
+        "B) Emma отлично плывёт 200 метров",
+        "C) Emma плывет 100 метров, но ещё не может плыть 200 метров",
+        "D) Emma не интересуется плаванием"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст показывает текущий уровень навыка (100 м) и цель, которой нужно достичь (200 м слово 'yet' указывает на развитие навыка).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "narrative-comprehension"
+      ]
+    },
+    {
+      "text": "Определи, какой ответ на вопрос «Can you play tennis?» грамматически и логически НЕПРАВИЛЬНЫЙ:",
+      "options": [
+        "A) Yes, I can play tennis",
+        "B) No, I can't play tennis",
+        "C) I can tennis",
+        "D) Not really, I can play a little"
+      ],
+      "correct_answer": "C",
+      "explanation": "После модального глагола can ВСЕГДА должен идти основной глагол. Вариант C пропускает глагол 'play', что делает предложение грамматически неполным.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "response-evaluation"
+      ]
+    },
+    {
+      "text": "Текст: «My skills: I can cook. I can type. I can repair cars. I can't dance. I can't paint.» Сколько умений есть у говорящего?",
+      "options": [
+        "A) 2 умения",
+        "B) 3 умения",
+        "C) 4 умения",
+        "D) 5 умений"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подсчитаем положительные умения: cook, type, repair cars — это 3 способности. Can't указывает на отсутствие способностей, которые не считаются.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "counting"
+      ]
+    },
+    {
+      "text": "Какая пара предложений НЕПРАВИЛЬНО контрастирует способности и невозможности?",
+      "options": [
+        "A) I can swim. I can't fly.",
+        "B) She can sing. She can't dance.",
+        "C) He can runs fast. He can't jump high.",
+        "D) They can speak English. They can't speak French."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка: после can используется инфинитив БЕЗ -s, поэтому 'can runs' — неправильно. Должно быть 'can run'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "contrast"
+      ]
+    },
+    {
+      "text": "Прочитай: «Sarah can play volleyball very well. But she can't play basketball.» Какой вывод ВЕРНЫЙ?",
+      "options": [
+        "A) Sarah — профессиональный баскетболист",
+        "B) Sarah имеет навыки волейбола, но не баскетбола",
+        "C) Sarah не любит командные спорты",
+        "D) Sarah вообще не может играть в мячные игры"
+      ],
+      "correct_answer": "B",
+      "explanation": "Предложение явно указывает на наличие навыка волейбола ('can play volleyball') и отсутствие навыка баскетбола ('can't play basketball').",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "logical-inference"
+      ]
+    },
+    {
+      "text": "Определи, в каком предложении can/can't используется с ОШИБКОЙ в структуре глагола:",
+      "options": [
+        "A) I can understand the lesson",
+        "B) You can to speak German",
+        "C) He can drive a car",
+        "D) We can help you"
+      ],
+      "correct_answer": "B",
+      "explanation": "После модального глагола can НЕ ставится частица to. Вариант B неправильный: должно быть 'can speak', а не 'can to speak'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "infinitive"
+      ]
+    },
+    {
+      "text": "Анализируй эти два высказывания: 1) «I can do it» и 2) «I can do it well». В чём РАЗЛИЧИЕ в их значении?",
+      "options": [
+        "A) Они означают одно и то же",
+        "B) Первое показывает способность, второе — способность с хорошим уровнем",
+        "C) Первое говорит о будущем, второе — о настоящем",
+        "D) Во втором высказывании допущена ошибка"
+      ],
+      "correct_answer": "B",
+      "explanation": "Добавление наречия 'well' уточняет уровень способности: первое просто подтверждает наличие умения, второе указывает на хороший уровень исполнения.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "nuance"
+      ]
+    },
+    {
+      "text": "Текст про способности детей: «Jack can ride a bike. Lily can skip rope. Tom can draw. Emma can't do any of these things.» Какое утверждение об Emma ВЕРНО?",
+      "options": [
+        "A) Emma может делать то же, что и остальные",
+        "B) Emma не может ездить на велосипеде, прыгать через скакалку и рисовать",
+        "C) Emma лучше всех рисует",
+        "D) Emma может только ездить на велосипеде"
+      ],
+      "correct_answer": "B",
+      "explanation": "Фраза 'can't do any of these things' означает, что Emma не может делать ни одно из упомянутых занятий: ездить на велосипеде, прыгать через скакалку и рисовать.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "comprehension-inference"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где can/can't используется ГРАММАТИЧЕСКИ ПРАВИЛЬНО в контексте множественного числа:",
+      "options": [
+        "A) The children cans play football",
+        "B) The birds can flies high",
+        "C) The students can understand English",
+        "D) The dogs can runs fast"
+      ],
+      "correct_answer": "C",
+      "explanation": "Can не изменяется по числам, и основной глагол используется в форме инфинитива. Вариант C правильный: 'can understand' (без -s и без to).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "plural"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: A: «Can you help me?» B: «I can try.» Что имеет в виду B?",
+      "options": [
+        "A) B категорически откажет помочь",
+        "B) B может попробовать помочь, но не гарантирует успех",
+        "C) B помогает всегда",
+        "D) B не слышал вопроса"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ответ 'I can try' выражает готовность приложить усилия ('try'), но не гарантирует положительный результат. Это выражает осторожное согласие.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "pragmatics"
+      ]
+    },
+    {
+      "text": "Определи, какое из предложений НЕПРАВИЛЬНО использует отрицание can't:",
+      "options": [
+        "A) I can't swim",
+        "B) She can't sings",
+        "C) They can't understand",
+        "D) You can't drive"
+      ],
+      "correct_answer": "B",
+      "explanation": "После can't (как и после can) используется инфинитив БЕЗ окончания -s. Вариант B неправильный: 'can't sings' должно быть 'can't sing'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "negation-form"
+      ]
+    },
+    {
+      "text": "Прочитай: «My grandfather can walk, but he can't walk very far.» Это предложение показывает:",
+      "options": [
+        "A) Дедушка не может ходить совсем",
+        "B) Дедушка может ходить, но на ограниченные расстояния",
+        "C) Дедушка может ходить на большие расстояния",
+        "D) Дедушка забыл, как ходить"
+      ],
+      "correct_answer": "B",
+      "explanation": "Структура 'can walk, but can't walk very far' указывает на наличие способности с физическими ограничениями: дедушка может ходить, но не на дальние расстояния.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "limitation-expression"
+      ]
+    },
+    {
+      "text": "Какое из утверждений НЕПРАВИЛЬНО описывает использование can в английском языке?",
+      "options": [
+        "A) Can выражает способность делать что-то",
+        "B) Can имеет разные формы для разных лиц (I can, he cans, she cans)",
+        "C) Can't — это отрицательная форма",
+        "D) После can используется основной глагол в форме инфинитива"
+      ],
+      "correct_answer": "B",
+      "explanation": "Can НЕ изменяется по лицам и числам. Неправильно говорить 'he cans' или 'she cans'. Для всех лиц используется форма 'can' (I can, you can, he can и т.д.).",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "rule-application"
+      ]
+    },
+    {
+      "text": "Сравни два ответа на вопрос «Can you cook?»: 1) «Yes, I can» и 2) «I can cook pasta». Какой ответ полнее?",
+      "options": [
+        "A) Оба ответа одинаково полные",
+        "B) Первый ответ полнее, потому что короче",
+        "C) Второй ответ полнее, потому что указывает конкретное блюдо",
+        "D) Ни один ответ не полный"
+      ],
+      "correct_answer": "C",
+      "explanation": "Первый ответ просто подтверждает способность в общем, второй добавляет специфическую информацию (pasta), что делает его более информативным и полным.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-modals",
+        "completeness"
+      ]
+    },
+    {
+      "text": "Прочитай предложение: 'There is a desk in the classroom.' Какое из следующих утверждений НЕВЕРНО?",
+      "options": [
+        "A) В классе один стол",
+        "B) 'There is' используется с единственным числом",
+        "C) В классе несколько столов",
+        "D) Предложение грамматически правильно"
+      ],
+      "correct_answer": "C",
+      "explanation": "'There is' указывает на один предмет (a desk — один стол), поэтому в классе один стол, а не несколько.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "singular-plural"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'There _____ five chairs and one table in the room.'",
+      "options": [
+        "A) is",
+        "B) are",
+        "C) be",
+        "D) been"
+      ],
+      "correct_answer": "B",
+      "explanation": "После 'There' используется 'are' с множественным числом (five chairs). Правило: согласование с ближайшим существительным или самым главным.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "agreement"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'There are two windows in the bedroom. There is a big bed near the window.' Сколько окон в спальне?",
+      "options": [
+        "A) одно окно",
+        "B) два окна",
+        "C) три окна",
+        "D) информация не указана"
+      ],
+      "correct_answer": "B",
+      "explanation": "В первом предложении ясно сказано 'There are two windows', что означает два окна в спальне.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "reading-comprehension"
+      ]
+    },
+    {
+      "text": "Какое предложение ПРАВИЛЬНО использует конструкцию There is/are?",
+      "options": [
+        "A) There are a pen on the desk.",
+        "B) There is some books in the bag.",
+        "C) There are some toys on the floor.",
+        "D) There is three cats in the room."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C правильно: 'are' с множественным числом (toys). Все остальные имеют ошибки согласования.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "grammar-error"
+      ]
+    },
+    {
+      "text": "Переведи на английский: 'В ванной комнате есть зеркало.' Какой вариант правильный?",
+      "options": [
+        "A) There are a mirror in the bathroom.",
+        "B) There is a mirror in the bathroom.",
+        "C) There is mirrors in the bathroom.",
+        "D) There are mirrors is in the bathroom."
+      ],
+      "correct_answer": "B",
+      "explanation": "'There is' используется с единственным числом (a mirror — одно зеркало), 'in the bathroom' — в ванной комнате.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "translation"
+      ]
+    },
+    {
+      "text": "В каком предложении нужно использовать 'There are' вместо пропуска?",
+      "options": [
+        "A) There _____ a sofa in the living room.",
+        "B) There _____ a lamp near the bed.",
+        "C) There _____ many books on the shelf.",
+        "D) There _____ one window in the kitchen."
+      ],
+      "correct_answer": "C",
+      "explanation": "'There are' требует множественного числа. 'Many books' — множественное число, поэтому нужен вариант C.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "plural-singular"
+      ]
+    },
+    {
+      "text": "Какое утверждение об отрицательной форме ВЕРНО?",
+      "options": [
+        "A) 'There is not a cat in the room' означает, что кот точно есть",
+        "B) 'There are no chairs in the room' означает отсутствие стульев",
+        "C) Отрицание 'not' и 'no' используются одинаково всегда",
+        "D) 'There isn't any table' грамматически неправильно"
+      ],
+      "correct_answer": "B",
+      "explanation": "'There are no chairs' — правильная отрицательная форма, означающая отсутствие стульев в комнате.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "negation"
+      ]
+    },
+    {
+      "text": "Прочитай: 'There is a desk, a chair and a lamp in the room.' Сколько предметов в комнате?",
+      "options": [
+        "A) один предмет",
+        "B) два предмета",
+        "C) три предмета",
+        "D) неизвестно"
+      ],
+      "correct_answer": "C",
+      "explanation": "Перечислены три предмета: 'a desk' (стол), 'a chair' (стул) и 'a lamp' (лампа), даже хотя 'There is' стоит в единственном числе.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "counting"
+      ]
+    },
+    {
+      "text": "Какая форма вопроса ПРАВИЛЬНА для 'There are books on the shelf'?",
+      "options": [
+        "A) Are there books on the shelf?",
+        "B) There are books on the shelf?",
+        "C) Is there books on the shelf?",
+        "D) Do there are books on the shelf?"
+      ],
+      "correct_answer": "A",
+      "explanation": "В вопросительной форме с множественным числом: 'Are there...' с инверсией глагола и подлежащего.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "question-form"
+      ]
+    },
+    {
+      "text": "Выбери предложение, которое НЕПРАВИЛЬНО описывает комнату:",
+      "options": [
+        "A) There is a big window in the room.",
+        "B) There are some pictures on the wall.",
+        "C) There is five desks in the classroom.",
+        "D) There are many students in the class."
+      ],
+      "correct_answer": "C",
+      "explanation": "'Five desks' — множественное число, поэтому нужно 'There are', а не 'There is'.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "error-detection"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'In my bedroom there is a bed. There are two windows. There are posters on the wall.' Какой предмет один?",
+      "options": [
+        "A) окна",
+        "B) постеры",
+        "C) кровать",
+        "D) стены"
+      ],
+      "correct_answer": "C",
+      "explanation": "'There is a bed' использует единственное число, что означает одну кровать. Окна и постеры — во множественном числе.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "text-analysis"
+      ]
+    },
+    {
+      "text": "Какой вариант грамматически правильный для описания пустой комнаты?",
+      "options": [
+        "A) There isn't any furniture in the room.",
+        "B) There aren't any furniture in the room.",
+        "C) There is not any furnitures in the room.",
+        "D) There isn't furniture in the room are."
+      ],
+      "correct_answer": "A",
+      "explanation": "'Furniture' — неисчисляемое существительное (не имеет множественного числа), поэтому используется 'There isn't' в единственном числе.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "uncountable-nouns"
+      ]
+    },
+    {
+      "text": "В каком предложении ОШИБКА в использовании 'There is/are'?",
+      "options": [
+        "A) There are some apples in the kitchen.",
+        "B) There is a sofa and two armchairs in the living room.",
+        "C) There are a table with four chairs in the dining room.",
+        "D) There is milk and bread on the table."
+      ],
+      "correct_answer": "C",
+      "explanation": "'A table with four chairs' — единственное число (главное слово 'table'), поэтому нужно 'There is', а не 'There are'.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "agreement-complex"
+      ]
+    },
+    {
+      "text": "Переведи на английский: 'В шкафу нет одежды.' Какой вариант ПРАВИЛЬНЫЙ?",
+      "options": [
+        "A) There aren't any clothes in the cupboard.",
+        "B) There isn't any clothes in the cupboard.",
+        "C) There aren't some clothes in the cupboard.",
+        "D) There is no clothes in the cupboard."
+      ],
+      "correct_answer": "A",
+      "explanation": "'Clothes' — форма множественного числа, поэтому используется 'There aren't any', хотя семантически это одна категория предметов.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "plural-form",
+        "negation"
+      ]
+    },
+    {
+      "text": "Какое утверждение о предложении 'There is something on the table' ВЕРНО?",
+      "options": [
+        "A) На столе ничего нет",
+        "B) На столе что-то есть, но не известно что",
+        "C) На столе несколько предметов",
+        "D) На столе один известный предмет"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'something' означает неопределённый предмет, поэтому на столе что-то есть, но конкретно не указано, что именно.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "indefinite-pronouns"
+      ]
+    },
+    {
+      "text": "Выбери предложение с ПРАВИЛЬНЫМ порядком слов в отрицательной форме:",
+      "options": [
+        "A) Not there is a cat in the room.",
+        "B) There is not a cat in the room.",
+        "C) There not is a cat in the room.",
+        "D) Not is there a cat in the room."
+      ],
+      "correct_answer": "B",
+      "explanation": "В отрицательной форме 'not' идёт после вспомогательного глагола: 'There is not...' или 'There isn't...'",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "word-order",
+        "negation"
+      ]
+    },
+    {
+      "text": "Прочитай текст и определи: 'There are three rooms in our apartment. There is a kitchen and a bathroom. There are many books in the library room.' Как назвать третью комнату?",
+      "options": [
+        "A) спальня",
+        "B) библиотека",
+        "C) гостиная",
+        "D) столовая"
+      ],
+      "correct_answer": "B",
+      "explanation": "В тексте сказано 'the library room' (комната-библиотека), что является названием третьей комнаты.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "reading-comprehension"
+      ]
+    },
+    {
+      "text": "Какая конструкция ПРАВИЛЬНО трансформирует утвердительное предложение в вопросительное?",
+      "options": [
+        "A) 'There is a pen on the desk.' → 'Is a pen there on the desk?'",
+        "B) 'There is a pen on the desk.' → 'Is there a pen on the desk?'",
+        "C) 'There is a pen on the desk.' → 'There is a pen on the desk?'",
+        "D) 'There is a pen on the desk.' → 'There a pen is on the desk?'"
+      ],
+      "correct_answer": "B",
+      "explanation": "При образовании вопроса глагол 'is' переходит перед 'there': 'Is there a pen on the desk?'",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "question-formation"
+      ]
+    },
+    {
+      "text": "В каком варианте ПРАВИЛЬНО использован артикль с 'There is/are'?",
+      "options": [
+        "A) There are the books on the shelf.",
+        "B) There is a book on the shelf.",
+        "C) There are a books on the shelf.",
+        "D) There is some book on the shelf."
+      ],
+      "correct_answer": "B",
+      "explanation": "С 'There is' используется неопределённый артикль 'a' для единственного числа и 'some' для множественного в утвердительных предложениях.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "articles"
+      ]
+    },
+    {
+      "text": "Прочитай: 'There aren't any flowers in the vase. There is some water in the vase.' Что есть в вазе?",
+      "options": [
+        "A) только цветы",
+        "B) только вода",
+        "C) цветы и вода",
+        "D) ничего нет"
+      ],
+      "correct_answer": "B",
+      "explanation": "Первое предложение отрицает наличие цветов (aren't any flowers), второе подтверждает наличие воды (is some water).",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "negation",
+        "reading"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ГРАММАТИЧЕСКУЮ ОШИБКУ?",
+      "options": [
+        "A) There are no students in the classroom now.",
+        "B) There is nothing on the table.",
+        "C) There isn't no one in the room.",
+        "D) There aren't any chairs here."
+      ],
+      "correct_answer": "C",
+      "explanation": "'There isn't no one' — двойное отрицание, что грамматически ошибочно. Правильно: 'There isn't anyone' или 'There is no one'.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "double-negative",
+        "error"
+      ]
+    },
+    {
+      "text": "Выбери фразу, которая ЛОГИЧЕСКИ не подходит к предложению 'There is a large library in our school':",
+      "options": [
+        "A) Many students read books there.",
+        "B) It has thousands of books.",
+        "C) There aren't any computers in the library.",
+        "D) The librarian works there."
+      ],
+      "correct_answer": "C",
+      "explanation": "Логически странно, что в большой современной библиотеке вообще нет компьютеров. Остальные варианты логично дополняют описание библиотеки.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "logical-reasoning"
+      ]
+    },
+    {
+      "text": "Какой вариант ПРАВИЛЬНО продолжает серию: 'There is one window, there are two doors, there _____'?",
+      "options": [
+        "A) are four walls.",
+        "B) is four walls.",
+        "C) are one wall.",
+        "D) is a walls."
+      ],
+      "correct_answer": "A",
+      "explanation": "'Four walls' — множественное число, поэтому требуется 'There are', соответствуя логической последовательности перечисления.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "series-continuation"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'Is there a cat in the house?' 'No, there isn't. But there are two dogs.' Какой вывод ВЕРНЫЙ?",
+      "options": [
+        "A) В доме только кошка",
+        "B) В доме нет животных",
+        "C) В доме два животных, но не кошка",
+        "D) В доме кошка и две собаки"
+      ],
+      "correct_answer": "C",
+      "explanation": "В диалоге: нет кошки (there isn't), но есть две собаки (there are two dogs). Итого: два животных, кошки нет.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "dialogue",
+        "inference"
+      ]
+    },
+    {
+      "text": "Какой вариант демонстрирует ПРАВИЛЬНОЕ использование 'There is/are' с количественными словами?",
+      "options": [
+        "A) There are a lot of students in the class.",
+        "B) There is a lot of students in the class.",
+        "C) There are lot of students in the class.",
+        "D) There is students in the class."
+      ],
+      "correct_answer": "A",
+      "explanation": "'A lot of' + множественное число требует 'There are'. 'A lot of students' — множественное число, поэтому правильно 'There are'.",
+      "difficulty": 3,
+      "tags": [
+        "there-is-are",
+        "quantifiers"
+      ]
+    },
+    {
+      "text": "Прочитай текст и выбери правильный ответ: 'A doctor works in a hospital and helps sick people. A pilot flies an airplane.' Какая профессия упомянута в тексте?",
+      "options": [
+        "A) Teacher",
+        "B) Pilot",
+        "C) Farmer",
+        "D) Chef"
+      ],
+      "correct_answer": "B",
+      "explanation": "В тексте явно сказано 'A pilot flies an airplane'. Хотя учитель и повар — тоже профессии, они не упомянуты.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions"
+      ]
+    },
+    {
+      "text": "Составь логическую цепочку профессий: 'A carpenter builds houses with wood. A builder constructs buildings.' Какая профессия логически НЕ связана с этой группой?",
+      "options": [
+        "A) Architect",
+        "B) Engineer",
+        "C) Musician",
+        "D) Mason"
+      ],
+      "correct_answer": "C",
+      "explanation": "Carpenter, builder, architect, engineer и mason — все работают в строительстве. Musician — музыкант не связан с построением зданий.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "logic"
+      ]
+    },
+    {
+      "text": "Анализируй: 'In summer it is hot and sunny. In winter it is cold and snowy.' Какое утверждение логически правильно?",
+      "options": [
+        "A) Summer is colder than winter",
+        "B) Winter is warmer than summer",
+        "C) Summer is hotter than winter",
+        "D) Both seasons are equally cold"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст указывает, что летом жарко и солнечно, зимой холодно и снежно, значит лето теплее зимы.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "weather",
+        "seasons"
+      ]
+    },
+    {
+      "text": "Выбери профессию по описанию: 'This person flies a big airplane and carries many passengers to different countries.'",
+      "options": [
+        "A) Flight attendant",
+        "B) Pilot",
+        "C) Travel agent",
+        "D) Bus driver"
+      ],
+      "correct_answer": "B",
+      "explanation": "Описание 'flies a big airplane' указывает на пилота. Бортпроводник помогает пассажирам, но не управляет самолётом.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions"
+      ]
+    },
+    {
+      "text": "Прочитай: 'A train carries people on rails. A car drives on roads. A ship sails on water.' Какой вид транспорта может использовать все три среды (rails, roads, water)?",
+      "options": [
+        "A) Airplane",
+        "B) Bicycle",
+        "C) Truck",
+        "D) None of them"
+      ],
+      "correct_answer": "D",
+      "explanation": "Самолёт летает в воздухе, велосипед — по дорогам, грузовик — по дорогам. Ни один традиционный транспорт не использует все три среды одновременно.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "transport",
+        "analysis"
+      ]
+    },
+    {
+      "text": "Определи правильную рифму для слова 'weather': 'The weather is nice in ___.'",
+      "options": [
+        "A) feather",
+        "B) leather",
+        "C) either",
+        "D) together"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Weather' рифмуется с 'feather'. Хотя 'leather', 'either', 'together' похожи по звучанию, именно 'feather' — лучшая рифма.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "weather",
+        "phonetics"
+      ]
+    },
+    {
+      "text": "Анализируй последовательность времён года: 'Spring comes after winter. Summer comes after spring. Autumn comes after summer. Winter comes after autumn.' Какой сезон идёт после осени?",
+      "options": [
+        "A) Spring",
+        "B) Summer",
+        "C) Winter",
+        "D) Autumn"
+      ],
+      "correct_answer": "C",
+      "explanation": "По описанной последовательности зима идёт после осени, замыкая цикл года.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "seasons",
+        "logic"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'What is your job? I am a nurse. I work in a hospital and care for patients.' Какая ключевая информация определяет эту профессию?",
+      "options": [
+        "A) Works in a hospital",
+        "B) Cares for patients",
+        "C) Оба варианта правильны",
+        "D) Neither of them"
+      ],
+      "correct_answer": "C",
+      "explanation": "Обе детали — работа в больнице и уход за пациентами — определяют профессию медсестры.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Сопоставь транспортное средство с условиями использования: 'A bicycle is good for short distances in good weather.' Когда велосипед НЕ рекомендуется использовать?",
+      "options": [
+        "A) Sunny day",
+        "B) Short distance",
+        "C) Heavy rain and cold",
+        "D) Nearby park"
+      ],
+      "correct_answer": "C",
+      "explanation": "Текст говорит, что велосипед хорош в хорошую погоду. Дождь и холод — противоположные условия.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "transport",
+        "logic"
+      ]
+    },
+    {
+      "text": "Выбери профессию, которая работает с животными: 'A veterinarian examines and treats sick animals. A zoo keeper takes care of wild animals in the zoo.'",
+      "options": [
+        "A) Farmer only",
+        "B) Both veterinarian and zoo keeper",
+        "C) Zoo keeper only",
+        "D) Neither of them"
+      ],
+      "correct_answer": "B",
+      "explanation": "Оба профессионала работают с животными: ветеринар лечит их, работник зоопарка ухаживает за ними.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions"
+      ]
+    },
+    {
+      "text": "Анализируй погоду: 'It is raining heavily. The temperature is 5 degrees Celsius. The wind is very strong.' Какой вид одежды НЕ рекомендуется?",
+      "options": [
+        "A) Warm jacket",
+        "B) Raincoat",
+        "C) Light summer dress",
+        "D) Warm boots"
+      ],
+      "correct_answer": "C",
+      "explanation": "При дожде, холоде (5°C) и сильном ветре лёгкое летнее платье неуместно; нужна тёплая и водонепроницаемая одежда.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "weather",
+        "logic"
+      ]
+    },
+    {
+      "text": "Прочитай: 'In autumn, the leaves change colour from green to yellow, orange, and red. The weather becomes cooler.' Почему листья меняют цвет осенью?",
+      "options": [
+        "A) Because it rains",
+        "B) Because temperature decreases",
+        "C) Because plants stop producing chlorophyll",
+        "D) The text does not explain this"
+      ],
+      "correct_answer": "D",
+      "explanation": "Текст только описывает, ЧТО происходит с листьями, но не объясняет ПОЧЕМУ. Правильный ответ — текст не дает объяснения причины.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "seasons",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Классифицируй профессии по месту работы: 'A carpenter works in a workshop. A mechanic works in a garage. A doctor works in a hospital.' Где работает учитель?",
+      "options": [
+        "A) School",
+        "B) Office",
+        "C) Factory",
+        "D) The text does not say"
+      ],
+      "correct_answer": "D",
+      "explanation": "Учитель не упомянут в тексте, поэтому на основании данного отрывка невозможно определить место его работы.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Выбери транспорт для зимнего путешествия на дальние расстояния: 'In winter, roads are icy and snowy. A car needs good tires. A train travels on fixed rails.' Какой транспорт безопаснее?",
+      "options": [
+        "A) Car",
+        "B) Train",
+        "C) Bicycle",
+        "D) Motorcycle"
+      ],
+      "correct_answer": "B",
+      "explanation": "Поезд движется по фиксированным рельсам, поэтому не зависит от ледяных дорог, в отличие от автомобиля.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "transport",
+        "logic"
+      ]
+    },
+    {
+      "text": "Анализируй: 'A surgeon is a doctor who performs operations. An engineer designs and builds structures.' Какое утверждение правильно?",
+      "options": [
+        "A) Surgeon и engineer — одна профессия",
+        "B) Surgeon — медик, engineer — не медик",
+        "C) Engineer выполняет операции",
+        "D) Оба работают только с инструментами"
+      ],
+      "correct_answer": "B",
+      "explanation": "Хирург — врач в медицине, инженер — строитель/конструктор в технике. Это разные области.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "analysis"
+      ]
+    },
+    {
+      "text": "Определи правильный порядок времён года по температуре: 'Winter is the coldest season. Spring is warmer than winter. Summer is the hottest season. Autumn is cooler than summer but warmer than winter.' Какой сезон третий по теплоте?",
+      "options": [
+        "A) Winter",
+        "B) Spring",
+        "C) Summer",
+        "D) Autumn"
+      ],
+      "correct_answer": "B",
+      "explanation": "По описанию: Summer (самый тёплый) > Autumn (холоднее лета, теплее зимы) > Spring (теплее зимы) > Winter. Spring — третий.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "seasons",
+        "logic"
+      ]
+    },
+    {
+      "text": "Прочитай: 'A bus driver operates a large vehicle that carries many passengers. A taxi driver operates a smaller vehicle for individual passengers.' Какое различие ключевое?",
+      "options": [
+        "A) Размер транспорта",
+        "B) Количество пассажиров",
+        "C) Оба фактора",
+        "D) Ни один из них"
+      ],
+      "correct_answer": "C",
+      "explanation": "Оба различия связаны: большой автобус вмещает много людей, маленькое такси — одного пассажира или малую группу.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "transport",
+        "analysis"
+      ]
+    },
+    {
+      "text": "Сопоставь профессию с навыком: 'A painter creates art with colors. A musician creates music with instruments. A writer creates stories with words.' Какой навык нужен архитектору?",
+      "options": [
+        "A) Drawing and designing",
+        "B) Playing instruments",
+        "C) Writing stories",
+        "D) The text does not say"
+      ],
+      "correct_answer": "D",
+      "explanation": "Архитектор не упомянут в списке профессий, поэтому из этого текста нельзя определить его навыки.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Анализируй сезонную погоду: 'In spring, plants start to grow and flowers bloom. In summer, it is hot and plants grow quickly. In autumn, plants stop growing and leaves fall. In winter, everything is frozen.' В какой сезон растения активнее всего?",
+      "options": [
+        "A) Spring",
+        "B) Summer",
+        "C) Autumn",
+        "D) Winter"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст говорит, что летом 'plants grow quickly', что указывает на максимальную активность роста.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "seasons",
+        "weather"
+      ]
+    },
+    {
+      "text": "Выбери профессию, которая требует работы в разных местах: 'A policeman patrols streets and neighborhoods. A mail carrier delivers letters to different addresses. A taxi driver travels across the city.' Какая профессия работает в одном месте?",
+      "options": [
+        "A) Policeman",
+        "B) Mail carrier",
+        "C) Taxi driver",
+        "D) Chef"
+      ],
+      "correct_answer": "D",
+      "explanation": "Полицейский, почтальон и таксист работают в разных местах. Шеф работает в кухне ресторана, то есть в одном месте.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "logic"
+      ]
+    },
+    {
+      "text": "Прочитай: 'A helicopter can take off vertically without a runway. An airplane needs a long runway to take off.' Какое преимущество у вертолёта?",
+      "options": [
+        "A) Он быстрее",
+        "B) Он может взлетать вертикально без взлётной полосы",
+        "C) Он вмещает больше пассажиров",
+        "D) Он дешевле"
+      ],
+      "correct_answer": "B",
+      "explanation": "Текст явно указывает, что вертолёт может взлетать вертикально без взлётной полосы, в отличие от самолёта.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "transport"
+      ]
+    },
+    {
+      "text": "Определи логический паттерн: 'Spring → flowers bloom. Summer → sun is hot. Autumn → leaves fall. Winter → snow falls.' Какой сезон соответствует 'ice forms'?",
+      "options": [
+        "A) Spring",
+        "B) Summer",
+        "C) Autumn",
+        "D) Winter"
+      ],
+      "correct_answer": "D",
+      "explanation": "Паттерн показывает характерные явления каждого сезона. Лёд образуется зимой, когда температура ниже нуля.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "seasons",
+        "logic"
+      ]
+    },
+    {
+      "text": "Анализируй типы работников: 'Indoor workers work in offices or factories. Outdoor workers work in fields or on construction sites.' Какой работник чаще работает на улице?",
+      "options": [
+        "A) Accountant",
+        "B) Construction worker",
+        "C) Secretary",
+        "D) Data analyst"
+      ],
+      "correct_answer": "B",
+      "explanation": "Construction worker — строитель, работает на стройплощадках (outdoor). Остальные — офисные работники (indoor).",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions"
+      ]
+    },
+    {
+      "text": "Прочитай описание погоды: 'The sky is grey. It is 10 degrees Celsius. There is a light wind. It rains occasionally.' Какая одежда подходит больше всего?",
+      "options": [
+        "A) Shorts and t-shirt",
+        "B) Jumper and raincoat",
+        "C) Swimming suit",
+        "D) Heavy winter coat"
+      ],
+      "correct_answer": "B",
+      "explanation": "Серое небо, 10°C, дождь требуют тёплого свитера и плаща. Шорты будут холодными, купальник неместен, зимнее пальто избыточно.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "weather",
+        "logic"
+      ]
+    },
+    {
+      "text": "Определи связь между профессией и инструментом: 'A carpenter uses wood and hammer. A plumber uses pipes and wrench. An electrician uses wires and screwdriver.' Какой инструмент использует парикмахер?",
+      "options": [
+        "A) Scissors and comb",
+        "B) The text does not specify",
+        "C) Hammer and nails",
+        "D) Wires and wrenches"
+      ],
+      "correct_answer": "B",
+      "explanation": "Парикмахер не упомянут в тексте, поэтому из данного отрывка невозможно определить его инструменты.",
+      "difficulty": 3,
+      "tags": [
+        "en-vocabulary",
+        "professions",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: 'I saw ___ elephant in the zoo yesterday.'",
+      "options": [
+        "A) a elephant",
+        "B) an elephant",
+        "C) the elephant",
+        "D) elephant"
+      ],
+      "correct_answer": "B",
+      "explanation": "Перед словом 'elephant', начинающимся с гласного звука [e], используется артикль 'an', а не 'a'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой артикль нужно использовать в предложении: 'She is ___ university student.'",
+      "options": [
+        "A) a",
+        "B) an",
+        "C) the",
+        "D) -"
+      ],
+      "correct_answer": "A",
+      "explanation": "Слово 'university' начинается с согласного звука [ju], поэтому используется артикль 'a', несмотря на гласную букву в начале.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение:",
+      "options": [
+        "A) He is an doctor.",
+        "B) He is a doctor.",
+        "C) He is doctor.",
+        "D) He is the doctor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'doctor' начинается с согласного звука, поэтому нужен артикль 'a'. Вариант с 'an' неверен, так как это нарушает фонетическое правило.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните предложение: 'My friend wants to buy ___ house near the park.'",
+      "options": [
+        "A) a house",
+        "B) an house",
+        "C) the house",
+        "D) houses"
+      ],
+      "correct_answer": "A",
+      "explanation": "Слово 'house' начинается с согласного звука [h], поэтому используется неопределённый артикль 'a'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой вариант грамматически верен: 'I need ___ honest answer from you.'",
+      "options": [
+        "A) a honest",
+        "B) an honest",
+        "C) the honest",
+        "D) honest"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'honest' произносится с гласного звука [ɔ], хотя написано с согласной 'h' — используется 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: 'This is ___ interesting book about history.'",
+      "options": [
+        "A) a interesting",
+        "B) an interesting",
+        "C) the interesting",
+        "D) interesting"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'interesting' начинается с гласного звука [i], поэтому перед ним ставится артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните: 'She bought ___ umbrella because it was raining.'",
+      "options": [
+        "A) a umbrella",
+        "B) an umbrella",
+        "C) the umbrella",
+        "D) - umbrella"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'umbrella' начинается с гласного звука [ʌ], несмотря на согласную букву 'u' в написании, поэтому используется 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какое предложение содержит ошибку в использовании артиклей?",
+      "options": [
+        "A) He is an engineer.",
+        "B) This is a beautiful day.",
+        "C) I saw a unicorn in my dream.",
+        "D) She needs an apple for the recipe."
+      ],
+      "correct_answer": "C",
+      "explanation": "В предложении C неверно: 'unicorn' произносится с согласного звука [ju], поэтому нужен артикль 'a', а не 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите корректный вариант: 'My brother wants to become ___ architect.'",
+      "options": [
+        "A) a architect",
+        "B) an architect",
+        "C) the architect",
+        "D) - architect"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'architect' начинается с гласного звука [a], поэтому перед ним ставится артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните предложение правильно: 'I have ___ old map in my collection.'",
+      "options": [
+        "A) a old",
+        "B) an old",
+        "C) the old",
+        "D) old"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'old' начинается с гласного звука [o], поэтому нужен артикль 'an', несмотря на то, что буква 'o' может звучать по-разному.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой вариант грамматически неправильный?",
+      "options": [
+        "A) I ate an apple.",
+        "B) He is a student.",
+        "C) This is a unique situation.",
+        "D) She bought an orange dress."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка: слово 'unique' произносится с согласного звука [ju], поэтому должен быть артикль 'a', а не 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: 'She has ___ excellent idea for the project.'",
+      "options": [
+        "A) a excellent",
+        "B) an excellent",
+        "C) the excellent",
+        "D) excellent"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'excellent' начинается с гласного звука [e], поэтому используется артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните: 'There is ___ hour left before the exam.'",
+      "options": [
+        "A) a hour",
+        "B) an hour",
+        "C) the hour",
+        "D) hours"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'hour' произносится с гласного звука [aʊ], хотя писать начинается с согласной 'h' — используется 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой артикль нужен в предложении: 'He bought ___ unusual watch at the market.'",
+      "options": [
+        "A) a unusual",
+        "B) an unusual",
+        "C) the unusual",
+        "D) - unusual"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'unusual' начинается с гласного звука [ʌ], поэтому перед ним ставится артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите грамматически верное предложение:",
+      "options": [
+        "A) This is a united team.",
+        "B) This is an united team.",
+        "C) This is the united team.",
+        "D) This is united team."
+      ],
+      "correct_answer": "A",
+      "explanation": "Слово 'united' произносится с согласного звука [ju], поэтому используется артикль 'a', а не 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните правильно: 'I need ___ advice on this matter.'",
+      "options": [
+        "A) a advice",
+        "B) an advice",
+        "C) the advice",
+        "D) - advice"
+      ],
+      "correct_answer": "A",
+      "explanation": "Слово 'advice' начинается с гласного звука [ə], но это безличное существительное; артикль 'a' используется перед ним в общем смысле.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ошибку в использовании артиклей?",
+      "options": [
+        "A) She plays a violin.",
+        "B) He wants an ice cream.",
+        "C) I saw a eagle in the sky.",
+        "D) We have an appointment tomorrow."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка: слово 'eagle' произносится с гласного звука [i], поэтому должен быть артикль 'an', а не 'a'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный вариант: 'He is ___ owner of the shop.'",
+      "options": [
+        "A) a owner",
+        "B) an owner",
+        "C) the owner",
+        "D) owner"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'owner' начинается с гласного звука [o], поэтому перед ним ставится артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните предложение: 'She found ___ USB drive under the desk.'",
+      "options": [
+        "A) a USB",
+        "B) an USB",
+        "C) the USB",
+        "D) - USB"
+      ],
+      "correct_answer": "A",
+      "explanation": "Аббревиатура 'USB' произносится как [ju:es'bi:], начиная с согласного звука [ju], поэтому используется артикль 'a'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какое предложение грамматически неверно?",
+      "options": [
+        "A) I want a uniform for school.",
+        "B) This is a interesting story.",
+        "C) He needs an umbrella today.",
+        "D) She is an actress."
+      ],
+      "correct_answer": "B",
+      "explanation": "В варианте B ошибка: перед 'interesting' нужен артикль 'an', так как слово начинается с гласного звука [i].",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите правильный артикль: 'My sister is studying to become ___ optometrist.'",
+      "options": [
+        "A) a optometrist",
+        "B) an optometrist",
+        "C) the optometrist",
+        "D) - optometrist"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'optometrist' начинается с гласного звука [o], поэтому перед ним используется артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Дополните: 'Yesterday I saw ___ accident on the street.'",
+      "options": [
+        "A) a accident",
+        "B) an accident",
+        "C) the accident",
+        "D) accident"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'accident' начинается с гласного звука [a], поэтому перед ним ставится артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ошибку?",
+      "options": [
+        "A) He is a knight.",
+        "B) She bought an expensive dress.",
+        "C) This is a honest man.",
+        "D) I have an English textbook."
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C ошибка: перед словом 'honest', которое произносится с гласного звука, должен быть артикль 'an', а не 'a'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    },
+    {
+      "text": "Выберите грамматически верное предложение:",
+      "options": [
+        "A) I bought a egg at the shop.",
+        "B) I bought an egg at the shop.",
+        "C) I bought the egg at the shop.",
+        "D) I bought eggs at the shop."
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'egg' начинается с гласного звука [e], поэтому перед ним нужен артикль 'an'.",
+      "difficulty": 3,
+      "tags": [
+        "en-grammar-articles"
+      ]
+    }
+  ]
+}

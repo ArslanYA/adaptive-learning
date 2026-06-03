@@ -1,0 +1,1935 @@
+{
+  "topic": "Английский",
+  "title": "Английский 4кл — Уровень 2",
+  "grade_level": 4,
+  "difficulty": 2,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Какое отрицание правильно использовать в предложении: 'I ___ a teacher'?",
+      "options": [
+        "A) am not",
+        "B) isn't",
+        "C) aren't",
+        "D) not am"
+      ],
+      "correct_answer": "A",
+      "explanation": "С местоимением 'I' используется форма 'am not'. Формы 'isn't' и 'aren't' используются с другими местоимениями.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание для предложения: 'She ___ happy today'.",
+      "options": [
+        "A) am not",
+        "B) aren't",
+        "C) isn't",
+        "D) not is"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение 'she' (единственное число, третье лицо) требует формы 'isn't' (is + not).",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Как правильно образовать отрицание: 'They ___ students'?",
+      "options": [
+        "A) is not",
+        "B) isn't",
+        "C) aren't",
+        "D) am not"
+      ],
+      "correct_answer": "C",
+      "explanation": "Множественное число 'they' требует формы 'aren't' (are + not). Форма 'is not' используется только с единственным числом.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно переводит отрицание 'You aren't a doctor'?",
+      "options": [
+        "A) Ты врач",
+        "B) Ты не врач",
+        "C) Вы врачи",
+        "D) Вы не доктора"
+      ],
+      "correct_answer": "B",
+      "explanation": "'aren't' — это отрицание, поэтому предложение отрицательное. 'You' может означать как 'ты', так и 'вы', но в контексте перевода 'ты не врач' наиболее точный вариант.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос: 'Is he a pupil?'. Какой ответ возможен?",
+      "options": [
+        "A) No, he aren't",
+        "B) No, he isn't",
+        "C) No, he's not a",
+        "D) No, he am not"
+      ],
+      "correct_answer": "B",
+      "explanation": "При ответе на вопрос с 'Is he' в отрицании используется 'he isn't' (он не...). Вариант A неправильный, так как 'he' требует 'isn't', а не 'aren't'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Сформулируйте вопрос для проверки информации о Марии: 'Is she a teacher?' На русском языке это означает:",
+      "options": [
+        "A) Она учительница?",
+        "B) Она не учительница?",
+        "C) Она была учительницей?",
+        "D) Она будет учительницей?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вопрос 'Is she a teacher?' — это обычный вопрос в настоящем времени, означающий 'Она учительница?' или 'Она учитель?'",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Какая форма глагола 'to be' используется в вопросе 'Are you happy?'?",
+      "options": [
+        "A) am",
+        "B) is",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "В вопросе с местоимением 'you' (ты/вы) используется форма 'are'. Это основная форма для множественного числа и для 'you' в английском языке.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание для местоимения 'it': 'It ___ a cat'.",
+      "options": [
+        "A) aren't",
+        "B) am not",
+        "C) isn't",
+        "D) are not"
+      ],
+      "correct_answer": "C",
+      "explanation": "'It' — это единственное число, третье лицо, поэтому требует формы 'isn't' (is + not).",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Как правильно задать вопрос о местоположении Боба: 'Is Bob ___ the room?'",
+      "options": [
+        "A) Are",
+        "B) Is",
+        "C) Am",
+        "D) Be"
+      ],
+      "correct_answer": "B",
+      "explanation": "Имя собственное 'Bob' — это единственное число, третье лицо, поэтому в вопросе используется 'Is'. Вариант B уже указан в предложении.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Преобразуйте в отрицание: 'I am a student'. Правильный вариант:",
+      "options": [
+        "A) I aren't a student",
+        "B) I'm not a student",
+        "C) I isn't a student",
+        "D) I not am a student"
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением 'I' используется форма 'am not' или сокращённо 'I'm not'. Варианты A и C грамматически неправильны.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Какой вопрос соответствует ответу 'No, they aren't doctors'?",
+      "options": [
+        "A) Is he a doctor?",
+        "B) Are they doctors?",
+        "C) Is she a doctor?",
+        "D) Am I a doctor?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ответ содержит 'they aren't', что соответствует вопросу с 'Are they...?' Местоимение и форма глагола совпадают.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание для предложения: 'We ___ in the park'.",
+      "options": [
+        "A) isn't",
+        "B) am not",
+        "C) aren't",
+        "D) is not"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение 'we' — множественное число, требует формы 'aren't' (are + not).",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Какой вопрос можно задать о предмете 'pencil': 'Is it a ___?'",
+      "options": [
+        "A) Is it a pencil?",
+        "B) Are it a pencil?",
+        "C) Am it a pencil?",
+        "D) Be it a pencil?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Местоимение 'it' (единственное число) требует формы 'Is'. Правильный вопрос: 'Is it a pencil?'",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Преобразуйте в отрицание: 'They are happy'. Выберите правильный вариант:",
+      "options": [
+        "A) They isn't happy",
+        "B) They're not happy",
+        "C) They am not happy",
+        "D) They not are happy"
+      ],
+      "correct_answer": "B",
+      "explanation": "'They are' → 'They're not' (сокращённо: They are not). Местоимение 'they' требует формы 'are', поэтому отрицание: 'are not' или 'aren't'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Какой ответ подходит на вопрос 'Is your teacher strict?'?",
+      "options": [
+        "A) Yes, he is",
+        "B) Yes, he isn't",
+        "C) No, she are",
+        "D) No, he aren't"
+      ],
+      "correct_answer": "A",
+      "explanation": "На утвердительный вопрос 'Is your teacher...?' следует ответ 'Yes, he is' (если подразумевается мужчина). Вариант B противоречит структуре предложения.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание: 'You ___ wrong'.",
+      "options": [
+        "A) am not",
+        "B) is not",
+        "C) aren't",
+        "D) isn't"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение 'you' требует формы 'are', поэтому отрицание: 'are not' или 'aren't'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Преобразуйте в вопрос: 'She is a nurse'. Правильный вариант:",
+      "options": [
+        "A) Is she a nurse?",
+        "B) Are she a nurse?",
+        "C) Am she a nurse?",
+        "D) She is a nurse?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для образования вопроса с 'she' (единственное число) нужно поставить 'Is' в начало предложения. Правильно: 'Is she a nurse?'",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Какое отрицание правильно для предложения: 'The cat ___ black'?",
+      "options": [
+        "A) aren't",
+        "B) am not",
+        "C) isn't",
+        "D) are not"
+      ],
+      "correct_answer": "C",
+      "explanation": "'The cat' — единственное число, третье лицо, поэтому требует 'isn't' (is + not).",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Выберите правильный короткий ответ на вопрос 'Are we late?':",
+      "options": [
+        "A) No, we isn't",
+        "B) No, we're not",
+        "C) No, I'm not",
+        "D) No, we am not"
+      ],
+      "correct_answer": "B",
+      "explanation": "На вопрос 'Are we...?' в отрицании используется 'we're not' или 'we aren't'. Вариант B — правильный сокращённый ответ.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Как правильно образовать вопрос для проверки: 'Это красивое платье?'",
+      "options": [
+        "A) Is it a beautiful dress?",
+        "B) Are it a beautiful dress?",
+        "C) Is she a beautiful dress?",
+        "D) Am I a beautiful dress?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для неодушевлённого предмета используется 'it' + 'Is'. Правильно: 'Is it a beautiful dress?'",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицание для предложения: 'My friends ___ busy'.",
+      "options": [
+        "A) is not",
+        "B) isn't",
+        "C) aren't",
+        "D) am not"
+      ],
+      "correct_answer": "C",
+      "explanation": "'My friends' — множественное число, требует формы 'aren't' (are + not).",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "На вопрос 'Is your brother a footballer?' нужен ответ. Выберите правильный:",
+      "options": [
+        "A) Yes, he are",
+        "B) No, he isn't",
+        "C) No, you aren't",
+        "D) Yes, they is"
+      ],
+      "correct_answer": "B",
+      "explanation": "На вопрос 'Is your brother...?' в отрицании ответ: 'No, he isn't'. Местоимение и форма глагола совпадают с вопросом.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Преобразуйте в вопрос: 'They are students'. Выберите правильный вариант:",
+      "options": [
+        "A) Are they students?",
+        "B) Is they students?",
+        "C) Are they student?",
+        "D) Am they students?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Множественное число 'they' требует формы 'Are' в вопросе. Правильно: 'Are they students?'",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-questions"
+      ]
+    },
+    {
+      "text": "Какое отрицание используется в предложении: 'I ___ tired'?",
+      "options": [
+        "A) isn't",
+        "B) aren't",
+        "C) am not",
+        "D) is not"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение 'I' требует формы 'am', поэтому отрицание: 'am not' или 'I'm not'.",
+      "difficulty": 2,
+      "tags": [
+        "en-grammar-tenses",
+        "be-negative"
+      ]
+    },
+    {
+      "text": "Какое предложение правильное?",
+      "options": [
+        "A) This is a book.",
+        "B) This are a book.",
+        "C) These is a book.",
+        "D) That are a book."
+      ],
+      "correct_answer": "A",
+      "explanation": "This — единственное число, поэтому используется глагол 'is'. Остальные варианты нарушают согласование подлежащего и сказуемого.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "this-that"
+      ]
+    },
+    {
+      "text": "Выбери правильное предложение для множественного числа.",
+      "options": [
+        "A) Those is cats.",
+        "B) These is cats.",
+        "C) Those are cats.",
+        "D) That are cats."
+      ],
+      "correct_answer": "C",
+      "explanation": "Those — множественное число, требует глагола 'are'. These также множественное число, но относится к близким объектам, тогда как those — к далёким.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "множественное-число"
+      ]
+    },
+    {
+      "text": "Что обозначает это предложение? 'This is my pencil.'",
+      "options": [
+        "A) Это карандаш рядом со мной (близко).",
+        "B) Это карандаш далеко от меня.",
+        "C) Это несколько карандашей.",
+        "D) Это предмет на столе учителя."
+      ],
+      "correct_answer": "A",
+      "explanation": "'This' используется для единственного числа близких объектов. Предложение говорит о карандаше, который находится рядом с говорящим.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "расстояние"
+      ]
+    },
+    {
+      "text": "Какое утверждение верно? 'That are apples.'",
+      "options": [
+        "A) Это правильное предложение.",
+        "B) Это неправильное предложение; должно быть 'That is apple.'",
+        "C) Это неправильное предложение; должно быть 'Those are apples.'",
+        "D) Это неправильное предложение; должно быть 'These are apples.'"
+      ],
+      "correct_answer": "C",
+      "explanation": "That — единственное число, поэтому не может использоваться с множественным числом 'apples'. Для множественного числа далёких объектов нужно 'Those are apples.'",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "согласование"
+      ]
+    },
+    {
+      "text": "Выбери предложение о близких объектах во множественном числе.",
+      "options": [
+        "A) That is a flower.",
+        "B) Those are flowers.",
+        "C) These are flowers.",
+        "D) This is flowers."
+      ],
+      "correct_answer": "C",
+      "explanation": "'These' — это указательное местоимение для множественного числа близких объектов. 'Those' используется для далёких объектов.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "this-these"
+      ]
+    },
+    {
+      "text": "Какое предложение описывает далёкий единственный предмет?",
+      "options": [
+        "A) These is a house.",
+        "B) This is a house.",
+        "C) That is a house.",
+        "D) Those are a house."
+      ],
+      "correct_answer": "C",
+      "explanation": "'That is' используется для единственного числа предметов, находящихся далеко от говорящего.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "that"
+      ]
+    },
+    {
+      "text": "Заполни пропуск: '_____ are my friends.' (друзья рядом со мной)",
+      "options": [
+        "A) That",
+        "B) This",
+        "C) Those",
+        "D) These"
+      ],
+      "correct_answer": "D",
+      "explanation": "'These' используется для множественного числа близких объектов. Так как друзья рядом и их несколько, нужно 'These'.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "заполнение-пропусков"
+      ]
+    },
+    {
+      "text": "Что неправильно в предложении 'These is a dog'?",
+      "options": [
+        "A) 'These' используется для множественного числа, а 'is' — для единственного.",
+        "B) Нужно использовать 'That' вместо 'These'.",
+        "C) Собака должна быть во множественном числе.",
+        "D) Нечего менять, предложение правильное."
+      ],
+      "correct_answer": "A",
+      "explanation": "'These' — множественное число, требует глагола 'are', а не 'is'. Правильно: 'These are dogs.' или 'This is a dog.'",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "ошибки"
+      ]
+    },
+    {
+      "text": "Выбери правильный перевод: 'Те карандаши далеко.'",
+      "options": [
+        "A) These pencils are far.",
+        "B) That pencil is far.",
+        "C) Those pencils are far.",
+        "D) This is pencil far."
+      ],
+      "correct_answer": "C",
+      "explanation": "'Those' указывает на далёкие предметы во множественном числе. 'Pencils' — множественное число, поэтому нужен 'are'.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "перевод"
+      ]
+    },
+    {
+      "text": "Какое предложение соответствует ситуации: вы показываете на книгу рядом с вами?",
+      "options": [
+        "A) That is a book.",
+        "B) Those are books.",
+        "C) This is a book.",
+        "D) These is a book."
+      ],
+      "correct_answer": "C",
+      "explanation": "'This is' используется для близкого единственного предмета. Это идеальный вариант для книги рядом с вами.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "практическое-применение"
+      ]
+    },
+    {
+      "text": "Какое слово должно стоять вместо пропуска? '_____ are toys on the shelf over there.'",
+      "options": [
+        "A) These",
+        "B) This",
+        "C) Those",
+        "D) That"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Over there' указывает на далёкое расстояние, а 'toys' — множественное число, поэтому нужно 'Those'.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "контекст"
+      ]
+    },
+    {
+      "text": "В каком предложении правильно использовано указательное местоимение?",
+      "options": [
+        "A) That are children playing.",
+        "B) This is children playing.",
+        "C) These are children playing.",
+        "D) Those is a child playing."
+      ],
+      "correct_answer": "C",
+      "explanation": "'These' подходит для множественного числа близких объектов, и 'are' согласуется с множественным числом.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "согласование"
+      ]
+    },
+    {
+      "text": "Какое предложение неправильное?",
+      "options": [
+        "A) This is a cat.",
+        "B) Those are cats.",
+        "C) This are a cat.",
+        "D) That is a cat."
+      ],
+      "correct_answer": "C",
+      "explanation": "'This' — единственное число, требует 'is', а не 'are'. Правильно: 'This is a cat.'",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "ошибки"
+      ]
+    },
+    {
+      "text": "Заверши предложение: 'Look at _____ butterflies near us. They are beautiful!'",
+      "options": [
+        "A) those",
+        "B) that",
+        "C) these",
+        "D) this"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Near us' указывает на близкое расстояние, 'butterflies' — множественное число, поэтому нужно 'these'.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "заполнение-пропусков"
+      ]
+    },
+    {
+      "text": "Что правильно? Укажите на предметы далеко от вас во множественном числе.",
+      "options": [
+        "A) Those is things.",
+        "B) These are things.",
+        "C) That are things.",
+        "D) Those are things."
+      ],
+      "correct_answer": "D",
+      "explanation": "'Those' — множественное число для далёких объектов, 'are' согласуется с множественным числом.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "множественное-число"
+      ]
+    },
+    {
+      "text": "Какой вариант лучше завершает предложение? '_____ is my favourite shirt.'",
+      "options": [
+        "A) These",
+        "B) Those",
+        "C) This",
+        "D) That are"
+      ],
+      "correct_answer": "C",
+      "explanation": "'This' используется для близкого единственного предмета. Рубашка — одна, и вы говорите о ней как о близком объекте.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "единственное-число"
+      ]
+    },
+    {
+      "text": "В каком варианте правильно выбрано указательное местоимение и глагол?",
+      "options": [
+        "A) These am students.",
+        "B) That are a student.",
+        "C) This is a student.",
+        "D) Those is students."
+      ],
+      "correct_answer": "C",
+      "explanation": "'This is' согласуется с единственным числом. Все остальные варианты имеют ошибку согласования между местоимением и глаголом.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "согласование"
+      ]
+    },
+    {
+      "text": "Выбери правильное предложение для описания группы животных рядом с вами.",
+      "options": [
+        "A) That are animals.",
+        "B) These is animals.",
+        "C) Those are animals.",
+        "D) These are animals."
+      ],
+      "correct_answer": "D",
+      "explanation": "'These are' используется для множественного числа близких объектов. Животные рядом с вами и их несколько.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "контекст"
+      ]
+    },
+    {
+      "text": "Какое предложение соответствует картинке, где учитель указывает на доску далеко в классе?",
+      "options": [
+        "A) This is the board.",
+        "B) These are the board.",
+        "C) That is the board.",
+        "D) Those are board."
+      ],
+      "correct_answer": "C",
+      "explanation": "'That is' используется для единственного предмета, находящегося далеко. Доска одна и находится вдали.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "ситуация"
+      ]
+    },
+    {
+      "text": "Какой указательный местоимение нужен в предложении? '_____ shoes are on my feet.'",
+      "options": [
+        "A) That",
+        "B) Those",
+        "C) This",
+        "D) That is"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Those' используется для множественного числа близких объектов (обувь на ногах говорящего).",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "заполнение-пропусков"
+      ]
+    },
+    {
+      "text": "Укажи ошибку в предложении: 'These is flowers in the garden.'",
+      "options": [
+        "A) Нужно 'are' вместо 'is'.",
+        "B) Нужно 'That' вместо 'These'.",
+        "C) Нужно 'This' вместо 'These'.",
+        "D) Предложение полностью правильное."
+      ],
+      "correct_answer": "A",
+      "explanation": "'These' — множественное число, требует глагола 'are', а не 'is'. Правильно: 'These are flowers.'",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "диагностика-ошибок"
+      ]
+    },
+    {
+      "text": "Какое утверждение о 'These' и 'Those' верно?",
+      "options": [
+        "A) 'These' для далёких, 'Those' для близких объектов.",
+        "B) 'These' для близких, 'Those' для далёких объектов.",
+        "C) Оба используются только для единственного числа.",
+        "D) Оба используются только для глагола 'is'."
+      ],
+      "correct_answer": "B",
+      "explanation": "'These' указывает на близкие объекты множественного числа, а 'Those' — на далёкие объекты множественного числа.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "теория"
+      ]
+    },
+    {
+      "text": "Выбери правильное предложение для описания нескольких людей, видимых вам издалека.",
+      "options": [
+        "A) These are people.",
+        "B) That are people.",
+        "C) Those are people.",
+        "D) This are people."
+      ],
+      "correct_answer": "C",
+      "explanation": "'Those are' используется для множественного числа далёких объектов. Люди видны издалека и их несколько.",
+      "difficulty": 2,
+      "tags": [
+        "указательные-местоимения",
+        "практика"
+      ]
+    },
+    {
+      "text": "Выбери правильный вариант: 'This is ___ book. I like it very much.'",
+      "options": [
+        "A) your",
+        "B) my",
+        "C) his",
+        "D) their"
+      ],
+      "correct_answer": "B",
+      "explanation": "Используется 'my', так как говорящий говорит о своей книге. 'Your' (твой), 'his' (его), 'their' (их) не подходят по смыслу.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "my"
+      ]
+    },
+    {
+      "text": "Вставь притяжательное местоимение: 'Sarah is my friend. ___ name is Sarah.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) Her",
+        "D) His"
+      ],
+      "correct_answer": "C",
+      "explanation": "Нужно 'Her' (её), так как речь идёт о девочке Sarah и её имени. 'My' — о говорящем, 'Your' — о слушателе, 'His' — о мальчике.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "her"
+      ]
+    },
+    {
+      "text": "Дополни предложение: 'Tom and I have a dog. ___ dog is very smart.'",
+      "options": [
+        "A) His",
+        "B) My",
+        "C) Our",
+        "D) Their"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Our' (наш) — правильно, так как собака принадлежит и Tom, и говорящему вместе. 'His' — только Tom, 'My' — только говорящий, 'Their' — третьих лиц.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "our"
+      ]
+    },
+    {
+      "text": "Какое местоимение нужно вставить? 'Do you have a pencil? No, ___ pencil is at home.'",
+      "options": [
+        "A) my",
+        "B) your",
+        "C) his",
+        "D) her"
+      ],
+      "correct_answer": "A",
+      "explanation": "'My' (мой) — говорящий говорит о своём карандаше. 'Your' — было бы в вопросе о чужом карандаше, 'his' и 'her' — о третьем лице.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "my"
+      ]
+    },
+    {
+      "text": "Вставь притяжательное местоимение: 'The children are playing with ___ toys.'",
+      "options": [
+        "A) his",
+        "B) her",
+        "C) their",
+        "D) our"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Their' (их) используется для множественного числа (children). 'His' и 'her' — для единственного числа, 'our' — для 'we', а здесь речь о 'they'.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Выбери правильное местоимение: 'Is this ___ bag? Yes, it's my bag.'",
+      "options": [
+        "A) her",
+        "B) his",
+        "C) your",
+        "D) their"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Your' (твой) используется в вопросе к другому человеку. Ответ 'my' подтверждает, что спрашивали именно о 'your'. 'Her', 'his', 'their' не подходят.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "your"
+      ]
+    },
+    {
+      "text": "Дополни: 'Peter has a cat. ___ cat is black and white.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Her"
+      ],
+      "correct_answer": "C",
+      "explanation": "'His' (его) — кот принадлежит Peter (мальчику). 'My' — говорящего, 'Your' — слушателя, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "his"
+      ]
+    },
+    {
+      "text": "Вставь местоимение: 'Anna and Emma are sisters. ___ parents are teachers.'",
+      "options": [
+        "A) His",
+        "B) Her",
+        "C) Their",
+        "D) Our"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Their' (их) — родители принадлежат обеим девочкам (множественное число). 'His' — мальчика, 'Her' — одной девочки, 'Our' — говорящего и его группы.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Какое местоимение пропущено? 'We have a school. ___ school is big and modern.'",
+      "options": [
+        "A) My",
+        "B) His",
+        "C) Our",
+        "D) Their"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Our' (наша) — школа принадлежит 'we' (нам). 'My' — одного человека, 'His' — мальчика, 'Their' — других людей.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "our"
+      ]
+    },
+    {
+      "text": "Вставь притяжательное местоимение: 'You have a book. Is ___ book interesting?'",
+      "options": [
+        "A) my",
+        "B) your",
+        "C) his",
+        "D) her"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Your' (твой) — книга принадлежит слушателю (you). 'My' — говорящего, 'his' — мальчика, 'her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "your"
+      ]
+    },
+    {
+      "text": "Дополни предложение: 'He is a teacher. ___ students are very good.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Her"
+      ],
+      "correct_answer": "C",
+      "explanation": "'His' (его) — студенты принадлежат мальчику/мужчине (he). 'My' — говорящего, 'Your' — слушателя, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "his"
+      ]
+    },
+    {
+      "text": "Выбери правильное местоимение: 'She has a doll. ___ doll is very beautiful.'",
+      "options": [
+        "A) His",
+        "B) Her",
+        "C) My",
+        "D) Your"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Her' (её) — кукла принадлежит девочке/женщине (she). 'His' — мальчику, 'My' — говорящему, 'Your' — слушателю.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "her"
+      ]
+    },
+    {
+      "text": "Вставь местоимение: 'The boys have a football. ___ football is red.'",
+      "options": [
+        "A) My",
+        "B) Her",
+        "C) Their",
+        "D) Your"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Their' (их) — мяч принадлежит мальчикам (множественное число). 'My' — говорящего, 'Her' — девочки, 'Your' — слушателя.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Дополни: 'I have a brother. ___ brother is 10 years old.'",
+      "options": [
+        "A) Your",
+        "B) His",
+        "C) My",
+        "D) Her"
+      ],
+      "correct_answer": "C",
+      "explanation": "'My' (мой) — брат говорящего. 'Your' — слушателя, 'His' — другого мальчика, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "my"
+      ]
+    },
+    {
+      "text": "Выбери местоимение: 'They have a house. ___ house is near the forest.'",
+      "options": [
+        "A) My",
+        "B) Our",
+        "C) His",
+        "D) Their"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Their' (их) — дом принадлежит им (they). 'My' — одного человека, 'Our' — говорящего и его группы, 'His' — одного мальчика.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Какой вариант правильный? 'You and I are friends. ___ friendship is very important.'",
+      "options": [
+        "A) Your",
+        "B) My",
+        "C) Our",
+        "D) Their"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Our' (наша) — дружба принадлежит говорящему и слушателю вместе (you and I = we). 'Your' — только слушателю, 'My' — только говорящему, 'Their' — другим.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "our"
+      ]
+    },
+    {
+      "text": "Вставь притяжательное местоимение: 'She is a student. ___ name is Mary.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Her"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Her' (её) — имя принадлежит ей (she). 'My' — мне, 'Your' — тебе, 'His' — ему/мальчику.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "her"
+      ]
+    },
+    {
+      "text": "Дополни: 'I like apples. ___ apples are sweet.'",
+      "options": [
+        "A) Your",
+        "B) His",
+        "C) My",
+        "D) Their"
+      ],
+      "correct_answer": "C",
+      "explanation": "'My' (мои) — яблоки говорящего. 'Your' — слушателя, 'His' — мальчика, 'Their' — других людей.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "my"
+      ]
+    },
+    {
+      "text": "Выбери правильное местоимение: 'We have a garden. ___ garden has many flowers.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Our"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Our' (наш) — сад принадлежит нам (we). 'My' — одного человека, 'Your' — слушателя, 'His' — мальчика.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "our"
+      ]
+    },
+    {
+      "text": "Вставь местоимение: 'He likes football. ___ favourite team is Manchester United.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Her"
+      ],
+      "correct_answer": "C",
+      "explanation": "'His' (его) — любимая команда мальчика/мужчины (he). 'My' — говорящего, 'Your' — слушателя, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "his"
+      ]
+    },
+    {
+      "text": "Дополни предложение: 'The girls have a bicycle. ___ bicycle is yellow.'",
+      "options": [
+        "A) His",
+        "B) My",
+        "C) Their",
+        "D) Your"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Their' (их) — велосипед принадлежит девочкам (множественное число). 'His' — мальчику, 'My' — говорящему, 'Your' — слушателю.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Выбери местоимение: 'You are a good student. ___ teacher is happy with you.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Her"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Your' (твой) — учитель слушателя (you). 'My' — говорящего, 'His' — мальчика, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "your"
+      ]
+    },
+    {
+      "text": "Вставь притяжательное местоимение: 'She has a cat and a dog. ___ pets are very friendly.'",
+      "options": [
+        "A) My",
+        "B) His",
+        "C) Her",
+        "D) Your"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Her' (её) — питомцы принадлежат ей (she). 'My' — мне, 'His' — ему/мальчику, 'Your' — тебе.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "her"
+      ]
+    },
+    {
+      "text": "Какой вариант правильный? 'They are musicians. ___ instruments are very expensive.'",
+      "options": [
+        "A) My",
+        "B) Your",
+        "C) His",
+        "D) Their"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Their' (их) — инструменты принадлежат им (they). 'My' — мне, 'Your' — тебе, 'His' — ему/мальчику.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "their"
+      ]
+    },
+    {
+      "text": "Дополни: 'I am a pupil. ___ school is very big.'",
+      "options": [
+        "A) Your",
+        "B) His",
+        "C) My",
+        "D) Her"
+      ],
+      "correct_answer": "C",
+      "explanation": "'My' (моя) — школа говорящего. 'Your' — слушателя, 'His' — мальчика, 'Her' — девочки.",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns",
+        "my"
+      ]
+    },
+    {
+      "text": "Выбери правильное слово для комнаты, где готовят еду.",
+      "options": [
+        "A) bedroom",
+        "B) kitchen",
+        "C) living room",
+        "D) bathroom"
+      ],
+      "correct_answer": "B",
+      "explanation": "Kitchen — это кухня, где готовят пищу. Bedroom (спальня), living room (гостиная) и bathroom (ванная) — другие комнаты дома.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms"
+      ]
+    },
+    {
+      "text": "Какой предмет мебели используется для сидения за столом во время еды?",
+      "options": [
+        "A) table",
+        "B) bed",
+        "C) chair",
+        "D) sofa"
+      ],
+      "correct_answer": "C",
+      "explanation": "Chair (стул) — это мебель для сидения. Table используется для еды, но сам по себе не является местом для сидения.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "В предложении «There is a large ___ in the bedroom» выбери подходящее слово.",
+      "options": [
+        "A) refrigerator",
+        "B) bed",
+        "C) stove",
+        "D) sink"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bed (кровать) находится в спальне (bedroom). Refrigerator, stove и sink — это кухонные принадлежности.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms",
+        "furniture"
+      ]
+    },
+    {
+      "text": "Какое слово означает место для приема пищи в доме?",
+      "options": [
+        "A) kitchen",
+        "B) hallway",
+        "C) dining room",
+        "D) basement"
+      ],
+      "correct_answer": "C",
+      "explanation": "Dining room (столовая) — это комната, где едят. Kitchen — это кухня (где готовят), hallway — коридор, basement — подвал.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms"
+      ]
+    },
+    {
+      "text": "Выбери правильный перевод предмета, на котором лежат вещи в спальне.",
+      "options": [
+        "A) wardrobe",
+        "B) shelf",
+        "C) desk",
+        "D) cupboard"
+      ],
+      "correct_answer": "A",
+      "explanation": "Wardrobe (шкаф/гардероб) — это мебель для хранения одежды в спальне. Shelf — полка, desk — стол, cupboard — шкаф на кухне.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "В каком предложении правильно используется слово 'sofa'?",
+      "options": [
+        "A) I sleep on the sofa.",
+        "B) I cook on the sofa.",
+        "C) I sit on the sofa.",
+        "D) I eat on the sofa."
+      ],
+      "correct_answer": "C",
+      "explanation": "Sofa (диван) используется для сидения и отдыха. Варианты A, B и D описывают неправильное использование дивана.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Какой продукт питания нужно хранить в холодильнике?",
+      "options": [
+        "A) bread",
+        "B) milk",
+        "C) rice",
+        "D) sugar"
+      ],
+      "correct_answer": "B",
+      "explanation": "Milk (молоко) — скоропортящийся продукт, который хранят в холодильнике. Bread, rice и sugar могут храниться при комнатной температуре.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Выбери слово, которое означает место хранения продуктов с холодом.",
+      "options": [
+        "A) stove",
+        "B) freezer",
+        "C) oven",
+        "D) sink"
+      ],
+      "correct_answer": "B",
+      "explanation": "Freezer (морозилка) и refrigerator хранят продукты холодом. Stove и oven — для готовки, sink — раковина.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "kitchen"
+      ]
+    },
+    {
+      "text": "Что такое 'breakfast' в контексте времени суток?",
+      "options": [
+        "A) dinner",
+        "B) lunch",
+        "C) morning meal",
+        "D) supper"
+      ],
+      "correct_answer": "C",
+      "explanation": "Breakfast (завтрак) — это meal (блюдо/прием пищи) в morning (утро). Lunch — обед, dinner/supper — ужин.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food",
+        "time"
+      ]
+    },
+    {
+      "text": "Выбери фрукт из предложенных продуктов.",
+      "options": [
+        "A) carrot",
+        "B) potato",
+        "C) apple",
+        "D) chicken"
+      ],
+      "correct_answer": "C",
+      "explanation": "Apple (яблоко) — это фрукт. Carrot и potato — овощи, chicken — мясо.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "На каком предмете мебели вы пишете домашнее задание?",
+      "options": [
+        "A) chair",
+        "B) desk",
+        "C) bookshelf",
+        "D) wardrobe"
+      ],
+      "correct_answer": "B",
+      "explanation": "Desk (письменный стол) используется для работы и написания. Chair — стул для сидения, bookshelf — книжная полка, wardrobe — шкаф.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "В предложении «I drink ___ at breakfast» выбери правильный продукт.",
+      "options": [
+        "A) bread",
+        "B) milk",
+        "C) soup",
+        "D) rice"
+      ],
+      "correct_answer": "B",
+      "explanation": "Milk (молоко) — это напиток, который пьют на завтрак. Bread, soup и rice — это еда, которую едят, а не пьют.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Какая комната используется для мытья и гигиены?",
+      "options": [
+        "A) kitchen",
+        "B) bedroom",
+        "C) bathroom",
+        "D) living room"
+      ],
+      "correct_answer": "C",
+      "explanation": "Bathroom (ванная/туалет) — это комната для гигиены и мытья. Kitchen — кухня, bedroom — спальня, living room — гостиная.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms"
+      ]
+    },
+    {
+      "text": "Выбери правильное слово для мебели, где хранят одежду и вещи в гостиной.",
+      "options": [
+        "A) sink",
+        "B) cupboard",
+        "C) stove",
+        "D) mirror"
+      ],
+      "correct_answer": "B",
+      "explanation": "Cupboard (шкаф) используется для хранения вещей. Sink — раковина, stove — плита, mirror — зеркало.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "Что находится в комнате, где спят люди?",
+      "options": [
+        "A) sofa and TV",
+        "B) stove and sink",
+        "C) bed and wardrobe",
+        "D) table and chairs"
+      ],
+      "correct_answer": "C",
+      "explanation": "Bed (кровать) и wardrobe (шкаф) — типичная мебель в спальне (bedroom). Другие варианты описывают мебель гостиной и кухни.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms",
+        "furniture"
+      ]
+    },
+    {
+      "text": "Какой продукт питания содержит белки и часто едят на завтрак?",
+      "options": [
+        "A) juice",
+        "B) egg",
+        "C) sugar",
+        "D) salt"
+      ],
+      "correct_answer": "B",
+      "explanation": "Egg (яйцо) богато белками и часто едят на завтрак. Juice — сок (напиток), sugar и salt — приправы.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Выбери правильное название комнаты, где семья смотрит телевизор.",
+      "options": [
+        "A) kitchen",
+        "B) bedroom",
+        "C) living room",
+        "D) hallway"
+      ],
+      "correct_answer": "C",
+      "explanation": "Living room (гостиная) — это комната для отдыха, где смотрят ТВ. Kitchen — кухня, bedroom — спальня, hallway — коридор.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "rooms"
+      ]
+    },
+    {
+      "text": "На каком предмете готовят еду на газе или электричестве?",
+      "options": [
+        "A) sink",
+        "B) refrigerator",
+        "C) stove",
+        "D) cupboard"
+      ],
+      "correct_answer": "C",
+      "explanation": "Stove (плита) используется для готовки пищи. Sink — раковина, refrigerator — холодильник, cupboard — шкаф.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "kitchen"
+      ]
+    },
+    {
+      "text": "Выбери слово, которое означает овощ оранжевого цвета.",
+      "options": [
+        "A) carrot",
+        "B) pear",
+        "C) banana",
+        "D) cucumber"
+      ],
+      "correct_answer": "A",
+      "explanation": "Carrot (морковь) — это оранжевый овощ. Pear и banana — фрукты, cucumber — огурец (зеленый овощ).",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Какой предмет на столе используется для сидения?",
+      "options": [
+        "A) lamp",
+        "B) chair",
+        "C) tablecloth",
+        "D) plate"
+      ],
+      "correct_answer": "B",
+      "explanation": "Chair (стул) — мебель для сидения рядом со столом. Lamp — лампа, tablecloth — скатерть, plate — тарелка.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "В предложении «The kitchen has a big ___» выбери подходящее слово.",
+      "options": [
+        "A) bed",
+        "B) sofa",
+        "C) table",
+        "D) mirror"
+      ],
+      "correct_answer": "C",
+      "explanation": "Table (стол) — это типичный предмет в кухне (kitchen). Bed, sofa и mirror обычно находятся в других комнатах.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "kitchen",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Какой напиток часто пьют с молоком на завтрак?",
+      "options": [
+        "A) water",
+        "B) tea",
+        "C) soup",
+        "D) oil"
+      ],
+      "correct_answer": "B",
+      "explanation": "Tea (чай) часто пьют с молоком на завтрак. Water — вода (обычно без молока), soup — суп (не напиток), oil — масло.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Что такое 'shelf' в контексте мебели дома?",
+      "options": [
+        "A) a place to sit",
+        "B) a place to sleep",
+        "C) a place to store things",
+        "D) a place to cook"
+      ],
+      "correct_answer": "C",
+      "explanation": "Shelf (полка) — это место для хранения книг и вещей. Вариант A описывает стул, B — кровать, D — плиту.",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "furniture"
+      ]
+    },
+    {
+      "text": "Выбери продукт, который обычно едят с маслом и джемом на завтрак.",
+      "options": [
+        "A) milk",
+        "B) bread",
+        "C) meat",
+        "D) cheese"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bread (хлеб) едят с маслом и джемом на завтрак. Milk — напиток, meat — мясо, cheese — сыр (хотя его можно есть с хлебом, но не совсем типично с джемом).",
+      "difficulty": 2,
+      "tags": [
+        "vocabulary",
+        "food"
+      ]
+    },
+    {
+      "text": "Как правильно написать цифру 25 словами на английском языке?",
+      "options": [
+        "A) twenty-five",
+        "B) twenti-five",
+        "C) twenty five",
+        "D) two-five"
+      ],
+      "correct_answer": "A",
+      "explanation": "Числа от 21 до 99 пишутся с дефисом между десятками и единицами: twenty-five.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "Какое число соответствует слову 'fifty'?",
+      "options": [
+        "A) 15",
+        "B) 50",
+        "C) 55",
+        "D) 45"
+      ],
+      "correct_answer": "B",
+      "explanation": "Fifty — это ровно 50. Это круглое число, обозначающее пять десятков.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "перевод"
+      ]
+    },
+    {
+      "text": "Выбери запись числа 67 английскими словами:",
+      "options": [
+        "A) sixty-seven",
+        "B) six-seven",
+        "C) sixty seven",
+        "D) sixti-seven"
+      ],
+      "correct_answer": "A",
+      "explanation": "Число 67 пишется: sixty-seven с дефисом, так как это число от 21 до 99.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "Какому английскому слову соответствует цифра 38?",
+      "options": [
+        "A) thirty-eight",
+        "B) thirty-eighty",
+        "C) three-eight",
+        "D) thirtyeight"
+      ],
+      "correct_answer": "A",
+      "explanation": "38 = thirty-eight: 'thirty' (30) + дефис + 'eight' (8), все слитно с дефисом.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "чтение"
+      ]
+    },
+    {
+      "text": "Как звучит число 44 на английском языке?",
+      "options": [
+        "A) four-four",
+        "B) forty-four",
+        "C) four-ty four",
+        "D) fourty-four"
+      ],
+      "correct_answer": "B",
+      "explanation": "44 = forty-four: 'forty' (правильное написание 40) + дефис + 'four' (4).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "произношение"
+      ]
+    },
+    {
+      "text": "Выбери цифру, которая соответствует 'seventy-two':",
+      "options": [
+        "A) 72",
+        "B) 27",
+        "C) 70",
+        "D) 77"
+      ],
+      "correct_answer": "A",
+      "explanation": "Seventy = 70, two = 2, поэтому seventy-two = 72.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "чтение"
+      ]
+    },
+    {
+      "text": "Какое из этих чисел написано неправильно?",
+      "options": [
+        "A) twenty-three",
+        "B) thirty-one",
+        "C) fourty-five",
+        "D) sixty-nine"
+      ],
+      "correct_answer": "C",
+      "explanation": "Правильное написание: 'forty' (не 'fourty'). Это частая орфографическая ошибка.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "орфография"
+      ]
+    },
+    {
+      "text": "Какой вариант соответствует числу 89?",
+      "options": [
+        "A) eighty-nine",
+        "B) eight-nine",
+        "C) eightty-nine",
+        "D) eight-ty nine"
+      ],
+      "correct_answer": "A",
+      "explanation": "89 = eighty-nine: 'eighty' (80) с дефисом + 'nine' (9), без пробелов.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "В предложении 'She has 21 books' число 21 словами звучит как:",
+      "options": [
+        "A) two-one",
+        "B) twenty-one",
+        "C) twenti-one",
+        "D) twenty one"
+      ],
+      "correct_answer": "B",
+      "explanation": "21 = twenty-one с дефисом и без пробелов между словами.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "контекст"
+      ]
+    },
+    {
+      "text": "Какому числу соответствует 'ninety'?",
+      "options": [
+        "A) 19",
+        "B) 99",
+        "C) 90",
+        "D) 900"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ninety — это 90, круглое число (девять десятков).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "перевод"
+      ]
+    },
+    {
+      "text": "Выбери правильное написание числа 56:",
+      "options": [
+        "A) five-six",
+        "B) fifty-six",
+        "C) fivety-six",
+        "D) fifty six"
+      ],
+      "correct_answer": "B",
+      "explanation": "56 = fifty-six: 'fifty' (50) + дефис + 'six' (6), слитно без пробелов.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "Какое число написано правильно в словах?",
+      "options": [
+        "A) twenty-nine",
+        "B) twentynine",
+        "C) twenty nine",
+        "D) tweenty-nine"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильная форма: twenty-nine с дефисом, без пробелов и правильным написанием 'twenty'.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "орфография"
+      ]
+    },
+    {
+      "text": "Сколько стоит этот предмет? 'It costs 73 dollars'. Число 73 это:",
+      "options": [
+        "A) seventy-three",
+        "B) seven-three",
+        "C) seventythree",
+        "D) seven-ty three"
+      ],
+      "correct_answer": "A",
+      "explanation": "73 = seventy-three с дефисом: 'seventy' (70) + 'three' (3).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "контекст"
+      ]
+    },
+    {
+      "text": "Какой вариант соответствует 'forty-seven'?",
+      "options": [
+        "A) 74",
+        "B) 47",
+        "C) 44",
+        "D) 40"
+      ],
+      "correct_answer": "B",
+      "explanation": "Forty = 40, seven = 7, значит forty-seven = 47.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "чтение"
+      ]
+    },
+    {
+      "text": "В каком варианте число 32 написано неправильно?",
+      "options": [
+        "A) thirty-two",
+        "B) 32",
+        "C) thiry-two",
+        "D) Оба A и B верны"
+      ],
+      "correct_answer": "C",
+      "explanation": "Неправильно: 'thiry' (пропущена буква 't'). Правильно: 'thirty-two'.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "орфография"
+      ]
+    },
+    {
+      "text": "Какому числу соответствует 'eighty-four'?",
+      "options": [
+        "A) 48",
+        "B) 84",
+        "C) 44",
+        "D) 80"
+      ],
+      "correct_answer": "B",
+      "explanation": "Eighty = 80, four = 4, поэтому eighty-four = 84.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "чтение"
+      ]
+    },
+    {
+      "text": "Выбери число, написанное правильно на английском:",
+      "options": [
+        "A) sixty-one",
+        "B) sixty one",
+        "C) sixtyone",
+        "D) sixti-one"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильное написание: sixty-one (с дефисом, без пробелов и ошибок в корне).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "Число 95 на английском языке звучит как:",
+      "options": [
+        "A) nine-five",
+        "B) ninety-five",
+        "C) ninty-five",
+        "D) nine-ty five"
+      ],
+      "correct_answer": "B",
+      "explanation": "95 = ninety-five: 'ninety' (90) + дефис + 'five' (5), правильное написание 'ninety'.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "произношение"
+      ]
+    },
+    {
+      "text": "В предложении 'There are 58 students' число 58 словами это:",
+      "options": [
+        "A) five-eight",
+        "B) fifty-eight",
+        "C) fivty-eight",
+        "D) fifty eight"
+      ],
+      "correct_answer": "B",
+      "explanation": "58 = fifty-eight с дефисом: 'fifty' (50) + 'eight' (8).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "контекст"
+      ]
+    },
+    {
+      "text": "Какой вариант неправильно показывает число 26?",
+      "options": [
+        "A) twenty-six",
+        "B) 26",
+        "C) twenty-six",
+        "D) оба C и A"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ошибка в написании: 'twenty' вместо 'twenty' (пропущена буква 'e').",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "орфография"
+      ]
+    },
+    {
+      "text": "Какому числу соответствует 'seventy'?",
+      "options": [
+        "A) 17",
+        "B) 77",
+        "C) 70",
+        "D) 700"
+      ],
+      "correct_answer": "C",
+      "explanation": "Seventy — это 70, круглое число (семь десятков).",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "перевод"
+      ]
+    },
+    {
+      "text": "Выбери правильное написание для числа 41:",
+      "options": [
+        "A) forty-one",
+        "B) four-one",
+        "C) fourty-one",
+        "D) forty one"
+      ],
+      "correct_answer": "A",
+      "explanation": "41 = forty-one с дефисом: 'forty' (правильно, не 'fourty') + 'one'.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "написание"
+      ]
+    },
+    {
+      "text": "Какой вариант соответствует числу 79?",
+      "options": [
+        "A) seventy-nine",
+        "B) seven-nine",
+        "C) seventynine",
+        "D) seven-ty nine"
+      ],
+      "correct_answer": "A",
+      "explanation": "79 = seventy-nine: 'seventy' (70) + дефис + 'nine' (9), слитно без пробелов.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "чтение"
+      ]
+    },
+    {
+      "text": "На сколько книг? 'I have 35 books'. Число 35 это:",
+      "options": [
+        "A) three-five",
+        "B) thirty five",
+        "C) thirty-five",
+        "D) thiry-five"
+      ],
+      "correct_answer": "C",
+      "explanation": "35 = thirty-five с дефисом: 'thirty' (30) + 'five' (5), без пробелов.",
+      "difficulty": 2,
+      "tags": [
+        "числа",
+        "контекст"
+      ]
+    }
+  ]
+}

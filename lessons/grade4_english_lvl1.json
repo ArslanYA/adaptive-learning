@@ -1,0 +1,1950 @@
+{
+  "topic": "Английский",
+  "title": "Английский 4кл — Уровень 1",
+  "grade_level": 4,
+  "difficulty": 1,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Какое слово означает цвет неба в ясный день?",
+      "options": [
+        "A) red",
+        "B) blue",
+        "C) green",
+        "D) yellow"
+      ],
+      "correct_answer": "B",
+      "explanation": "Blue — это синий цвет, который обычно ассоциируется с ясным небом.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Выберите правильное число: 5",
+      "options": [
+        "A) seven",
+        "B) five",
+        "C) three",
+        "D) six"
+      ],
+      "correct_answer": "B",
+      "explanation": "Five — это число пять на английском языке.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой день недели идёт после среды?",
+      "options": [
+        "A) Friday",
+        "B) Tuesday",
+        "C) Thursday",
+        "D) Saturday"
+      ],
+      "correct_answer": "C",
+      "explanation": "После Wednesday (среды) идёт Thursday (четверг).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "days-of-week"
+      ]
+    },
+    {
+      "text": "В каком месяце празднуют Новый год?",
+      "options": [
+        "A) February",
+        "B) December",
+        "C) January",
+        "D) March"
+      ],
+      "correct_answer": "C",
+      "explanation": "January (январь) — первый месяц года, в котором празднуют Новый год.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months"
+      ]
+    },
+    {
+      "text": "Какой цвет получится, если смешать красный и белый?",
+      "options": [
+        "A) pink",
+        "B) orange",
+        "C) purple",
+        "D) brown"
+      ],
+      "correct_answer": "A",
+      "explanation": "Pink (розовый) — результат смешивания красного (red) и белого (white) цветов.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Какое число больше: 12 или 15?",
+      "options": [
+        "A) twelve",
+        "B) fifteen",
+        "C) ten",
+        "D) nine"
+      ],
+      "correct_answer": "B",
+      "explanation": "Fifteen (15) больше, чем twelve (12).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Сколько дней в одной неделе?",
+      "options": [
+        "A) five",
+        "B) six",
+        "C) seven",
+        "D) eight"
+      ],
+      "correct_answer": "C",
+      "explanation": "Seven (семь) дней в одной неделе: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "days-of-week",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой месяц идёт после июня?",
+      "options": [
+        "A) August",
+        "B) May",
+        "C) July",
+        "D) June"
+      ],
+      "correct_answer": "C",
+      "explanation": "July (июль) идёт после June (июня).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months"
+      ]
+    },
+    {
+      "text": "Выберите правильный перевод цвета 'жёлтый'",
+      "options": [
+        "A) green",
+        "B) yellow",
+        "C) orange",
+        "D) white"
+      ],
+      "correct_answer": "B",
+      "explanation": "Yellow — это жёлтый цвет на английском языке.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Какое число стоит между 8 и 10?",
+      "options": [
+        "A) seven",
+        "B) eight",
+        "C) nine",
+        "D) eleven"
+      ],
+      "correct_answer": "C",
+      "explanation": "Nine (девять) стоит между eight (восемь) и ten (десять).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой день идёт первым в неделе?",
+      "options": [
+        "A) Sunday",
+        "B) Monday",
+        "C) Tuesday",
+        "D) Saturday"
+      ],
+      "correct_answer": "A",
+      "explanation": "Sunday (воскресенье) — первый день недели по международному стандарту.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "days-of-week"
+      ]
+    },
+    {
+      "text": "В каком месяце много снега?",
+      "options": [
+        "A) July",
+        "B) December",
+        "C) April",
+        "D) September"
+      ],
+      "correct_answer": "B",
+      "explanation": "December (декабрь) — зимний месяц, когда обычно много снега.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months"
+      ]
+    },
+    {
+      "text": "Какой цвет противоположен чёрному?",
+      "options": [
+        "A) gray",
+        "B) white",
+        "C) black",
+        "D) blue"
+      ],
+      "correct_answer": "B",
+      "explanation": "White (белый) — противоположный чёрному (black) цвет.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Сколько будет 10 + 5?",
+      "options": [
+        "A) twelve",
+        "B) thirteen",
+        "C) fifteen",
+        "D) fourteen"
+      ],
+      "correct_answer": "C",
+      "explanation": "10 + 5 = 15, что на английском языке — fifteen.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой день недели идёт перед субботой?",
+      "options": [
+        "A) Friday",
+        "B) Sunday",
+        "C) Thursday",
+        "D) Monday"
+      ],
+      "correct_answer": "A",
+      "explanation": "Friday (пятница) идёт перед Saturday (суббота).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "days-of-week"
+      ]
+    },
+    {
+      "text": "В каком месяце начинается весна в Казахстане?",
+      "options": [
+        "A) February",
+        "B) March",
+        "C) April",
+        "D) May"
+      ],
+      "correct_answer": "B",
+      "explanation": "March (март) — месяц, когда начинается весна в Казахстане.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months"
+      ]
+    },
+    {
+      "text": "Какое число идёт после 11?",
+      "options": [
+        "A) eleven",
+        "B) twelve",
+        "C) thirteen",
+        "D) ten"
+      ],
+      "correct_answer": "B",
+      "explanation": "Twelve (двенадцать) идёт после eleven (одиннадцать).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой цвет имеет апельсин?",
+      "options": [
+        "A) yellow",
+        "B) orange",
+        "C) red",
+        "D) green"
+      ],
+      "correct_answer": "B",
+      "explanation": "Orange (оранжевый) — цвет апельсина.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Сколько дней в месяце February (обычный год)?",
+      "options": [
+        "A) 28",
+        "B) 29",
+        "C) 30",
+        "D) 31"
+      ],
+      "correct_answer": "A",
+      "explanation": "В феврале обычно 28 дней (в високосный год — 29).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой цвет получится, если смешать жёлтый и красный?",
+      "options": [
+        "A) green",
+        "B) orange",
+        "C) purple",
+        "D) brown"
+      ],
+      "correct_answer": "B",
+      "explanation": "Orange (оранжевый) получается при смешивании yellow (жёлтого) и red (красного).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Какое число самое большое из предложенных?",
+      "options": [
+        "A) 15",
+        "B) 18",
+        "C) 12",
+        "D) 16"
+      ],
+      "correct_answer": "B",
+      "explanation": "Eighteen (18) — самое большое число из предложенных вариантов.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Какой день идёт после понедельника?",
+      "options": [
+        "A) Sunday",
+        "B) Wednesday",
+        "C) Tuesday",
+        "D) Thursday"
+      ],
+      "correct_answer": "C",
+      "explanation": "Tuesday (вторник) идёт после Monday (понедельника).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "days-of-week"
+      ]
+    },
+    {
+      "text": "В каком месяце летние каникулы?",
+      "options": [
+        "A) May",
+        "B) June",
+        "C) July",
+        "D) August"
+      ],
+      "correct_answer": "C",
+      "explanation": "July (июль) — месяц в середине лета, когда летние каникулы.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "months"
+      ]
+    },
+    {
+      "text": "Какой цвет имеет трава?",
+      "options": [
+        "A) green",
+        "B) blue",
+        "C) brown",
+        "D) yellow"
+      ],
+      "correct_answer": "A",
+      "explanation": "Green (зелёный) — цвет травы.",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "colors"
+      ]
+    },
+    {
+      "text": "Какое число стоит между 18 и 20?",
+      "options": [
+        "A) seventeen",
+        "B) nineteen",
+        "C) eighteen",
+        "D) sixteen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Nineteen (19) стоит между eighteen (18) и twenty (20).",
+      "difficulty": 1,
+      "tags": [
+        "en-vocabulary",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Как по-английски называется предмет, который ты используешь для письма в тетради?",
+      "options": [
+        "A) pencil",
+        "B) eraser",
+        "C) ruler",
+        "D) book"
+      ],
+      "correct_answer": "A",
+      "explanation": "Pencil — карандаш, инструмент для письма. Eraser — ластик, ruler — линейка, book — книга.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое слово на английском языке обозначает рюкзак?",
+      "options": [
+        "A) bag",
+        "B) backpack",
+        "C) suitcase",
+        "D) case"
+      ],
+      "correct_answer": "B",
+      "explanation": "Backpack — рюкзак. Bag — сумка (более общее), suitcase — чемодан, case — кейс/ящик.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское название для линейки.",
+      "options": [
+        "A) pen",
+        "B) pencil",
+        "C) ruler",
+        "D) compass"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ruler — линейка для измерения. Pen — ручка, pencil — карандаш, compass — циркуль.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется ластик на английском языке?",
+      "options": [
+        "A) pencil",
+        "B) eraser",
+        "C) sharpener",
+        "D) marker"
+      ],
+      "correct_answer": "B",
+      "explanation": "Eraser — ластик для стирания. Pencil — карандаш, sharpener — точилка, marker — маркер.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое английское слово обозначает тетрадь?",
+      "options": [
+        "A) book",
+        "B) notebook",
+        "C) paper",
+        "D) desk"
+      ],
+      "correct_answer": "B",
+      "explanation": "Notebook — тетрадь/блокнот. Book — книга, paper — бумага, desk — парта/стол.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как по-английски называется точилка для карандашей?",
+      "options": [
+        "A) eraser",
+        "B) sharpener",
+        "C) ruler",
+        "D) pencil"
+      ],
+      "correct_answer": "B",
+      "explanation": "Sharpener — точилка. Eraser — ластик, ruler — линейка, pencil — карандаш.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое слово на английском языке означает ручка?",
+      "options": [
+        "A) pencil",
+        "B) marker",
+        "C) pen",
+        "D) crayon"
+      ],
+      "correct_answer": "C",
+      "explanation": "Pen — ручка для письма. Pencil — карандаш, marker — маркер, crayon — цветной карандаш.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется парта на английском языке?",
+      "options": [
+        "A) chair",
+        "B) desk",
+        "C) table",
+        "D) bench"
+      ],
+      "correct_answer": "B",
+      "explanation": "Desk — парта/письменный стол в школе. Chair — стул, table — стол, bench — скамья.",
+      "difficulty": 1,
+      "tags": [
+        "school-supplies",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское слово для обозначения собаки.",
+      "options": [
+        "A) cat",
+        "B) dog",
+        "C) bird",
+        "D) fish"
+      ],
+      "correct_answer": "B",
+      "explanation": "Dog — собака. Cat — кошка, bird — птица, fish — рыба.",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как по-английски называется кошка?",
+      "options": [
+        "A) dog",
+        "B) cat",
+        "C) mouse",
+        "D) rabbit"
+      ],
+      "correct_answer": "B",
+      "explanation": "Cat — кошка. Dog — собака, mouse — мышь, rabbit — кролик.",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое английское слово обозначает птицу?",
+      "options": [
+        "A) butterfly",
+        "B) bee",
+        "C) bird",
+        "D) duck"
+      ],
+      "correct_answer": "C",
+      "explanation": "Bird — птица (общее название). Butterfly — бабочка, bee — пчела, duck — утка (конкретная птица).",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется лошадь на английском языке?",
+      "options": [
+        "A) cow",
+        "B) horse",
+        "C) donkey",
+        "D) goat"
+      ],
+      "correct_answer": "B",
+      "explanation": "Horse — лошадь. Cow — корова, donkey — осёл, goat — коза.",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское название для мышки.",
+      "options": [
+        "A) rat",
+        "B) mouse",
+        "C) hamster",
+        "D) squirrel"
+      ],
+      "correct_answer": "B",
+      "explanation": "Mouse — мышь. Rat — крыса, hamster — хомяк, squirrel — белка.",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как по-английски называется рыба?",
+      "options": [
+        "A) frog",
+        "B) fish",
+        "C) shark",
+        "D) whale"
+      ],
+      "correct_answer": "B",
+      "explanation": "Fish — рыба (общее название). Frog — лягушка, shark — акула, whale — кит (конкретные водные животные).",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое слово на английском языке означает кролик?",
+      "options": [
+        "A) mouse",
+        "B) hamster",
+        "C) rabbit",
+        "D) squirrel"
+      ],
+      "correct_answer": "C",
+      "explanation": "Rabbit — кролик. Mouse — мышь, hamster — хомяк, squirrel — белка.",
+      "difficulty": 1,
+      "tags": [
+        "animals",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется голова на английском языке?",
+      "options": [
+        "A) neck",
+        "B) head",
+        "C) hair",
+        "D) face"
+      ],
+      "correct_answer": "B",
+      "explanation": "Head — голова. Neck — шея, hair — волосы, face — лицо.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское слово для обозначения руки.",
+      "options": [
+        "A) leg",
+        "B) foot",
+        "C) arm",
+        "D) hand"
+      ],
+      "correct_answer": "C",
+      "explanation": "Arm — рука (от плеча до кисти). Leg — нога, foot — стопа, hand — кисть/ладонь.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как по-английски называется нога?",
+      "options": [
+        "A) arm",
+        "B) foot",
+        "C) leg",
+        "D) knee"
+      ],
+      "correct_answer": "C",
+      "explanation": "Leg — нога (от бедра до стопы). Arm — рука, foot — стопа, knee — колено.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое английское слово обозначает глаз?",
+      "options": [
+        "A) nose",
+        "B) mouth",
+        "C) eye",
+        "D) ear"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eye — глаз. Nose — нос, mouth — рот, ear — ухо.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется нос на английском языке?",
+      "options": [
+        "A) eye",
+        "B) mouth",
+        "C) nose",
+        "D) chin"
+      ],
+      "correct_answer": "C",
+      "explanation": "Nose — нос. Eye — глаз, mouth — рот, chin — подбородок.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское название для рта.",
+      "options": [
+        "A) tongue",
+        "B) mouth",
+        "C) teeth",
+        "D) lip"
+      ],
+      "correct_answer": "B",
+      "explanation": "Mouth — рот. Tongue — язык, teeth — зубы, lip — губа.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как по-английски называется ухо?",
+      "options": [
+        "A) nose",
+        "B) eye",
+        "C) ear",
+        "D) head"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ear — ухо. Nose — нос, eye — глаз, head — голова.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какое слово на английском языке означает волосы?",
+      "options": [
+        "A) skin",
+        "B) hair",
+        "C) head",
+        "D) neck"
+      ],
+      "correct_answer": "B",
+      "explanation": "Hair — волосы. Skin — кожа, head — голова, neck — шея.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Как называется зуб на английском языке?",
+      "options": [
+        "A) tongue",
+        "B) mouth",
+        "C) tooth",
+        "D) chin"
+      ],
+      "correct_answer": "C",
+      "explanation": "Tooth — зуб (единственное число). Tongue — язык, mouth — рот, chin — подбородок.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери правильное английское слово для обозначения шеи.",
+      "options": [
+        "A) head",
+        "B) shoulder",
+        "C) neck",
+        "D) chin"
+      ],
+      "correct_answer": "C",
+      "explanation": "Neck — шея. Head — голова, shoulder — плечо, chin — подбородок.",
+      "difficulty": 1,
+      "tags": [
+        "body-parts",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Какой звук издает буква 'A' в словах 'cat' и 'apple'?",
+      "options": [
+        "A) /eɪ/ (как в слове 'cake')",
+        "B) /æ/ (короткий звук 'э')",
+        "C) /ɑː/ (долгий звук 'а')",
+        "D) /ə/ (безударный звук)"
+      ],
+      "correct_answer": "B",
+      "explanation": "В словах 'cat' и 'apple' буква 'A' в закрытом слоге издает короткий звук /æ/, похожий на русский 'э'. Это базовое правило английского произношения.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "short-vowels"
+      ]
+    },
+    {
+      "text": "Какую букву нужно написать с БОЛЬШОЙ буквы в начале предложения? 'my name is anna.'",
+      "options": [
+        "A) 'Anna' и 'My'",
+        "B) только 'My'",
+        "C) 'My' и 'Anna'",
+        "D) только 'Anna'"
+      ],
+      "correct_answer": "C",
+      "explanation": "В английском языке с большой буквы пишут первое слово предложения ('My') и имена собственные ('Anna'). Оба слова нужно исправить.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "grammar-rules"
+      ]
+    },
+    {
+      "text": "Как правильно произносится буква 'E' в слове 'pen'?",
+      "options": [
+        "A) /iː/ (долгий звук 'и')",
+        "B) /e/ (короткий звук 'е')",
+        "C) /eɪ/ (дифтонг)",
+        "D) /ə/ (безударный звук)"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'pen' буква 'E' в закрытом слоге издает короткий звук /e/, который похож на русский короткий 'е'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "short-vowels"
+      ]
+    },
+    {
+      "text": "Выбери слово, в котором буква 'I' произносится как /aɪ/ (долгий звук):",
+      "options": [
+        "A) 'sit'",
+        "B) 'big'",
+        "C) 'like'",
+        "D) 'fish'"
+      ],
+      "correct_answer": "C",
+      "explanation": "В слове 'like' буква 'I' в открытом слоге (перед согласной и гласной) издает долгий звук /aɪ/. В остальных словах 'I' произносится как /ɪ/ (короткий).",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "long-vowels"
+      ]
+    },
+    {
+      "text": "В каком из этих слов буква 'O' издает звук /ɔ/ (короткий):",
+      "options": [
+        "A) 'home'",
+        "B) 'box'",
+        "C) 'nose'",
+        "D) 'go'"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'box' буква 'O' в закрытом слоге издает короткий звук /ɔ/. В других словах 'O' либо долгая (/oʊ/), либо произносится в открытом слоге.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "short-vowels"
+      ]
+    },
+    {
+      "text": "Какая из этих букв пишется одинаково в заглавном и строчном виде (почти полностью)?",
+      "options": [
+        "A) 'Cc'",
+        "B) 'Oo'",
+        "C) 'Aa'",
+        "D) 'Pp'"
+      ],
+      "correct_answer": "B",
+      "explanation": "Буква 'O' (заглавная) и 'o' (строчная) выглядят одинаково — это просто круг. Остальные буквы имеют заметные различия между заглавным и строчным вариантом.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "letter-forms"
+      ]
+    },
+    {
+      "text": "Как правильно произносится звук, обозначаемый буквой 'G' в слове 'good'?",
+      "options": [
+        "A) /dʒ/ (как 'дж')",
+        "B) /ɡ/ (как твердый 'г')",
+        "C) /ʒ/ (как 'ж')",
+        "D) /ŋ/ (как носовой звук)"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'good' буква 'G' перед гласной 'oo' издает твердый согласный звук /ɡ/, похожий на русский 'г'. Это самое частое произношение буквы 'G'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Выбери правильно написанное слово со строчных и заглавных букв: имя девочки из Англии.",
+      "options": [
+        "A) sArah",
+        "B) SARAH",
+        "C) Sarah",
+        "D) saraH"
+      ],
+      "correct_answer": "C",
+      "explanation": "Имена собственные в английском языке пишут с большой буквы в начале и строчными в остальной части. Правильно: 'Sarah'.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "proper-nouns"
+      ]
+    },
+    {
+      "text": "Какой звук издает буква 'U' в слове 'cup'?",
+      "options": [
+        "A) /juː/ (долгий звук 'ю')",
+        "B) /ʌ/ (короткий звук, как 'а')",
+        "C) /uː/ (долгий звук 'у')",
+        "D) /ə/ (безударный звук)"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'cup' буква 'U' в закрытом слоге издает звук /ʌ/, который обычно записывают как короткий звук, похожий на русский 'а' с округленными губами.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "short-vowels"
+      ]
+    },
+    {
+      "text": "Как произносится буква 'C' в слове 'city'?",
+      "options": [
+        "A) /k/ (как твердый 'к')",
+        "B) /s/ (как 'с')",
+        "C) /tʃ/ (как 'ч')",
+        "D) /ʃ/ (как 'ш')"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'city' буква 'C' перед гласной 'i' издает мягкий звук /s/. Это основное правило: 'C' перед 'e', 'i', 'y' произносится как /s/.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants",
+        "soft-c"
+      ]
+    },
+    {
+      "text": "В каком слове буква 'S' издает звук /z/ (звонкий, как 'з')?",
+      "options": [
+        "A) 'sun'",
+        "B) 'sit'",
+        "C) 'is'",
+        "D) 'see'"
+      ],
+      "correct_answer": "C",
+      "explanation": "В слове 'is' буква 'S' между гласными издает звук /z/. В остальных словах 'S' в начале слова произносится как глухой /s/.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants",
+        "voicing"
+      ]
+    },
+    {
+      "text": "Какой звук издает буква 'H' в слове 'happy'?",
+      "options": [
+        "A) /h/ (выдох)",
+        "B) /ŋ/ (носовой звук)",
+        "C) молчит (не произносится)",
+        "D) /ʃ/ (как 'ш')"
+      ],
+      "correct_answer": "A",
+      "explanation": "В слове 'happy' буква 'H' в начале издает звук /h/, похожий на выдох воздуха. Это основное произношение буквы 'H'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Как правильно написать аббревиатуру страны? 'united kingdom' → ?",
+      "options": [
+        "A) uk",
+        "B) U.K.",
+        "C) UK или U.K.",
+        "D) u.k."
+      ],
+      "correct_answer": "C",
+      "explanation": "Аббревиатуры в английском можно писать как с точками (U.K.), так и без них (UK). Обе формы считаются правильными, но все буквы должны быть заглавными.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "abbreviations"
+      ]
+    },
+    {
+      "text": "Выбери слово, где буква 'Y' произносится как гласная /aɪ/ (как в слове 'my'):",
+      "options": [
+        "A) 'yes'",
+        "B) 'gym'",
+        "C) 'cry'",
+        "D) 'you'"
+      ],
+      "correct_answer": "C",
+      "explanation": "В слове 'cry' буква 'Y' в конце издает гласный звук /aɪ/. В 'yes' и 'gym' Y — согласная, а в 'you' — /j/.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "y-as-vowel"
+      ]
+    },
+    {
+      "text": "Как произносится буква 'B' в слове 'boy'?",
+      "options": [
+        "A) молчит",
+        "B) /b/ (звонкий 'б')",
+        "C) /p/ (глухой 'п')",
+        "D) /v/ (как 'в')"
+      ],
+      "correct_answer": "B",
+      "explanation": "Буква 'B' почти всегда издает звук /b/, похожий на русский звонкий 'б'. Исключения очень редки (в основном в сочетаниях).",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "В каком слове буква 'E' молчит (не произносится)?",
+      "options": [
+        "A) 'bed'",
+        "B) 'pen'",
+        "C) 'home'",
+        "D) 'ten'"
+      ],
+      "correct_answer": "C",
+      "explanation": "В слове 'home' последняя буква 'E' не произносится — это 'немая E' в конце слова, которая удлиняет гласный звук перед ней. В других словах 'E' произносится.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "silent-letters"
+      ]
+    },
+    {
+      "text": "Как правильно написать название месяца 'январь' с заглавной буквы?",
+      "options": [
+        "A) JANUARY",
+        "B) january",
+        "C) January",
+        "D) januAry"
+      ],
+      "correct_answer": "C",
+      "explanation": "Названия месяцев в английском языке пишут с большой буквы в начале, остальные буквы строчные. Правильно: 'January'.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "months"
+      ]
+    },
+    {
+      "text": "Какой звук издает буква 'D' в слове 'dog'?",
+      "options": [
+        "A) /t/ (глухой 'т')",
+        "B) /d/ (звонкий 'д')",
+        "C) /ð/ (как английский 'th' в 'this')",
+        "D) молчит"
+      ],
+      "correct_answer": "B",
+      "explanation": "Буква 'D' в слове 'dog' издает звук /d/, похожий на русский звонкий 'д'. Это стандартное произношение буквы 'D'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Выбери слово, где буква 'A' издает долгий звук /eɪ/ (как 'ей'):​",
+      "options": [
+        "A) 'cat'",
+        "B) 'make'",
+        "C) 'bag'",
+        "D) 'map'"
+      ],
+      "correct_answer": "B",
+      "explanation": "В слове 'make' буква 'A' в открытом слоге (перед согласной и немой 'E') издает долгий звук /eɪ/. В других словах 'A' в закрытом слоге произносится как /æ/.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "vowels",
+        "long-vowels"
+      ]
+    },
+    {
+      "text": "Как произносится буква 'L' в слове 'lion'?",
+      "options": [
+        "A) молчит",
+        "B) /l/ (мягкий 'л')",
+        "C) /w/ (как 'в')",
+        "D) /ŋ/ (носовой звук)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Буква 'L' в слове 'lion' издает звук /l/, похожий на русский мягкий 'л'. Это основное произношение буквы 'L'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Как правильно написать название города 'лондон' в английском?",
+      "options": [
+        "A) london",
+        "B) LONDON",
+        "C) London",
+        "D) loNdon"
+      ],
+      "correct_answer": "C",
+      "explanation": "Названия городов — это собственные имена, которые пишут с большой буквы в начале слова. Правильно: 'London'.",
+      "difficulty": 1,
+      "tags": [
+        "capitalization",
+        "proper-nouns"
+      ]
+    },
+    {
+      "text": "В каком слове буква 'Z' издает звук /z/?",
+      "options": [
+        "A) 'zoo'",
+        "B) 'zero'",
+        "C) 'zebra'",
+        "D) все варианты верны"
+      ],
+      "correct_answer": "D",
+      "explanation": "Буква 'Z' во всех английских словах издает звук /z/, похожий на русский звонкий 'з'. Это единственное произношение буквы 'Z'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Как произносится буква 'J' в слове 'jump'?",
+      "options": [
+        "A) /dʒ/ (как 'дж')",
+        "B) /ʒ/ (как 'ж')",
+        "C) /j/ (как мягкое 'й')",
+        "D) /ŋ/ (носовой звук)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Буква 'J' всегда издает звук /dʒ/, похожий на русский 'дж'. Это единственное произношение буквы 'J' в английском.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Как правильно разделить буквы в слове 'ABC' при произнесении названий букв?",
+      "options": [
+        "A) /eɪ/–/biː/–/siː/",
+        "B) /æ/–/b/–/k/",
+        "C) /ə/–/bə/–/kə/",
+        "D) /eɪ/–/be/–/ce/"
+      ],
+      "correct_answer": "A",
+      "explanation": "При произнесении названий букв английского алфавита используют: A /eɪ/, B /biː/, C /siː/. Это базовые произношения букв алфавита.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "alphabet"
+      ]
+    },
+    {
+      "text": "В каком слове буква 'W' издает звук /w/?",
+      "options": [
+        "A) 'who'",
+        "B) 'write'",
+        "C) 'water'",
+        "D) все варианты верны"
+      ],
+      "correct_answer": "D",
+      "explanation": "Буква 'W' во всех стандартных английских словах издает звук /w/, похожий на русский 'в' с округленными губами. Это единственное произношение буквы 'W'.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "consonants"
+      ]
+    },
+    {
+      "text": "Как правильно представиться на английском языке?",
+      "options": [
+        "A) My name is John",
+        "B) I am name John",
+        "C) Name my is John",
+        "D) John is my name is"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильная конструкция для представления: «My name is + имя». Это базовая формула приветствия.",
+      "difficulty": 1,
+      "tags": [
+        "greeting",
+        "introduction"
+      ]
+    },
+    {
+      "text": "Что означает фраза «Hello, my name is Sarah»?",
+      "options": [
+        "A) Привет, моё имя Сара",
+        "B) Привет, это имя Сары",
+        "C) Привет, я знаю Сару",
+        "D) Привет, Сара — это мой друг"
+      ],
+      "correct_answer": "A",
+      "explanation": "Hello = привет, my name is = моё имя, Sarah = Сара. Это простое представление себя.",
+      "difficulty": 1,
+      "tags": [
+        "greeting",
+        "translation"
+      ]
+    },
+    {
+      "text": "Как спросить у кого-нибудь, сколько ему лет?",
+      "options": [
+        "A) How old are you?",
+        "B) How you are old?",
+        "C) What old are you?",
+        "D) How old you are?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильный порядок слов в вопросе: «How old are you?». Это стандартная конструкция для вопроса о возрасте.",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "question-formation"
+      ]
+    },
+    {
+      "text": "Как правильно ответить на вопрос «How old are you?»?",
+      "options": [
+        "A) I am 10 years old",
+        "B) I have 10 years old",
+        "C) I am 10 old",
+        "D) I do 10 years old"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильный ответ: «I am + число + years old». Используется глагол «to be» (am/is/are).",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "response"
+      ]
+    },
+    {
+      "text": "Какое слово лишнее в фразе представления: Hello, my name is..., nice, to, meet, you",
+      "options": [
+        "A) nice",
+        "B) to",
+        "C) meet",
+        "D) you"
+      ],
+      "correct_answer": "A",
+      "explanation": "Фраза «How do you do? Nice to meet you» — это полная фраза знакомства. Слово «nice» здесь не лишнее, но если говорить только о представлении имени, то это дополнение.",
+      "difficulty": 1,
+      "tags": [
+        "greeting",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выберите правильный перевод: «I am nine years old»",
+      "options": [
+        "A) Мне девять лет",
+        "B) Я девять лет старый",
+        "C) Я имею девять лет",
+        "D) Девять лет это я"
+      ],
+      "correct_answer": "A",
+      "explanation": "«I am nine years old» переводится как «Мне девять лет» — это естественный способ выражения возраста на русском.",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "translation"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ошибку в грамматике?",
+      "options": [
+        "A) My name is Tom",
+        "B) How old are you?",
+        "C) I am 8 years old",
+        "D) My name are Tom"
+      ],
+      "correct_answer": "D",
+      "explanation": "В варианте D неправильно использован глагол «are». После «My name» нужен глагол «is» (My name is Tom).",
+      "difficulty": 1,
+      "tags": [
+        "grammar",
+        "verb-to-be"
+      ]
+    },
+    {
+      "text": "Как звучит фраза «Мне семь лет» на английском?",
+      "options": [
+        "A) I am seven years old",
+        "B) I have seven years old",
+        "C) I am seven old",
+        "D) I seven years old"
+      ],
+      "correct_answer": "A",
+      "explanation": "Правильная конструкция: «I am + число + years old». Глагол «to be» (am) используется для выражения возраста в английском.",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "sentence-structure"
+      ]
+    },
+    {
+      "text": "Что нужно добавить после имени в представлении: «My name is...»?",
+      "options": [
+        "A) имя человека",
+        "B) возраст",
+        "C) город",
+        "D) профессия"
+      ],
+      "correct_answer": "A",
+      "explanation": "После фразы «My name is...» всегда идёт имя человека (например, Anna, Peter, Emma).",
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "sentence-structure"
+      ]
+    },
+    {
+      "text": "Выберите правильное окончание диалога: A: «Hello, my name is Alex». B: «...»",
+      "options": [
+        "A) My name is nice",
+        "B) Nice to meet you, Alex",
+        "C) How are you Alex?",
+        "D) You are Alex"
+      ],
+      "correct_answer": "B",
+      "explanation": "После представления обычно отвечают «Nice to meet you» (Рад познакомиться). Это вежливый и естественный ответ.",
+      "difficulty": 1,
+      "tags": [
+        "dialogue",
+        "greeting"
+      ]
+    },
+    {
+      "text": "Какой вспомогательный глагол используется в вопросе о возрасте?",
+      "options": [
+        "A) do",
+        "B) have",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "В вопросе «How old are you?» используется глагол «are» (вспомогательный в структуре вопроса).",
+      "difficulty": 1,
+      "tags": [
+        "grammar",
+        "question-words"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где правильно использовано слово «years old»:",
+      "options": [
+        "A) I am years old six",
+        "B) I am 6 years old",
+        "C) Years old I am 6",
+        "D) I am old 6 years"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильный порядок: «I am + число + years old». Вариант B соответствует этой схеме.",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Как сказать на английском: «Привет, я Мария»?",
+      "options": [
+        "A) Hello, I Maria",
+        "B) Hello, my name is Maria",
+        "C) Hello, I am Maria is",
+        "D) Hello, Maria is me"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильная конструкция: «Hello, my name is + имя». Это стандартный способ представления.",
+      "difficulty": 1,
+      "tags": [
+        "greeting",
+        "introduction"
+      ]
+    },
+    {
+      "text": "Какой из этих ответов правильно отвечает на вопрос «How old are you?»?",
+      "options": [
+        "A) I am from England",
+        "B) My name is David",
+        "C) I am twelve years old",
+        "D) Nice to meet you"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вопрос о возрасте требует ответа с использованием «I am + число + years old». Вариант C — правильный ответ.",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "response"
+      ]
+    },
+    {
+      "text": "Определите правильное ударение и интонацию: как звучит вопрос «How OLD are you?»",
+      "options": [
+        "A) с ударением на HOW",
+        "B) с ударением на OLD",
+        "C) с ударением на ARE",
+        "D) с одинаковым ударением на все слова"
+      ],
+      "correct_answer": "B",
+      "explanation": "В вопросе о возрасте ударение падает на слово OLD, так как это ключевое слово вопроса.",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "intonation"
+      ]
+    },
+    {
+      "text": "Выберите подходящий ответ на приветствие: A: «Hello, I'm Kate». B: «...»",
+      "options": [
+        "A) Hello, Kate",
+        "B) I'm nice",
+        "C) You are Kate",
+        "D) Kate is me"
+      ],
+      "correct_answer": "A",
+      "explanation": "После представления имени обычно повторяют имя в ответе или говорят своё имя. «Hello, Kate» — вежливый и простой ответ.",
+      "difficulty": 1,
+      "tags": [
+        "dialogue",
+        "greeting"
+      ]
+    },
+    {
+      "text": "Какое из этих предложений содержит правильное использование фразы для знакомства?",
+      "options": [
+        "A) I years old am 7",
+        "B) How name is your?",
+        "C) My name is Lucas",
+        "D) Are you old how?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C использует правильную конструкцию для представления: «My name is + имя».",
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Выберите правильный порядок слов для вопроса о возрасте:",
+      "options": [
+        "A) You are how old?",
+        "B) How old are you?",
+        "C) Old how are you?",
+        "D) Are you how old?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильный порядок в вопросе: «How + old + are + you?». Это стандартная конструкция для вопроса о возрасте.",
+      "difficulty": 1,
+      "tags": [
+        "question-formation",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Как будет звучать представление для ребёнка, которому 5 лет и его зовут Oliver?",
+      "options": [
+        "A) My name is Oliver and I have 5 years old",
+        "B) My name is Oliver and I am 5 years old",
+        "C) My name Oliver is and I am old 5",
+        "D) I Oliver am and 5 years old I am"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильное представление объединяет две фразы: «My name is Oliver» + «I am 5 years old» с союзом «and».",
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "age",
+        "conjunction"
+      ]
+    },
+    {
+      "text": "Найдите ошибку в диалоге: A: «How old are you?» B: «I am have ten years old»",
+      "options": [
+        "A) в вопросе A",
+        "B) глагол have лишний",
+        "C) слово years неправильное",
+        "D) число ten ошибочное"
+      ],
+      "correct_answer": "B",
+      "explanation": "Глагол «have» не нужен. Правильный ответ: «I am ten years old» (без have).",
+      "difficulty": 1,
+      "tags": [
+        "grammar",
+        "error-correction"
+      ]
+    },
+    {
+      "text": "Какие два основных компонента содержит фраза для знакомства?",
+      "options": [
+        "A) имя и возраст",
+        "B) приветствие и имя",
+        "C) имя и вежливость",
+        "D) возраст и город"
+      ],
+      "correct_answer": "B",
+      "explanation": "Фраза для знакомства обычно содержит приветствие (Hello) и представление имени (My name is...).",
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "structure"
+      ]
+    },
+    {
+      "text": "Как правильно переводится «I'm eight years old»?",
+      "options": [
+        "A) Я восьмилетний старый",
+        "B) Мне восемь лет",
+        "C) Я имею восемь лет старый",
+        "D) Восемь лет я старый"
+      ],
+      "correct_answer": "B",
+      "explanation": "Конструкция «I'm (I am) + число + years old» переводится как «Мне ... лет» (естественный способ на русском).",
+      "difficulty": 1,
+      "tags": [
+        "age",
+        "translation"
+      ]
+    },
+    {
+      "text": "Выберите полное и правильное представление себя:",
+      "options": [
+        "A) Hello, my name is Ben. I am nine years old",
+        "B) Hello, Ben. I years old nine am",
+        "C) My name Ben and nine years old I am",
+        "D) Hello Ben is my name, I have 9 old"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вариант A использует две правильные конструкции: «My name is + имя» и «I am + число + years old».",
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "age",
+        "complete-sentence"
+      ]
+    },
+    {
+      "text": "Какая форма глагола to be нужна в предложении: \"I ___ a student.\"?",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением \"I\" используется форма \"am\". Это основное правило для первого лица единственного числа.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение:",
+      "options": [
+        "A) He are a teacher.",
+        "B) He is a teacher.",
+        "C) He am a teacher.",
+        "D) He be a teacher."
+      ],
+      "correct_answer": "B",
+      "explanation": "С местоимением \"he\" (3-е лицо, единственное число) используется форма \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма to be подходит для предложения: \"We ___ happy.\"?",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "С местоимением \"we\" (множественное число) используется форма \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните предложение: \"You ___ my friend.\"",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "Местоимение \"you\" требует форму \"are\", независимо от того, один человек или несколько.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение составлено правильно?",
+      "options": [
+        "A) She are a doctor.",
+        "B) She is a doctor.",
+        "C) She am a doctor.",
+        "D) She are doctors."
+      ],
+      "correct_answer": "B",
+      "explanation": "\"She\" — 3-е лицо единственного числа, поэтому используется \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильную форму: \"They ___ in the park.\"",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"They\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните: \"It ___ a beautiful day.\"",
+      "options": [
+        "A) are",
+        "B) am",
+        "C) is",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"It\" — 3-е лицо единственного числа (средний род), использует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола to be правильная: \"My sister ___ a nurse.\"?",
+      "options": [
+        "A) are",
+        "B) is",
+        "C) am",
+        "D) be"
+      ],
+      "correct_answer": "B",
+      "explanation": "\"My sister\" — 3-е лицо единственного числа (женский род), требует \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение:",
+      "options": [
+        "A) I am happy.",
+        "B) I is happy.",
+        "C) I are happy.",
+        "D) I be happy."
+      ],
+      "correct_answer": "A",
+      "explanation": "\"I\" всегда требует форму \"am\" в утвердительных предложениях.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните предложение: \"The cats ___ black.\"",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"Cats\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола to be нужна в предложении: \"You ___ very smart.\"?",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"You\" всегда используется с формой \"are\", как в единственном, так и множественном числе.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение:",
+      "options": [
+        "A) Tom are a student.",
+        "B) Tom is a student.",
+        "C) Tom am a student.",
+        "D) Tom be a student."
+      ],
+      "correct_answer": "B",
+      "explanation": "Имя \"Tom\" — 3-е лицо единственного числа, требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма подходит для предложения: \"We ___ friends.\"?",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"We\" — множественное число, использует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните: \"My dog ___ brown.\"",
+      "options": [
+        "A) are",
+        "B) am",
+        "C) is",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"My dog\" — единственное число, требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение составлено правильно?",
+      "options": [
+        "A) You is happy.",
+        "B) You are happy.",
+        "C) You am happy.",
+        "D) You be happy."
+      ],
+      "correct_answer": "B",
+      "explanation": "\"You\" всегда требует форму \"are\" в утвердительных предложениях.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильную форму: \"She ___ a student.\"",
+      "options": [
+        "A) are",
+        "B) am",
+        "C) is",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"She\" — 3-е лицо единственного числа, требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните предложение: \"The children ___ in the classroom.\"",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"Children\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола to be правильная: \"I ___ seven years old.\"?",
+      "options": [
+        "A) is",
+        "B) are",
+        "C) am",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"I\" требует форму \"am\" в утвердительных предложениях.",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильное предложение:",
+      "options": [
+        "A) They is happy.",
+        "B) They are happy.",
+        "C) They am happy.",
+        "D) They be happy."
+      ],
+      "correct_answer": "B",
+      "explanation": "\"They\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните: \"My parents ___ doctors.\"",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"Parents\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какое предложение составлено правильно?",
+      "options": [
+        "A) He is smart.",
+        "B) He are smart.",
+        "C) He am smart.",
+        "D) He be smart."
+      ],
+      "correct_answer": "A",
+      "explanation": "\"He\" — 3-е лицо единственного числа, требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Выберите правильную форму: \"It ___ a cat.\"",
+      "options": [
+        "A) are",
+        "B) am",
+        "C) is",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"It\" — 3-е лицо единственного числа (предмет), требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Дополните предложение: \"This book ___ interesting.\"",
+      "options": [
+        "A) are",
+        "B) am",
+        "C) is",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"This book\" — единственное число, требует форму \"is\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    },
+    {
+      "text": "Какая форма глагола to be нужна в предложении: \"These flowers ___ red.\"?",
+      "options": [
+        "A) is",
+        "B) am",
+        "C) are",
+        "D) be"
+      ],
+      "correct_answer": "C",
+      "explanation": "\"These flowers\" — множественное число, требует форму \"are\".",
+      "difficulty": 1,
+      "tags": [
+        "en-grammar-tenses"
+      ]
+    }
+  ]
+}

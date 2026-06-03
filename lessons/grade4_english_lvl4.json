@@ -1,0 +1,2063 @@
+{
+  "topic": "Английский",
+  "title": "Английский 4кл — Уровень 4",
+  "grade_level": 4,
+  "difficulty": 4,
+  "intro_content": "",
+  "questions": [
+    {
+      "text": "Какое предложение содержит ошибку в использовании отрицания Present Simple?",
+      "options": [
+        "A) She doesn't like chocolate",
+        "B) They don't goes to school on Sunday",
+        "C) He doesn't play football",
+        "D) I don't understand this rule"
+      ],
+      "correct_answer": "B",
+      "explanation": "После 'don't' используется основная форма глагола без -s. Правильно: 'They don't go to school'. Вариант B содержит ошибку 'goes' вместо 'go'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите правильный вопрос, соответствующий ответу: 'No, he doesn't like swimming.'",
+      "options": [
+        "A) Does he like swimming?",
+        "B) Do he like swimming?",
+        "C) Does he likes swimming?",
+        "D) Do you like swimming?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для подлежащего 'he' (третье лицо единственное число) используется вспомогательный глагол 'Does'. Правильная форма: 'Does he like swimming?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какое предложение грамматически неправильно?",
+      "options": [
+        "A) Do you understand English?",
+        "B) Does your friend lives near the school?",
+        "C) Don't they play chess?",
+        "D) Doesn't she eat meat?"
+      ],
+      "correct_answer": "B",
+      "explanation": "После 'Does' глагол должен быть в основной форме без -s. Ошибка: 'lives' вместо 'live'. Правильно: 'Does your friend live near the school?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где отрицание использовано НЕПРАВИЛЬНО:",
+      "options": [
+        "A) We don't eat fish on Fridays",
+        "B) He don't like pizza",
+        "C) They doesn't come here often",
+        "D) I don't know this person"
+      ],
+      "correct_answer": "C",
+      "explanation": "С подлежащим 'they' (множественное число) используется 'don't', а не 'doesn't'. Правильно: 'They don't come here often'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ошибку в согласовании подлежащего и вспомогательного глагола?",
+      "options": [
+        "A) Does Mary go to the library?",
+        "B) Do the children play in the park?",
+        "C) Does they understand the task?",
+        "D) Does he know your phone number?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'they' — множественное число, поэтому требует 'Do', а не 'Does'. Правильно: 'Do they understand the task?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите предложение, в котором НЕПРАВИЛЬНО сформирован вопрос:",
+      "options": [
+        "A) Does your mother cook dinner every day?",
+        "B) Do we need to bring books tomorrow?",
+        "C) Does the cat sleeps in the house?",
+        "D) Do they visit their grandparents?"
+      ],
+      "correct_answer": "C",
+      "explanation": "После 'Does' глагол берётся в основной форме: 'sleep', а не 'sleeps'. Правильно: 'Does the cat sleep in the house?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какое отрицательное предложение составлено ПРАВИЛЬНО?",
+      "options": [
+        "A) She doesn't goes to the gym",
+        "B) We doesn't like horror films",
+        "C) I don't watch TV in the morning",
+        "D) They doesn't eat vegetables"
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C правильно использовано 'don't' с подлежащим 'I' и основная форма глагола 'watch'. Остальные варианты содержат ошибки в выборе don't/doesn't.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос соответствует ответу: 'No, I don't play the piano'?",
+      "options": [
+        "A) Does you play the piano?",
+        "B) Do I play the piano?",
+        "C) Does I play the piano?",
+        "D) Do you play the piano?"
+      ],
+      "correct_answer": "D",
+      "explanation": "Для вопроса к 'I' используется 'Do', и форма звучит как 'Do you play the piano?' (в расспросе меняется перспектива с 'I' на 'you').",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где ошибка в отрицании:",
+      "options": [
+        "A) The dog doesn't bark at strangers",
+        "B) My brother don't like spicy food",
+        "C) You don't need to hurry",
+        "D) She doesn't understand French"
+      ],
+      "correct_answer": "B",
+      "explanation": "Подлежащее 'My brother' (третье лицо единственное число) требует 'doesn't', а не 'don't'. Правильно: 'My brother doesn't like spicy food'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит НЕПРАВИЛЬНЫЙ вопрос?",
+      "options": [
+        "A) Do cats eat meat?",
+        "B) Does she write emails?",
+        "C) Do the students studies hard?",
+        "D) Does he like mathematics?"
+      ],
+      "correct_answer": "C",
+      "explanation": "После 'Do' глагол должен быть в основной форме 'study', а не 'studies'. Правильно: 'Do the students study hard?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите предложение с правильным отрицанием:",
+      "options": [
+        "A) He don't work on weekends",
+        "B) We doesn't go there often",
+        "C) They don't like cold weather",
+        "D) She don't drink coffee"
+      ],
+      "correct_answer": "C",
+      "explanation": "В варианте C правильно использовано 'don't' с множественным подлежащим 'They'. Остальные варианты содержат ошибки в выборе don't/doesn't.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос НЕПРАВИЛЬНО построен?",
+      "options": [
+        "A) Does your friend like pizza?",
+        "B) Do you understand the question?",
+        "C) Does Tom and Jerry play together?",
+        "D) Do rabbits eat carrots?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'Tom and Jerry' — множественное число (два субъекта), поэтому требует 'Do', а не 'Does'. Правильно: 'Do Tom and Jerry play together?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где использовано неправильно отрицание:",
+      "options": [
+        "A) I don't like loud music",
+        "B) She doesn't eat meat",
+        "C) You doesn't understand me",
+        "D) We don't have time"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'you' требует 'don't', а не 'doesn't', независимо от контекста. Правильно: 'You don't understand me'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит правильно сформированный вопрос?",
+      "options": [
+        "A) Do she play tennis?",
+        "B) Does he plays football?",
+        "C) Do they like ice cream?",
+        "D) Does they go to school?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C правильный: 'Do' с множественным подлежащим 'they' и основная форма глагола 'like'. Остальные содержат ошибки в согласовании.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите предложение с ОШИБКОЙ в отрицании:",
+      "options": [
+        "A) Cats don't swim in the river",
+        "B) My mother doesn't work on Sundays",
+        "C) The children doesn't play in the yard",
+        "D) I don't know his name"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'The children' — множественное число, требует 'don't', а не 'doesn't'. Правильно: 'The children don't play in the yard'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос содержит ошибку?",
+      "options": [
+        "A) Does she understand English?",
+        "B) Do you like chocolate?",
+        "C) Does the birds sing in the morning?",
+        "D) Do we need to wait?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'the birds' — множественное число (plural), требует 'Do', а не 'Does'. Правильно: 'Do the birds sing in the morning?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где отрицание сформировано ПРАВИЛЬНО:",
+      "options": [
+        "A) He doesn't likes swimming",
+        "B) They don't comes here",
+        "C) She doesn't eat fish",
+        "D) You doesn't understand this"
+      ],
+      "correct_answer": "C",
+      "explanation": "Вариант C правильный: 'doesn't' с подлежащим третьего лица единственного числа 'she' и основная форма глагола 'eat'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос НЕПРАВИЛЬНО построен?",
+      "options": [
+        "A) Do you like reading books?",
+        "B) Does your sister study chemistry?",
+        "C) Does they live in the city?",
+        "D) Do the students come on time?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'they' — множественное число, поэтому требует 'Do', а не 'Does'. Правильно: 'Do they live in the city?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите предложение с ошибкой в отрицании:",
+      "options": [
+        "A) I don't watch television",
+        "B) He doesn't play chess",
+        "C) We doesn't drink coffee",
+        "D) They don't like horror"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'We' — множественное число, требует 'don't', а не 'doesn't'. Правильно: 'We don't drink coffee'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ПРАВИЛЬНО сформированный вопрос?",
+      "options": [
+        "A) Does he go to the gym?",
+        "B) Do she like dancing?",
+        "C) Does we understand the task?",
+        "D) Do the cat eat fish?"
+      ],
+      "correct_answer": "A",
+      "explanation": "Вариант A правильный: 'Does' с подлежащим третьего лица единственного числа 'he' и основная форма глагола 'go'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение с ошибкой в отрицании Present Simple:",
+      "options": [
+        "A) Birds don't fly at night",
+        "B) My friend doesn't like vegetables",
+        "C) The students don't listens to music in class",
+        "D) I don't have a car"
+      ],
+      "correct_answer": "C",
+      "explanation": "После 'don't' глагол должен быть в основной форме 'listen', а не 'listens'. Правильно: 'The students don't listen to music in class'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос содержит ошибку в построении?",
+      "options": [
+        "A) Does she play the guitar?",
+        "B) Do you speak German?",
+        "C) Does they go to school every day?",
+        "D) Do rabbits eat vegetables?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'they' — множественное число, требует 'Do', а не 'Does'. Правильно: 'Do they go to school every day?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Определите предложение, где НЕПРАВИЛЬНО использовано отрицание:",
+      "options": [
+        "A) She doesn't sing in the choir",
+        "B) We don't visit the museum often",
+        "C) He don't play basketball",
+        "D) They don't watch this film"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'He' (третье лицо единственное число) требует 'doesn't', а не 'don't'. Правильно: 'He doesn't play basketball'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вариант содержит ПРАВИЛЬНЫЙ вопрос?",
+      "options": [
+        "A) Do the teacher explain the lesson?",
+        "B) Does she understand this rule?",
+        "C) Does you like English?",
+        "D) Do he work on Mondays?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Вариант B правильный: 'Does' с подлежащим третьего лица единственного числа 'she' и основная форма глагола 'understand'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Выберите предложение, где отрицание НЕПРАВИЛЬНО сформировано:",
+      "options": [
+        "A) Lions don't eat grass",
+        "B) The baby doesn't cry every night",
+        "C) My parents doesn't travel much",
+        "D) Fish don't live on land"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'My parents' — множественное число, требует 'don't', а не 'doesn't'. Правильно: 'My parents don't travel much'.",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "negation",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Какой вопрос содержит ошибку?",
+      "options": [
+        "A) Does your family like holidays?",
+        "B) Do you speak Spanish?",
+        "C) Does the children play football?",
+        "D) Do birds fly south?"
+      ],
+      "correct_answer": "C",
+      "explanation": "Подлежащее 'the children' — множественное число (plural), требует 'Do', а не 'Does'. Правильно: 'Do the children play football?'",
+      "difficulty": 4,
+      "tags": [
+        "en-grammar-tenses",
+        "questions",
+        "present-simple"
+      ]
+    },
+    {
+      "text": "Прочитай предложение и выбери правильный предлог места: 'The cat is sitting _____ the table and the wall.'",
+      "options": [
+        "A) between",
+        "B) next to",
+        "C) under",
+        "D) in front of"
+      ],
+      "correct_answer": "A",
+      "explanation": "Between используется для описания положения между двумя объектами. Next to означает рядом с одним объектом.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "advanced"
+      ]
+    },
+    {
+      "text": "Какой предлог НЕ подходит в предложение: 'The book is _____ the shelf'?",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) behind",
+        "D) under"
+      ],
+      "correct_answer": "B",
+      "explanation": "Книга находится НА полке (on the shelf), а не В полке (in the shelf). Вариант B грамматически неправильный в этом контексте.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "negative-question"
+      ]
+    },
+    {
+      "text": "Переведи на английский и выбери правильное предложение: 'Школа находится впереди дома.'",
+      "options": [
+        "A) The school is in front of the house.",
+        "B) The school is next to the house.",
+        "C) The school is behind the house.",
+        "D) The school is under the house."
+      ],
+      "correct_answer": "A",
+      "explanation": "In front of означает 'впереди', что соответствует смыслу предложения. Behind означает 'позади'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "translation"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где предлог места используется НЕПРАВИЛЬНО:",
+      "options": [
+        "A) The dog is under the table.",
+        "B) The lamp is on the desk.",
+        "C) The picture is in the wall.",
+        "D) The cat is behind the sofa."
+      ],
+      "correct_answer": "C",
+      "explanation": "Картина висит НА стене (on the wall), а не В стене (in the wall). Вариант C содержит ошибку.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Прочитай контекст и выбери верный предлог: 'Tom is standing _____ his two friends.'",
+      "options": [
+        "A) between",
+        "B) next to",
+        "C) behind",
+        "D) under"
+      ],
+      "correct_answer": "A",
+      "explanation": "Between используется, когда кто-то находится между двумя людьми или объектами. Next to означает рядом с одной стороны.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "context"
+      ]
+    },
+    {
+      "text": "Какое предложение описывает ситуацию 'мышка прячется под стулом'?",
+      "options": [
+        "A) The mouse is behind the chair.",
+        "B) The mouse is under the chair.",
+        "C) The mouse is next to the chair.",
+        "D) The mouse is in front of the chair."
+      ],
+      "correct_answer": "B",
+      "explanation": "Under означает 'под' и подходит для описания предмета, скрытого под чем-то. Behind означает 'позади'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где on используется ПРАВИЛЬНО в значении 'на поверхности':",
+      "options": [
+        "A) The water is on the cup.",
+        "B) The pen is on the paper.",
+        "C) The fish is on the water.",
+        "D) The bird is on the sky."
+      ],
+      "correct_answer": "B",
+      "explanation": "On the paper правильно описывает ручку, лежащую на бумаге. Вариант D неправильный (в небе - in the sky).",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "surface"
+      ]
+    },
+    {
+      "text": "Переведи фразу 'рядом с дверью' и выбери правильный вариант:",
+      "options": [
+        "A) next to the door",
+        "B) behind the door",
+        "C) in front of the door",
+        "D) under the door"
+      ],
+      "correct_answer": "A",
+      "explanation": "Next to означает 'рядом с' или 'возле'. Behind означает 'позади', in front of - 'впереди'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "translation"
+      ]
+    },
+    {
+      "text": "Прочитай предложение и определи, какой предлог логически подходит: 'The treasure is hidden _____ the old tree.'",
+      "options": [
+        "A) behind",
+        "B) under",
+        "C) on",
+        "D) next to"
+      ],
+      "correct_answer": "A",
+      "explanation": "Behind the tree логично описывает скрытый клад (позади дерева). Under означал бы 'под деревом', on - 'на дереве'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "logic"
+      ]
+    },
+    {
+      "text": "Какой предлог НЕ может использоваться в предложении 'The ball is _____ the box'?",
+      "options": [
+        "A) in",
+        "B) on",
+        "C) inside",
+        "D) within"
+      ],
+      "correct_answer": "B",
+      "explanation": "On (на коробке) не подходит для шара внутри коробки. Правильны: in, inside, within - все означают 'внутри'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "negative-question"
+      ]
+    },
+    {
+      "text": "Выбери правильное описание положения объекта: 'Цветок находится в вазе.'",
+      "options": [
+        "A) The flower is on the vase.",
+        "B) The flower is in the vase.",
+        "C) The flower is behind the vase.",
+        "D) The flower is next to the vase."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the vase правильно описывает цветок, находящийся внутри вазы. On the vase означал бы 'на вазе'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "container"
+      ]
+    },
+    {
+      "text": "Прочитай два предложения и выбери, где оба предлога использованы ПРАВИЛЬНО:",
+      "options": [
+        "A) The book is on the shelf and the pen is under the table.",
+        "B) The book is in the shelf and the pen is on the table.",
+        "C) The book is under the shelf and the pen is behind the table.",
+        "D) The book is next to the shelf and the pen is in the table."
+      ],
+      "correct_answer": "A",
+      "explanation": "On the shelf и under the table - правильные комбинации. In the shelf неверно (on the shelf), in the table неверно (on the table).",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "complex"
+      ]
+    },
+    {
+      "text": "Выбери предложение, которое ТОЧНО описывает положение предмета перед кем-то:",
+      "options": [
+        "A) The toy is behind him.",
+        "B) The toy is under him.",
+        "C) The toy is in front of him.",
+        "D) The toy is next to him."
+      ],
+      "correct_answer": "C",
+      "explanation": "In front of exactly означает 'впереди' или 'перед кем-то'. Next to означает 'рядом с одной стороны'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "direction"
+      ]
+    },
+    {
+      "text": "Какой предлог используется в предложении 'The picture hangs _____ the wall'?",
+      "options": [
+        "A) in",
+        "B) on",
+        "C) under",
+        "D) behind"
+      ],
+      "correct_answer": "B",
+      "explanation": "On the wall правильно описывает картину, висящую на стене (на поверхности). In the wall означал бы 'в стене'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "surface"
+      ]
+    },
+    {
+      "text": "Определи, какой предлог используется в значении 'находиться посередине между двумя предметами':",
+      "options": [
+        "A) next to",
+        "B) behind",
+        "C) between",
+        "D) under"
+      ],
+      "correct_answer": "C",
+      "explanation": "Between используется исключительно для описания положения между двумя или несколькими объектами. Next to означает 'рядом с одним'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "meaning"
+      ]
+    },
+    {
+      "text": "Выбери НЕПРАВИЛЬНОЕ предложение:",
+      "options": [
+        "A) The shoes are under the bed.",
+        "B) The key is on the desk.",
+        "C) The poster is in the wall.",
+        "D) The cat is behind the door."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the wall неправильно; нужно on the wall (постер висит НА стене, не В стене).",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Прочитай и выбери предложение, где предлог места логически соответствует контексту: 'The teacher stands _____ the class.'",
+      "options": [
+        "A) behind",
+        "B) in front of",
+        "C) under",
+        "D) between"
+      ],
+      "correct_answer": "B",
+      "explanation": "In front of the class логично: учитель стоит перед классом, лицом к ученикам. Behind означал бы позади класса.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "logic"
+      ]
+    },
+    {
+      "text": "Какой предлог подходит в предложение 'The bird is sitting _____ the branch'?",
+      "options": [
+        "A) on",
+        "B) in",
+        "C) under",
+        "D) behind"
+      ],
+      "correct_answer": "A",
+      "explanation": "On the branch правильно описывает птицу, сидящую на ветке (на поверхности). In the branch неправильно.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "nature"
+      ]
+    },
+    {
+      "text": "Выбери предложение с ПРАВИЛЬНЫМ использованием предлогов места:",
+      "options": [
+        "A) The ball is on the box and the keys are between the pencils.",
+        "B) The ball is in the box and the keys are under the drawer.",
+        "C) The ball is under the box and the keys are next to the wall.",
+        "D) The ball is behind the box and the keys are in the table."
+      ],
+      "correct_answer": "A",
+      "explanation": "On the box и between the pencils правильны. In the table неправильно (on the table); under the drawer может быть правильно, но on/in правильнее для ключей на поверхности или в ящике.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "complex"
+      ]
+    },
+    {
+      "text": "Прочитай предложение и определи, правильно ли используется предлог: 'The lamp is in the corner.'",
+      "options": [
+        "A) Да, это правильно.",
+        "B) Нет, нужен 'on the corner'.",
+        "C) Нет, нужен 'behind the corner'.",
+        "D) Нет, нужен 'under the corner'."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the corner правильно означает 'в углу' (внутри пространства угла). On the corner означал бы 'на углу' (на верхней части).",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "verification"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где предлог 'behind' использован ПРАВИЛЬНО:",
+      "options": [
+        "A) The boy is behind the tree (he is hidden).",
+        "B) The boy is behind the table (sitting at it).",
+        "C) The boy is behind the wall (leaning on it).",
+        "D) The boy is behind the door (entering)."
+      ],
+      "correct_answer": "A",
+      "explanation": "Behind the tree означает 'позади дерева', и это логично для скрытого объекта. Варианты B, C, D неуместны для behind.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "context"
+      ]
+    },
+    {
+      "text": "Какое из предложений НЕПРАВИЛЬНО описывает положение предмета в контейнере?",
+      "options": [
+        "A) The toy is in the box.",
+        "B) The apple is in the basket.",
+        "C) The fish is in the water.",
+        "D) The book is on the shelf."
+      ],
+      "correct_answer": "D",
+      "explanation": "D неправильно для контейнера (книга В ящике = in the box, или НА полке = on the shelf). On shelf не описывает внутреннее положение.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "container"
+      ]
+    },
+    {
+      "text": "Переведи на английский: 'Стул стоит рядом с окном.' Выбери правильный вариант:",
+      "options": [
+        "A) The chair is behind the window.",
+        "B) The chair is next to the window.",
+        "C) The chair is under the window.",
+        "D) The chair is in front of the window."
+      ],
+      "correct_answer": "B",
+      "explanation": "Next to the window означает 'рядом с окном'. Behind означает 'позади', under - 'под', in front of - 'впереди'.",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "translation"
+      ]
+    },
+    {
+      "text": "Выбери предложение, где используется ПРАВИЛЬНЫЙ предлог для описания положения под водой:",
+      "options": [
+        "A) The fish is on the water.",
+        "B) The fish is behind the water.",
+        "C) The fish is under the water.",
+        "D) The fish is next to the water."
+      ],
+      "correct_answer": "C",
+      "explanation": "Under the water правильно описывает рыбу, плывущую под водой. On the water означал бы 'на воде' (на поверхности).",
+      "difficulty": 4,
+      "tags": [
+        "prepositions-place",
+        "nature"
+      ]
+    },
+    {
+      "text": "Прочитайте предложение: \"My father's mother is my ___\". Какое слово пропущено?",
+      "options": [
+        "A) aunt",
+        "B) grandmother",
+        "C) sister",
+        "D) cousin"
+      ],
+      "correct_answer": "B",
+      "explanation": "Father's mother — это мать отца, то есть бабушка. Aunt — это тётя, sister — сестра, cousin — кузина/кузен.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какой из этих терминов описывает человека, который является ребёнком братьев и сестёр ваших родителей?",
+      "options": [
+        "A) nephew",
+        "B) niece",
+        "C) cousin",
+        "D) sibling"
+      ],
+      "correct_answer": "C",
+      "explanation": "Cousin — это дети братьев и сестёр ваших родителей (двоюродные братья/сёстры). Nephew и niece — племянники, sibling — брат или сестра.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "В предложении \"She has curly blonde hair and blue eyes\" слово \"curly\" означает, что волосы имеют какую характеристику?",
+      "options": [
+        "A) прямые",
+        "B) вьющиеся",
+        "C) светлые",
+        "D) длинные"
+      ],
+      "correct_answer": "B",
+      "explanation": "Curly означает 'вьющийся, кудрявый'. Blonde уже указывает на светлый цвет, straight означает прямой, long — длинный.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "hair-description"
+      ]
+    },
+    {
+      "text": "Какое слово используется для описания человека с полной фигурой?",
+      "options": [
+        "A) thin",
+        "B) short",
+        "C) plump",
+        "D) tall"
+      ],
+      "correct_answer": "C",
+      "explanation": "Plump означает 'полненький, полный'. Thin — худой, short — низкий, tall — высокий. Plump имеет оттенок деликатности по сравнению с более резким 'fat'.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "body-description"
+      ]
+    },
+    {
+      "text": "Переведите фразу \"My sister's husband is my ___\".",
+      "options": [
+        "A) brother-in-law",
+        "B) uncle",
+        "C) nephew",
+        "D) cousin"
+      ],
+      "correct_answer": "A",
+      "explanation": "Муж сестры — это brother-in-law (свояк). Uncle — дядя, nephew — племянник, cousin — кузина/кузен.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какой термин описывает человека с очень бледной кожей?",
+      "options": [
+        "A) dark",
+        "B) pale",
+        "C) tan",
+        "D) rosy"
+      ],
+      "correct_answer": "B",
+      "explanation": "Pale означает 'бледный, светлый (кожа)'. Dark — тёмный, tan — загорелый, rosy — розовый (румяный).",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "complexion-description"
+      ]
+    },
+    {
+      "text": "Прочитайте: \"He is my mother's brother's son\". Кем этот человек вам приходится?",
+      "options": [
+        "A) nephew",
+        "B) uncle",
+        "C) cousin",
+        "D) brother"
+      ],
+      "correct_answer": "C",
+      "explanation": "Mother's brother — это дядя (uncle), а его сын — это cousin (двоюродный брат). Nephew — племянник, uncle — дядя, brother — брат.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какое описание внешности относится к форме лица?",
+      "options": [
+        "A) freckles",
+        "B) dimples",
+        "C) oval face",
+        "D) beard"
+      ],
+      "correct_answer": "C",
+      "explanation": "Oval face (овальное лицо) описывает форму. Freckles — веснушки, dimples — ямочки на щеках, beard — борода (волосы на лице, но не форма).",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "face-description"
+      ]
+    },
+    {
+      "text": "В семье John есть три поколения: дедушка с бабушкой, их дети (включая мать John) и сам John. Как называется дочь дедушки John (не его мать)?",
+      "options": [
+        "A) aunt",
+        "B) grandmother",
+        "C) sister",
+        "D) cousin"
+      ],
+      "correct_answer": "A",
+      "explanation": "Дочь дедушки (но не мать John) — это aunt (тётя). Grandmother — бабушка, sister — сестра, cousin — кузина.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какое слово описывает человека, который имеет красивые, ровные черты лица?",
+      "options": [
+        "A) handsome",
+        "B) ugly",
+        "C) strange",
+        "D) bald"
+      ],
+      "correct_answer": "A",
+      "explanation": "Handsome означает 'красивый, привлекательный' (обычно для мужчин и мальчиков). Ugly — уродливый, strange — странный, bald — лысый.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "attractiveness"
+      ]
+    },
+    {
+      "text": "Прочитайте: \"My grandmother's sister is my ___\".",
+      "options": [
+        "A) mother",
+        "B) aunt",
+        "C) great-aunt",
+        "D) cousin"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sister вашей grandmother — это great-aunt (двоюродная бабушка). Aunt — тётя, mother — мать, cousin — кузина/кузен.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какой из этих терминов описывает наличие больших зубов спереди?",
+      "options": [
+        "A) gap-toothed",
+        "B) buck teeth",
+        "C) missing teeth",
+        "D) strong teeth"
+      ],
+      "correct_answer": "B",
+      "explanation": "Buck teeth означает 'выступающие передние зубы'. Gap-toothed — с промежутком между зубами, missing teeth — отсутствующие зубы, strong teeth — крепкие зубы.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "teeth-description"
+      ]
+    },
+    {
+      "text": "В предложении \"She has long, straight black hair\" слово \"straight\" контрастирует с каким типом волос?",
+      "options": [
+        "A) short",
+        "B) curly",
+        "C) dark",
+        "D) thick"
+      ],
+      "correct_answer": "B",
+      "explanation": "Straight (прямой) противоположен curly (вьющийся). Short — короткий (противопоставляется long), dark — тёмный (противопоставляется светлому), thick — толстый/густой.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "hair-description"
+      ]
+    },
+    {
+      "text": "Какой термин используется для описания человека с острыми, выступающими щеками?",
+      "options": [
+        "A) rosy cheeks",
+        "B) chubby cheeks",
+        "C) hollow cheeks",
+        "D) freckled cheeks"
+      ],
+      "correct_answer": "C",
+      "explanation": "Hollow cheeks означает 'впалые щёки' (острые, выступающие). Rosy — розовые, chubby — пухлые, freckled — с веснушками.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "face-description"
+      ]
+    },
+    {
+      "text": "Переведите фразу: \"My uncle's daughter is my ___\".",
+      "options": [
+        "A) sister",
+        "B) aunt",
+        "C) cousin",
+        "D) niece"
+      ],
+      "correct_answer": "C",
+      "explanation": "Дочь дяди — это cousin (двоюродная сестра). Sister — сестра, aunt — тётя, niece — племянница.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какое слово описывает волосы, которые очень короткие и близко прилегают к голове?",
+      "options": [
+        "A) wavy",
+        "B) bushy",
+        "C) crew cut",
+        "D) flowing"
+      ],
+      "correct_answer": "C",
+      "explanation": "Crew cut — это короткая стрижка для волос близко к голове. Wavy — волнистый, bushy — пышный/густой, flowing — развевающийся.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "hair-description"
+      ]
+    },
+    {
+      "text": "В семейной иерархии: мать вашего отца — это ваша grandmother. Как называется мать вашей grandmother?",
+      "options": [
+        "A) great-grandmother",
+        "B) ancestor",
+        "C) elder",
+        "D) matriarch"
+      ],
+      "correct_answer": "A",
+      "explanation": "Мать вашей grandmother — это great-grandmother (прабабушка). Ancestor — предок (общий термин), elder — старший, matriarch — женщина-глава семьи.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какой из этих терминов описывает человека с густыми, тёмными волосами на лице?",
+      "options": [
+        "A) clean-shaven",
+        "B) stubble",
+        "C) beard",
+        "D) sideburns"
+      ],
+      "correct_answer": "C",
+      "explanation": "Beard означает 'борода' (густые волосы на лице). Clean-shaven — гладко выбритый, stubble — щетина, sideburns — бакенбарды (волосы на щеках).",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "facial-hair"
+      ]
+    },
+    {
+      "text": "Прочитайте: \"My father's wife is my ___\". Какое слово пропущено (если не указано, что это повторный брак)?",
+      "options": [
+        "A) sister",
+        "B) mother",
+        "C) stepmother",
+        "D) aunt"
+      ],
+      "correct_answer": "B",
+      "explanation": "Wife отца (при первом браке) — это mother (мать). Stepmother — мачеха (при повторном браке), sister — сестра, aunt — тётя.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какое слово используется для описания маленьких линий на коже, часто встречающихся с возрастом?",
+      "options": [
+        "A) scar",
+        "B) wrinkles",
+        "C) dimples",
+        "D) moles"
+      ],
+      "correct_answer": "B",
+      "explanation": "Wrinkles означает 'морщины'. Scar — шрам, dimples — ямочки на щеках, moles — родинки.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "skin-features"
+      ]
+    },
+    {
+      "text": "В предложении \"He has a stocky build\" слово \"stocky\" означает какой тип телосложения?",
+      "options": [
+        "A) высокое и худое",
+        "B) коротко и крепко сложенный",
+        "C) длинное и тонкое",
+        "D) мышечное и спортивное"
+      ],
+      "correct_answer": "B",
+      "explanation": "Stocky означает 'коротко и крепко сложённый'. Указывает на низкий рост и мощное телосложение, но не обязательно полноту.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "body-description"
+      ]
+    },
+    {
+      "text": "Как называется ребёнок ваших тёти и дяди (со стороны матери)?",
+      "options": [
+        "A) nephew",
+        "B) aunt",
+        "C) cousin",
+        "D) sibling"
+      ],
+      "correct_answer": "C",
+      "explanation": "Дети тётей и дядей — это cousins (двоюродные братья и сёстры). Nephew — племянник, aunt — тётя, sibling — брат или сестра.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какой термин описывает человека с веснушками на лице?",
+      "options": [
+        "A) pale",
+        "B) freckled",
+        "C) tanned",
+        "D) rosy"
+      ],
+      "correct_answer": "B",
+      "explanation": "Freckled означает 'с веснушками' (маленькие коричневые пятна на коже). Pale — бледный, tanned — загорелый, rosy — румяный.",
+      "difficulty": 4,
+      "tags": [
+        "appearance-vocabulary",
+        "skin-features"
+      ]
+    },
+    {
+      "text": "Переведите: \"My brother's wife is my ___\".",
+      "options": [
+        "A) sister",
+        "B) aunt",
+        "C) sister-in-law",
+        "D) cousin"
+      ],
+      "correct_answer": "C",
+      "explanation": "Жена брата — это sister-in-law (невестка/золовка). Sister — сестра, aunt — тётя, cousin — кузина/кузен.",
+      "difficulty": 4,
+      "tags": [
+        "family-vocabulary",
+        "kinship-relations"
+      ]
+    },
+    {
+      "text": "Какое из предложений является правильным повелительным наклонением в утвердительной форме?",
+      "options": [
+        "A) You open your book!",
+        "B) Open your book!",
+        "C) Opens your book!",
+        "D) You will open your book!"
+      ],
+      "correct_answer": "B",
+      "explanation": "Повелительное наклонение образуется без подлежащего и начинается с глагола в базовой форме. 'Open your book!' — правильная форма приказа или просьбы.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "grammar"
+      ]
+    },
+    {
+      "text": "Выберите правильное отрицательное повелительное предложение:",
+      "options": [
+        "A) Don't run!",
+        "B) Not run!",
+        "C) Don't to run!",
+        "D) Do not running!"
+      ],
+      "correct_answer": "A",
+      "explanation": "Отрицательное повелительное наклонение образуется с помощью 'Don't + глагол в базовой форме'. 'Don't run!' — корректная форма запрета.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "negation"
+      ]
+    },
+    {
+      "text": "Какое предложение неправильно использует повелительное наклонение?",
+      "options": [
+        "A) Sit down, please.",
+        "B) He closes the door.",
+        "C) Be quiet!",
+        "D) Come here!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'He closes the door' — это простое настоящее время (Present Simple), а не повелительное наклонение. Остальные предложения содержат корректные формы повелительного наклонения.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "tenses-differentiation"
+      ]
+    },
+    {
+      "text": "Какое преобразование повелительного предложения в отрицательное выполнено правильно?",
+      "options": [
+        "A) Write → Don't write",
+        "B) Write → Not write",
+        "C) Write → Don't to write",
+        "D) Write → Do not to write"
+      ],
+      "correct_answer": "A",
+      "explanation": "При преобразовании утвердительного повелительного предложения в отрицательное используется конструкция 'Don't + глагол': Write → Don't write.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "transformation"
+      ]
+    },
+    {
+      "text": "В каком предложении используется вежливое повелительное наклонение?",
+      "options": [
+        "A) Run fast!",
+        "B) Open your books, please.",
+        "C) Stop!",
+        "D) Jump high!"
+      ],
+      "correct_answer": "B",
+      "explanation": "Добавление слова 'please' в конце или в середине повелительного предложения делает его более вежливым и учтивым: 'Open your books, please.'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "politeness"
+      ]
+    },
+    {
+      "text": "Какое из предложений содержит ошибку в образовании повелительного наклонения?",
+      "options": [
+        "A) Don't speak English at home!",
+        "B) Do not eating sweets!",
+        "C) Don't watch TV now!",
+        "D) Don't be late!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Do not eating sweets!' содержит ошибку — после 'do not' должен идти глагол в базовой форме, а не в форме -ing. Правильно: 'Do not eat sweets!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Выберите предложение, которое НЕ является повелительным наклонением:",
+      "options": [
+        "A) Listen to me!",
+        "B) She listens to music.",
+        "C) Don't forget your homework!",
+        "D) Help your friend!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'She listens to music' — это простое настоящее время (Present Simple), описывающее привычное действие. Это не приказ или просьба, а просто утверждение о факте.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "tenses-differentiation"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно преобразует утвердительное повелительное предложение в отрицательное с сохранением смысла?",
+      "options": [
+        "A) Close the door → Do close the door!",
+        "B) Close the door → Don't close the door!",
+        "C) Close the door → Not close the door!",
+        "D) Close the door → Do not closing the door!"
+      ],
+      "correct_answer": "B",
+      "explanation": "Правильное преобразование: утвердительное 'Close the door!' становится отрицательным 'Don't close the door!' с помощью добавления 'Don't' перед глаголом.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "transformation"
+      ]
+    },
+    {
+      "text": "В каком предложении слово 'please' использовано в правильной позиции для вежливого повелительного наклонения?",
+      "options": [
+        "A) Please open your book!",
+        "B) Open please your book!",
+        "C) Open your please book!",
+        "D) Open your book please!"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Please' может стоять в начале или в конце повелительного предложения. Оба варианта A и D верны, но A более естественный и распространённый в английском языке.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Какое из предложений правильно передаёт значение категорического запрета?",
+      "options": [
+        "A) You don't run!",
+        "B) Don't run!",
+        "C) Not running!",
+        "D) Do not you run!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Don't run!' — это правильная форма отрицательного повелительного наклонения для выражения запрета или категорического требования не выполнять действие.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "negation"
+      ]
+    },
+    {
+      "text": "Какое утверждение о повелительном наклонении ВЕРНО?",
+      "options": [
+        "A) Повелительное наклонение всегда требует личного местоимения в начале.",
+        "B) Повелительное наклонение образуется без подлежащего и начинается с глагола.",
+        "C) Повелительное наклонение используется только для приказов, никогда для просьб.",
+        "D) Отрицательное повелительное требует конструкции 'not' перед глаголом."
+      ],
+      "correct_answer": "B",
+      "explanation": "Повелительное наклонение характеризуется отсутствием видимого подлежащего и начинается непосредственно с глагола: 'Open your book!' или 'Don't run!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "theory"
+      ]
+    },
+    {
+      "text": "Какое предложение неправильно использует повелительное наклонение?",
+      "options": [
+        "A) Be careful!",
+        "B) Have a nice day!",
+        "C) Does she read books?",
+        "D) Don't be late!"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Does she read books?' — это вопрос в Present Simple, а не повелительное наклонение. Остальные предложения содержат правильные формы повелительного наклонения.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "tenses-differentiation"
+      ]
+    },
+    {
+      "text": "Выберите пример, где повелительное наклонение используется как вежливая просьба, а не как приказ:",
+      "options": [
+        "A) Run immediately!",
+        "B) Could you please open the door?",
+        "C) Open the door, please.",
+        "D) Get out!"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Open the door, please' — это повелительное наклонение в форме вежливой просьбы благодаря слову 'please'. Вариант B — это условное предложение, а не повелительное наклонение.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "pragmatics"
+      ]
+    },
+    {
+      "text": "Какое из предложений содержит грамматическую ошибку в форме повелительного наклонения?",
+      "options": [
+        "A) Don't be noisy in class!",
+        "B) Don't to make a mess!",
+        "C) Don't forget your pen!",
+        "D) Don't speak loudly!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Don't to make a mess!' содержит ошибку — между 'Don't' и глаголом не должна быть частица 'to'. Правильно: 'Don't make a mess!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Какой тип предложения является повелительным наклонением?",
+      "options": [
+        "A) Побудительное предложение",
+        "B) Повествовательное предложение",
+        "C) Вопросительное предложение",
+        "D) Описательное предложение"
+      ],
+      "correct_answer": "A",
+      "explanation": "Повелительное наклонение выражает побуждение к действию (приказ, просьба, совет), поэтому относится к побудительным предложениям.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "sentence-types"
+      ]
+    },
+    {
+      "text": "Выберите предложение с правильной пунктуацией для повелительного наклонения:",
+      "options": [
+        "A) open your book",
+        "B) Open your book!",
+        "C) Open your book.",
+        "D) open your book?"
+      ],
+      "correct_answer": "B",
+      "explanation": "Повелительное наклонение обычно заканчивается восклицательным знаком (!) для выражения приказа или просьбы, хотя иногда допускается точка для мягких просьб.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "punctuation"
+      ]
+    },
+    {
+      "text": "Какое из предложений правильно использует инверсию в повелительном наклонении для усиления?",
+      "options": [
+        "A) Do listen to me!",
+        "B) Listen do to me!",
+        "C) You do listen to me!",
+        "D) Do you listen to me!"
+      ],
+      "correct_answer": "A",
+      "explanation": "Для усиления повелительного наклонения используется вспомогательный глагол 'do': 'Do listen to me!' — это выражает настойчивое требование.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "emphasis"
+      ]
+    },
+    {
+      "text": "Какое предложение неправильно образует отрицательное повелительное наклонение?",
+      "options": [
+        "A) Don't touch the hot stove!",
+        "B) Do not enter here!",
+        "C) Don't to go away!",
+        "D) Don't be rude!"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Don't to go away!' содержит ошибку — между 'Don't' и глаголом не должна быть частица 'to'. Правильно: 'Don't go away!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "negation",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Какое из предложений демонстрирует правильное использование повелительного наклонения в контексте инструкций?",
+      "options": [
+        "A) You open your book on page 10.",
+        "B) Open your book on page 10.",
+        "C) He opens his book on page 10.",
+        "D) Opening your book on page 10."
+      ],
+      "correct_answer": "B",
+      "explanation": "'Open your book on page 10' — это правильная форма повелительного наклонения для инструкций. Она начинается с глагола в базовой форме без подлежащего.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "instructions"
+      ]
+    },
+    {
+      "text": "Какой аспект отличает повелительное наклонение от других времён?",
+      "options": [
+        "A) Наличие личного местоимения перед глаголом",
+        "B) Отсутствие видимого подлежащего и начало с глагола",
+        "C) Использование вспомогательных глаголов 'have' или 'will'",
+        "D) Окончание глагола на '-ed' или '-ing'"
+      ],
+      "correct_answer": "B",
+      "explanation": "Характерной чертой повелительного наклонения является отсутствие видимого подлежащего (поскольку подразумевается 'ты') и прямое начало с глагола в базовой форме.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "theory"
+      ]
+    },
+    {
+      "text": "Выберите предложение, в котором повелительное наклонение используется как совет:",
+      "options": [
+        "A) Help your classmate with homework!",
+        "B) Don't stay up late!",
+        "C) Get out of my room!",
+        "D) Run away!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Don't stay up late!' — это совет, выраженный через отрицательное повелительное наклонение. Остальные варианты выражают более категоричные приказы.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "pragmatics"
+      ]
+    },
+    {
+      "text": "Какое из предложений содержит ошибку в согласовании повелительного наклонения с объектом?",
+      "options": [
+        "A) Give me your book.",
+        "B) Gives me your book.",
+        "C) Give to me your book.",
+        "D) Giving me your book."
+      ],
+      "correct_answer": "B",
+      "explanation": "'Gives me your book' — ошибка, так как содержит окончание '-s' для 3-го лица единственного числа. Повелительное наклонение: 'Give me your book.'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Какой вариант правильно использует повелительное наклонение для учебного контекста?",
+      "options": [
+        "A) Students open your books!",
+        "B) Open your books!",
+        "C) You will open your books!",
+        "D) They open their books!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Open your books!' — правильное повелительное наклонение для класса. Вариант A содержит лишнее подлежащее, что нарушает правило образования повелительного наклонения.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "educational-context"
+      ]
+    },
+    {
+      "text": "Какое из предложений неправильно передаёт повелительное наклонение?",
+      "options": [
+        "A) Stop talking!",
+        "B) Stops talking!",
+        "C) Don't stop talking!",
+        "D) Stopping talking!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Stops talking!' содержит ошибку — глагол с окончанием '-s' используется для 3-го лица Present Simple, а не для повелительного наклонения. Правильно: 'Stop talking!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "error-identification"
+      ]
+    },
+    {
+      "text": "Выберите предложение, которое правильно использует повелительное наклонение с наречием:",
+      "options": [
+        "A) Quickly run!",
+        "B) Run quickly!",
+        "C) You run quickly!",
+        "D) Running quickly!"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Run quickly!' — правильный порядок слов в повелительном наклонении: глагол, затем дополнение/наречие. Вариант A нарушает обычный порядок слов в английском языке.",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "word-order"
+      ]
+    },
+    {
+      "text": "Какое утверждение о формировании отрицательного повелительного наклонения ВЕРНО?",
+      "options": [
+        "A) Используется конструкция 'not + глагол'",
+        "B) Используется конструкция 'Don't/Do not + глагол в базовой форме'",
+        "C) Используется конструкция 'don't + to + глагол'",
+        "D) Используется конструкция 'never + глагол'"
+      ],
+      "correct_answer": "B",
+      "explanation": "Отрицательное повелительное наклонение образуется с помощью 'Don't' или 'Do not', за которым следует глагол в базовой форме: 'Don't run!' или 'Do not run!'",
+      "difficulty": 4,
+      "tags": [
+        "imperative-mood",
+        "negation",
+        "theory"
+      ]
+    },
+    {
+      "text": "Прочитай диалог и определи, в какое время дня происходит разговор: Alice: 'Good morning, Tom! How was your breakfast?' Tom: 'Great! I had eggs and toast. Now I'm going to school.' Какой ответ верный?",
+      "options": [
+        "A) Вечер",
+        "B) Утро",
+        "C) Ночь",
+        "D) Полдень"
+      ],
+      "correct_answer": "B",
+      "explanation": "В диалоге Alice говорит 'Good morning', а Tom идёт в школу — это классические признаки утра. Вариант A (вечер) — ловушка, так как речь о breakfast может запутать.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "time-of-day"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My mother is a teacher. She works at School Number 5. My father is a doctor. He works at the Central Hospital. My sister is a student.' Сколько членов семьи упоминается в тексте?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 4",
+        "D) 5"
+      ],
+      "correct_answer": "C",
+      "explanation": "В тексте упоминаются: мать, отец, сестра и сам рассказчик (I). Итого 4 человека. Вариант B — ловушка для тех, кто забыл посчитать самого автора текста.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "family",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: Teacher: 'Who did homework yesterday?' Lisa: 'I did, but I forgot my notebook.' David: 'I didn't do it. I was playing football.' Кто выполнил домашнее задание?",
+      "options": [
+        "A) Lisa и David",
+        "B) Только David",
+        "C) Только Lisa",
+        "D) Никто из них"
+      ],
+      "correct_answer": "C",
+      "explanation": "Lisa ясно говорит 'I did' (я делал), хотя забыла тетрадь. David явно сказал 'I didn't do it'. Вариант A — хитрая ловушка, использующая тот факт, что Lisa забыла notebook.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "past-tense"
+      ]
+    },
+    {
+      "text": "Прочитай текст о школьном дне: 'At 8:30 we have English. At 9:15 we have Maths. At 10:00 we have PE. At 10:45 we have lunch.' Какой предмет длится дольше всего?",
+      "options": [
+        "A) English (англий­ский)",
+        "B) Maths (математика)",
+        "C) PE (физкультура)",
+        "D) Lunch (обед)"
+      ],
+      "correct_answer": "A",
+      "explanation": "English: 8:30–9:15 = 45 минут. Maths: 9:15–10:00 = 45 минут. PE: 10:00–10:45 = 45 минут. Все равны 45 минут — ловушка заключена в том, что нужно вычислить длительность, а не просто выбрать первый.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "time-calculation"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: Mom: 'Where is your brother?' Sister: 'He is in the library.' Mom: 'What is he doing there?' Sister: 'He is reading a book about animals.' Что делает брат?",
+      "options": [
+        "A) Пишет о животных",
+        "B) Говорит об животных",
+        "C) Читает книгу о животных",
+        "D) Рисует животных"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sister ясно говорит 'He is reading a book about animals'. Вариант A близок по смыслу (о животных), но неверно определяет действие (пишет вместо читает).",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "present-continuous"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My family likes different sports. My father likes football. My mother likes tennis. My brother likes basketball. I like swimming.' Кто из семьи не упоминает свой вид спорта явно?",
+      "options": [
+        "A) Father",
+        "B) Mother",
+        "C) Brother",
+        "D) Никто — все упомянуты"
+      ],
+      "correct_answer": "D",
+      "explanation": "Все члены семьи — отец, мать, брат и сам рассказчик — явно указали свой вид спорта. Это сложный вопрос, потому что можно случайно выбрать одного из спортсменов.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "family",
+        "sports"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: Teacher: 'Do you have your pencil?' Student: 'Yes, but the pencil is broken. Can I borrow yours?' Teacher: 'Of course!' Что произойдёт дальше?",
+      "options": [
+        "A) Ученик купит новый карандаш",
+        "B) Учитель даст свой карандаш",
+        "C) Ученик уйдёт без карандаша",
+        "D) Учитель отказажет ученику"
+      ],
+      "correct_answer": "B",
+      "explanation": "Учитель ответил 'Of course!' (конечно), что означает согласие. Вариант A — ловушка, предполагающая возможное будущее действие вместо очевидного текущего ответа.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "inference"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My school has 500 students. There are 20 classrooms. Every classroom has desks, chairs, a blackboard and a computer. Our school also has a library, a sports hall and a cafeteria.' Сколько классных комнат в школе?",
+      "options": [
+        "A) 500",
+        "B) 20",
+        "C) 5",
+        "D) 1000"
+      ],
+      "correct_answer": "B",
+      "explanation": "В тексте ясно написано 'There are 20 classrooms'. Вариант A — ловушка для перепутавших число учащихся с числом классов.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "numbers"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'What time do you usually wake up?' 'I wake up at 7 o'clock on weekdays, but on weekends I wake up at 9 o'clock.' Когда говорящий просыпается в субботу?",
+      "options": [
+        "A) В 7 часов",
+        "B) В 9 часов",
+        "C) В 8 часов",
+        "D) Информация не указана"
+      ],
+      "correct_answer": "B",
+      "explanation": "Выходные (weekends) включают субботу и воскресенье, в эти дни человек просыпается в 9 часов. Вариант A — ловушка для невнимательных читателей, перепутавших weekday и weekend.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "days-of-week"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'There are four people in my family. My parents are doctors. My brother is a student. I am also a student.' Какая профессия упоминается чаще всего?",
+      "options": [
+        "A) Doctor (врач)",
+        "B) Student (ученик)",
+        "C) Teacher (учитель)",
+        "D) Одинаково часто"
+      ],
+      "correct_answer": "B",
+      "explanation": "Doctor упоминается 2 раза (родители), Student упоминается 2 раза (брат и рассказчик). Вариант D — ловушка! Фактически оба упоминаются поровну, но это требует внимательного подсчёта.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "family",
+        "professions"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'Do you have any pets?' 'Yes, I have a dog and a cat.' 'What are their names?' 'My dog's name is Max and my cat's name is Whiskers.' Как зовут собаку?",
+      "options": [
+        "A) Whiskers",
+        "B) Cat",
+        "C) Max",
+        "D) Pet"
+      ],
+      "correct_answer": "C",
+      "explanation": "В диалоге говорится 'My dog's name is Max'. Вариант A — прямая ловушка, это имя кошки (cat), которую легко перепутать.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "pets"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My school day starts at 8:00. I have four lessons. Each lesson is 45 minutes. There is a 15-minute break after the second lesson.' Когда заканчивается вторая пара?",
+      "options": [
+        "A) 8:45",
+        "B) 9:30",
+        "C) 10:15",
+        "D) 11:00"
+      ],
+      "correct_answer": "B",
+      "explanation": "Первая пара: 8:00–8:45. Вторая пара: 8:45–9:30. Это требует математических расчётов, что усложняет задачу для олимпиадного уровня.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "time-calculation"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'What do you usually have for breakfast?' 'I usually have cereal and milk, but today I had eggs and bread.' Что съел говорящий сегодня?",
+      "options": [
+        "A) Cereal and milk",
+        "B) Eggs and bread",
+        "C) Cereal, milk, eggs and bread",
+        "D) Только bread"
+      ],
+      "correct_answer": "B",
+      "explanation": "Слово 'today' указывает на настоящий момент. Фраза 'I had eggs and bread' относится к сегодня. Вариант A — ловушка для обычного завтрака, а не сегодняшнего.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "food",
+        "past-tense"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My classroom is on the second floor. It has 25 desks, 25 chairs, one teacher's desk, one blackboard and three windows. The walls are light blue.' Какого цвета стены в классе?",
+      "options": [
+        "A) White (белые)",
+        "B) Light blue (светло-голубые)",
+        "C) Dark blue (тёмно-голубые)",
+        "D) Green (зелёные)"
+      ],
+      "correct_answer": "B",
+      "explanation": "В тексте явно говорится 'The walls are light blue'. Вариант A — ловушка, предполагающая стандартный цвет стен, вариант C — близкий по смыслу неверный вариант.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "description"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: Parent: 'How many subjects do you have at school?' Child: 'I have nine. We have English, Maths, Science, History, Geography, Art, PE, Music and Kazakh.' Какой предмет учит ребёнок?",
+      "options": [
+        "A) Химию",
+        "B) Английский язык",
+        "C) Информатику",
+        "D) Литературу"
+      ],
+      "correct_answer": "B",
+      "explanation": "В списке предметов есть English (английский язык), но нет Chemistry, Computer Science или Literature. Вариант B — единственный из предложенных вариантов, который упомянут в диалоге.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "school-subjects"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My brother goes to school at 8:15. He has lunch at school at 12:00. He comes home at 3:45. After school, he does his homework for one hour.' Когда брат заканчивает домашнее задание?",
+      "options": [
+        "A) 3:45",
+        "B) 4:45",
+        "C) 5:00",
+        "D) 6:00"
+      ],
+      "correct_answer": "B",
+      "explanation": "Брат приходит домой в 3:45 и делает домашнее задание один час, значит, он заканчивает в 4:45. Это требует математических расчётов с временем.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "time-calculation"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'What do your family members like to do in their free time?' 'My father likes reading. My mother likes cooking. My sister likes playing guitar.' Что любит делать мать?",
+      "options": [
+        "A) Читать",
+        "B) Готовить",
+        "C) Играть на гитаре",
+        "D) Писать"
+      ],
+      "correct_answer": "B",
+      "explanation": "О матери (mother) говорится 'likes cooking' (любит готовить). Варианты A и C — увлечения отца и сестры соответственно, что может запутать.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "family"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My family has a tradition. Every Saturday, we go to the park. In summer, we go swimming. In winter, we go skiing. In spring and autumn, we play games.' Куда семья ходит летом?",
+      "options": [
+        "A) В парк",
+        "B) На лыжи",
+        "C) Плавать в парк",
+        "D) Играть в игры"
+      ],
+      "correct_answer": "C",
+      "explanation": "Семья ходит в парк (основное действие), а летом (in summer) они плавают. Технически ответ должен включать оба элемента. Вариант A неполный, B неверный сезон, D относится к другим сезонам.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "family",
+        "seasons"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'When do you have your English lesson?' 'I have English on Monday, Wednesday and Friday at 9:30.' Сколько раз в неделю у ребёнка английский?",
+      "options": [
+        "A) Один раз",
+        "B) Два раза",
+        "C) Три раза",
+        "D) Четыре раза"
+      ],
+      "correct_answer": "C",
+      "explanation": "Названы три дня: Monday, Wednesday и Friday. Это три дня в неделю. Вариант B может быть выбран при спешке или невнимательном чтении.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "school-schedule"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'I have a best friend at school. Her name is Emma. She is in my class. We do our homework together. We also play in the schoolyard together.' Что делают друзья вместе?",
+      "options": [
+        "A) Только домашнее задание",
+        "B) Только играют",
+        "C) Домашнее задание и игры",
+        "D) Сидят в классе"
+      ],
+      "correct_answer": "C",
+      "explanation": "В тексте говорится о двух совместных занятиях: 'do homework together' и 'play in the schoolyard together'. Вариант A и B неполные.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "friendship",
+        "school"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: Teacher: 'Who didn't finish the test?' Student A: 'I didn't.' Student B: 'I did finish it, but I made some mistakes.' Кто полностью завершил тест?",
+      "options": [
+        "A) Ученик A",
+        "B) Ученик B",
+        "C) Оба не завершили",
+        "D) Оба завершили"
+      ],
+      "correct_answer": "B",
+      "explanation": "Student A говорит 'I didn't' (не закончил). Student B говорит 'I did finish it' (я закончил), хотя с ошибками. Вариант A — ловушка для невнимательного чтения отрицания.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "comprehension"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'There are 30 students in our class. 16 of them are boys. The rest are girls. 20 students have lunch at school. 10 students go home for lunch.' Сколько девочек в классе?",
+      "options": [
+        "A) 14",
+        "B) 16",
+        "C) 20",
+        "D) 10"
+      ],
+      "correct_answer": "A",
+      "explanation": "Всего 30 студентов, 16 мальчиков. Девочки = 30 − 16 = 14. Это требует простого вычитания. Варианты B, C, D — отвлекающие числа из текста.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "math"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'Do you like your new school?' 'Yes, I do. The teachers are kind and the classrooms are big. But I don't like the long breaks between lessons.' Что НЕ нравится новому ученику?",
+      "options": [
+        "A) Учителя",
+        "B) Классные комнаты",
+        "C) Длинные перемены",
+        "D) Учебные предметы"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ученик говорит 'I don't like the long breaks' (не нравятся длинные перемены). Варианты A и B — то, что нравится. Вариант D не упоминается в диалоге.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "school"
+      ]
+    },
+    {
+      "text": "Прочитай текст: 'My school has a special programme for gifted students. The programme includes extra lessons in Maths and English. These lessons are on Tuesday and Thursday after school. The programme has 15 students.' Сколько дополнительных предметов в программе?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 15",
+        "D) 3"
+      ],
+      "correct_answer": "B",
+      "explanation": "В программе два предмета: Maths и English. Вариант C — число студентов в программе, вариант A неверен. Это хитрая ловушка, использующая числа из текста.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "school",
+        "gifted-program"
+      ]
+    },
+    {
+      "text": "Прочитай диалог: 'What do you usually do on weekends?' 'On Saturday, I visit my grandmother and help her in the garden. On Sunday, I play football with my friends.' Кого посещает ребёнок в субботу?",
+      "options": [
+        "A) Друзей",
+        "B) Бабушку",
+        "C) Школу",
+        "D) Библиотеку"
+      ],
+      "correct_answer": "B",
+      "explanation": "Фраза 'On Saturday, I visit my grandmother' ясно указывает на бабушку. Вариант A относится к воскресенью. Это проверяет внимание к деталям и согласование действия с днём.",
+      "difficulty": 4,
+      "tags": [
+        "en-reading",
+        "dialogue",
+        "weekends"
+      ]
+    }
+  ]
+}
