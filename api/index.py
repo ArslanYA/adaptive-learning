@@ -109,6 +109,23 @@ def health():
     return {"status": "ok"}
 
 
+@app.get("/api/find-student")
+def find_student(name: str):
+    """Return which grades a student name already exists in."""
+    name = name.strip()
+    if not name:
+        return {"grades": []}
+    conn = get_connection()
+    try:
+        rows = conn.execute(
+            "SELECT grade FROM students WHERE LOWER(name) = LOWER(?) ORDER BY grade",
+            (name,),
+        ).fetchall()
+        return {"grades": [r["grade"] for r in rows]}
+    finally:
+        conn.close()
+
+
 @app.post("/api/login")
 def login(data: LoginRequest):
     """Find or create a student by (name, grade) pair — Variant B."""

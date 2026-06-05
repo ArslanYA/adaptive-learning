@@ -49,7 +49,7 @@
     <label for="nameInput">Твоё имя</label>
     <input type="text" id="nameInput" placeholder="Введи своё имя" maxlength="60" autocomplete="off"
       onkeydown="if(event.key==='Enter') startLesson()"
-      oninput="onNameInput()">
+      oninput="onNameInput(this.value)">
     <div class="welcome" id="welcomeMsg"></div>
     <div class="error-msg" id="nameError">Пожалуйста, введи своё имя</div>
     <button onclick="switchStudent()" id="switchBtn"
@@ -99,6 +99,7 @@
   let selectedGrade = 4;
   let selectedTopic = '';
   let selectedN = 10;
+  let _nameTimer = null;
 
   const saved = JSON.parse(localStorage.getItem('studentData') || 'null');
   if (saved) {
@@ -117,19 +118,40 @@
 
   function selectGrade(el, grade) {
     applyGrade(grade);
-    // Clear welcome if grade differs from saved
-    if (saved && grade !== saved.grade) {
-      document.getElementById('welcomeMsg').className = 'welcome';
-    } else if (saved && grade === saved.grade) {
-      showWelcome(saved.name, saved.grade);
-    }
+    document.getElementById('welcomeMsg').className = 'welcome';
   }
 
-  function onNameInput() {
-    const name = document.getElementById('nameInput').value.trim();
-    if (!saved || name.toLowerCase() !== saved.name.toLowerCase() || selectedGrade !== saved.grade) {
-      document.getElementById('welcomeMsg').className = 'welcome';
-    }
+  function onNameInput(value) {
+    document.getElementById('welcomeMsg').className = 'welcome';
+    clearTimeout(_nameTimer);
+    const name = value.trim();
+    if (name.length < 2) return;
+    _nameTimer = setTimeout(() => lookupName(name), 500);
+  }
+
+  async function lookupName(name) {
+    try {
+      const res = await fetch(`/api/find-student?name=${encodeURIComponent(name)}`);
+      const data = await res.json();
+      const grades = data.grades || [];
+      if (grades.length === 0) return;
+
+      if (grades.length === 1) {
+        // Auto-select grade and show welcome
+        applyGrade(grades[0]);
+        const el = document.getElementById('welcomeMsg');
+        el.textContent = `С возвращением, ${name}! (${grades[0]} класс)`;
+        el.className = 'welcome show';
+      } else {
+        // Found in multiple grades — highlight both, show hint
+        const el = document.getElementById('welcomeMsg');
+        el.textContent = `${name} найден в классах: ${grades.join(' и ')}. Выбери нужный.`;
+        el.className = 'welcome show';
+        el.style.background = '#fefce8';
+        el.style.borderColor = '#fde68a';
+        el.style.color = '#854d0e';
+      }
+    } catch(e) {}
   }
 
   function switchStudent() {
