@@ -117,9 +117,9 @@
     document.querySelectorAll('.grade-tab').forEach(t => {
       t.classList.toggle('selected', parseInt(t.dataset.grade) === grade);
     });
-    // Show Peterson tab only for grade 4
+    // Show Peterson tab for grades 4 and 7
     const pt = document.getElementById('petersonTab');
-    if (pt) pt.style.display = grade === 4 ? '' : 'none';
+    if (pt) pt.style.display = (grade === 4 || grade === 7) ? '' : 'none';
     // If Peterson was selected but switching to grade 7 — reset to "All"
     if (grade !== 4 && selectedTopic === '16') {
       document.querySelectorAll('.topic').forEach(t => t.classList.remove('selected'));

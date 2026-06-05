@@ -16,6 +16,7 @@ TOPICS = [
     {"name": "Математика", "icon": "➗", "sort_order": 1},
     {"name": "Логика",      "icon": "🧩", "sort_order": 2},
     {"name": "Английский",  "icon": "🇬🇧", "sort_order": 3},
+    {"name": "Петерсон",    "icon": "📖", "sort_order": 4},
 ]
 
 TAGS = [
@@ -33,6 +34,7 @@ TAGS = [
     ("Английский", "en-grammar-tenses"),
     ("Английский", "en-grammar-articles"),
     ("Английский", "en-reading"),
+    ("Петерсон", "петерсон"),
 ]
 
 
