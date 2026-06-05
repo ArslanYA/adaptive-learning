@@ -326,6 +326,8 @@ def generate_grade(grade: int, plan: dict, titles: dict, filemap: dict) -> int:
             by_level[level].append((topic, tags))
 
         for level in range(1, 5):
+            if (subject, level) not in filemap:
+                continue
             level_questions = []
             out_file = LESSONS_DIR / filemap[(subject, level)]
 
