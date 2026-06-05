@@ -23,7 +23,7 @@
     .grade-tab.selected { border-color: #6c63ff; background: #6c63ff; color: #fff; }
     .grade-hint { font-size: .78rem; color: #999; margin-top: .4rem; }
 
-    .topics { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+    .topics { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
     .topic { background: #fafafa; border-radius: 10px; padding: .9rem .4rem; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all .15s; }
     .topic:hover, .topic.selected { border-color: #6c63ff; background: #f0eeff; }
     .topic .icon { font-size: 1.5rem; display: block; margin-bottom: .25rem; }
@@ -82,6 +82,9 @@
       <div class="topic" onclick="selectTopic(this,'3')">
         <span class="icon">🇬🇧</span><span class="name">Англ.</span>
       </div>
+      <div class="topic" id="petersonTab" onclick="selectTopic(this,'16')" style="display:none">
+        <span class="icon">📖</span><span class="name">Петерсон</span>
+      </div>
     </div>
     <label style="margin-top:1rem">Количество вопросов</label>
     <div class="n-row">
@@ -114,6 +117,15 @@
     document.querySelectorAll('.grade-tab').forEach(t => {
       t.classList.toggle('selected', parseInt(t.dataset.grade) === grade);
     });
+    // Show Peterson tab only for grade 4
+    const pt = document.getElementById('petersonTab');
+    if (pt) pt.style.display = grade === 4 ? '' : 'none';
+    // If Peterson was selected but switching to grade 7 — reset to "All"
+    if (grade !== 4 && selectedTopic === '16') {
+      document.querySelectorAll('.topic').forEach(t => t.classList.remove('selected'));
+      document.querySelector('.topic').classList.add('selected');
+      selectedTopic = '';
+    }
   }
 
   function selectGrade(el, grade) {
